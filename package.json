@@ -1,0 +1,49 @@
+{
+	"name": "@bitrix24/icons",
+	"version": "1.1.2",
+	"author": "Bitrix",
+	"license": "MIT",
+	"description": "Bitrix24 SVG icons for development web-applications",
+	"keywords": [
+		"bitrix24",
+		"ui",
+		"icons",
+		"svg"
+	],
+	"homepage": "https://github.com/bitrix24/b24icons",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bitrix24/b24icons.git"
+	},
+	"files": [
+		"actions/",
+		"contact-center/",
+		"crm/",
+		"editor/",
+		"main/",
+		"social/",
+		"button-specialized/",
+		"button/",
+		"common-service/",
+		"common-b24/",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"build": "npm run build-by-types && npm run build-vue",
+		"prepublishOnly": "npm run build",
+		"prebuild": "rimraf ./{actions,contact-center,crm,editor,main,social,button-specialized,button,common-service,common-b24} ./{vue,react}/{actions,contact-center,crm,editor,main,social,button-specialized,button,common-service,common-b24} ./optimized/{actions,contact-center,crm,editor,main,social,button-specialized,button,common-service,common-b24}",
+		"build-by-types": "node ./scripts/build-process",
+		"build-vue": "node ./scripts/build.js vue"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.12.10",
+		"@babel/plugin-transform-react-jsx": "^7.12.12",
+		"@svgr/core": "^5.5.0",
+		"@vue/compiler-dom": "^3.0.5",
+		"camelcase": "^6.0.0",
+		"prettier": "^2.8.7",
+		"rimraf": "^3.0.2",
+		"svgo": "^3.0.2"
+	}
+}

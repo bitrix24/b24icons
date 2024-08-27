@@ -15,9 +15,17 @@ logs
 Thumbs.db
 
 # Build directories
-dist/
-public/
-asset/
+/optimized
+/actions
+/contact-center
+/crm
+/editor
+/main
+/social
+/button-specialized
+/button
+/common-service
+/common-b24
 
 # TypeScript
 *.tsbuildinfo

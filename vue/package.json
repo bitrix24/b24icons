@@ -1,0 +1,201 @@
+{
+  "name": "@bitrix24/icons-vue",
+  "version": "1.1.2",
+  "author": "Bitrix",
+  "license": "MIT",
+  "description": "Bitrix24 SVG icons for development web-applications for Vue",
+  "keywords": [
+    "bitrix24",
+    "ui",
+    "icons",
+    "svg",
+    "vue"
+  ],
+  "homepage": "https://github.com/bitrix24/b24icons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitrix24/b24icons.git"
+  },
+  "files": [
+    "actions",
+    "contact-center",
+    "crm",
+    "editor",
+    "main",
+    "social",
+    "button-specialized",
+    "button",
+    "common-service",
+    "common-b24",
+    "index.esm.js",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./index.esm.js",
+      "require": "./index.js"
+    },
+    "./package.json": {
+      "default": "./package.json"
+    },
+    "./actions": {
+      "types": "./actions/index.d.ts",
+      "import": "./actions/esm/index.js",
+      "require": "./actions/index.js"
+    },
+    "./actions/*": {
+      "types": "./actions/*.d.ts",
+      "import": "./actions/esm/*.js",
+      "require": "./actions/*.js"
+    },
+    "./actions/*.js": {
+      "types": "./actions/*.d.ts",
+      "import": "./actions/esm/*.js",
+      "require": "./actions/*.js"
+    },
+    "./contact-center": {
+      "types": "./contact-center/index.d.ts",
+      "import": "./contact-center/esm/index.js",
+      "require": "./contact-center/index.js"
+    },
+    "./contact-center/*": {
+      "types": "./contact-center/*.d.ts",
+      "import": "./contact-center/esm/*.js",
+      "require": "./contact-center/*.js"
+    },
+    "./contact-center/*.js": {
+      "types": "./contact-center/*.d.ts",
+      "import": "./contact-center/esm/*.js",
+      "require": "./contact-center/*.js"
+    },
+    "./crm": {
+      "types": "./crm/index.d.ts",
+      "import": "./crm/esm/index.js",
+      "require": "./crm/index.js"
+    },
+    "./crm/*": {
+      "types": "./crm/*.d.ts",
+      "import": "./crm/esm/*.js",
+      "require": "./crm/*.js"
+    },
+    "./crm/*.js": {
+      "types": "./crm/*.d.ts",
+      "import": "./crm/esm/*.js",
+      "require": "./crm/*.js"
+    },
+    "./editor": {
+      "types": "./editor/index.d.ts",
+      "import": "./editor/esm/index.js",
+      "require": "./editor/index.js"
+    },
+    "./editor/*": {
+      "types": "./editor/*.d.ts",
+      "import": "./editor/esm/*.js",
+      "require": "./editor/*.js"
+    },
+    "./editor/*.js": {
+      "types": "./editor/*.d.ts",
+      "import": "./editor/esm/*.js",
+      "require": "./editor/*.js"
+    },
+    "./main": {
+      "types": "./main/index.d.ts",
+      "import": "./main/esm/index.js",
+      "require": "./main/index.js"
+    },
+    "./main/*": {
+      "types": "./main/*.d.ts",
+      "import": "./main/esm/*.js",
+      "require": "./main/*.js"
+    },
+    "./main/*.js": {
+      "types": "./main/*.d.ts",
+      "import": "./main/esm/*.js",
+      "require": "./main/*.js"
+    },
+    "./social": {
+      "types": "./social/index.d.ts",
+      "import": "./social/esm/index.js",
+      "require": "./social/index.js"
+    },
+    "./social/*": {
+      "types": "./social/*.d.ts",
+      "import": "./social/esm/*.js",
+      "require": "./social/*.js"
+    },
+    "./social/*.js": {
+      "types": "./social/*.d.ts",
+      "import": "./social/esm/*.js",
+      "require": "./social/*.js"
+    },
+    "./button-specialized": {
+      "types": "./button-specialized/index.d.ts",
+      "import": "./button-specialized/esm/index.js",
+      "require": "./button-specialized/index.js"
+    },
+    "./button-specialized/*": {
+      "types": "./button-specialized/*.d.ts",
+      "import": "./button-specialized/esm/*.js",
+      "require": "./button-specialized/*.js"
+    },
+    "./button-specialized/*.js": {
+      "types": "./button-specialized/*.d.ts",
+      "import": "./button-specialized/esm/*.js",
+      "require": "./button-specialized/*.js"
+    },
+    "./button": {
+      "types": "./button/index.d.ts",
+      "import": "./button/esm/index.js",
+      "require": "./button/index.js"
+    },
+    "./button/*": {
+      "types": "./button/*.d.ts",
+      "import": "./button/esm/*.js",
+      "require": "./button/*.js"
+    },
+    "./button/*.js": {
+      "types": "./button/*.d.ts",
+      "import": "./button/esm/*.js",
+      "require": "./button/*.js"
+    },
+    "./common-service": {
+      "types": "./common-service/index.d.ts",
+      "import": "./common-service/esm/index.js",
+      "require": "./common-service/index.js"
+    },
+    "./common-service/*": {
+      "types": "./common-service/*.d.ts",
+      "import": "./common-service/esm/*.js",
+      "require": "./common-service/*.js"
+    },
+    "./common-service/*.js": {
+      "types": "./common-service/*.d.ts",
+      "import": "./common-service/esm/*.js",
+      "require": "./common-service/*.js"
+    },
+    "./common-b24": {
+      "types": "./common-b24/index.d.ts",
+      "import": "./common-b24/esm/index.js",
+      "require": "./common-b24/index.js"
+    },
+    "./common-b24/*": {
+      "types": "./common-b24/*.d.ts",
+      "import": "./common-b24/esm/*.js",
+      "require": "./common-b24/*.js"
+    },
+    "./common-b24/*.js": {
+      "types": "./common-b24/*.d.ts",
+      "import": "./common-b24/esm/*.js",
+      "require": "./common-b24/*.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "vue": ">= 3"
+  }
+}
