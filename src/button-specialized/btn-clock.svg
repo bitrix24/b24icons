@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+	<style>@keyframes arrow-loader{0%{transform:rotate(0deg)}to{transform:rotate(360deg)}}</style>
+	<g style="animation:arrow-loader 1s infinite linear;transform-origin:center" fill="none" fill-rule="evenodd">
+		<path stroke="currentColor" d="M10 4v6"/>
+	</g>
+	<g fill="none" fill-rule="evenodd">
+		<circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1"/>
+	</g>
+	<path stroke="currentColor" fill="transparent" d="M15 10H9.5"/>
+</svg>
