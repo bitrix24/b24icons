@@ -1,5 +1,6 @@
 {
-  "category": "Button-specialized",
+  "category": "Button",
+  "specialized": true,
   "subCategories": [
     "Btn",
     "Spinner",

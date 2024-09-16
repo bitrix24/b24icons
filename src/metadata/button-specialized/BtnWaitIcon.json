@@ -1,5 +1,6 @@
 {
-  "category": "Button-specialized",
+  "category": "Button Specialized",
+  "specialized": true,
   "subCategories": [
     "Btn",
     "Wait",
