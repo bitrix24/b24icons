@@ -1,0 +1,59 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Wheel",
+    "Sky",
+    "Font",
+    "Circle",
+    "Gas",
+    "Astronomical object",
+    "Darkness",
+    "Pattern",
+    "Symmetry",
+    "Event"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.9317499995231628
+    },
+    {
+      "description": "Font",
+      "score": 0.7690871357917786
+    },
+    {
+      "description": "Circle",
+      "score": 0.7422610521316528
+    },
+    {
+      "description": "Gas",
+      "score": 0.732293426990509
+    },
+    {
+      "description": "Astronomical object",
+      "score": 0.7257797718048096
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7247889041900635
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7234092354774475
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6969679594039917
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6926568150520325
+    },
+    {
+      "description": "Event",
+      "score": 0.6671107411384583
+    }
+  ]
+}

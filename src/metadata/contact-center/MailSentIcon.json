@@ -1,0 +1,51 @@
+{
+  "category": "Contact-center",
+  "subCategories": [
+    "Mail",
+    "Sent",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7880709767341614
+    },
+    {
+      "description": "Font",
+      "score": 0.7582191228866577
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6966878175735474
+    },
+    {
+      "description": "Logo",
+      "score": 0.6603276133537292
+    },
+    {
+      "description": "Brand",
+      "score": 0.6371797323226929
+    },
+    {
+      "description": "Symbol",
+      "score": 0.606931746006012
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.5803032517433167
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5778096318244934
+    },
+    {
+      "description": "Art",
+      "score": 0.5514621734619141
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5488953590393066
+    }
+  ]
+}

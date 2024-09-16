@@ -1,0 +1,56 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Webform",
+    "Rectangle",
+    "Font",
+    "Pattern",
+    "Logo",
+    "Sky",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7817149758338928
+    },
+    {
+      "description": "Font",
+      "score": 0.7815225720405579
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6941090226173401
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6856368184089661
+    },
+    {
+      "description": "Logo",
+      "score": 0.6806461811065674
+    },
+    {
+      "description": "Sky",
+      "score": 0.675082802772522
+    },
+    {
+      "description": "Circle",
+      "score": 0.6663320660591125
+    },
+    {
+      "description": "Brand",
+      "score": 0.6626875400543213
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6594231724739075
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6078950762748718
+    }
+  ]
+}

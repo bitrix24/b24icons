@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Favorite",
+    "Tints and shades",
+    "Font",
+    "Symbol",
+    "Symmetry",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Tints and shades",
+      "score": 0.7602184414863586
+    },
+    {
+      "description": "Font",
+      "score": 0.7559544444084167
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7277076244354248
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7179560661315918
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6943516135215759
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6687332391738892
+    },
+    {
+      "description": "Darkness",
+      "score": 0.575233519077301
+    },
+    {
+      "description": "Circle",
+      "score": 0.5694010257720947
+    },
+    {
+      "description": "Logo",
+      "score": 0.5637772679328918
+    },
+    {
+      "description": "Cross",
+      "score": 0.5456551313400269
+    }
+  ]
+}

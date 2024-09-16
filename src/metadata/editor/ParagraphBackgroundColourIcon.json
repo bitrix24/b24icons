@@ -1,0 +1,40 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Paragraph",
+    "Background",
+    "Colour",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.752447783946991
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7188906669616699
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6706475019454956
+    },
+    {
+      "description": "Brand",
+      "score": 0.6038464903831482
+    },
+    {
+      "description": "Logo",
+      "score": 0.5984196662902832
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5515381097793579
+    },
+    {
+      "description": "Number",
+      "score": 0.5324914455413818
+    }
+  ]
+}

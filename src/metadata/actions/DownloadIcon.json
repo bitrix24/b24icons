@@ -1,0 +1,52 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Download",
+    "Font",
+    "Symbol",
+    "Logo",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7838034629821777
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7410101294517517
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7368125915527344
+    },
+    {
+      "description": "Logo",
+      "score": 0.7117655277252197
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6724919676780701
+    },
+    {
+      "description": "Circle",
+      "score": 0.6511673927307129
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6502934694290161
+    },
+    {
+      "description": "Brand",
+      "score": 0.6424986720085144
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6411339044570923
+    },
+    {
+      "description": "Cross",
+      "score": 0.6181744337081909
+    }
+  ]
+}

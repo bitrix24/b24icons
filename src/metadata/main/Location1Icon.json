@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Location",
+    "Sky",
+    "Circle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.788293182849884
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7112895846366882
+    },
+    {
+      "description": "Circle",
+      "score": 0.7001125812530518
+    },
+    {
+      "description": "Font",
+      "score": 0.6999678611755371
+    },
+    {
+      "description": "Logo",
+      "score": 0.6706530451774597
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6567150950431824
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6331689953804016
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.6171387434005737
+    },
+    {
+      "description": "Art",
+      "score": 0.5942310094833374
+    },
+    {
+      "description": "Fur",
+      "score": 0.5912851691246033
+    }
+  ]
+}

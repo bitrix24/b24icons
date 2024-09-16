@@ -1,0 +1,42 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Download",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7811461687088013
+    },
+    {
+      "description": "Logo",
+      "score": 0.7142316102981567
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6592167615890503
+    },
+    {
+      "description": "Graphics",
+      "score": 0.640669047832489
+    },
+    {
+      "description": "Brand",
+      "score": 0.6270015239715576
+    },
+    {
+      "description": "Grass",
+      "score": 0.5517251491546631
+    },
+    {
+      "description": "Circle",
+      "score": 0.5485768914222717
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5059520602226257
+    }
+  ]
+}

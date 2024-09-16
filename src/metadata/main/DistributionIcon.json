@@ -1,0 +1,57 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Distribution",
+    "Automotive tire",
+    "Art",
+    "Font",
+    "Circle",
+    "Symbol",
+    "Symmetry",
+    "Pattern",
+    "Logo",
+    "Metal"
+  ],
+  "labels": [
+    {
+      "description": "Automotive tire",
+      "score": 0.8409351110458374
+    },
+    {
+      "description": "Art",
+      "score": 0.8124061822891235
+    },
+    {
+      "description": "Font",
+      "score": 0.7504599690437317
+    },
+    {
+      "description": "Circle",
+      "score": 0.7231921553611755
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7147810459136963
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6868648529052734
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6831284165382385
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6806360483169556
+    },
+    {
+      "description": "Logo",
+      "score": 0.6806359887123108
+    },
+    {
+      "description": "Metal",
+      "score": 0.6663225889205933
+    }
+  ]
+}

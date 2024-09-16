@@ -1,0 +1,54 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Twilio",
+    "Font",
+    "Circle",
+    "Symbol",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7761260867118835
+    },
+    {
+      "description": "Circle",
+      "score": 0.7266427278518677
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6980281472206116
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6808820962905884
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6700472831726074
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6463642716407776
+    },
+    {
+      "description": "Logo",
+      "score": 0.6429184079170227
+    },
+    {
+      "description": "Brand",
+      "score": 0.6121281385421753
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5981104969978333
+    },
+    {
+      "description": "Event",
+      "score": 0.5764552354812622
+    }
+  ]
+}

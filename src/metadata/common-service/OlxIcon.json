@@ -1,0 +1,57 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Olx",
+    "Sky",
+    "Font",
+    "Circle",
+    "Midnight",
+    "Darkness",
+    "Pattern",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.9050493240356445
+    },
+    {
+      "description": "Font",
+      "score": 0.7911185622215271
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7308520078659058
+    },
+    {
+      "description": "Circle",
+      "score": 0.7286992073059082
+    },
+    {
+      "description": "Midnight",
+      "score": 0.7181255221366882
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7048086524009705
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6866388320922852
+    },
+    {
+      "description": "Logo",
+      "score": 0.6856902837753296
+    },
+    {
+      "description": "Graphics",
+      "score": 0.660257875919342
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6561035513877869
+    }
+  ]
+}

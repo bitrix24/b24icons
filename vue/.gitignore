@@ -1,6 +1,32 @@
-*
-!*.js
-!.gitignore
-!package.json
-!LICENSE
-!README.md
+# dependencies
+/node_modules
+/playground/node_modules
+
+# logs
+logs
+*.log
+/playground/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# misc
+.vscode
+.idea
+.DS_Store
+*.pem
+.cache
+Thumbs.db
+/@tmp
+
+# TypeScript
+*.tsbuildinfo
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel

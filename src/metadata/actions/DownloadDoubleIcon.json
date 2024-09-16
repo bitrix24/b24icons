@@ -1,0 +1,56 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Download",
+    "Double",
+    "Grass",
+    "Font",
+    "Rectangle",
+    "Symbol",
+    "Logo",
+    "Graphics",
+    "Brand"
+  ],
+  "labels": [
+    {
+      "description": "Grass",
+      "score": 0.7724817991256714
+    },
+    {
+      "description": "Font",
+      "score": 0.7661575675010681
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7459626197814941
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7387031316757202
+    },
+    {
+      "description": "Logo",
+      "score": 0.7306281924247742
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6802665591239929
+    },
+    {
+      "description": "Brand",
+      "score": 0.6704914569854736
+    },
+    {
+      "description": "Circle",
+      "score": 0.6411949992179871
+    },
+    {
+      "description": "Herb",
+      "score": 0.5384594798088074
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5351647138595581
+    }
+  ]
+}

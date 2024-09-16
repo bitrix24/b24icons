@@ -1,0 +1,39 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Chats",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8353931903839111
+    },
+    {
+      "description": "Font",
+      "score": 0.805759847164154
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7242764234542847
+    },
+    {
+      "description": "Logo",
+      "score": 0.6967999339103699
+    },
+    {
+      "description": "Brand",
+      "score": 0.634982705116272
+    },
+    {
+      "description": "Graphics",
+      "score": 0.607040286064148
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5181887745857239
+    }
+  ]
+}

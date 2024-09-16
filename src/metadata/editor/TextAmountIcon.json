@@ -1,0 +1,52 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Text",
+    "Amount",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7686065435409546
+    },
+    {
+      "description": "Font",
+      "score": 0.75925213098526
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7357288002967834
+    },
+    {
+      "description": "Logo",
+      "score": 0.6893829107284546
+    },
+    {
+      "description": "Brand",
+      "score": 0.6563262343406677
+    },
+    {
+      "description": "Laptop",
+      "score": 0.634371817111969
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5852676630020142
+    },
+    {
+      "description": "Symbol",
+      "score": 0.555005669593811
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5257579684257507
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5103901624679565
+    }
+  ]
+}

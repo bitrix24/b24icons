@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Calendar",
+    "Deadline",
+    "Font",
+    "Rectangle",
+    "Art",
+    "Grass",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.788304328918457
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7075873017311096
+    },
+    {
+      "description": "Art",
+      "score": 0.6961525678634644
+    },
+    {
+      "description": "Grass",
+      "score": 0.6909651756286621
+    },
+    {
+      "description": "Logo",
+      "score": 0.6864428520202637
+    },
+    {
+      "description": "Brand",
+      "score": 0.6474921703338623
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6182165145874023
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5649536848068237
+    },
+    {
+      "description": "Circle",
+      "score": 0.5586795806884766
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5434382557868958
+    }
+  ]
+}

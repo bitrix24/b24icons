@@ -1,0 +1,46 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Bookmark",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7319034337997437
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7086699604988098
+    },
+    {
+      "description": "Circle",
+      "score": 0.6212131381034851
+    },
+    {
+      "description": "Logo",
+      "score": 0.6058815717697144
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5596032738685608
+    },
+    {
+      "description": "Brand",
+      "score": 0.5534188747406006
+    },
+    {
+      "description": "Ceiling",
+      "score": 0.5439414381980896
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5292684435844421
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.5126973986625671
+    }
+  ]
+}

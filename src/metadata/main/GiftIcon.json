@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Gift",
+    "Font",
+    "Symbol",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7770268321037292
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7482067942619324
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7411090731620789
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6826954483985901
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6437175869941711
+    },
+    {
+      "description": "Logo",
+      "score": 0.6431691646575928
+    },
+    {
+      "description": "Brand",
+      "score": 0.6291577816009521
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5613412261009216
+    },
+    {
+      "description": "Cross",
+      "score": 0.5605077147483826
+    },
+    {
+      "description": "Event",
+      "score": 0.5348633527755737
+    }
+  ]
+}

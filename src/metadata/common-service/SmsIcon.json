@@ -1,0 +1,59 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Sms",
+    "Sky",
+    "Flash photography",
+    "Font",
+    "Rectangle",
+    "Display device",
+    "Darkness",
+    "Signage",
+    "Circle",
+    "Midnight"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.8876029253005981
+    },
+    {
+      "description": "Flash photography",
+      "score": 0.8512677550315857
+    },
+    {
+      "description": "Font",
+      "score": 0.7840113639831543
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7264721989631653
+    },
+    {
+      "description": "Display device",
+      "score": 0.7225165367126465
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6839354038238525
+    },
+    {
+      "description": "Signage",
+      "score": 0.6778483986854553
+    },
+    {
+      "description": "Circle",
+      "score": 0.6727437376976013
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6719684600830078
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6687081456184387
+    }
+  ]
+}

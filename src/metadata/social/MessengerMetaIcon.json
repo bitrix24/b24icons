@@ -1,0 +1,51 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Messenger",
+    "Meta",
+    "Gesture",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.852604866027832
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7031551003456116
+    },
+    {
+      "description": "Font",
+      "score": 0.6681150794029236
+    },
+    {
+      "description": "Logo",
+      "score": 0.6208022236824036
+    },
+    {
+      "description": "Shadow",
+      "score": 0.5507641434669495
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5427591800689697
+    },
+    {
+      "description": "Art",
+      "score": 0.5393659472465515
+    },
+    {
+      "description": "Darkness",
+      "score": 0.5275455713272095
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5242871642112732
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.5081169009208679
+    }
+  ]
+}

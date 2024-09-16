@@ -1,0 +1,52 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Collapse",
+    "Font",
+    "Symbol",
+    "Symmetry",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.7686002254486084
+    },
+    {
+      "description": "Font",
+      "score": 0.743207573890686
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7419711351394653
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7137307524681091
+    },
+    {
+      "description": "Pattern",
+      "score": 0.711115837097168
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7103988528251648
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.585642397403717
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5472036600112915
+    },
+    {
+      "description": "Circle",
+      "score": 0.5357345342636108
+    },
+    {
+      "description": "Brand",
+      "score": 0.5043243169784546
+    }
+  ]
+}

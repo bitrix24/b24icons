@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Location",
+    "Jaw",
+    "Gesture",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Jaw",
+      "score": 0.8763648867607117
+    },
+    {
+      "description": "Gesture",
+      "score": 0.8203751444816589
+    },
+    {
+      "description": "Font",
+      "score": 0.7276006937026978
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6670098900794983
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.6128292083740234
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5892447829246521
+    },
+    {
+      "description": "Circle",
+      "score": 0.5841973423957825
+    },
+    {
+      "description": "Darkness",
+      "score": 0.5436411499977112
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5275802612304688
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5016592741012573
+    }
+  ]
+}

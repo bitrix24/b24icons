@@ -1,0 +1,59 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Viber",
+    "Flash photography",
+    "Font",
+    "Circle",
+    "Logo",
+    "Symbol",
+    "Pattern",
+    "Automotive lighting",
+    "Midnight",
+    "Darkness"
+  ],
+  "labels": [
+    {
+      "description": "Flash photography",
+      "score": 0.8099985718727112
+    },
+    {
+      "description": "Font",
+      "score": 0.7368571758270264
+    },
+    {
+      "description": "Circle",
+      "score": 0.7354026436805725
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7214924693107605
+    },
+    {
+      "description": "Logo",
+      "score": 0.7165969014167786
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7113633155822754
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6770390868186951
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.667650043964386
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6652430295944214
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6644539833068848
+    }
+  ]
+}

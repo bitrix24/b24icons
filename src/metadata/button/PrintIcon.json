@@ -1,0 +1,53 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Print",
+    "Black",
+    "Rectangle",
+    "Font",
+    "Gadget"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.827622652053833
+    },
+    {
+      "description": "Font",
+      "score": 0.7664864659309387
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6978470087051392
+    },
+    {
+      "description": "Gadget",
+      "score": 0.6768186092376709
+    },
+    {
+      "description": "Logo",
+      "score": 0.6619764566421509
+    },
+    {
+      "description": "Output device",
+      "score": 0.6419765949249268
+    },
+    {
+      "description": "Multimedia",
+      "score": 0.6073506474494934
+    },
+    {
+      "description": "Brand",
+      "score": 0.5992979407310486
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5566476583480835
+    },
+    {
+      "description": "Circle",
+      "score": 0.5450791120529175
+    }
+  ]
+}

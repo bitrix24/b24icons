@@ -1,0 +1,51 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Formatting",
+    "Rectangle",
+    "Symbol",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8081741333007812
+    },
+    {
+      "description": "Cross",
+      "score": 0.8040342926979065
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7477340698242188
+    },
+    {
+      "description": "Font",
+      "score": 0.7415345907211304
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7138996124267578
+    },
+    {
+      "description": "Parallel",
+      "score": 0.6501674056053162
+    },
+    {
+      "description": "Brand",
+      "score": 0.6137237548828125
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6068175435066223
+    },
+    {
+      "description": "Balance",
+      "score": 0.5796338319778442
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5782632827758789
+    }
+  ]
+}

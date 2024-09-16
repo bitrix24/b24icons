@@ -1,0 +1,41 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Business",
+    "Process",
+    "Warning",
+    "Black",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.758188009262085
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7167118787765503
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6318021416664124
+    },
+    {
+      "description": "Brand",
+      "score": 0.616423487663269
+    },
+    {
+      "description": "Logo",
+      "score": 0.5923665761947632
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5668310523033142
+    },
+    {
+      "description": "Trademark",
+      "score": 0.503288209438324
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Demo",
+    "Black",
+    "Output device",
+    "Television",
+    "Television set",
+    "Rectangle",
+    "Computer monitor accessory",
+    "Display device",
+    "Font",
+    "Art",
+    "Event"
+  ],
+  "labels": [
+    {
+      "description": "Output device",
+      "score": 0.8787376880645752
+    },
+    {
+      "description": "Television",
+      "score": 0.8774459362030029
+    },
+    {
+      "description": "Television set",
+      "score": 0.8250094056129456
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.8194288015365601
+    },
+    {
+      "description": "Computer monitor accessory",
+      "score": 0.7479381561279297
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7303707003593445
+    },
+    {
+      "description": "Display device",
+      "score": 0.719662606716156
+    },
+    {
+      "description": "Font",
+      "score": 0.6925238370895386
+    },
+    {
+      "description": "Art",
+      "score": 0.6823090314865112
+    },
+    {
+      "description": "Event",
+      "score": 0.6748426556587219
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Copy",
+    "File",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8195826411247253
+    },
+    {
+      "description": "Font",
+      "score": 0.7889046669006348
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7326547503471375
+    },
+    {
+      "description": "Brand",
+      "score": 0.6524549722671509
+    },
+    {
+      "description": "Logo",
+      "score": 0.6474831700325012
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6225550770759583
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6218247413635254
+    },
+    {
+      "description": "Number",
+      "score": 0.5775831937789917
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5441285967826843
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5263071060180664
+    }
+  ]
+}

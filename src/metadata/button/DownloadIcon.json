@@ -1,0 +1,53 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Download",
+    "Black",
+    "Symbol",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Symbol",
+      "score": 0.7381895184516907
+    },
+    {
+      "description": "Font",
+      "score": 0.7258082032203674
+    },
+    {
+      "description": "Logo",
+      "score": 0.7155294418334961
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7149699330329895
+    },
+    {
+      "description": "Brand",
+      "score": 0.6359292268753052
+    },
+    {
+      "description": "Graphics",
+      "score": 0.635428786277771
+    },
+    {
+      "description": "Art",
+      "score": 0.6193711161613464
+    },
+    {
+      "description": "Cross",
+      "score": 0.566137969493866
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5572127103805542
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5261025428771973
+    }
+  ]
+}

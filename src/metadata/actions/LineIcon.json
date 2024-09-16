@@ -1,0 +1,34 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Line",
+    "Rectangle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8166423439979553
+    },
+    {
+      "description": "Logo",
+      "score": 0.6896626949310303
+    },
+    {
+      "description": "Brand",
+      "score": 0.6386954188346863
+    },
+    {
+      "description": "Font",
+      "score": 0.6244477033615112
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6090772747993469
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5547347068786621
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Angle",
+    "Up",
+    "Black",
+    "Cloud",
+    "Tints and shades",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Cloud",
+      "score": 0.783229649066925
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7175707221031189
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7133141160011292
+    },
+    {
+      "description": "Font",
+      "score": 0.7048240303993225
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.6265994310379028
+    },
+    {
+      "description": "Sky",
+      "score": 0.6185340285301208
+    },
+    {
+      "description": "Slope",
+      "score": 0.6062719821929932
+    },
+    {
+      "description": "Circle",
+      "score": 0.5807919502258301
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5764614939689636
+    },
+    {
+      "description": "Number",
+      "score": 0.5543880462646484
+    }
+  ]
+}

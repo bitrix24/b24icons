@@ -1,0 +1,44 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Copilot",
+    "Ai",
+    "Font",
+    "Logo",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7996304035186768
+    },
+    {
+      "description": "Logo",
+      "score": 0.7046704292297363
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6822788715362549
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6339680552482605
+    },
+    {
+      "description": "Brand",
+      "score": 0.5858767032623291
+    },
+    {
+      "description": "Circle",
+      "score": 0.561600923538208
+    },
+    {
+      "description": "Flowering plant",
+      "score": 0.5244049429893494
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5033328533172607
+    }
+  ]
+}

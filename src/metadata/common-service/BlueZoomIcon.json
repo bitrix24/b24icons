@@ -1,0 +1,42 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Blue",
+    "Zoom",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8007772564888
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7510369420051575
+    },
+    {
+      "description": "Font",
+      "score": 0.7063993811607361
+    },
+    {
+      "description": "Logo",
+      "score": 0.6972820162773132
+    },
+    {
+      "description": "Brand",
+      "score": 0.6199617981910706
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6025366187095642
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5146160125732422
+    }
+  ]
+}

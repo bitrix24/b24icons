@@ -1,0 +1,55 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Vk",
+    "Adds",
+    "Font",
+    "Rectangle",
+    "Sky",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.778420627117157
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6934542655944824
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.692023515701294
+    },
+    {
+      "description": "Sky",
+      "score": 0.6660306453704834
+    },
+    {
+      "description": "Logo",
+      "score": 0.6654062867164612
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6442070603370667
+    },
+    {
+      "description": "Brand",
+      "score": 0.6414534449577332
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6202278137207031
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5947506427764893
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5918086767196655
+    }
+  ]
+}

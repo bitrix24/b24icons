@@ -1,0 +1,34 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Lock",
+    "Rectangle",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8248251080513
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7093318104743958
+    },
+    {
+      "description": "Circle",
+      "score": 0.6759931445121765
+    },
+    {
+      "description": "Font",
+      "score": 0.6575728058815002
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6506749987602234
+    },
+    {
+      "description": "Brand",
+      "score": 0.577588677406311
+    }
+  ]
+}

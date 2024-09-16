@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "List",
+    "Remove",
+    "Font",
+    "Logo",
+    "Grass",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7527076601982117
+    },
+    {
+      "description": "Logo",
+      "score": 0.6809280514717102
+    },
+    {
+      "description": "Grass",
+      "score": 0.6791714429855347
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6723988652229309
+    },
+    {
+      "description": "Circle",
+      "score": 0.6192726492881775
+    },
+    {
+      "description": "Brand",
+      "score": 0.6147251725196838
+    },
+    {
+      "description": "Number",
+      "score": 0.6056857705116272
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5881252288818359
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5796629190444946
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5155072212219238
+    }
+  ]
+}

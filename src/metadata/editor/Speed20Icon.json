@@ -1,0 +1,54 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Speed",
+    "0",
+    "Gesture",
+    "Font",
+    "Logo",
+    "Circle",
+    "Automotive tire"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.852604866027832
+    },
+    {
+      "description": "Font",
+      "score": 0.7861976623535156
+    },
+    {
+      "description": "Logo",
+      "score": 0.7368234395980835
+    },
+    {
+      "description": "Circle",
+      "score": 0.7182630896568298
+    },
+    {
+      "description": "Automotive tire",
+      "score": 0.7015218734741211
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6997596025466919
+    },
+    {
+      "description": "Brand",
+      "score": 0.6637119650840759
+    },
+    {
+      "description": "Event",
+      "score": 0.6609220504760742
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6591705679893494
+    },
+    {
+      "description": "Gadget",
+      "score": 0.6358866095542908
+    }
+  ]
+}

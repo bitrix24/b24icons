@@ -1,0 +1,49 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Pause",
+    "Black",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8296434879302979
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.722088098526001
+    },
+    {
+      "description": "Font",
+      "score": 0.7218155860900879
+    },
+    {
+      "description": "Logo",
+      "score": 0.6750090718269348
+    },
+    {
+      "description": "Brand",
+      "score": 0.5982385873794556
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5981427431106567
+    },
+    {
+      "description": "Artwork",
+      "score": 0.5420798063278198
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5330602526664734
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5225679874420166
+    }
+  ]
+}

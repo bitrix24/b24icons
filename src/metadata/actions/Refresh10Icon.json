@@ -1,0 +1,49 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Refresh",
+    "Rectangle",
+    "Font",
+    "Logo",
+    "Symbol",
+    "Brand"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.798699140548706
+    },
+    {
+      "description": "Font",
+      "score": 0.7900473475456238
+    },
+    {
+      "description": "Logo",
+      "score": 0.7136755585670471
+    },
+    {
+      "description": "Symbol",
+      "score": 0.712337851524353
+    },
+    {
+      "description": "Brand",
+      "score": 0.6639747023582458
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6523998379707336
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6241373419761658
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5273576974868774
+    },
+    {
+      "description": "Circle",
+      "score": 0.5208725333213806
+    }
+  ]
+}

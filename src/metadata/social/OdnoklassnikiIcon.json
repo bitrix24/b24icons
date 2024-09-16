@@ -1,0 +1,55 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Odnoklassniki",
+    "Gesture",
+    "Font",
+    "Technology",
+    "Gadget",
+    "Cameras & optics",
+    "Circle",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.852604866027832
+    },
+    {
+      "description": "Font",
+      "score": 0.7693684697151184
+    },
+    {
+      "description": "Technology",
+      "score": 0.7446436882019043
+    },
+    {
+      "description": "Gadget",
+      "score": 0.7099466919898987
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.70320063829422
+    },
+    {
+      "description": "Cameras & optics",
+      "score": 0.6751754879951477
+    },
+    {
+      "description": "Circle",
+      "score": 0.6713680028915405
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6662101149559021
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.6467634439468384
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6312447786331177
+    }
+  ]
+}

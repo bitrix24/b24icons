@@ -1,0 +1,38 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Zoom",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8076742887496948
+    },
+    {
+      "description": "Font",
+      "score": 0.7480310797691345
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7015146017074585
+    },
+    {
+      "description": "Circle",
+      "score": 0.5984079241752625
+    },
+    {
+      "description": "Brand",
+      "score": 0.5817188024520874
+    },
+    {
+      "description": "Logo",
+      "score": 0.5694926977157593
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.517684280872345
+    }
+  ]
+}

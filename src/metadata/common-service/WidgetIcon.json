@@ -1,0 +1,56 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Widget",
+    "Rectangle",
+    "Font",
+    "Symbol",
+    "Circle",
+    "Pattern",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8587756156921387
+    },
+    {
+      "description": "Font",
+      "score": 0.773263156414032
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7364784479141235
+    },
+    {
+      "description": "Circle",
+      "score": 0.7344739437103271
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.720875084400177
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7127496004104614
+    },
+    {
+      "description": "Logo",
+      "score": 0.6960107684135437
+    },
+    {
+      "description": "Brand",
+      "score": 0.6523160934448242
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6459376215934753
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6416769027709961
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Reduce",
+    "Font",
+    "Logo",
+    "Symbol",
+    "Pattern",
+    "Symmetry",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7570858597755432
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7268494963645935
+    },
+    {
+      "description": "Logo",
+      "score": 0.722201406955719
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6990876197814941
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6936927437782288
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6807229518890381
+    },
+    {
+      "description": "Circle",
+      "score": 0.6687542796134949
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6426568627357483
+    },
+    {
+      "description": "Tree",
+      "score": 0.629938006401062
+    },
+    {
+      "description": "Brand",
+      "score": 0.5995473861694336
+    }
+  ]
+}

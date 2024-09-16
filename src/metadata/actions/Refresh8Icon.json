@@ -1,0 +1,33 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Refresh",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7401960492134094
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6564968228340149
+    },
+    {
+      "description": "Auto part",
+      "score": 0.6083311438560486
+    },
+    {
+      "description": "Circle",
+      "score": 0.5760374665260315
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5467795729637146
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5442891120910645
+    }
+  ]
+}

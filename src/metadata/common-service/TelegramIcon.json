@@ -1,0 +1,54 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Telegram",
+    "Event",
+    "Circle",
+    "Pattern",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Event",
+      "score": 0.6834396719932556
+    },
+    {
+      "description": "Circle",
+      "score": 0.6776862144470215
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6673807501792908
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.665661633014679
+    },
+    {
+      "description": "Font",
+      "score": 0.6638986468315125
+    },
+    {
+      "description": "Twig",
+      "score": 0.6579245328903198
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5985960960388184
+    },
+    {
+      "description": "Logo",
+      "score": 0.5948581695556641
+    },
+    {
+      "description": "Peach",
+      "score": 0.5940839648246765
+    },
+    {
+      "description": "Brand",
+      "score": 0.5524078607559204
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Form",
+    "Settings",
+    "Font",
+    "Rectangle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7778561115264893
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7493019700050354
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7002162933349609
+    },
+    {
+      "description": "Logo",
+      "score": 0.6804459691047668
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6288745999336243
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6116507649421692
+    },
+    {
+      "description": "Brand",
+      "score": 0.6109451651573181
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5742411017417908
+    },
+    {
+      "description": "Circle",
+      "score": 0.5382483601570129
+    }
+  ]
+}

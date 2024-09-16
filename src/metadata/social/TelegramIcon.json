@@ -1,0 +1,51 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Telegram",
+    "Font",
+    "Logo",
+    "Slope"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7128286957740784
+    },
+    {
+      "description": "Font",
+      "score": 0.7115515470504761
+    },
+    {
+      "description": "Logo",
+      "score": 0.6864748597145081
+    },
+    {
+      "description": "Slope",
+      "score": 0.6793797016143799
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.6128119230270386
+    },
+    {
+      "description": "Brand",
+      "score": 0.5925593376159668
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5748584270477295
+    },
+    {
+      "description": "Freezing",
+      "score": 0.5735989809036255
+    },
+    {
+      "description": "Wood",
+      "score": 0.553394079208374
+    },
+    {
+      "description": "Electronic instrument",
+      "score": 0.5532004833221436
+    }
+  ]
+}

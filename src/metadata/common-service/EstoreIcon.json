@@ -1,0 +1,55 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Estore",
+    "Font",
+    "Rectangle",
+    "Circle",
+    "Window",
+    "Display device"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.790050745010376
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7702765464782715
+    },
+    {
+      "description": "Circle",
+      "score": 0.7222660779953003
+    },
+    {
+      "description": "Window",
+      "score": 0.7056884765625
+    },
+    {
+      "description": "Display device",
+      "score": 0.6893728375434875
+    },
+    {
+      "description": "Logo",
+      "score": 0.6516357660293579
+    },
+    {
+      "description": "Brand",
+      "score": 0.6350775361061096
+    },
+    {
+      "description": "Gadget",
+      "score": 0.6337178945541382
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6301690936088562
+    },
+    {
+      "description": "Compact cassette",
+      "score": 0.5780035853385925
+    }
+  ]
+}

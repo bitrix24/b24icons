@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Delete",
+    "Hyperlink",
+    "Font",
+    "Symbol",
+    "Circle",
+    "Symmetry",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7619492411613464
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7265349626541138
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7240289449691772
+    },
+    {
+      "description": "Circle",
+      "score": 0.702616810798645
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6965526342391968
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6942163705825806
+    },
+    {
+      "description": "Art",
+      "score": 0.631691575050354
+    },
+    {
+      "description": "Brand",
+      "score": 0.6137895584106445
+    },
+    {
+      "description": "Event",
+      "score": 0.6083748936653137
+    },
+    {
+      "description": "Logo",
+      "score": 0.5956031680107117
+    }
+  ]
+}

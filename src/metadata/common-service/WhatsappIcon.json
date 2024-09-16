@@ -1,0 +1,59 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Whatsapp",
+    "Flash photography",
+    "Astronomical object",
+    "Font",
+    "Circle",
+    "Event",
+    "Darkness",
+    "Midnight",
+    "Gas",
+    "Graphics"
+  ],
+  "labels": [
+    {
+      "description": "Flash photography",
+      "score": 0.803608238697052
+    },
+    {
+      "description": "Astronomical object",
+      "score": 0.7674601078033447
+    },
+    {
+      "description": "Font",
+      "score": 0.746826708316803
+    },
+    {
+      "description": "Circle",
+      "score": 0.7431029081344604
+    },
+    {
+      "description": "Event",
+      "score": 0.7306285500526428
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7180198431015015
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7127912640571594
+    },
+    {
+      "description": "Midnight",
+      "score": 0.7093846797943115
+    },
+    {
+      "description": "Gas",
+      "score": 0.6922637224197388
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6703194379806519
+    }
+  ]
+}

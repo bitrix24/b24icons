@@ -1,0 +1,58 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Light",
+    "Bold",
+    "Sky",
+    "Aircraft",
+    "Aerospace manufacturer",
+    "Airplane",
+    "Event",
+    "Font",
+    "Aviation",
+    "Wing",
+    "Fighter aircraft"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.8749799728393555
+    },
+    {
+      "description": "Aircraft",
+      "score": 0.8019265532493591
+    },
+    {
+      "description": "Aerospace manufacturer",
+      "score": 0.7907239198684692
+    },
+    {
+      "description": "Airplane",
+      "score": 0.7840702533721924
+    },
+    {
+      "description": "Event",
+      "score": 0.7125847339630127
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7085561752319336
+    },
+    {
+      "description": "Font",
+      "score": 0.7080561518669128
+    },
+    {
+      "description": "Aviation",
+      "score": 0.7021216750144958
+    },
+    {
+      "description": "Wing",
+      "score": 0.6988422870635986
+    },
+    {
+      "description": "Fighter aircraft",
+      "score": 0.6708827614784241
+    }
+  ]
+}

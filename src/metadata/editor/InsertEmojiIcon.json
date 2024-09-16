@@ -1,0 +1,53 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Insert",
+    "Emoji",
+    "Font",
+    "Circle",
+    "Eyelash",
+    "Monochrome photography"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.751349151134491
+    },
+    {
+      "description": "Circle",
+      "score": 0.7185434103012085
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.7057479619979858
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6954882144927979
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6834731101989746
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.6452584862709045
+    },
+    {
+      "description": "Metal",
+      "score": 0.6145771145820618
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5864973068237305
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5693573951721191
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5682674050331116
+    }
+  ]
+}

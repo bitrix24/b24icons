@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Clock",
+    "Sector",
+    "Circle",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Circle",
+      "score": 0.7341427803039551
+    },
+    {
+      "description": "Font",
+      "score": 0.7286636233329773
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7273294925689697
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6641804575920105
+    },
+    {
+      "description": "Logo",
+      "score": 0.6272831559181213
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6081235408782959
+    },
+    {
+      "description": "Brand",
+      "score": 0.6051008105278015
+    },
+    {
+      "description": "Art",
+      "score": 0.5569760799407959
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5562155842781067
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.541961669921875
+    }
+  ]
+}

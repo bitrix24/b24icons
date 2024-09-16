@@ -1,0 +1,54 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Crm",
+    "Font",
+    "Darkness",
+    "Logo",
+    "Midnight"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8096186518669128
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.712256908416748
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6912627816200256
+    },
+    {
+      "description": "Logo",
+      "score": 0.6762744188308716
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6641293168067932
+    },
+    {
+      "description": "Circle",
+      "score": 0.6595687866210938
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6520624160766602
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6412906646728516
+    },
+    {
+      "description": "Brand",
+      "score": 0.6337370276451111
+    },
+    {
+      "description": "Number",
+      "score": 0.6101044416427612
+    }
+  ]
+}

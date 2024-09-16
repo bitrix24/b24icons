@@ -1,0 +1,47 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Calendar",
+    "Slots",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8524045348167419
+    },
+    {
+      "description": "Font",
+      "score": 0.8023365139961243
+    },
+    {
+      "description": "Brand",
+      "score": 0.6400556564331055
+    },
+    {
+      "description": "Logo",
+      "score": 0.6320248246192932
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6247094869613647
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5912327766418457
+    },
+    {
+      "description": "Circle",
+      "score": 0.5683683156967163
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5215015411376953
+    },
+    {
+      "description": "Trademark",
+      "score": 0.509411633014679
+    }
+  ]
+}

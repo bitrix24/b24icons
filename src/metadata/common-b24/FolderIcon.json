@@ -1,0 +1,56 @@
+{
+  "category": "Common-b24",
+  "subCategories": [
+    "Ui",
+    "Folder",
+    "Rectangle",
+    "Font",
+    "Tints and shades",
+    "Pattern",
+    "Logo",
+    "Symmetry",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7937827706336975
+    },
+    {
+      "description": "Font",
+      "score": 0.7570704221725464
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7396207451820374
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7238234281539917
+    },
+    {
+      "description": "Logo",
+      "score": 0.6878992915153503
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6865507364273071
+    },
+    {
+      "description": "Circle",
+      "score": 0.6807218194007874
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6594741940498352
+    },
+    {
+      "description": "Brand",
+      "score": 0.6306663155555725
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6278553009033203
+    }
+  ]
+}

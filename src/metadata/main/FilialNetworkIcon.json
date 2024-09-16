@@ -1,0 +1,58 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Filial",
+    "Network",
+    "Hair",
+    "Head",
+    "Eye",
+    "Human body",
+    "Gesture",
+    "Cameras & optics",
+    "Circle",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Hair",
+      "score": 0.9840023517608643
+    },
+    {
+      "description": "Head",
+      "score": 0.9730292558670044
+    },
+    {
+      "description": "Eye",
+      "score": 0.9358403086662292
+    },
+    {
+      "description": "Human body",
+      "score": 0.8871663808822632
+    },
+    {
+      "description": "Gesture",
+      "score": 0.852604866027832
+    },
+    {
+      "description": "Cameras & optics",
+      "score": 0.73207026720047
+    },
+    {
+      "description": "Circle",
+      "score": 0.7284115552902222
+    },
+    {
+      "description": "Font",
+      "score": 0.7117727994918823
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7056061625480652
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6975336670875549
+    }
+  ]
+}

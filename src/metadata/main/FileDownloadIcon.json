@@ -1,0 +1,48 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "File",
+    "Download",
+    "Font",
+    "Rectangle",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8083330988883972
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.8082441687583923
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7208196520805359
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6935583353042603
+    },
+    {
+      "description": "Brand",
+      "score": 0.6378786563873291
+    },
+    {
+      "description": "Logo",
+      "score": 0.6343638896942139
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5634515881538391
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5561162829399109
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5197427272796631
+    }
+  ]
+}

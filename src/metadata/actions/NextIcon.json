@@ -1,0 +1,54 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Next",
+    "Slope",
+    "Rectangle",
+    "Font",
+    "Terrestrial plant",
+    "Logo",
+    "Grass"
+  ],
+  "labels": [
+    {
+      "description": "Slope",
+      "score": 0.8338629603385925
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.8196609616279602
+    },
+    {
+      "description": "Font",
+      "score": 0.7439554929733276
+    },
+    {
+      "description": "Terrestrial plant",
+      "score": 0.7014262676239014
+    },
+    {
+      "description": "Logo",
+      "score": 0.6934703588485718
+    },
+    {
+      "description": "Grass",
+      "score": 0.6874595880508423
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6583287119865417
+    },
+    {
+      "description": "Brand",
+      "score": 0.6241575479507446
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6109360456466675
+    },
+    {
+      "description": "Herb",
+      "score": 0.607507050037384
+    }
+  ]
+}

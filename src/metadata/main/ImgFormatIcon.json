@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Img",
+    "Format",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.844508707523346
+    },
+    {
+      "description": "Font",
+      "score": 0.7958712577819824
+    },
+    {
+      "description": "Logo",
+      "score": 0.6693349480628967
+    },
+    {
+      "description": "Brand",
+      "score": 0.6372763514518738
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6277512907981873
+    },
+    {
+      "description": "Parallel",
+      "score": 0.6138595938682556
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5998362898826599
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5857438445091248
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5711231231689453
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5239324569702148
+    }
+  ]
+}

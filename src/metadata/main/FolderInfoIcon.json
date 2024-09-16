@@ -1,0 +1,50 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Folder",
+    "Info",
+    "Rectangle",
+    "Gas",
+    "Font",
+    "Circle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7638451457023621
+    },
+    {
+      "description": "Gas",
+      "score": 0.7439987063407898
+    },
+    {
+      "description": "Font",
+      "score": 0.7148873209953308
+    },
+    {
+      "description": "Circle",
+      "score": 0.7059502601623535
+    },
+    {
+      "description": "Logo",
+      "score": 0.7004061937332153
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6792773008346558
+    },
+    {
+      "description": "Brand",
+      "score": 0.6396985054016113
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5967006683349609
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5836049318313599
+    }
+  ]
+}

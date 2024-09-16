@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Chemistry",
+    "Gas",
+    "Tints and shades",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Gas",
+      "score": 0.7779003381729126
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7631152272224426
+    },
+    {
+      "description": "Font",
+      "score": 0.7394454479217529
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6620964407920837
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.608611524105072
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5962362289428711
+    },
+    {
+      "description": "Pattern",
+      "score": 0.594727098941803
+    },
+    {
+      "description": "Circle",
+      "score": 0.5920284986495972
+    },
+    {
+      "description": "Art",
+      "score": 0.571729838848114
+    },
+    {
+      "description": "Logo",
+      "score": 0.55067378282547
+    }
+  ]
+}

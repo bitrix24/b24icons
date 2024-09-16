@@ -1,0 +1,42 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Delivery",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7853649854660034
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7114713191986084
+    },
+    {
+      "description": "Logo",
+      "score": 0.6692060828208923
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.640174150466919
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6326084136962891
+    },
+    {
+      "description": "Brand",
+      "score": 0.6301472187042236
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5854700803756714
+    },
+    {
+      "description": "Circle",
+      "score": 0.5186505317687988
+    }
+  ]
+}

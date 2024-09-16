@@ -1,0 +1,47 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Evernote",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8026643991470337
+    },
+    {
+      "description": "Font",
+      "score": 0.7457507848739624
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7199314832687378
+    },
+    {
+      "description": "Logo",
+      "score": 0.6962845325469971
+    },
+    {
+      "description": "Brand",
+      "score": 0.642288088798523
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6291716694831848
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5326474905014038
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5227866172790527
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5223299860954285
+    }
+  ]
+}

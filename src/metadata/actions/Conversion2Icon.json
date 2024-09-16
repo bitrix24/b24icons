@@ -1,0 +1,21 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Conversion",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7129083275794983
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.650981605052948
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5680506229400635
+    }
+  ]
+}

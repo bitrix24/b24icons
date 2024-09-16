@@ -1,0 +1,30 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "List",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8108187913894653
+    },
+    {
+      "description": "Font",
+      "score": 0.7719651460647583
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6347982287406921
+    },
+    {
+      "description": "Brand",
+      "score": 0.6085469722747803
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5162376761436462
+    }
+  ]
+}

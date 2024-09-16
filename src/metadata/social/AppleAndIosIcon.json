@@ -1,0 +1,38 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Apple",
+    "Ios",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.6777786016464233
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6629382371902466
+    },
+    {
+      "description": "Darkness",
+      "score": 0.5784879326820374
+    },
+    {
+      "description": "Shadow",
+      "score": 0.5561562776565552
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5247384309768677
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5098592042922974
+    },
+    {
+      "description": "Sky",
+      "score": 0.509451687335968
+    }
+  ]
+}

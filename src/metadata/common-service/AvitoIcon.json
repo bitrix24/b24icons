@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Avito",
+    "Automotive lighting",
+    "Window",
+    "Sky",
+    "Gas",
+    "Tints and shades",
+    "Font",
+    "Circle",
+    "Event",
+    "Astronomical object",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Automotive lighting",
+      "score": 0.8880700469017029
+    },
+    {
+      "description": "Window",
+      "score": 0.8830677270889282
+    },
+    {
+      "description": "Sky",
+      "score": 0.8265622854232788
+    },
+    {
+      "description": "Gas",
+      "score": 0.7779539823532104
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7563111186027527
+    },
+    {
+      "description": "Font",
+      "score": 0.7480831146240234
+    },
+    {
+      "description": "Circle",
+      "score": 0.7376449704170227
+    },
+    {
+      "description": "Event",
+      "score": 0.7121147513389587
+    },
+    {
+      "description": "Astronomical object",
+      "score": 0.7029462456703186
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6917529702186584
+    }
+  ]
+}

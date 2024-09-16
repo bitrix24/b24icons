@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Heart",
+    "Gesture",
+    "Font",
+    "Sky"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.852604866027832
+    },
+    {
+      "description": "Font",
+      "score": 0.8214653730392456
+    },
+    {
+      "description": "Sky",
+      "score": 0.7632548809051514
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7037279605865479
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.6581647992134094
+    },
+    {
+      "description": "Wing",
+      "score": 0.6407277584075928
+    },
+    {
+      "description": "Logo",
+      "score": 0.6135891675949097
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6103700399398804
+    },
+    {
+      "description": "Fruit",
+      "score": 0.5903748869895935
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.5754130482673645
+    }
+  ]
+}

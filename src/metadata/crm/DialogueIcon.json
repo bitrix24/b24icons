@@ -1,0 +1,51 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Dialogue",
+    "Rectangle",
+    "Font",
+    "Gesture"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8336536884307861
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7103055119514465
+    },
+    {
+      "description": "Font",
+      "score": 0.7088954448699951
+    },
+    {
+      "description": "Gesture",
+      "score": 0.6966692209243774
+    },
+    {
+      "description": "Logo",
+      "score": 0.662163496017456
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6231650710105896
+    },
+    {
+      "description": "Brand",
+      "score": 0.608984112739563
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5816552042961121
+    },
+    {
+      "description": "Circle",
+      "score": 0.5790035724639893
+    },
+    {
+      "description": "Number",
+      "score": 0.5666131973266602
+    }
+  ]
+}

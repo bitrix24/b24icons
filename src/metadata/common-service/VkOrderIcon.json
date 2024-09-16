@@ -1,0 +1,59 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Vk",
+    "Order",
+    "Font",
+    "Midnight",
+    "Logo",
+    "Darkness",
+    "Sky",
+    "Symbol",
+    "Circle",
+    "Brand"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7860575318336487
+    },
+    {
+      "description": "Midnight",
+      "score": 0.7296651601791382
+    },
+    {
+      "description": "Logo",
+      "score": 0.7116224765777588
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7103570103645325
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7035567164421082
+    },
+    {
+      "description": "Sky",
+      "score": 0.7007954716682434
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6886915564537048
+    },
+    {
+      "description": "Circle",
+      "score": 0.6870598196983337
+    },
+    {
+      "description": "Brand",
+      "score": 0.6691895127296448
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6629341244697571
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Filter",
+    "By",
+    "Name",
+    "Font",
+    "Circle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7710044384002686
+    },
+    {
+      "description": "Circle",
+      "score": 0.7100905776023865
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.703557550907135
+    },
+    {
+      "description": "Logo",
+      "score": 0.6964697241783142
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6521852016448975
+    },
+    {
+      "description": "Graphics",
+      "score": 0.636744499206543
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6345809698104858
+    },
+    {
+      "description": "Brand",
+      "score": 0.6212325096130371
+    },
+    {
+      "description": "Asphalt",
+      "score": 0.6065064072608948
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5838236808776855
+    }
+  ]
+}

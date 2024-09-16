@@ -1,0 +1,55 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Upload",
+    "Gesture",
+    "Rectangle",
+    "Font",
+    "Symbol",
+    "Logo",
+    "Circle",
+    "Grass"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.8052461743354797
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.800223171710968
+    },
+    {
+      "description": "Font",
+      "score": 0.7909641861915588
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7577919363975525
+    },
+    {
+      "description": "Cross",
+      "score": 0.7569053173065186
+    },
+    {
+      "description": "Logo",
+      "score": 0.7269942760467529
+    },
+    {
+      "description": "Circle",
+      "score": 0.676357626914978
+    },
+    {
+      "description": "Grass",
+      "score": 0.6723482012748718
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6636967062950134
+    },
+    {
+      "description": "Brand",
+      "score": 0.6507250070571899
+    }
+  ]
+}

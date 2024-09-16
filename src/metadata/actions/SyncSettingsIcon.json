@@ -1,0 +1,30 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Sync",
+    "Settings",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7572954297065735
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7208967804908752
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6146090626716614
+    },
+    {
+      "description": "Circle",
+      "score": 0.5790163278579712
+    },
+    {
+      "description": "Logo",
+      "score": 0.5779044032096863
+    }
+  ]
+}

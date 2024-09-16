@@ -1,0 +1,43 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Company",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8258661031723022
+    },
+    {
+      "description": "Font",
+      "score": 0.7428081035614014
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7297171950340271
+    },
+    {
+      "description": "Logo",
+      "score": 0.6861829161643982
+    },
+    {
+      "description": "Brand",
+      "score": 0.6396813988685608
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6374053955078125
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6216492056846619
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5161119103431702
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Indent",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7261636257171631
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7137063145637512
+    },
+    {
+      "description": "Logo",
+      "score": 0.6898995637893677
+    },
+    {
+      "description": "Brand",
+      "score": 0.614483118057251
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5373439788818359
+    }
+  ]
+}

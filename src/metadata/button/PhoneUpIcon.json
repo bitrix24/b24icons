@@ -1,0 +1,53 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Phone",
+    "Up",
+    "Black",
+    "Gesture",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.852604866027832
+    },
+    {
+      "description": "Font",
+      "score": 0.6834741830825806
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.6505487561225891
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6394654512405396
+    },
+    {
+      "description": "Event",
+      "score": 0.6320849061012268
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6186755895614624
+    },
+    {
+      "description": "Art",
+      "score": 0.605984628200531
+    },
+    {
+      "description": "Sky",
+      "score": 0.5894773006439209
+    },
+    {
+      "description": "Logo",
+      "score": 0.5722094774246216
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.5544114708900452
+    }
+  ]
+}

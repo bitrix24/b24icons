@@ -1,0 +1,56 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Circle",
+    "Check",
+    "Eye",
+    "Font",
+    "Art",
+    "Circle",
+    "Logo",
+    "Fruit",
+    "Plant"
+  ],
+  "labels": [
+    {
+      "description": "Eye",
+      "score": 0.9381747841835022
+    },
+    {
+      "description": "Font",
+      "score": 0.7423604726791382
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7219187617301941
+    },
+    {
+      "description": "Art",
+      "score": 0.6892408728599548
+    },
+    {
+      "description": "Circle",
+      "score": 0.6699190735816956
+    },
+    {
+      "description": "Logo",
+      "score": 0.6695961952209473
+    },
+    {
+      "description": "Fruit",
+      "score": 0.6681872606277466
+    },
+    {
+      "description": "Plant",
+      "score": 0.6677752137184143
+    },
+    {
+      "description": "Sky",
+      "score": 0.6420288681983948
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6213462352752686
+    }
+  ]
+}

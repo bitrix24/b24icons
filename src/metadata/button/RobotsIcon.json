@@ -1,0 +1,60 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Robots",
+    "Dark",
+    "Vehicle",
+    "Hood",
+    "Automotive lighting",
+    "Automotive design",
+    "Car",
+    "Motor vehicle",
+    "Personal luxury car",
+    "Grille",
+    "Automotive exterior",
+    "Automotive wheel system"
+  ],
+  "labels": [
+    {
+      "description": "Vehicle",
+      "score": 0.9309514760971069
+    },
+    {
+      "description": "Hood",
+      "score": 0.9175857901573181
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.9166496992111206
+    },
+    {
+      "description": "Automotive design",
+      "score": 0.8854833245277405
+    },
+    {
+      "description": "Car",
+      "score": 0.8734326362609863
+    },
+    {
+      "description": "Motor vehicle",
+      "score": 0.8537988662719727
+    },
+    {
+      "description": "Personal luxury car",
+      "score": 0.8155590295791626
+    },
+    {
+      "description": "Grille",
+      "score": 0.7920405864715576
+    },
+    {
+      "description": "Automotive exterior",
+      "score": 0.7856674194335938
+    },
+    {
+      "description": "Automotive wheel system",
+      "score": 0.7750436067581177
+    }
+  ]
+}

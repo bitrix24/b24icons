@@ -1,0 +1,53 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Plus",
+    "Circle",
+    "Symbol",
+    "Circle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Symbol",
+      "score": 0.7599647641181946
+    },
+    {
+      "description": "Circle",
+      "score": 0.7522420287132263
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7297607064247131
+    },
+    {
+      "description": "Font",
+      "score": 0.7212549448013306
+    },
+    {
+      "description": "Logo",
+      "score": 0.6936783790588379
+    },
+    {
+      "description": "Cross",
+      "score": 0.6618020534515381
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6408644318580627
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.619124174118042
+    },
+    {
+      "description": "Brand",
+      "score": 0.6125451922416687
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5864177942276001
+    }
+  ]
+}

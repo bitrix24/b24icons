@@ -1,0 +1,54 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Remove",
+    "Fontsize",
+    "Automotive tire",
+    "Font",
+    "Pattern",
+    "Symbol",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Automotive tire",
+      "score": 0.8390218615531921
+    },
+    {
+      "description": "Font",
+      "score": 0.77817302942276
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7169709801673889
+    },
+    {
+      "description": "Pattern",
+      "score": 0.681402862071991
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6804625988006592
+    },
+    {
+      "description": "Circle",
+      "score": 0.6801977157592773
+    },
+    {
+      "description": "Logo",
+      "score": 0.6624731421470642
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6456196904182434
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6410257816314697
+    },
+    {
+      "description": "Brand",
+      "score": 0.6269301772117615
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Delivery",
+    "Car",
+    "Font",
+    "Circle",
+    "Rectangle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7249248027801514
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7198632955551147
+    },
+    {
+      "description": "Circle",
+      "score": 0.6778678894042969
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6715017557144165
+    },
+    {
+      "description": "Logo",
+      "score": 0.668505847454071
+    },
+    {
+      "description": "Diagram",
+      "score": 0.6436209678649902
+    },
+    {
+      "description": "Brand",
+      "score": 0.6286120414733887
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5069562792778015
+    }
+  ]
+}

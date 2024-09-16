@@ -1,0 +1,24 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Filter"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.6579422950744629
+    },
+    {
+      "description": "Car",
+      "score": 0.6403069496154785
+    },
+    {
+      "description": "Font",
+      "score": 0.5817916393280029
+    },
+    {
+      "description": "Event",
+      "score": 0.5759791135787964
+    }
+  ]
+}

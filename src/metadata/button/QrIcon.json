@@ -1,0 +1,31 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Qr",
+    "Dark",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Circle",
+      "score": 0.6951743364334106
+    },
+    {
+      "description": "Font",
+      "score": 0.6539890766143799
+    },
+    {
+      "description": "Number",
+      "score": 0.6342178583145142
+    },
+    {
+      "description": "Event",
+      "score": 0.6082720160484314
+    },
+    {
+      "description": "Home accessories",
+      "score": 0.542197048664093
+    }
+  ]
+}

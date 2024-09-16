@@ -1,0 +1,56 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Red",
+    "Font",
+    "Art",
+    "Logo",
+    "Darkness",
+    "Magenta",
+    "Graphics"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7862253785133362
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7033817768096924
+    },
+    {
+      "description": "Art",
+      "score": 0.6991186141967773
+    },
+    {
+      "description": "Logo",
+      "score": 0.6957694888114929
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6945623159408569
+    },
+    {
+      "description": "Magenta",
+      "score": 0.67017662525177
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6688920259475708
+    },
+    {
+      "description": "Symbol",
+      "score": 0.663257360458374
+    },
+    {
+      "description": "Brand",
+      "score": 0.6466162800788879
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6434608697891235
+    }
+  ]
+}

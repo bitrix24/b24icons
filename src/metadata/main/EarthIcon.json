@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Earth",
+    "Automotive lighting",
+    "Window",
+    "Circle",
+    "Font",
+    "Auto part",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Automotive lighting",
+      "score": 0.8661426901817322
+    },
+    {
+      "description": "Window",
+      "score": 0.7249921560287476
+    },
+    {
+      "description": "Circle",
+      "score": 0.7164846062660217
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7098300457000732
+    },
+    {
+      "description": "Font",
+      "score": 0.7069025635719299
+    },
+    {
+      "description": "Auto part",
+      "score": 0.6812504529953003
+    },
+    {
+      "description": "Logo",
+      "score": 0.6774219274520874
+    },
+    {
+      "description": "Automotive exterior",
+      "score": 0.6582110524177551
+    },
+    {
+      "description": "Automotive tire",
+      "score": 0.6431322693824768
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5887916088104248
+    }
+  ]
+}

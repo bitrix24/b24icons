@@ -1,0 +1,57 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Microsoft",
+    "Window",
+    "Rectangle",
+    "Tints and shades",
+    "Font",
+    "Symmetry",
+    "Circle",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Window",
+      "score": 0.883063554763794
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.8515650033950806
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7719237208366394
+    },
+    {
+      "description": "Font",
+      "score": 0.7542172074317932
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7386845350265503
+    },
+    {
+      "description": "Circle",
+      "score": 0.7270791530609131
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7130916714668274
+    },
+    {
+      "description": "Art",
+      "score": 0.6349154114723206
+    },
+    {
+      "description": "Logo",
+      "score": 0.632950484752655
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6057850122451782
+    }
+  ]
+}

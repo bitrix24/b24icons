@@ -1,0 +1,50 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Smart",
+    "Activities",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7622482180595398
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6600341796875
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6533177495002747
+    },
+    {
+      "description": "Art",
+      "score": 0.6494028568267822
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.643107533454895
+    },
+    {
+      "description": "Brand",
+      "score": 0.6177208423614502
+    },
+    {
+      "description": "Graphics",
+      "score": 0.600547194480896
+    },
+    {
+      "description": "Logo",
+      "score": 0.593352735042572
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5515013337135315
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5107824802398682
+    }
+  ]
+}

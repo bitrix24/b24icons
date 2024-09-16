@@ -1,0 +1,54 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Eye",
+    "Opened",
+    "Black",
+    "Gas",
+    "Sky",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Gas",
+      "score": 0.7803043127059937
+    },
+    {
+      "description": "Sky",
+      "score": 0.7450571060180664
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7266072034835815
+    },
+    {
+      "description": "Circle",
+      "score": 0.6875169277191162
+    },
+    {
+      "description": "Tree",
+      "score": 0.6563806533813477
+    },
+    {
+      "description": "Window",
+      "score": 0.6263910531997681
+    },
+    {
+      "description": "Art",
+      "score": 0.6116355061531067
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.6077507734298706
+    },
+    {
+      "description": "Font",
+      "score": 0.6073160767555237
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5880240797996521
+    }
+  ]
+}

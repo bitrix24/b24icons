@@ -1,0 +1,53 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Bulleted",
+    "List",
+    "Rectangle",
+    "Font",
+    "Parallel",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.799445629119873
+    },
+    {
+      "description": "Font",
+      "score": 0.7737919092178345
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7280215620994568
+    },
+    {
+      "description": "Parallel",
+      "score": 0.70245361328125
+    },
+    {
+      "description": "Circle",
+      "score": 0.6712588667869568
+    },
+    {
+      "description": "Logo",
+      "score": 0.6612351536750793
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6593448519706726
+    },
+    {
+      "description": "Brand",
+      "score": 0.6238863468170166
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6124642491340637
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5830451250076294
+    }
+  ]
+}

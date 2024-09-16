@@ -1,0 +1,46 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Calendar",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8324413299560547
+    },
+    {
+      "description": "Font",
+      "score": 0.7627039551734924
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7043313980102539
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6476974487304688
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6128900051116943
+    },
+    {
+      "description": "Circle",
+      "score": 0.5593568682670593
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5561986565589905
+    },
+    {
+      "description": "Brand",
+      "score": 0.5512205362319946
+    },
+    {
+      "description": "Square",
+      "score": 0.550042986869812
+    }
+  ]
+}

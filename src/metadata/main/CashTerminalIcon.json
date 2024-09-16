@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Cash",
+    "Terminal",
+    "Font",
+    "Gas",
+    "Output device",
+    "Office equipment"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7877808809280396
+    },
+    {
+      "description": "Gas",
+      "score": 0.7445586919784546
+    },
+    {
+      "description": "Output device",
+      "score": 0.7173795104026794
+    },
+    {
+      "description": "Office equipment",
+      "score": 0.7077780961990356
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7048619985580444
+    },
+    {
+      "description": "Logo",
+      "score": 0.6581735610961914
+    },
+    {
+      "description": "Brand",
+      "score": 0.6296406984329224
+    },
+    {
+      "description": "Gadget",
+      "score": 0.6238700151443481
+    },
+    {
+      "description": "Circle",
+      "score": 0.5802645683288574
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5640712380409241
+    }
+  ]
+}

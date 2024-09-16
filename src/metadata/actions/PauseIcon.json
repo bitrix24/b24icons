@@ -1,0 +1,42 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Pause",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7556862831115723
+    },
+    {
+      "description": "Font",
+      "score": 0.7397319078445435
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.659264087677002
+    },
+    {
+      "description": "Logo",
+      "score": 0.6275330781936646
+    },
+    {
+      "description": "Number",
+      "score": 0.5814132690429688
+    },
+    {
+      "description": "Brand",
+      "score": 0.5598101615905762
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5379398465156555
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5334888100624084
+    }
+  ]
+}

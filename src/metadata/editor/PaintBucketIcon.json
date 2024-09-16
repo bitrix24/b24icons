@@ -1,0 +1,55 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Paint",
+    "Bucket",
+    "Sports equipment",
+    "Font",
+    "Logo",
+    "Circle",
+    "Ball",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Sports equipment",
+      "score": 0.9190202355384827
+    },
+    {
+      "description": "Font",
+      "score": 0.7827582955360413
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7332775592803955
+    },
+    {
+      "description": "Logo",
+      "score": 0.7173272967338562
+    },
+    {
+      "description": "Circle",
+      "score": 0.7130505442619324
+    },
+    {
+      "description": "Ball",
+      "score": 0.689948320388794
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6670195460319519
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6502393484115601
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6248078942298889
+    },
+    {
+      "description": "Brand",
+      "score": 0.6208919882774353
+    }
+  ]
+}

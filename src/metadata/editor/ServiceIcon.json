@@ -1,0 +1,29 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Service",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.6742455959320068
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6163011193275452
+    },
+    {
+      "description": "Event",
+      "score": 0.5796906352043152
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5557171106338501
+    },
+    {
+      "description": "Circle",
+      "score": 0.5423240661621094
+    }
+  ]
+}

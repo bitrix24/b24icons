@@ -1,0 +1,48 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Graphs",
+    "Diagram",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8027305006980896
+    },
+    {
+      "description": "Font",
+      "score": 0.7572361826896667
+    },
+    {
+      "description": "Logo",
+      "score": 0.7064067125320435
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6887651085853577
+    },
+    {
+      "description": "Brand",
+      "score": 0.6215454936027527
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6181737184524536
+    },
+    {
+      "description": "Circle",
+      "score": 0.5850851535797119
+    },
+    {
+      "description": "Number",
+      "score": 0.527105450630188
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5240055322647095
+    }
+  ]
+}

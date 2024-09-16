@@ -1,0 +1,47 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Bb",
+    "Code",
+    "Mode",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7366640567779541
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7128282189369202
+    },
+    {
+      "description": "Brand",
+      "score": 0.641842246055603
+    },
+    {
+      "description": "Logo",
+      "score": 0.6145800352096558
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.59046870470047
+    },
+    {
+      "description": "Number",
+      "score": 0.5588322281837463
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5260786414146423
+    },
+    {
+      "description": "Typesetting",
+      "score": 0.5203309059143066
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5102876424789429
+    }
+  ]
+}

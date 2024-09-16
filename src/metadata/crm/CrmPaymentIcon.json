@@ -1,0 +1,39 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Crm",
+    "Payment",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7221588492393494
+    },
+    {
+      "description": "Font",
+      "score": 0.7112360000610352
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6821986436843872
+    },
+    {
+      "description": "Gas",
+      "score": 0.6572650671005249
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6444872617721558
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6338638663291931
+    },
+    {
+      "description": "Circle",
+      "score": 0.5198765397071838
+    }
+  ]
+}

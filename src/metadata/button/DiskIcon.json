@@ -1,0 +1,44 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Disk",
+    "Dark",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.800032377243042
+    },
+    {
+      "description": "Font",
+      "score": 0.758780300617218
+    },
+    {
+      "description": "Logo",
+      "score": 0.6550996899604797
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.611710250377655
+    },
+    {
+      "description": "Brand",
+      "score": 0.6043522357940674
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.6004137992858887
+    },
+    {
+      "description": "Gas",
+      "score": 0.5829878449440002
+    },
+    {
+      "description": "Office equipment",
+      "score": 0.5511316061019897
+    }
+  ]
+}

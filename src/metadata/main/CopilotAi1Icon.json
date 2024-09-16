@@ -1,0 +1,46 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Copilot",
+    "Ai",
+    "Font",
+    "Pattern",
+    "Circle",
+    "Symmetry",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7703198790550232
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7281985282897949
+    },
+    {
+      "description": "Circle",
+      "score": 0.7108074426651001
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.688715934753418
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6732543110847473
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6608565449714661
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6314515471458435
+    },
+    {
+      "description": "Square",
+      "score": 0.6015064120292664
+    }
+  ]
+}

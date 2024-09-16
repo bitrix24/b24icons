@@ -1,0 +1,48 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Filter",
+    "Plus",
+    "Symbol",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.7987158298492432
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7330916523933411
+    },
+    {
+      "description": "Font",
+      "score": 0.7329794764518738
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6827948689460754
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5820200443267822
+    },
+    {
+      "description": "Cemetery",
+      "score": 0.5637632012367249
+    },
+    {
+      "description": "Circle",
+      "score": 0.529812753200531
+    },
+    {
+      "description": "Balance",
+      "score": 0.527265727519989
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5230720639228821
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Phone",
+    "Call",
+    "Black",
+    "Font",
+    "Art"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7447865009307861
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7187111973762512
+    },
+    {
+      "description": "Art",
+      "score": 0.6749610304832458
+    },
+    {
+      "description": "Logo",
+      "score": 0.6287431120872498
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6213288307189941
+    },
+    {
+      "description": "Brand",
+      "score": 0.6005375981330872
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5944370627403259
+    }
+  ]
+}

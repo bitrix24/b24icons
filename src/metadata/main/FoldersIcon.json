@@ -1,0 +1,50 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Folders",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7891761660575867
+    },
+    {
+      "description": "Font",
+      "score": 0.7025151252746582
+    },
+    {
+      "description": "Logo",
+      "score": 0.6510331630706787
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6457864046096802
+    },
+    {
+      "description": "Brand",
+      "score": 0.6173456907272339
+    },
+    {
+      "description": "Gas",
+      "score": 0.6167430877685547
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5610069632530212
+    },
+    {
+      "description": "Room",
+      "score": 0.5247699618339539
+    },
+    {
+      "description": "Circle",
+      "score": 0.5243154168128967
+    },
+    {
+      "description": "Metal",
+      "score": 0.5103539228439331
+    }
+  ]
+}

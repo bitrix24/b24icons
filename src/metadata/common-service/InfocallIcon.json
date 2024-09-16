@@ -1,0 +1,55 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Infocall",
+    "Sky",
+    "Font",
+    "Darkness",
+    "Number",
+    "Art"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.8791366219520569
+    },
+    {
+      "description": "Font",
+      "score": 0.7619354128837585
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7054150104522705
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6797980070114136
+    },
+    {
+      "description": "Number",
+      "score": 0.6772324442863464
+    },
+    {
+      "description": "Art",
+      "score": 0.6731722950935364
+    },
+    {
+      "description": "Circle",
+      "score": 0.6510608196258545
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6504316926002502
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6310148239135742
+    },
+    {
+      "description": "Brand",
+      "score": 0.6165039539337158
+    }
+  ]
+}

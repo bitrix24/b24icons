@@ -1,0 +1,40 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Attention",
+    "I",
+    "Circle",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.72443687915802
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.718410074710846
+    },
+    {
+      "description": "Circle",
+      "score": 0.705431342124939
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6269873380661011
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5397403836250305
+    },
+    {
+      "description": "Brand",
+      "score": 0.5124613046646118
+    },
+    {
+      "description": "Number",
+      "score": 0.5026917457580566
+    }
+  ]
+}

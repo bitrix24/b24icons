@@ -1,0 +1,59 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Demonstration",
+    "On",
+    "Output device",
+    "Gesture",
+    "Peripheral",
+    "Computer",
+    "Rectangle",
+    "Computer monitor accessory",
+    "Gadget",
+    "Display device",
+    "Font",
+    "Multimedia"
+  ],
+  "labels": [
+    {
+      "description": "Output device",
+      "score": 0.923123836517334
+    },
+    {
+      "description": "Gesture",
+      "score": 0.852604866027832
+    },
+    {
+      "description": "Peripheral",
+      "score": 0.831947386264801
+    },
+    {
+      "description": "Computer",
+      "score": 0.8295204043388367
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.8144679665565491
+    },
+    {
+      "description": "Computer monitor accessory",
+      "score": 0.7935622334480286
+    },
+    {
+      "description": "Gadget",
+      "score": 0.7714892625808716
+    },
+    {
+      "description": "Display device",
+      "score": 0.732330322265625
+    },
+    {
+      "description": "Font",
+      "score": 0.7146522402763367
+    },
+    {
+      "description": "Multimedia",
+      "score": 0.7092283368110657
+    }
+  ]
+}

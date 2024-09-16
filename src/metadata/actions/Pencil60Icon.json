@@ -1,0 +1,25 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Pencil",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7241235375404358
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7034019827842712
+    },
+    {
+      "description": "Brand",
+      "score": 0.5202049016952515
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5100501179695129
+    }
+  ]
+}

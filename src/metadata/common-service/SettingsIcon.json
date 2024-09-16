@@ -1,0 +1,57 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Settings",
+    "Font",
+    "Circle",
+    "Gas",
+    "Darkness",
+    "Pattern",
+    "Sky",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7750639915466309
+    },
+    {
+      "description": "Circle",
+      "score": 0.7381718158721924
+    },
+    {
+      "description": "Gas",
+      "score": 0.7327803373336792
+    },
+    {
+      "description": "Darkness",
+      "score": 0.711331844329834
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7074874639511108
+    },
+    {
+      "description": "Sky",
+      "score": 0.7024815082550049
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7020894885063171
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.66899573802948
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6439756155014038
+    },
+    {
+      "description": "Logo",
+      "score": 0.6275523900985718
+    }
+  ]
+}

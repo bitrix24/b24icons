@@ -1,0 +1,36 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Lines",
+    "Text",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.778230607509613
+    },
+    {
+      "description": "Font",
+      "score": 0.7752377390861511
+    },
+    {
+      "description": "Logo",
+      "score": 0.675517201423645
+    },
+    {
+      "description": "Brand",
+      "score": 0.6328539252281189
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5735798478126526
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5006090402603149
+    }
+  ]
+}

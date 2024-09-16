@@ -1,0 +1,55 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Fb",
+    "Adds",
+    "Font",
+    "Rectangle",
+    "Sky",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7979997992515564
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6962948441505432
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6847954392433167
+    },
+    {
+      "description": "Sky",
+      "score": 0.6779444813728333
+    },
+    {
+      "description": "Logo",
+      "score": 0.6663982272148132
+    },
+    {
+      "description": "Brand",
+      "score": 0.6609551310539246
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6567686200141907
+    },
+    {
+      "description": "Pattern",
+      "score": 0.635446310043335
+    },
+    {
+      "description": "Darkness",
+      "score": 0.632999837398529
+    },
+    {
+      "description": "Magenta",
+      "score": 0.5881862044334412
+    }
+  ]
+}

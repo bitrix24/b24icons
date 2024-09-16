@@ -1,0 +1,50 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Deal",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8304207921028137
+    },
+    {
+      "description": "Font",
+      "score": 0.7636029124259949
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6745386719703674
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.6605497002601624
+    },
+    {
+      "description": "Brand",
+      "score": 0.5904470682144165
+    },
+    {
+      "description": "Number",
+      "score": 0.558832585811615
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5538725256919861
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5492838025093079
+    },
+    {
+      "description": "Logo",
+      "score": 0.5459527969360352
+    },
+    {
+      "description": "Square",
+      "score": 0.5371770262718201
+    }
+  ]
+}

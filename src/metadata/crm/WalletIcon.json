@@ -1,0 +1,39 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Wallet",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8201302289962769
+    },
+    {
+      "description": "Font",
+      "score": 0.7141411900520325
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7064248323440552
+    },
+    {
+      "description": "Logo",
+      "score": 0.6781376004219055
+    },
+    {
+      "description": "Brand",
+      "score": 0.6156506538391113
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5374593138694763
+    },
+    {
+      "description": "Circle",
+      "score": 0.5181788206100464
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Cart",
+    "Text",
+    "Rectangle",
+    "Font",
+    "Logo",
+    "Clock"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8537701964378357
+    },
+    {
+      "description": "Font",
+      "score": 0.7645955085754395
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7295387983322144
+    },
+    {
+      "description": "Logo",
+      "score": 0.6736717820167542
+    },
+    {
+      "description": "Clock",
+      "score": 0.6731629371643066
+    },
+    {
+      "description": "Number",
+      "score": 0.6610046625137329
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6557021141052246
+    },
+    {
+      "description": "Brand",
+      "score": 0.6176497340202332
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6056075692176819
+    },
+    {
+      "description": "Display device",
+      "score": 0.5717784762382507
+    }
+  ]
+}

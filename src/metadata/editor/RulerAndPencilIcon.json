@@ -1,0 +1,39 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Ruler",
+    "Pencil",
+    "Sky",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.8800288438796997
+    },
+    {
+      "description": "Font",
+      "score": 0.7453094124794006
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7328717708587646
+    },
+    {
+      "description": "Meteorological phenomenon",
+      "score": 0.657683789730072
+    },
+    {
+      "description": "Art",
+      "score": 0.6394700407981873
+    },
+    {
+      "description": "Cloud",
+      "score": 0.6115863919258118
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5713801980018616
+    }
+  ]
+}

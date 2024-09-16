@@ -1,0 +1,48 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Make",
+    "Longer",
+    "Font",
+    "Rectangle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.771584689617157
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7522624731063843
+    },
+    {
+      "description": "Logo",
+      "score": 0.6899462938308716
+    },
+    {
+      "description": "Brand",
+      "score": 0.6310750246047974
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5728293061256409
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5677619576454163
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5552986860275269
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5018126368522644
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5013647079467773
+    }
+  ]
+}

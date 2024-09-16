@@ -1,0 +1,58 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Kufar",
+    "Font",
+    "Symbol",
+    "Symmetry",
+    "Pattern",
+    "Monochrome photography",
+    "Monochrome",
+    "Circle",
+    "Darkness"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8301452398300171
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7415017485618591
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7397794723510742
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7193417549133301
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.7036948204040527
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.6918274164199829
+    },
+    {
+      "description": "Circle",
+      "score": 0.6868463158607483
+    },
+    {
+      "description": "Darkness",
+      "score": 0.682802140712738
+    },
+    {
+      "description": "Shadow",
+      "score": 0.5904668569564819
+    },
+    {
+      "description": "Visual arts",
+      "score": 0.5741148591041565
+    }
+  ]
+}

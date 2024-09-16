@@ -1,0 +1,55 @@
+{
+  "category": "Button-specialized",
+  "subCategories": [
+    "Btn",
+    "Clock",
+    "Font",
+    "Material property",
+    "Circle",
+    "Symbol",
+    "Symmetry",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8296163082122803
+    },
+    {
+      "description": "Material property",
+      "score": 0.8005344867706299
+    },
+    {
+      "description": "Circle",
+      "score": 0.7577362656593323
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7463940382003784
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7373327016830444
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7290498614311218
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6358757615089417
+    },
+    {
+      "description": "Brand",
+      "score": 0.6301217079162598
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6200584769248962
+    },
+    {
+      "description": "Number",
+      "score": 0.6197469830513
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Ya",
+    "Font",
+    "Slope",
+    "Rectangle",
+    "Magenta"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7799121737480164
+    },
+    {
+      "description": "Slope",
+      "score": 0.7785207629203796
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7411035895347595
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6954939365386963
+    },
+    {
+      "description": "Magenta",
+      "score": 0.6689143180847168
+    },
+    {
+      "description": "Logo",
+      "score": 0.6612679958343506
+    },
+    {
+      "description": "Circle",
+      "score": 0.6488516330718994
+    },
+    {
+      "description": "Brand",
+      "score": 0.6486848592758179
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6393988132476807
+    },
+    {
+      "description": "Carmine",
+      "score": 0.6298820972442627
+    }
+  ]
+}

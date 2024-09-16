@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Alarm",
+    "Font",
+    "Symbol",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7835648655891418
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.740714967250824
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6977946758270264
+    },
+    {
+      "description": "Circle",
+      "score": 0.6890025734901428
+    },
+    {
+      "description": "Logo",
+      "score": 0.6602113842964172
+    },
+    {
+      "description": "Brand",
+      "score": 0.6235359311103821
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5859909057617188
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5813289284706116
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5186682343482971
+    },
+    {
+      "description": "Number",
+      "score": 0.5153185129165649
+    }
+  ]
+}

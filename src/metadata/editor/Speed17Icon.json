@@ -1,0 +1,42 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Speed",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7632015943527222
+    },
+    {
+      "description": "Logo",
+      "score": 0.7192398905754089
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6684473156929016
+    },
+    {
+      "description": "Brand",
+      "score": 0.6586242914199829
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6560342311859131
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5774615406990051
+    },
+    {
+      "description": "Symbol",
+      "score": 0.549185037612915
+    },
+    {
+      "description": "Trademark",
+      "score": 0.531633734703064
+    }
+  ]
+}

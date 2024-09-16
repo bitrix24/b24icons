@@ -1,0 +1,22 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Chevron",
+    "Right",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7193052172660828
+    },
+    {
+      "description": "Font",
+      "score": 0.7109947800636292
+    },
+    {
+      "description": "Brand",
+      "score": 0.5445265769958496
+    }
+  ]
+}

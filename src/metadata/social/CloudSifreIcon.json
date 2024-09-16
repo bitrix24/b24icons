@@ -1,0 +1,50 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Cloud",
+    "Sifre",
+    "Font",
+    "Logo",
+    "Auto part",
+    "Graphics",
+    "Brand"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7741419076919556
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7244405150413513
+    },
+    {
+      "description": "Logo",
+      "score": 0.7213661074638367
+    },
+    {
+      "description": "Auto part",
+      "score": 0.6795017123222351
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6687953472137451
+    },
+    {
+      "description": "Brand",
+      "score": 0.664231538772583
+    },
+    {
+      "description": "Circle",
+      "score": 0.6548460721969604
+    },
+    {
+      "description": "Event",
+      "score": 0.6317164301872253
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5284554362297058
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Paint",
+    "Bucket",
+    "Formatting",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7969734072685242
+    },
+    {
+      "description": "Symbol",
+      "score": 0.705372154712677
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6995159983634949
+    },
+    {
+      "description": "Cross",
+      "score": 0.6769444942474365
+    },
+    {
+      "description": "Logo",
+      "score": 0.6146493554115295
+    },
+    {
+      "description": "Circle",
+      "score": 0.6134427189826965
+    },
+    {
+      "description": "Art",
+      "score": 0.5811160802841187
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5721557140350342
+    },
+    {
+      "description": "Brand",
+      "score": 0.5704200863838196
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5352418422698975
+    }
+  ]
+}

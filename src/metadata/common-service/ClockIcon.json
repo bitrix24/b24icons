@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Clock",
+    "Head",
+    "Eye",
+    "Sky",
+    "Flash photography",
+    "Font",
+    "Circle",
+    "Astronomical object",
+    "Symbol",
+    "Logo",
+    "Automotive lighting"
+  ],
+  "labels": [
+    {
+      "description": "Head",
+      "score": 0.9717051386833191
+    },
+    {
+      "description": "Eye",
+      "score": 0.9396241903305054
+    },
+    {
+      "description": "Sky",
+      "score": 0.8787686228752136
+    },
+    {
+      "description": "Flash photography",
+      "score": 0.8365454077720642
+    },
+    {
+      "description": "Font",
+      "score": 0.7562913298606873
+    },
+    {
+      "description": "Circle",
+      "score": 0.749852180480957
+    },
+    {
+      "description": "Astronomical object",
+      "score": 0.7368009090423584
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7209174633026123
+    },
+    {
+      "description": "Logo",
+      "score": 0.7196882367134094
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.7180035710334778
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Liveinternet",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7403209209442139
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6747357845306396
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6389800310134888
+    },
+    {
+      "description": "Brand",
+      "score": 0.6280410885810852
+    },
+    {
+      "description": "Logo",
+      "score": 0.6028092503547668
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5570886731147766
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5382170081138611
+    }
+  ]
+}

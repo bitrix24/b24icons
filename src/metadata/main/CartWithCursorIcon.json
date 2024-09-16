@@ -1,0 +1,47 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Cart",
+    "With",
+    "Cursor",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7505776286125183
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7085490226745605
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6596143841743469
+    },
+    {
+      "description": "Brand",
+      "score": 0.6209877729415894
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6144599914550781
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5941434502601624
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5648146867752075
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5091278553009033
+    },
+    {
+      "description": "Logo",
+      "score": 0.5046541094779968
+    }
+  ]
+}

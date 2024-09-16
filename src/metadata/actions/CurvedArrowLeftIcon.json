@@ -1,0 +1,35 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Curved",
+    "Arrow",
+    "Left",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7324626445770264
+    },
+    {
+      "description": "Font",
+      "score": 0.7280517220497131
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.654428243637085
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6211303472518921
+    },
+    {
+      "description": "Brand",
+      "score": 0.5647652745246887
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.5242447257041931
+    }
+  ]
+}

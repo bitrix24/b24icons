@@ -1,0 +1,39 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Edit",
+    "Black",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7325380444526672
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7131741642951965
+    },
+    {
+      "description": "Brand",
+      "score": 0.5817028284072876
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5565311908721924
+    },
+    {
+      "description": "Art",
+      "score": 0.5504751205444336
+    },
+    {
+      "description": "Logo",
+      "score": 0.5502387285232544
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5465551018714905
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Edna",
+    "Font",
+    "Automotive tire",
+    "Automotive design",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7860081791877747
+    },
+    {
+      "description": "Automotive tire",
+      "score": 0.718276858329773
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7022076845169067
+    },
+    {
+      "description": "Automotive design",
+      "score": 0.6796043515205383
+    },
+    {
+      "description": "Logo",
+      "score": 0.6791366934776306
+    },
+    {
+      "description": "Circle",
+      "score": 0.6500118970870972
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.6413906216621399
+    },
+    {
+      "description": "Brand",
+      "score": 0.6377442479133606
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6182968020439148
+    },
+    {
+      "description": "Rim",
+      "score": 0.6139944791793823
+    }
+  ]
+}

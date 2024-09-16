@@ -1,0 +1,38 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Deal",
+    "Plus",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7547028660774231
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7243362665176392
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6298366189002991
+    },
+    {
+      "description": "Logo",
+      "score": 0.6286875009536743
+    },
+    {
+      "description": "Brand",
+      "score": 0.6090279817581177
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5459069609642029
+    },
+    {
+      "description": "Cross",
+      "score": 0.5442448854446411
+    }
+  ]
+}

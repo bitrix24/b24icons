@@ -1,0 +1,52 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Play",
+    "Black",
+    "Triangle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7269412279129028
+    },
+    {
+      "description": "Triangle",
+      "score": 0.7191357612609863
+    },
+    {
+      "description": "Logo",
+      "score": 0.6781569123268127
+    },
+    {
+      "description": "Pattern",
+      "score": 0.633014440536499
+    },
+    {
+      "description": "Art",
+      "score": 0.6261355876922607
+    },
+    {
+      "description": "Circle",
+      "score": 0.6231704354286194
+    },
+    {
+      "description": "Font",
+      "score": 0.619966447353363
+    },
+    {
+      "description": "Brand",
+      "score": 0.610723078250885
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5956618189811707
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5738170146942139
+    }
+  ]
+}

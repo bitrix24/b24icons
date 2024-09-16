@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Map",
+    "Rectangle",
+    "Font",
+    "Circle",
+    "Cylinder",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8005175590515137
+    },
+    {
+      "description": "Font",
+      "score": 0.7478790283203125
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.717541515827179
+    },
+    {
+      "description": "Circle",
+      "score": 0.7099249362945557
+    },
+    {
+      "description": "Cylinder",
+      "score": 0.6842067837715149
+    },
+    {
+      "description": "Logo",
+      "score": 0.6657670736312866
+    },
+    {
+      "description": "Column",
+      "score": 0.6173412203788757
+    },
+    {
+      "description": "Brand",
+      "score": 0.6115286350250244
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6062881946563721
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5696616768836975
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Call",
+    "Infomation",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7223701477050781
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7132543325424194
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5819256901741028
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5690897703170776
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5185016393661499
+    }
+  ]
+}

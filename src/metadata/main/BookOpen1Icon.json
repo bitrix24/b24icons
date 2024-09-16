@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Book",
+    "Open",
+    "Rectangle",
+    "Font",
+    "Circle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8543071150779724
+    },
+    {
+      "description": "Font",
+      "score": 0.7785237431526184
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7359035611152649
+    },
+    {
+      "description": "Circle",
+      "score": 0.6888435482978821
+    },
+    {
+      "description": "Logo",
+      "score": 0.6866444945335388
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6623538732528687
+    },
+    {
+      "description": "Brand",
+      "score": 0.6121830940246582
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6119002103805542
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5716517567634583
+    },
+    {
+      "description": "Number",
+      "score": 0.548279881477356
+    }
+  ]
+}

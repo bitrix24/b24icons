@@ -1,0 +1,55 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Chats",
+    "With",
+    "Check",
+    "Gesture",
+    "Rectangle",
+    "Font",
+    "Logo",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.852604866027832
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.8082820177078247
+    },
+    {
+      "description": "Font",
+      "score": 0.8035894632339478
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7322407960891724
+    },
+    {
+      "description": "Logo",
+      "score": 0.6895231604576111
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6704874634742737
+    },
+    {
+      "description": "Brand",
+      "score": 0.6311389803886414
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6207889914512634
+    },
+    {
+      "description": "Circle",
+      "score": 0.5513746738433838
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5059630870819092
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Idea",
+    "Lamp",
+    "Plant",
+    "Gesture",
+    "Petal",
+    "Art",
+    "Font",
+    "Symmetry",
+    "Circle",
+    "Pattern",
+    "Grass",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Plant",
+      "score": 0.8790560960769653
+    },
+    {
+      "description": "Gesture",
+      "score": 0.8458409309387207
+    },
+    {
+      "description": "Petal",
+      "score": 0.8274573087692261
+    },
+    {
+      "description": "Art",
+      "score": 0.8167865872383118
+    },
+    {
+      "description": "Font",
+      "score": 0.800283670425415
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7553437352180481
+    },
+    {
+      "description": "Circle",
+      "score": 0.7541879415512085
+    },
+    {
+      "description": "Pattern",
+      "score": 0.733393132686615
+    },
+    {
+      "description": "Grass",
+      "score": 0.7328482270240784
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7269425988197327
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Disk",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7384014129638672
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6872903108596802
+    },
+    {
+      "description": "Logo",
+      "score": 0.6567644476890564
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6012173295021057
+    },
+    {
+      "description": "Brand",
+      "score": 0.6010642647743225
+    },
+    {
+      "description": "Diagram",
+      "score": 0.5749322772026062
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.5583012104034424
+    },
+    {
+      "description": "Circle",
+      "score": 0.5538963675498962
+    }
+  ]
+}

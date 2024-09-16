@@ -1,0 +1,51 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Instagram",
+    "Rectangle",
+    "Gas",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7248682379722595
+    },
+    {
+      "description": "Gas",
+      "score": 0.7197365164756775
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6947326064109802
+    },
+    {
+      "description": "Font",
+      "score": 0.6911697387695312
+    },
+    {
+      "description": "Circle",
+      "score": 0.6547779440879822
+    },
+    {
+      "description": "Event",
+      "score": 0.6144593358039856
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5735467672348022
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5622202157974243
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5484262704849243
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.5444106459617615
+    }
+  ]
+}

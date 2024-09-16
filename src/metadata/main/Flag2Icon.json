@@ -1,0 +1,46 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Flag",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8009838461875916
+    },
+    {
+      "description": "Font",
+      "score": 0.7395738959312439
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6562923789024353
+    },
+    {
+      "description": "Circle",
+      "score": 0.6259603500366211
+    },
+    {
+      "description": "Brand",
+      "score": 0.6145488619804382
+    },
+    {
+      "description": "Logo",
+      "score": 0.5967161059379578
+    },
+    {
+      "description": "Cylinder",
+      "score": 0.5588563084602356
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5513809323310852
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5386266112327576
+    }
+  ]
+}

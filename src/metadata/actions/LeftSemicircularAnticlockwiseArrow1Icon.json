@@ -1,0 +1,37 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Left",
+    "Semicircular",
+    "Anticlockwise",
+    "Arrow",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7259058356285095
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.69576096534729
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6943644881248474
+    },
+    {
+      "description": "Brand",
+      "score": 0.5753872394561768
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5466835498809814
+    },
+    {
+      "description": "Logo",
+      "score": 0.502754807472229
+    }
+  ]
+}

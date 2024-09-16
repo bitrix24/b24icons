@@ -1,0 +1,52 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Payment",
+    "Delivery",
+    "Font",
+    "Circle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7490431070327759
+    },
+    {
+      "description": "Circle",
+      "score": 0.7328922152519226
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7285574078559875
+    },
+    {
+      "description": "Logo",
+      "score": 0.7117296457290649
+    },
+    {
+      "description": "Brand",
+      "score": 0.6505554914474487
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6452820301055908
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5716164112091064
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5539081692695618
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5522978901863098
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5508615374565125
+    }
+  ]
+}

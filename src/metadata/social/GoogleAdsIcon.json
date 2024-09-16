@@ -1,0 +1,52 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Google",
+    "Ads",
+    "Font",
+    "Logo",
+    "Art"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7361273169517517
+    },
+    {
+      "description": "Font",
+      "score": 0.7250961661338806
+    },
+    {
+      "description": "Logo",
+      "score": 0.7101779580116272
+    },
+    {
+      "description": "Art",
+      "score": 0.6933366060256958
+    },
+    {
+      "description": "Event",
+      "score": 0.6308461427688599
+    },
+    {
+      "description": "Brand",
+      "score": 0.6077577471733093
+    },
+    {
+      "description": "Slope",
+      "score": 0.6071048378944397
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5893070101737976
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5694379806518555
+    },
+    {
+      "description": "Ink",
+      "score": 0.563499927520752
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Instagram",
+    "Direct",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.757734477519989
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6862813234329224
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.596767783164978
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5414618849754333
+    },
+    {
+      "description": "Brand",
+      "score": 0.5080710053443909
+    }
+  ]
+}

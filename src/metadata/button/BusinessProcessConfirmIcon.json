@@ -1,0 +1,37 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Business",
+    "Process",
+    "Confirm",
+    "Black",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7746838927268982
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6970345377922058
+    },
+    {
+      "description": "Logo",
+      "score": 0.6155500411987305
+    },
+    {
+      "description": "Brand",
+      "score": 0.5916924476623535
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5780928134918213
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5666196346282959
+    }
+  ]
+}

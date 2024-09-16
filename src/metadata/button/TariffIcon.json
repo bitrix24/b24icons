@@ -1,0 +1,40 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Tariff",
+    "Black",
+    "Font",
+    "Tints and shades"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7236126065254211
+    },
+    {
+      "description": "Font",
+      "score": 0.7099462151527405
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.6900514960289001
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6026649475097656
+    },
+    {
+      "description": "Logo",
+      "score": 0.5535401105880737
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5172824859619141
+    },
+    {
+      "description": "Circle",
+      "score": 0.5018429160118103
+    }
+  ]
+}

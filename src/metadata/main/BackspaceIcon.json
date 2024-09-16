@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Backspace",
+    "Font",
+    "Logo",
+    "Pattern",
+    "Circle",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7375255227088928
+    },
+    {
+      "description": "Font",
+      "score": 0.7374464273452759
+    },
+    {
+      "description": "Logo",
+      "score": 0.6974433064460754
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6845946311950684
+    },
+    {
+      "description": "Circle",
+      "score": 0.6789212822914124
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6665844917297363
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6590651273727417
+    },
+    {
+      "description": "Brand",
+      "score": 0.6313617825508118
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6269570589065552
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5280953049659729
+    }
+  ]
+}

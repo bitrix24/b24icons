@@ -1,0 +1,55 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Attention",
+    "I",
+    "Black",
+    "Font",
+    "Circle",
+    "Logo",
+    "Symbol",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7628813982009888
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7255733013153076
+    },
+    {
+      "description": "Circle",
+      "score": 0.7147392630577087
+    },
+    {
+      "description": "Logo",
+      "score": 0.7011054158210754
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6691767573356628
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6671284437179565
+    },
+    {
+      "description": "Brand",
+      "score": 0.6275007724761963
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6194262504577637
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6150444149971008
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6136156916618347
+    }
+  ]
+}

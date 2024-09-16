@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Ip",
+    "Rectangle",
+    "Font",
+    "Circle",
+    "Logo",
+    "Symbol",
+    "Terrestrial plant"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.764784038066864
+    },
+    {
+      "description": "Font",
+      "score": 0.7621595859527588
+    },
+    {
+      "description": "Circle",
+      "score": 0.7252523899078369
+    },
+    {
+      "description": "Logo",
+      "score": 0.7158781886100769
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7068559527397156
+    },
+    {
+      "description": "Terrestrial plant",
+      "score": 0.6927602291107178
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6204704642295837
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6145018339157104
+    },
+    {
+      "description": "Brand",
+      "score": 0.6118761301040649
+    },
+    {
+      "description": "Number",
+      "score": 0.5662952661514282
+    }
+  ]
+}

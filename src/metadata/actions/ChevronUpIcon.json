@@ -1,0 +1,50 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Chevron",
+    "Up",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8080118894577026
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.738165557384491
+    },
+    {
+      "description": "Cloud",
+      "score": 0.6632581949234009
+    },
+    {
+      "description": "Slope",
+      "score": 0.654599130153656
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5649616718292236
+    },
+    {
+      "description": "Number",
+      "score": 0.5498723983764648
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5470447540283203
+    },
+    {
+      "description": "Balance",
+      "score": 0.5089665055274963
+    },
+    {
+      "description": "Circle",
+      "score": 0.5055382251739502
+    },
+    {
+      "description": "Brand",
+      "score": 0.5026051998138428
+    }
+  ]
+}

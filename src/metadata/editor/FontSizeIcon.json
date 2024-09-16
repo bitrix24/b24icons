@@ -1,0 +1,54 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Font",
+    "Size",
+    "Automotive tire",
+    "Font",
+    "Symbol",
+    "Symmetry",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8105454444885254
+    },
+    {
+      "description": "Automotive tire",
+      "score": 0.7979919910430908
+    },
+    {
+      "description": "Font",
+      "score": 0.7763445973396301
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7312489748001099
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7162954807281494
+    },
+    {
+      "description": "Logo",
+      "score": 0.686910092830658
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6586232781410217
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6246542930603027
+    },
+    {
+      "description": "Circle",
+      "score": 0.601740837097168
+    },
+    {
+      "description": "Brand",
+      "score": 0.5883604288101196
+    }
+  ]
+}

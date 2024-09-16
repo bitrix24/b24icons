@@ -1,0 +1,51 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Viewmode",
+    "Code",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8258975148200989
+    },
+    {
+      "description": "Font",
+      "score": 0.7469002604484558
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7298588156700134
+    },
+    {
+      "description": "Brand",
+      "score": 0.6284924745559692
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6117962002754211
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5932009220123291
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5732004046440125
+    },
+    {
+      "description": "Number",
+      "score": 0.5717571377754211
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5182661414146423
+    },
+    {
+      "description": "Logo",
+      "score": 0.5028815269470215
+    }
+  ]
+}

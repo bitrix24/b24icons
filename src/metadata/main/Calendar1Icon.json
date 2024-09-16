@@ -1,0 +1,50 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Calendar",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8172317743301392
+    },
+    {
+      "description": "Font",
+      "score": 0.7667474150657654
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7399447560310364
+    },
+    {
+      "description": "Circle",
+      "score": 0.6335088610649109
+    },
+    {
+      "description": "Number",
+      "score": 0.6295227408409119
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6238285899162292
+    },
+    {
+      "description": "Brand",
+      "score": 0.6227304935455322
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.566522479057312
+    },
+    {
+      "description": "Home accessories",
+      "score": 0.5657647848129272
+    },
+    {
+      "description": "Typesetting",
+      "score": 0.5281591415405273
+    }
+  ]
+}

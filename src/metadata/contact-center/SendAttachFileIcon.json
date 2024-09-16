@@ -1,0 +1,55 @@
+{
+  "category": "Contact-center",
+  "subCategories": [
+    "Send",
+    "Attach",
+    "File",
+    "Font",
+    "Rectangle",
+    "Symbol",
+    "Logo",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7714980840682983
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7376130223274231
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7181437611579895
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7120766043663025
+    },
+    {
+      "description": "Logo",
+      "score": 0.7001784443855286
+    },
+    {
+      "description": "Circle",
+      "score": 0.6743365526199341
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6348994374275208
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6337133646011353
+    },
+    {
+      "description": "Brand",
+      "score": 0.6296982765197754
+    },
+    {
+      "description": "Number",
+      "score": 0.5647872686386108
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Full",
+    "Battery",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8623859286308289
+    },
+    {
+      "description": "Font",
+      "score": 0.7249623537063599
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7163896560668945
+    },
+    {
+      "description": "Logo",
+      "score": 0.6895413994789124
+    },
+    {
+      "description": "Brand",
+      "score": 0.6611286997795105
+    },
+    {
+      "description": "Number",
+      "score": 0.6324033141136169
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6260034441947937
+    },
+    {
+      "description": "Typesetting",
+      "score": 0.5782372355461121
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5664748549461365
+    },
+    {
+      "description": "Trademark",
+      "score": 0.523215115070343
+    }
+  ]
+}

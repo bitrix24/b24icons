@@ -1,0 +1,54 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Ya",
+    "Direct",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7718290090560913
+    },
+    {
+      "description": "Font",
+      "score": 0.7637948989868164
+    },
+    {
+      "description": "Logo",
+      "score": 0.682032585144043
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6568756699562073
+    },
+    {
+      "description": "Brand",
+      "score": 0.6554557085037231
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6520562171936035
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6487970352172852
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6404806971549988
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5972127318382263
+    },
+    {
+      "description": "Circle",
+      "score": 0.5905048251152039
+    }
+  ]
+}

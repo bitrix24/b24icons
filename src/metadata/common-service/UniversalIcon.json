@@ -1,0 +1,56 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Universal",
+    "Font",
+    "Symbol",
+    "Gas",
+    "Logo",
+    "Darkness",
+    "Event"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.7977328896522522
+    },
+    {
+      "description": "Font",
+      "score": 0.7922598719596863
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7444435954093933
+    },
+    {
+      "description": "Gas",
+      "score": 0.7367630004882812
+    },
+    {
+      "description": "Logo",
+      "score": 0.6803257465362549
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6754114031791687
+    },
+    {
+      "description": "Event",
+      "score": 0.6652331352233887
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6044135093688965
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5984029173851013
+    },
+    {
+      "description": "Circle",
+      "score": 0.5916166305541992
+    }
+  ]
+}

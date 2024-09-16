@@ -1,0 +1,54 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Angle",
+    "Down",
+    "Black",
+    "Cloud",
+    "Logo",
+    "Sky"
+  ],
+  "labels": [
+    {
+      "description": "Cloud",
+      "score": 0.7962479591369629
+    },
+    {
+      "description": "Logo",
+      "score": 0.7331441044807434
+    },
+    {
+      "description": "Sky",
+      "score": 0.7164060473442078
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6533597707748413
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.6445474028587341
+    },
+    {
+      "description": "Font",
+      "score": 0.6439294815063477
+    },
+    {
+      "description": "Meteorological phenomenon",
+      "score": 0.6434929966926575
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6319061517715454
+    },
+    {
+      "description": "Art",
+      "score": 0.6277308464050293
+    },
+    {
+      "description": "Brand",
+      "score": 0.6200246810913086
+    }
+  ]
+}

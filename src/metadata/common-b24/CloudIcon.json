@@ -1,0 +1,59 @@
+{
+  "category": "Common-b24",
+  "subCategories": [
+    "Ui",
+    "Cloud",
+    "Cloud",
+    "Gesture",
+    "Sky",
+    "Fruit",
+    "Font",
+    "Tints and shades",
+    "Moonlight",
+    "Tree",
+    "Midnight",
+    "Astronomical object"
+  ],
+  "labels": [
+    {
+      "description": "Cloud",
+      "score": 0.9523338675498962
+    },
+    {
+      "description": "Gesture",
+      "score": 0.8525991439819336
+    },
+    {
+      "description": "Sky",
+      "score": 0.8278113007545471
+    },
+    {
+      "description": "Fruit",
+      "score": 0.7871330976486206
+    },
+    {
+      "description": "Font",
+      "score": 0.783348023891449
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.761081337928772
+    },
+    {
+      "description": "Moonlight",
+      "score": 0.7583217620849609
+    },
+    {
+      "description": "Tree",
+      "score": 0.7457688450813293
+    },
+    {
+      "description": "Midnight",
+      "score": 0.7435779571533203
+    },
+    {
+      "description": "Astronomical object",
+      "score": 0.7415788769721985
+    }
+  ]
+}

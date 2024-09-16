@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Bitrix24",
+    "Sms",
+    "Head",
+    "Sky",
+    "Font",
+    "Tree",
+    "Circle",
+    "Symbol",
+    "Logo",
+    "Darkness",
+    "Monochrome photography"
+  ],
+  "labels": [
+    {
+      "description": "Head",
+      "score": 0.9723868370056152
+    },
+    {
+      "description": "Sky",
+      "score": 0.8274433612823486
+    },
+    {
+      "description": "Font",
+      "score": 0.78385990858078
+    },
+    {
+      "description": "Tree",
+      "score": 0.7590398788452148
+    },
+    {
+      "description": "Circle",
+      "score": 0.7419799566268921
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7328996062278748
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7187396883964539
+    },
+    {
+      "description": "Logo",
+      "score": 0.6964303851127625
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6772630214691162
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6668033003807068
+    }
+  ]
+}

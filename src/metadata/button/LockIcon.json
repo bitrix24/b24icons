@@ -1,0 +1,54 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Lock",
+    "Dark",
+    "Rectangle",
+    "Font",
+    "Circle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8316755294799805
+    },
+    {
+      "description": "Font",
+      "score": 0.7242364287376404
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7061066627502441
+    },
+    {
+      "description": "Circle",
+      "score": 0.6962792277336121
+    },
+    {
+      "description": "Logo",
+      "score": 0.675451934337616
+    },
+    {
+      "description": "Brand",
+      "score": 0.5965151786804199
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5936394333839417
+    },
+    {
+      "description": "Diagram",
+      "score": 0.5752891302108765
+    },
+    {
+      "description": "Arch",
+      "score": 0.5554459095001221
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5532609820365906
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Chevron",
+    "Down",
+    "Logo",
+    "Font",
+    "Art"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7109788060188293
+    },
+    {
+      "description": "Logo",
+      "score": 0.7021026015281677
+    },
+    {
+      "description": "Font",
+      "score": 0.6898195147514343
+    },
+    {
+      "description": "Art",
+      "score": 0.6759471297264099
+    },
+    {
+      "description": "Brand",
+      "score": 0.6230940222740173
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6221067309379578
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5749735832214355
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5719125270843506
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5174365639686584
+    },
+    {
+      "description": "Sky",
+      "score": 0.5130345821380615
+    }
+  ]
+}

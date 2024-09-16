@@ -1,0 +1,36 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Receive",
+    "Payment",
+    "Settings",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7454653382301331
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6978893876075745
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.672217071056366
+    },
+    {
+      "description": "Logo",
+      "score": 0.6500229835510254
+    },
+    {
+      "description": "Brand",
+      "score": 0.6225895881652832
+    },
+    {
+      "description": "Circle",
+      "score": 0.5795066356658936
+    }
+  ]
+}

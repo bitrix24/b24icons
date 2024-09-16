@@ -1,0 +1,36 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Graduation",
+    "Cap",
+    "Head",
+    "Snout",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Head",
+      "score": 0.9718959331512451
+    },
+    {
+      "description": "Snout",
+      "score": 0.7417310476303101
+    },
+    {
+      "description": "Font",
+      "score": 0.7074353098869324
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7022313475608826
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6618751883506775
+    },
+    {
+      "description": "Art",
+      "score": 0.6072046160697937
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Enclose",
+    "Text",
+    "Code",
+    "Tag",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7838780283927917
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7027726769447327
+    },
+    {
+      "description": "Logo",
+      "score": 0.6704291105270386
+    },
+    {
+      "description": "Brand",
+      "score": 0.6482012271881104
+    },
+    {
+      "description": "Art",
+      "score": 0.6199679970741272
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6143710613250732
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6089234948158264
+    },
+    {
+      "description": "Circle",
+      "score": 0.5780251622200012
+    },
+    {
+      "description": "Number",
+      "score": 0.5742993950843811
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5256543755531311
+    }
+  ]
+}

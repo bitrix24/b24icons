@@ -1,0 +1,57 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "No",
+    "Battery",
+    "Black",
+    "Triangle",
+    "Parallel",
+    "Font",
+    "Symbol",
+    "Rectangle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Triangle",
+      "score": 0.851080596446991
+    },
+    {
+      "description": "Parallel",
+      "score": 0.7633054852485657
+    },
+    {
+      "description": "Font",
+      "score": 0.7482327818870544
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7419851422309875
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7342134118080139
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.725540280342102
+    },
+    {
+      "description": "Logo",
+      "score": 0.6696830987930298
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6356562376022339
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6337217688560486
+    },
+    {
+      "description": "Brand",
+      "score": 0.6326686143875122
+    }
+  ]
+}

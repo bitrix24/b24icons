@@ -1,0 +1,47 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Business",
+    "Process",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7877152562141418
+    },
+    {
+      "description": "Font",
+      "score": 0.7741698026657104
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7230211496353149
+    },
+    {
+      "description": "Brand",
+      "score": 0.6539445519447327
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6446083784103394
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6302942037582397
+    },
+    {
+      "description": "Logo",
+      "score": 0.6042733192443848
+    },
+    {
+      "description": "Number",
+      "score": 0.5547609329223633
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5271324515342712
+    }
+  ]
+}

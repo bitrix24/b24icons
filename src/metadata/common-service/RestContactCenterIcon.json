@@ -1,0 +1,62 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Rest",
+    "Contact",
+    "Center",
+    "Head",
+    "Eye",
+    "Human body",
+    "Sky",
+    "Font",
+    "Tints and shades",
+    "Eyelash",
+    "Darkness",
+    "Circle",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Head",
+      "score": 0.9720513820648193
+    },
+    {
+      "description": "Eye",
+      "score": 0.9406694173812866
+    },
+    {
+      "description": "Human body",
+      "score": 0.8837039470672607
+    },
+    {
+      "description": "Sky",
+      "score": 0.8644765019416809
+    },
+    {
+      "description": "Font",
+      "score": 0.8165503144264221
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7708202600479126
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.7645600438117981
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7367748022079468
+    },
+    {
+      "description": "Circle",
+      "score": 0.7347410917282104
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7273745536804199
+    }
+  ]
+}

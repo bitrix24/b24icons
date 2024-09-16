@@ -1,0 +1,57 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Livechat",
+    "Rectangle",
+    "Font",
+    "Circle",
+    "Logo",
+    "Pattern",
+    "Symbol",
+    "Midnight"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7564181685447693
+    },
+    {
+      "description": "Font",
+      "score": 0.7468491792678833
+    },
+    {
+      "description": "Circle",
+      "score": 0.7391945719718933
+    },
+    {
+      "description": "Logo",
+      "score": 0.7178274989128113
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6994066834449768
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6978200078010559
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6748823523521423
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6656577587127686
+    },
+    {
+      "description": "Brand",
+      "score": 0.6582037806510925
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6507011651992798
+    }
+  ]
+}

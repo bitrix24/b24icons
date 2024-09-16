@@ -1,0 +1,47 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Forward",
+    "Font",
+    "Logo",
+    "Tints and shades"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7605864405632019
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7343609929084778
+    },
+    {
+      "description": "Logo",
+      "score": 0.6870806813240051
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.6660574674606323
+    },
+    {
+      "description": "Brand",
+      "score": 0.6092039346694946
+    },
+    {
+      "description": "Pattern",
+      "score": 0.599932074546814
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5535973310470581
+    },
+    {
+      "description": "Art",
+      "score": 0.5469582676887512
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5104460716247559
+    }
+  ]
+}

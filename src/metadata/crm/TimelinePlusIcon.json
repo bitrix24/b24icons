@@ -1,0 +1,52 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Timeline",
+    "Plus",
+    "Font",
+    "Rectangle",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7840439081192017
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7773009538650513
+    },
+    {
+      "description": "Cross",
+      "score": 0.7347084283828735
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7072015404701233
+    },
+    {
+      "description": "Symbol",
+      "score": 0.698288083076477
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5974538922309875
+    },
+    {
+      "description": "Circle",
+      "score": 0.5863924622535706
+    },
+    {
+      "description": "Brand",
+      "score": 0.5579935908317566
+    },
+    {
+      "description": "Balance",
+      "score": 0.5419426560401917
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5146579146385193
+    }
+  ]
+}

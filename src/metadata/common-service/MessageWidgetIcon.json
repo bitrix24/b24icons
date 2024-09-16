@@ -1,0 +1,56 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Message",
+    "Widget",
+    "Font",
+    "Circle",
+    "Darkness",
+    "Symbol",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7632642984390259
+    },
+    {
+      "description": "Circle",
+      "score": 0.7323899269104004
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6901373267173767
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6711775064468384
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6694058179855347
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6452764868736267
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6318063139915466
+    },
+    {
+      "description": "Event",
+      "score": 0.6298766136169434
+    },
+    {
+      "description": "Logo",
+      "score": 0.6297935247421265
+    },
+    {
+      "description": "Brand",
+      "score": 0.6263625621795654
+    }
+  ]
+}

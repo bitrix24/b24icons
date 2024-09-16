@@ -1,0 +1,50 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Clock",
+    "Fill",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7717774510383606
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7376871705055237
+    },
+    {
+      "description": "Logo",
+      "score": 0.6590759754180908
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6510939002037048
+    },
+    {
+      "description": "Brand",
+      "score": 0.6018664240837097
+    },
+    {
+      "description": "Circle",
+      "score": 0.5869347453117371
+    },
+    {
+      "description": "Graphics",
+      "score": 0.570875883102417
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5189951062202454
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5179433226585388
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5043023824691772
+    }
+  ]
+}

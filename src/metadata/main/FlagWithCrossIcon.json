@@ -1,0 +1,44 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Flag",
+    "With",
+    "Cross",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.74710613489151
+    },
+    {
+      "description": "Circle",
+      "score": 0.7275111675262451
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7214663624763489
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6159862279891968
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5612659454345703
+    },
+    {
+      "description": "Logo",
+      "score": 0.5385541915893555
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5201014876365662
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5071696043014526
+    }
+  ]
+}

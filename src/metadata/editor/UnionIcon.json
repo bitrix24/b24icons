@@ -1,0 +1,52 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Union",
+    "Rectangle",
+    "Font",
+    "Tints and shades",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8310840725898743
+    },
+    {
+      "description": "Font",
+      "score": 0.7449069023132324
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7216650247573853
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7164447903633118
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6649623513221741
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6554841995239258
+    },
+    {
+      "description": "Circle",
+      "score": 0.588507890701294
+    },
+    {
+      "description": "Square",
+      "score": 0.5697026252746582
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5497123003005981
+    },
+    {
+      "description": "Brand",
+      "score": 0.5478672385215759
+    }
+  ]
+}

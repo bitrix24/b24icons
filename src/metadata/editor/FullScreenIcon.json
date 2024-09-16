@@ -1,0 +1,54 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Full",
+    "Screen",
+    "Font",
+    "Logo",
+    "Symbol",
+    "Pattern",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7464141845703125
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7303996086120605
+    },
+    {
+      "description": "Logo",
+      "score": 0.7139357328414917
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7129347920417786
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7106819748878479
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7061283588409424
+    },
+    {
+      "description": "Cross",
+      "score": 0.6493586301803589
+    },
+    {
+      "description": "Circle",
+      "score": 0.6436683535575867
+    },
+    {
+      "description": "Brand",
+      "score": 0.6083387136459351
+    },
+    {
+      "description": "Graphics",
+      "score": 0.591069757938385
+    }
+  ]
+}

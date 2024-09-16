@@ -1,0 +1,46 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Complete",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.841312825679779
+    },
+    {
+      "description": "Font",
+      "score": 0.7826864719390869
+    },
+    {
+      "description": "Art",
+      "score": 0.5902704000473022
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5854813456535339
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5589376091957092
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5499784350395203
+    },
+    {
+      "description": "Square",
+      "score": 0.5415743589401245
+    },
+    {
+      "description": "Brand",
+      "score": 0.5353450179100037
+    },
+    {
+      "description": "Visual arts",
+      "score": 0.5193418264389038
+    }
+  ]
+}

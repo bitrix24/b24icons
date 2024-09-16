@@ -1,0 +1,38 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Vk",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7323270440101624
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7246619462966919
+    },
+    {
+      "description": "Logo",
+      "score": 0.7086896896362305
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6513192653656006
+    },
+    {
+      "description": "Brand",
+      "score": 0.6357060670852661
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6198137998580933
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5390104651451111
+    }
+  ]
+}

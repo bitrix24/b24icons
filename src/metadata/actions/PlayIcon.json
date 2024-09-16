@@ -1,0 +1,51 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Play",
+    "Triangle",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Triangle",
+      "score": 0.7299855947494507
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7249122858047485
+    },
+    {
+      "description": "Font",
+      "score": 0.6965752840042114
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.670380711555481
+    },
+    {
+      "description": "Logo",
+      "score": 0.6278364658355713
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6224683523178101
+    },
+    {
+      "description": "Wing",
+      "score": 0.6075329780578613
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6068666577339172
+    },
+    {
+      "description": "Brand",
+      "score": 0.58162522315979
+    },
+    {
+      "description": "Art",
+      "score": 0.5700939297676086
+    }
+  ]
+}

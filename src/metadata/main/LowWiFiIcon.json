@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Low",
+    "Wi",
+    "Fi",
+    "Eye",
+    "Eyelash",
+    "Circle",
+    "Gas"
+  ],
+  "labels": [
+    {
+      "description": "Eye",
+      "score": 0.9371536374092102
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.8407073616981506
+    },
+    {
+      "description": "Circle",
+      "score": 0.7332310080528259
+    },
+    {
+      "description": "Gas",
+      "score": 0.7228680849075317
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6961588859558105
+    },
+    {
+      "description": "Font",
+      "score": 0.6409781575202942
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6030789613723755
+    },
+    {
+      "description": "Pattern",
+      "score": 0.596114993095398
+    },
+    {
+      "description": "Art",
+      "score": 0.5567013621330261
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5537089705467224
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Cloud",
+    "Black",
+    "Logo",
+    "Font",
+    "Circle",
+    "Pattern",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Logo",
+      "score": 0.7256839871406555
+    },
+    {
+      "description": "Font",
+      "score": 0.7227484583854675
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7206356525421143
+    },
+    {
+      "description": "Circle",
+      "score": 0.7153806686401367
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6834803819656372
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6655640602111816
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.661350667476654
+    },
+    {
+      "description": "Brand",
+      "score": 0.6390480399131775
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6294885277748108
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6042999029159546
+    }
+  ]
+}

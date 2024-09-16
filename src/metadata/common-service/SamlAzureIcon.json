@@ -1,0 +1,48 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Saml",
+    "Azure",
+    "Tints and shades"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7494526505470276
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7431592345237732
+    },
+    {
+      "description": "Font",
+      "score": 0.6546000242233276
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6299941539764404
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6220057010650635
+    },
+    {
+      "description": "Sky",
+      "score": 0.5781021118164062
+    },
+    {
+      "description": "Magenta",
+      "score": 0.5764617919921875
+    },
+    {
+      "description": "Circle",
+      "score": 0.5522143840789795
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5354024767875671
+    }
+  ]
+}

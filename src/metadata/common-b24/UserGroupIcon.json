@@ -1,0 +1,54 @@
+{
+  "category": "Common-b24",
+  "subCategories": [
+    "Ui",
+    "User",
+    "Group",
+    "Font",
+    "Tints and shades",
+    "Darkness",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8039278388023376
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7325220108032227
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7071239352226257
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.682256281375885
+    },
+    {
+      "description": "Event",
+      "score": 0.6446436047554016
+    },
+    {
+      "description": "Art",
+      "score": 0.6314455270767212
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5901714563369751
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5648245811462402
+    },
+    {
+      "description": "Shadow",
+      "score": 0.5647407174110413
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5624555945396423
+    }
+  ]
+}

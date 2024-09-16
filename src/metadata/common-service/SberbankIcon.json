@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Sberbank",
+    "Cloud",
+    "Sky",
+    "Gas",
+    "Font",
+    "Astronomical object",
+    "Water",
+    "Event",
+    "Circle",
+    "Monochrome photography",
+    "Darkness"
+  ],
+  "labels": [
+    {
+      "description": "Cloud",
+      "score": 0.9006438851356506
+    },
+    {
+      "description": "Sky",
+      "score": 0.8137829303741455
+    },
+    {
+      "description": "Gas",
+      "score": 0.7728997468948364
+    },
+    {
+      "description": "Font",
+      "score": 0.7628183364868164
+    },
+    {
+      "description": "Astronomical object",
+      "score": 0.7334597110748291
+    },
+    {
+      "description": "Water",
+      "score": 0.7294142246246338
+    },
+    {
+      "description": "Event",
+      "score": 0.7281471490859985
+    },
+    {
+      "description": "Circle",
+      "score": 0.7208530306816101
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6956992149353027
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6892686486244202
+    }
+  ]
+}

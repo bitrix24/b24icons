@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Chats",
+    "Persons",
+    "Gesture",
+    "Font",
+    "Rectangle",
+    "Clock"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.8483560681343079
+    },
+    {
+      "description": "Font",
+      "score": 0.8125602006912231
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.763879656791687
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7252193689346313
+    },
+    {
+      "description": "Clock",
+      "score": 0.7137401700019836
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.6326051354408264
+    },
+    {
+      "description": "Brand",
+      "score": 0.6236733794212341
+    },
+    {
+      "description": "Logo",
+      "score": 0.6032757759094238
+    },
+    {
+      "description": "Circle",
+      "score": 0.5896952152252197
+    },
+    {
+      "description": "Automotive exterior",
+      "score": 0.5791342854499817
+    }
+  ]
+}

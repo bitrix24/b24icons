@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Cloud",
+    "Sso",
+    "Gesture",
+    "Grass",
+    "Font",
+    "Logo",
+    "Terrestrial plant"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.8526048064231873
+    },
+    {
+      "description": "Grass",
+      "score": 0.7560567855834961
+    },
+    {
+      "description": "Font",
+      "score": 0.7559708952903748
+    },
+    {
+      "description": "Logo",
+      "score": 0.7116501331329346
+    },
+    {
+      "description": "Terrestrial plant",
+      "score": 0.6706280708312988
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6444452404975891
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6376476883888245
+    },
+    {
+      "description": "Brand",
+      "score": 0.6324900984764099
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6219053268432617
+    },
+    {
+      "description": "Circle",
+      "score": 0.5384246706962585
+    }
+  ]
+}

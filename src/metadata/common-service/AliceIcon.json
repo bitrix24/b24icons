@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Alice",
+    "Eye",
+    "Sky",
+    "Crescent",
+    "Flash photography",
+    "Astronomical object",
+    "Cloud",
+    "Moonlight",
+    "Gas",
+    "Celestial event",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Eye",
+      "score": 0.9373103976249695
+    },
+    {
+      "description": "Sky",
+      "score": 0.8986446857452393
+    },
+    {
+      "description": "Crescent",
+      "score": 0.8466880917549133
+    },
+    {
+      "description": "Flash photography",
+      "score": 0.8396227955818176
+    },
+    {
+      "description": "Astronomical object",
+      "score": 0.8229624629020691
+    },
+    {
+      "description": "Cloud",
+      "score": 0.7985143065452576
+    },
+    {
+      "description": "Moonlight",
+      "score": 0.7956496477127075
+    },
+    {
+      "description": "Gas",
+      "score": 0.7737361788749695
+    },
+    {
+      "description": "Celestial event",
+      "score": 0.7343389987945557
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7235639095306396
+    }
+  ]
+}

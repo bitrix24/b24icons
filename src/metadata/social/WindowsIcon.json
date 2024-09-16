@@ -1,0 +1,43 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Windows",
+    "Rectangle",
+    "Font",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.742782473564148
+    },
+    {
+      "description": "Font",
+      "score": 0.7283191084861755
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.720451295375824
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6712404489517212
+    },
+    {
+      "description": "Circle",
+      "score": 0.6091551780700684
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5781860947608948
+    },
+    {
+      "description": "Brand",
+      "score": 0.5541895627975464
+    },
+    {
+      "description": "Square",
+      "score": 0.5038704872131348
+    }
+  ]
+}

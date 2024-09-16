@@ -232,8 +232,6 @@ async function buildIcons(pack, style, format)
 	
 	let icons = await getIcons(style);
 	
-	
-	
 	await Promise.all(
 		icons.flatMap(async ({ componentName, svg, isDeprecated }) => {
 			
@@ -348,12 +346,14 @@ async function main(
 {
 	const cjsPackageJson = { module: './esm/index.js', sideEffects: false }
 	const esmPackageJson = { type: 'module', sideEffects: false }
+	const metaDataJson = { typeList: typeList }
+	const metaDataPackageJson = { icons: [] }
 
-	console.log(`Building ${pack} package...`);
+	console.log(`Building ${pack} package ...`);
 	
 	// region clear ////
 	await Promise.all(
-		typeList.map((type) => rimraf(`./${pack}/${type}/*`))
+		typeList.map((type) => rimraf(`./export/${pack}/${type}/*`))
 	);
 	// endregion ////
 	
@@ -365,11 +365,13 @@ async function main(
 					type,
 					'cjs'
 				),
+				ensureWriteJson(`./${pack}/${type}/metadata.json`, metaDataPackageJson),
 				buildIcons(
 					pack,
 					type,
 					'esm'
 				),
+				ensureWriteJson(`./${pack}/${type}/esm/metadata.json`, metaDataPackageJson),
 			];
 		})),
 		...(typeList.map((type) => {
@@ -377,7 +379,10 @@ async function main(
 				ensureWriteJson(`./${pack}/${type}/esm/package.json`, esmPackageJson),
 				ensureWriteJson(`./${pack}/${type}/package.json`, cjsPackageJson),
 			];
-		}))
+		})),
+		...[
+			ensureWriteJson(`./${pack}/metadata.json`, metaDataJson),
+		]
 	]);
 	
 	let packageJson = JSON.parse(await fs.readFile(
@@ -402,4 +407,7 @@ if (!pack)
 	throw new Error('Please specify a package')
 }
 
-main(pack);
+main(pack)
+.catch((error) => {
+	console.error(error);
+})

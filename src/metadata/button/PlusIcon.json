@@ -1,0 +1,36 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Plus",
+    "Black",
+    "Symbol",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8472598791122437
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7285789847373962
+    },
+    {
+      "description": "Font",
+      "score": 0.7067503929138184
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6237549185752869
+    },
+    {
+      "description": "Event",
+      "score": 0.6148715019226074
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5091202855110168
+    }
+  ]
+}

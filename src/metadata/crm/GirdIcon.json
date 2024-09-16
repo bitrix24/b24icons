@@ -1,0 +1,52 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Gird",
+    "Font",
+    "Symbol",
+    "Rectangle",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7533727884292603
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7337642312049866
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6767613291740417
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6696709394454956
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6690472960472107
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6403724551200867
+    },
+    {
+      "description": "Brand",
+      "score": 0.6194501519203186
+    },
+    {
+      "description": "Balance",
+      "score": 0.6011878252029419
+    },
+    {
+      "description": "Circle",
+      "score": 0.5797786712646484
+    },
+    {
+      "description": "Square",
+      "score": 0.5621455907821655
+    }
+  ]
+}

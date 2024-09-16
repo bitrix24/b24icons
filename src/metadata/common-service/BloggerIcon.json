@@ -1,0 +1,53 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Blogger",
+    "Font",
+    "Circle",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.752371072769165
+    },
+    {
+      "description": "Circle",
+      "score": 0.748200535774231
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6906262636184692
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6710805892944336
+    },
+    {
+      "description": "Logo",
+      "score": 0.6627323031425476
+    },
+    {
+      "description": "Brand",
+      "score": 0.6563014984130859
+    },
+    {
+      "description": "Graphics",
+      "score": 0.639816164970398
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6321179866790771
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6179804801940918
+    },
+    {
+      "description": "Event",
+      "score": 0.6046894788742065
+    }
+  ]
+}

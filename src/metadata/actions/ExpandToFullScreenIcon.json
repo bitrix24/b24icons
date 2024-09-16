@@ -1,0 +1,45 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Expand",
+    "Full",
+    "Screen",
+    "Tints and shades",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Tints and shades",
+      "score": 0.7308051586151123
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7063787579536438
+    },
+    {
+      "description": "Font",
+      "score": 0.6810089349746704
+    },
+    {
+      "description": "Logo",
+      "score": 0.6152392625808716
+    },
+    {
+      "description": "Art",
+      "score": 0.5965401530265808
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5629628896713257
+    },
+    {
+      "description": "Brand",
+      "score": 0.5616958141326904
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5455220937728882
+    }
+  ]
+}

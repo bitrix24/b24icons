@@ -1,0 +1,40 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Viewmode",
+    "Split",
+    "Hor",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8504155278205872
+    },
+    {
+      "description": "Font",
+      "score": 0.7546991109848022
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7069419026374817
+    },
+    {
+      "description": "Laptop",
+      "score": 0.6544908285140991
+    },
+    {
+      "description": "Circle",
+      "score": 0.6123232245445251
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5877636075019836
+    },
+    {
+      "description": "Brand",
+      "score": 0.5466065406799316
+    }
+  ]
+}

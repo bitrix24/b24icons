@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Document",
+    "Stream",
+    "Rectangle",
+    "Tints and shades",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8329600691795349
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7067042589187622
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6974173784255981
+    },
+    {
+      "description": "Font",
+      "score": 0.693005383014679
+    },
+    {
+      "description": "Circle",
+      "score": 0.6269471049308777
+    },
+    {
+      "description": "Brand",
+      "score": 0.6184645295143127
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5911425352096558
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5548403859138489
+    },
+    {
+      "description": "Square",
+      "score": 0.5466510057449341
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5358068346977234
+    }
+  ]
+}

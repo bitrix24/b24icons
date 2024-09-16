@@ -1,0 +1,53 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Left",
+    "Align",
+    "Rectangle",
+    "Font",
+    "Parallel",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8321285247802734
+    },
+    {
+      "description": "Font",
+      "score": 0.75220787525177
+    },
+    {
+      "description": "Parallel",
+      "score": 0.743369460105896
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7295209765434265
+    },
+    {
+      "description": "Logo",
+      "score": 0.6702002882957458
+    },
+    {
+      "description": "Brand",
+      "score": 0.65800940990448
+    },
+    {
+      "description": "Laptop",
+      "score": 0.6280360817909241
+    },
+    {
+      "description": "Circle",
+      "score": 0.6069889664649963
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5838385224342346
+    },
+    {
+      "description": "Event",
+      "score": 0.5468675494194031
+    }
+  ]
+}

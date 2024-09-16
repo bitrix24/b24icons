@@ -1,0 +1,33 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Speed",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7577931880950928
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6650087833404541
+    },
+    {
+      "description": "Brand",
+      "score": 0.6536973714828491
+    },
+    {
+      "description": "Logo",
+      "score": 0.6047097444534302
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5877992510795593
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5147691369056702
+    }
+  ]
+}

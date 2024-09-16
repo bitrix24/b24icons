@@ -1,0 +1,53 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Camera",
+    "Black",
+    "Rectangle",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8697273135185242
+    },
+    {
+      "description": "Font",
+      "score": 0.7360926270484924
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7267134785652161
+    },
+    {
+      "description": "Circle",
+      "score": 0.7060924768447876
+    },
+    {
+      "description": "Logo",
+      "score": 0.662662923336029
+    },
+    {
+      "description": "Display device",
+      "score": 0.6260571479797363
+    },
+    {
+      "description": "Brand",
+      "score": 0.6206759810447693
+    },
+    {
+      "description": "Pattern",
+      "score": 0.618882954120636
+    },
+    {
+      "description": "Gadget",
+      "score": 0.6027294993400574
+    },
+    {
+      "description": "Square",
+      "score": 0.5523346662521362
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Disconnection",
+    "Automotive tire",
+    "Font",
+    "Automotive lighting",
+    "Automotive exterior",
+    "Working animal",
+    "Vehicle",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Automotive tire",
+      "score": 0.7817637920379639
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.72556471824646
+    },
+    {
+      "description": "Font",
+      "score": 0.7236136794090271
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.7032516598701477
+    },
+    {
+      "description": "Automotive exterior",
+      "score": 0.6862211227416992
+    },
+    {
+      "description": "Working animal",
+      "score": 0.6839090585708618
+    },
+    {
+      "description": "Vehicle",
+      "score": 0.6698817610740662
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6652221083641052
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6223922967910767
+    },
+    {
+      "description": "Auto part",
+      "score": 0.6101735830307007
+    }
+  ]
+}

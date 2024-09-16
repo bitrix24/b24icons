@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Cloud",
+    "Error",
+    "Font",
+    "Circle",
+    "Logo",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7473270893096924
+    },
+    {
+      "description": "Circle",
+      "score": 0.730304479598999
+    },
+    {
+      "description": "Logo",
+      "score": 0.7073425650596619
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.704233705997467
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6665341258049011
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6631436347961426
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6543617248535156
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6199260950088501
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6109015941619873
+    },
+    {
+      "description": "Brand",
+      "score": 0.5983065366744995
+    }
+  ]
+}

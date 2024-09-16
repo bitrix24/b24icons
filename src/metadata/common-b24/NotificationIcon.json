@@ -1,0 +1,59 @@
+{
+  "category": "Common-b24",
+  "subCategories": [
+    "Ui",
+    "Notification",
+    "Tree",
+    "Plant",
+    "Rectangle",
+    "Circle",
+    "Tints and shades",
+    "Automotive lighting",
+    "Triangle",
+    "Font",
+    "Symmetry",
+    "Midnight"
+  ],
+  "labels": [
+    {
+      "description": "Tree",
+      "score": 0.8541341423988342
+    },
+    {
+      "description": "Plant",
+      "score": 0.8239712715148926
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7789562940597534
+    },
+    {
+      "description": "Circle",
+      "score": 0.7742892503738403
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7730135917663574
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.7649028301239014
+    },
+    {
+      "description": "Triangle",
+      "score": 0.7615916728973389
+    },
+    {
+      "description": "Font",
+      "score": 0.7563794255256653
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7486503720283508
+    },
+    {
+      "description": "Midnight",
+      "score": 0.7461342811584473
+    }
+  ]
+}

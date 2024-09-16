@@ -1,0 +1,38 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Stage",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7421326041221619
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6992294788360596
+    },
+    {
+      "description": "Font",
+      "score": 0.6750224828720093
+    },
+    {
+      "description": "Circle",
+      "score": 0.5894810557365417
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5128130316734314
+    },
+    {
+      "description": "Logo",
+      "score": 0.5090389251708984
+    },
+    {
+      "description": "Brand",
+      "score": 0.5073446035385132
+    }
+  ]
+}

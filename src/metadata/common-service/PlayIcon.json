@@ -1,0 +1,57 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Play",
+    "Circle",
+    "Font",
+    "Logo",
+    "Darkness",
+    "Sky",
+    "Midnight",
+    "Graphics"
+  ],
+  "labels": [
+    {
+      "description": "Circle",
+      "score": 0.7247602939605713
+    },
+    {
+      "description": "Font",
+      "score": 0.7235265374183655
+    },
+    {
+      "description": "Logo",
+      "score": 0.7127076387405396
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6819610595703125
+    },
+    {
+      "description": "Sky",
+      "score": 0.6816502809524536
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6745284795761108
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6649781465530396
+    },
+    {
+      "description": "Event",
+      "score": 0.6636391878128052
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6626541614532471
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6314932703971863
+    }
+  ]
+}

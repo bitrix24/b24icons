@@ -1,0 +1,45 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Mail",
+    "Black",
+    "Rectangle",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8239874243736267
+    },
+    {
+      "description": "Font",
+      "score": 0.6919904351234436
+    },
+    {
+      "description": "Symbol",
+      "score": 0.664882481098175
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6594805121421814
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6353117227554321
+    },
+    {
+      "description": "Number",
+      "score": 0.5490835905075073
+    },
+    {
+      "description": "Circle",
+      "score": 0.546575129032135
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5253384709358215
+    }
+  ]
+}

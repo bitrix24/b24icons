@@ -1,0 +1,36 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Cancel",
+    "Dark",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7260912656784058
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7001529932022095
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6854901313781738
+    },
+    {
+      "description": "Cross",
+      "score": 0.5338301062583923
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5313693881034851
+    },
+    {
+      "description": "Pattern",
+      "score": 0.501934826374054
+    }
+  ]
+}

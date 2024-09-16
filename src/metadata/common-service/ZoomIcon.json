@@ -1,0 +1,55 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Zoom",
+    "Rectangle",
+    "Font",
+    "Circle",
+    "Pattern",
+    "Tints and shades"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7740764021873474
+    },
+    {
+      "description": "Font",
+      "score": 0.7528883218765259
+    },
+    {
+      "description": "Circle",
+      "score": 0.7166407704353333
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7150086760520935
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.692352831363678
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6449583172798157
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6405099034309387
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6313311457633972
+    },
+    {
+      "description": "Event",
+      "score": 0.6297864317893982
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6269469261169434
+    }
+  ]
+}

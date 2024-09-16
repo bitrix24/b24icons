@@ -1,0 +1,54 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Deal",
+    "Sky",
+    "Font",
+    "Cloud",
+    "Darkness"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.8579398393630981
+    },
+    {
+      "description": "Font",
+      "score": 0.787170946598053
+    },
+    {
+      "description": "Cloud",
+      "score": 0.7061114311218262
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6929044127464294
+    },
+    {
+      "description": "Logo",
+      "score": 0.6578274369239807
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6550467610359192
+    },
+    {
+      "description": "Event",
+      "score": 0.6446214914321899
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6404851675033569
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6378138065338135
+    },
+    {
+      "description": "Art",
+      "score": 0.6235963106155396
+    }
+  ]
+}

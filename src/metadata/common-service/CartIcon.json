@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Cart",
+    "Automotive lighting",
+    "Font",
+    "Rectangle",
+    "Gadget",
+    "Circle",
+    "Automotive design",
+    "Display device",
+    "Logo",
+    "Symbol",
+    "Ceiling"
+  ],
+  "labels": [
+    {
+      "description": "Automotive lighting",
+      "score": 0.9162838459014893
+    },
+    {
+      "description": "Font",
+      "score": 0.790693461894989
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7830195426940918
+    },
+    {
+      "description": "Gadget",
+      "score": 0.7646215558052063
+    },
+    {
+      "description": "Circle",
+      "score": 0.7458947896957397
+    },
+    {
+      "description": "Automotive design",
+      "score": 0.7267864346504211
+    },
+    {
+      "description": "Display device",
+      "score": 0.7042703628540039
+    },
+    {
+      "description": "Logo",
+      "score": 0.6956366896629333
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6845080256462097
+    },
+    {
+      "description": "Ceiling",
+      "score": 0.6807040572166443
+    }
+  ]
+}

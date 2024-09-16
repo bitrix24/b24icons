@@ -1,0 +1,54 @@
+{
+  "category": "Button-specialized",
+  "subCategories": [
+    "Btn",
+    "Wait",
+    "Font",
+    "Symmetry",
+    "Circle",
+    "Pattern",
+    "Monochrome"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7996277213096619
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7409589886665344
+    },
+    {
+      "description": "Circle",
+      "score": 0.7245970368385315
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7179467678070068
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.666449248790741
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.6392518281936646
+    },
+    {
+      "description": "Art",
+      "score": 0.6195399165153503
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6075745224952698
+    },
+    {
+      "description": "Graphics",
+      "score": 0.56768399477005
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5559322834014893
+    }
+  ]
+}

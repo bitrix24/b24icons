@@ -1,0 +1,47 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Magic",
+    "Wand",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7539628744125366
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7248984575271606
+    },
+    {
+      "description": "Cross",
+      "score": 0.7088481783866882
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6872310638427734
+    },
+    {
+      "description": "Event",
+      "score": 0.651199460029602
+    },
+    {
+      "description": "Aircraft",
+      "score": 0.5713973045349121
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5554971694946289
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5289068222045898
+    },
+    {
+      "description": "Art",
+      "score": 0.5119082927703857
+    }
+  ]
+}

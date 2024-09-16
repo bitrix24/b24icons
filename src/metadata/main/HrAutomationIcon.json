@@ -1,0 +1,44 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Hr",
+    "Automation",
+    "Rectangle",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8584012389183044
+    },
+    {
+      "description": "Font",
+      "score": 0.7572305202484131
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7046796679496765
+    },
+    {
+      "description": "Circle",
+      "score": 0.6680951118469238
+    },
+    {
+      "description": "Brand",
+      "score": 0.6248098611831665
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6103255152702332
+    },
+    {
+      "description": "Logo",
+      "score": 0.5791233777999878
+    },
+    {
+      "description": "Home accessories",
+      "score": 0.5434433221817017
+    }
+  ]
+}

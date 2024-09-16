@@ -1,0 +1,52 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Refresh",
+    "Rectangle",
+    "Font",
+    "Logo",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7858719825744629
+    },
+    {
+      "description": "Font",
+      "score": 0.7177825570106506
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7051498293876648
+    },
+    {
+      "description": "Logo",
+      "score": 0.7033605575561523
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6956793665885925
+    },
+    {
+      "description": "Automotive exterior",
+      "score": 0.656336784362793
+    },
+    {
+      "description": "Auto part",
+      "score": 0.6467492580413818
+    },
+    {
+      "description": "Brand",
+      "score": 0.6097762584686279
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5890170335769653
+    },
+    {
+      "description": "Circle",
+      "score": 0.5772405862808228
+    }
+  ]
+}

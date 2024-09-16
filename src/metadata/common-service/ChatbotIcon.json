@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Chatbot",
+    "Vehicle",
+    "Automotive lighting",
+    "Car",
+    "Automotive design",
+    "Window",
+    "Automotive exterior",
+    "Bumper",
+    "Font",
+    "Grille",
+    "Automotive tire"
+  ],
+  "labels": [
+    {
+      "description": "Vehicle",
+      "score": 0.9299135208129883
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.9200747013092041
+    },
+    {
+      "description": "Car",
+      "score": 0.867385983467102
+    },
+    {
+      "description": "Automotive design",
+      "score": 0.865828275680542
+    },
+    {
+      "description": "Window",
+      "score": 0.8262550830841064
+    },
+    {
+      "description": "Automotive exterior",
+      "score": 0.8135479688644409
+    },
+    {
+      "description": "Bumper",
+      "score": 0.8048438429832458
+    },
+    {
+      "description": "Font",
+      "score": 0.7897841930389404
+    },
+    {
+      "description": "Grille",
+      "score": 0.7866131663322449
+    },
+    {
+      "description": "Automotive tire",
+      "score": 0.781438410282135
+    }
+  ]
+}

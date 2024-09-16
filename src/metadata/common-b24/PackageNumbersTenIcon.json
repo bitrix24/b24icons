@@ -1,0 +1,60 @@
+{
+  "category": "Common-b24",
+  "subCategories": [
+    "Ui",
+    "Package",
+    "Numbers",
+    "Ten",
+    "Font",
+    "Tints and shades",
+    "Darkness",
+    "Monochrome photography",
+    "Monochrome",
+    "Logo",
+    "Pattern",
+    "Rectangle",
+    "Graphics"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8139986395835876
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7468000054359436
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.722724437713623
+    },
+    {
+      "description": "Darkness",
+      "score": 0.71524977684021
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.7048259973526001
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.6973133087158203
+    },
+    {
+      "description": "Logo",
+      "score": 0.690086305141449
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6888854503631592
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6728606224060059
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6687621474266052
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Insert",
+    "Spoiler",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8013823628425598
+    },
+    {
+      "description": "Font",
+      "score": 0.7961694002151489
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7335383892059326
+    },
+    {
+      "description": "Brand",
+      "score": 0.6065336465835571
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6002832055091858
+    },
+    {
+      "description": "Number",
+      "score": 0.5993307828903198
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5342457294464111
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5047426223754883
+    }
+  ]
+}

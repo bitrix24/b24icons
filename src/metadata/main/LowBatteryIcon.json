@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Low",
+    "Battery",
+    "Rectangle",
+    "Gadget",
+    "Display device"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8618900179862976
+    },
+    {
+      "description": "Gadget",
+      "score": 0.7926412224769592
+    },
+    {
+      "description": "Display device",
+      "score": 0.7176517248153687
+    },
+    {
+      "description": "Font",
+      "score": 0.6385546922683716
+    },
+    {
+      "description": "Fashion accessory",
+      "score": 0.6321498155593872
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6096258759498596
+    },
+    {
+      "description": "Circle",
+      "score": 0.5988714694976807
+    },
+    {
+      "description": "Handheld game console",
+      "score": 0.5817559361457825
+    },
+    {
+      "description": "Square",
+      "score": 0.5636359453201294
+    },
+    {
+      "description": "Brand",
+      "score": 0.5422805547714233
+    }
+  ]
+}

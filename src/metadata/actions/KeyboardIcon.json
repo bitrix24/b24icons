@@ -1,0 +1,53 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Keyboard",
+    "Rectangle",
+    "Font",
+    "Pattern",
+    "Circle",
+    "Number"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8665465712547302
+    },
+    {
+      "description": "Font",
+      "score": 0.7484521269798279
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7373691201210022
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7052433490753174
+    },
+    {
+      "description": "Circle",
+      "score": 0.6778637170791626
+    },
+    {
+      "description": "Number",
+      "score": 0.6652073860168457
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6233513355255127
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5811188817024231
+    },
+    {
+      "description": "Square",
+      "score": 0.573806643486023
+    },
+    {
+      "description": "Brand",
+      "score": 0.5600935220718384
+    }
+  ]
+}

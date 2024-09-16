@@ -1,0 +1,38 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Bell",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.711244523525238
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6848630905151367
+    },
+    {
+      "description": "Logo",
+      "score": 0.6720770001411438
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6337655782699585
+    },
+    {
+      "description": "Brand",
+      "score": 0.6302730441093445
+    },
+    {
+      "description": "Art",
+      "score": 0.5957034826278687
+    },
+    {
+      "description": "Circle",
+      "score": 0.5306379199028015
+    }
+  ]
+}

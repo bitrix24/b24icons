@@ -1,0 +1,50 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Folder",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8269298076629639
+    },
+    {
+      "description": "Font",
+      "score": 0.7834515571594238
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7132590413093567
+    },
+    {
+      "description": "Logo",
+      "score": 0.6537331938743591
+    },
+    {
+      "description": "Brand",
+      "score": 0.6480580568313599
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6359571218490601
+    },
+    {
+      "description": "Number",
+      "score": 0.6141156554222107
+    },
+    {
+      "description": "Circle",
+      "score": 0.5677605271339417
+    },
+    {
+      "description": "Display device",
+      "score": 0.5518122315406799
+    },
+    {
+      "description": "Home accessories",
+      "score": 0.5452224612236023
+    }
+  ]
+}

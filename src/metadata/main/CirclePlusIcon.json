@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Circle",
+    "Plus",
+    "Font",
+    "Symbol",
+    "Logo",
+    "Rectangle",
+    "Flag"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7686315774917603
+    },
+    {
+      "description": "Symbol",
+      "score": 0.757679283618927
+    },
+    {
+      "description": "Logo",
+      "score": 0.7187706232070923
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.709132194519043
+    },
+    {
+      "description": "Flag",
+      "score": 0.693519115447998
+    },
+    {
+      "description": "Brand",
+      "score": 0.656947672367096
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6505670547485352
+    },
+    {
+      "description": "Cross",
+      "score": 0.6359938979148865
+    },
+    {
+      "description": "Circle",
+      "score": 0.6162961721420288
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5338363647460938
+    }
+  ]
+}

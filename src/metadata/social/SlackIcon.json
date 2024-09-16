@@ -1,0 +1,43 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Slack",
+    "Font",
+    "Logo",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7342697978019714
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7245786786079407
+    },
+    {
+      "description": "Logo",
+      "score": 0.6886401772499084
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6706950664520264
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6315525770187378
+    },
+    {
+      "description": "Brand",
+      "score": 0.6250563263893127
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5926397442817688
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5298283100128174
+    }
+  ]
+}

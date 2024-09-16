@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Chats",
+    "Rectangle",
+    "Font",
+    "Computer monitor accessory",
+    "Output device",
+    "Logo",
+    "Display device"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.850042998790741
+    },
+    {
+      "description": "Font",
+      "score": 0.7720739245414734
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7391379475593567
+    },
+    {
+      "description": "Computer monitor accessory",
+      "score": 0.7211929559707642
+    },
+    {
+      "description": "Output device",
+      "score": 0.7165407538414001
+    },
+    {
+      "description": "Logo",
+      "score": 0.7113954424858093
+    },
+    {
+      "description": "Display device",
+      "score": 0.6645637154579163
+    },
+    {
+      "description": "Brand",
+      "score": 0.6502724885940552
+    },
+    {
+      "description": "Multimedia",
+      "score": 0.6402926445007324
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6173915266990662
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Open",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7479427456855774
+    },
+    {
+      "description": "Font",
+      "score": 0.7261916399002075
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7184892296791077
+    },
+    {
+      "description": "Brand",
+      "score": 0.5900393128395081
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5358099937438965
+    }
+  ]
+}

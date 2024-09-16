@@ -1,0 +1,54 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Settings",
+    "Font",
+    "Circle",
+    "Symmetry",
+    "Logo",
+    "Symbol",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7774653434753418
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7445068955421448
+    },
+    {
+      "description": "Circle",
+      "score": 0.7400486469268799
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7308641672134399
+    },
+    {
+      "description": "Logo",
+      "score": 0.7273924946784973
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7056211829185486
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6944657564163208
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6118305921554565
+    },
+    {
+      "description": "Brand",
+      "score": 0.6005180478096008
+    },
+    {
+      "description": "Tree",
+      "score": 0.57088702917099
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Cart",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7564019560813904
+    },
+    {
+      "description": "Font",
+      "score": 0.7151179313659668
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7137337327003479
+    },
+    {
+      "description": "Logo",
+      "score": 0.6503840684890747
+    },
+    {
+      "description": "Brand",
+      "score": 0.6309838891029358
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5746648907661438
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5050963163375854
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Donation",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7485101222991943
+    },
+    {
+      "description": "Font",
+      "score": 0.7436109185218811
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7354005575180054
+    },
+    {
+      "description": "Logo",
+      "score": 0.6558535695075989
+    },
+    {
+      "description": "Brand",
+      "score": 0.628293514251709
+    },
+    {
+      "description": "Graphics",
+      "score": 0.581462562084198
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5621790885925293
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5061008930206299
+    }
+  ]
+}

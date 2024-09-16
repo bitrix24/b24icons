@@ -1,0 +1,59 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Toloka",
+    "Font",
+    "Window",
+    "Symmetry",
+    "Circle",
+    "Pattern",
+    "Sky",
+    "Darkness",
+    "Monochrome",
+    "Monochrome photography"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8309547305107117
+    },
+    {
+      "description": "Window",
+      "score": 0.8300525546073914
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7829306125640869
+    },
+    {
+      "description": "Circle",
+      "score": 0.768389105796814
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7499095797538757
+    },
+    {
+      "description": "Sky",
+      "score": 0.7047333717346191
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7038111686706543
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.6870891451835632
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6803101897239685
+    },
+    {
+      "description": "Event",
+      "score": 0.6578879952430725
+    }
+  ]
+}

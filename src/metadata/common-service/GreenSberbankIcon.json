@@ -1,0 +1,56 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Green",
+    "Sberbank",
+    "Font",
+    "Grass",
+    "Pattern",
+    "Circle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7507176995277405
+    },
+    {
+      "description": "Grass",
+      "score": 0.7378008365631104
+    },
+    {
+      "description": "Pattern",
+      "score": 0.720085620880127
+    },
+    {
+      "description": "Circle",
+      "score": 0.716923177242279
+    },
+    {
+      "description": "Logo",
+      "score": 0.6730201840400696
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.6495423913002014
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.639535665512085
+    },
+    {
+      "description": "Magenta",
+      "score": 0.6315564513206482
+    },
+    {
+      "description": "Event",
+      "score": 0.6246263384819031
+    },
+    {
+      "description": "Symbol",
+      "score": 0.613469123840332
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Snowflake",
+    "Circle",
+    "Symbol",
+    "Font",
+    "Symmetry",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Circle",
+      "score": 0.7404404282569885
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7357936501502991
+    },
+    {
+      "description": "Font",
+      "score": 0.7289076447486877
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7201414108276367
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7007588148117065
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6986016631126404
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6378301382064819
+    },
+    {
+      "description": "Event",
+      "score": 0.5775421261787415
+    },
+    {
+      "description": "Graphic design",
+      "score": 0.529404878616333
+    },
+    {
+      "description": "Cross",
+      "score": 0.5267019271850586
+    }
+  ]
+}

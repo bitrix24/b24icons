@@ -1,0 +1,52 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Settings",
+    "Circle",
+    "Font",
+    "Pattern",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Circle",
+      "score": 0.7568321228027344
+    },
+    {
+      "description": "Font",
+      "score": 0.7301813960075378
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7252385020256042
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7082875967025757
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7072352766990662
+    },
+    {
+      "description": "Event",
+      "score": 0.631840705871582
+    },
+    {
+      "description": "Logo",
+      "score": 0.6095316410064697
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.6056092381477356
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5862253308296204
+    },
+    {
+      "description": "Fashion accessory",
+      "score": 0.5738204121589661
+    }
+  ]
+}

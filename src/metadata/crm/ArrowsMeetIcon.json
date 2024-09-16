@@ -1,0 +1,55 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Arrows",
+    "Meet",
+    "Font",
+    "Symbol",
+    "Symmetry",
+    "Pattern",
+    "Art",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7752327919006348
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7230350971221924
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7222692966461182
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7140185236930847
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7134655714035034
+    },
+    {
+      "description": "Art",
+      "score": 0.7054089903831482
+    },
+    {
+      "description": "Logo",
+      "score": 0.7035580277442932
+    },
+    {
+      "description": "Tree",
+      "score": 0.6454870104789734
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6420352458953857
+    },
+    {
+      "description": "Plant",
+      "score": 0.6371129751205444
+    }
+  ]
+}

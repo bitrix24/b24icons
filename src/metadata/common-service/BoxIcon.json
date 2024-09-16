@@ -1,0 +1,58 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Box",
+    "Font",
+    "Circle",
+    "Logo",
+    "Darkness",
+    "Monochrome photography",
+    "Pattern",
+    "Number",
+    "Graphics"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8034361004829407
+    },
+    {
+      "description": "Circle",
+      "score": 0.7381592392921448
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7370743751525879
+    },
+    {
+      "description": "Logo",
+      "score": 0.7050837278366089
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6996552348136902
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6873330473899841
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6763050556182861
+    },
+    {
+      "description": "Number",
+      "score": 0.6722474098205566
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6683902740478516
+    },
+    {
+      "description": "Brand",
+      "score": 0.6532163619995117
+    }
+  ]
+}

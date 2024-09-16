@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Folder",
+    "Plus",
+    "Rectangle",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8608139753341675
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.8240497708320618
+    },
+    {
+      "description": "Font",
+      "score": 0.7537434697151184
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7467570304870605
+    },
+    {
+      "description": "Logo",
+      "score": 0.6546474099159241
+    },
+    {
+      "description": "Event",
+      "score": 0.6318245530128479
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.624424934387207
+    },
+    {
+      "description": "Brand",
+      "score": 0.5881936550140381
+    },
+    {
+      "description": "Graphics",
+      "score": 0.543867290019989
+    },
+    {
+      "description": "Square",
+      "score": 0.5241433382034302
+    }
+  ]
+}

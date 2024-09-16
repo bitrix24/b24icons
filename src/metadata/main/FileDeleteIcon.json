@@ -1,0 +1,48 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "File",
+    "Delete",
+    "Rectangle",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8036044836044312
+    },
+    {
+      "description": "Font",
+      "score": 0.7615514397621155
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6656338572502136
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6490744352340698
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6353925466537476
+    },
+    {
+      "description": "Brand",
+      "score": 0.5944790840148926
+    },
+    {
+      "description": "Circle",
+      "score": 0.5489327311515808
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5261756181716919
+    },
+    {
+      "description": "Cross",
+      "score": 0.5226762890815735
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Settings",
+    "Circle",
+    "Automotive lighting",
+    "Font",
+    "Pattern",
+    "Symbol",
+    "Fashion accessory",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Circle",
+      "score": 0.75237637758255
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7224007248878479
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.7162975072860718
+    },
+    {
+      "description": "Font",
+      "score": 0.6937639713287354
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6890624761581421
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6810359954833984
+    },
+    {
+      "description": "Fashion accessory",
+      "score": 0.6710832118988037
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.665505051612854
+    },
+    {
+      "description": "Event",
+      "score": 0.6571689248085022
+    },
+    {
+      "description": "Logo",
+      "score": 0.6559807062149048
+    }
+  ]
+}

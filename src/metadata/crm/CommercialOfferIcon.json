@@ -1,0 +1,43 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Commercial",
+    "Offer",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8226060271263123
+    },
+    {
+      "description": "Font",
+      "score": 0.7493129372596741
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6536536812782288
+    },
+    {
+      "description": "Logo",
+      "score": 0.6041431427001953
+    },
+    {
+      "description": "Brand",
+      "score": 0.5875082612037659
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5757744312286377
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5522778630256653
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5088930130004883
+    }
+  ]
+}

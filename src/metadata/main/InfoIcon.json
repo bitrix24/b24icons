@@ -1,0 +1,38 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Info",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7980020642280579
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7466341257095337
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7005088925361633
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6159380078315735
+    },
+    {
+      "description": "Circle",
+      "score": 0.6105108261108398
+    },
+    {
+      "description": "Brand",
+      "score": 0.5900604724884033
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.5630274415016174
+    }
+  ]
+}

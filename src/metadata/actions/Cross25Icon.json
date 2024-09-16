@@ -1,0 +1,20 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Cross"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.678295373916626
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6211418509483337
+    },
+    {
+      "description": "Font",
+      "score": 0.5371015667915344
+    }
+  ]
+}

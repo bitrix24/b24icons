@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Apple",
+    "Sky",
+    "Cloud",
+    "Astronomical object",
+    "Gas",
+    "Tints and shades",
+    "Moonlight",
+    "Font",
+    "Midnight",
+    "Event",
+    "Darkness"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.9205159544944763
+    },
+    {
+      "description": "Cloud",
+      "score": 0.8267779350280762
+    },
+    {
+      "description": "Astronomical object",
+      "score": 0.8063974380493164
+    },
+    {
+      "description": "Gas",
+      "score": 0.776431679725647
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7560714483261108
+    },
+    {
+      "description": "Moonlight",
+      "score": 0.7486630082130432
+    },
+    {
+      "description": "Font",
+      "score": 0.7343834638595581
+    },
+    {
+      "description": "Midnight",
+      "score": 0.7305908203125
+    },
+    {
+      "description": "Event",
+      "score": 0.7303858995437622
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6977911591529846
+    }
+  ]
+}

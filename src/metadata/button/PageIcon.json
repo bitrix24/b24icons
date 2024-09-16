@@ -1,0 +1,54 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Page",
+    "Black",
+    "Rectangle",
+    "Font",
+    "Parallel",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.835289478302002
+    },
+    {
+      "description": "Font",
+      "score": 0.7627943754196167
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7177519202232361
+    },
+    {
+      "description": "Parallel",
+      "score": 0.7154049277305603
+    },
+    {
+      "description": "Symbol",
+      "score": 0.670417845249176
+    },
+    {
+      "description": "Brand",
+      "score": 0.6387567520141602
+    },
+    {
+      "description": "Logo",
+      "score": 0.6298149228096008
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6110768914222717
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5949332118034363
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5280401110649109
+    }
+  ]
+}

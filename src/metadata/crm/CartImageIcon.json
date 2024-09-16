@@ -1,0 +1,32 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Cart",
+    "Image",
+    "Rectangle",
+    "Font",
+    "Gadget"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7744110226631165
+    },
+    {
+      "description": "Font",
+      "score": 0.7218480110168457
+    },
+    {
+      "description": "Gadget",
+      "score": 0.6881344318389893
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6500100493431091
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5242268443107605
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Openid",
+    "Font",
+    "Parallel",
+    "Symbol",
+    "Circle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7736451625823975
+    },
+    {
+      "description": "Parallel",
+      "score": 0.733730137348175
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7187102437019348
+    },
+    {
+      "description": "Symbol",
+      "score": 0.718300461769104
+    },
+    {
+      "description": "Circle",
+      "score": 0.691345751285553
+    },
+    {
+      "description": "Cross",
+      "score": 0.6806839108467102
+    },
+    {
+      "description": "Logo",
+      "score": 0.6650512218475342
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6383193135261536
+    },
+    {
+      "description": "Brand",
+      "score": 0.6344736814498901
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6275125741958618
+    }
+  ]
+}

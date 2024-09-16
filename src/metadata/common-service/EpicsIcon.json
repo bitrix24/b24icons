@@ -1,0 +1,59 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Epics",
+    "Flash photography",
+    "Water",
+    "Sky",
+    "Font",
+    "Art",
+    "Gas",
+    "Spiral",
+    "Symbol",
+    "Darkness"
+  ],
+  "labels": [
+    {
+      "description": "Flash photography",
+      "score": 0.879223108291626
+    },
+    {
+      "description": "Water",
+      "score": 0.869836688041687
+    },
+    {
+      "description": "Sky",
+      "score": 0.8326650857925415
+    },
+    {
+      "description": "Font",
+      "score": 0.809781014919281
+    },
+    {
+      "description": "Art",
+      "score": 0.7825497984886169
+    },
+    {
+      "description": "Gas",
+      "score": 0.7775852084159851
+    },
+    {
+      "description": "Spiral",
+      "score": 0.7432592511177063
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7405691742897034
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7260047197341919
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7236390709877014
+    }
+  ]
+}

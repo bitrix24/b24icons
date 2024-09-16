@@ -1,0 +1,31 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Share",
+    "Black",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.710814356803894
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6428536176681519
+    },
+    {
+      "description": "Logo",
+      "score": 0.5978371500968933
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5781733393669128
+    },
+    {
+      "description": "Art",
+      "score": 0.509496808052063
+    }
+  ]
+}

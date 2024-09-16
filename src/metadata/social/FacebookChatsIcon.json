@@ -1,0 +1,44 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Facebook",
+    "Chats",
+    "Rectangle",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.7690514326095581
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7670859098434448
+    },
+    {
+      "description": "Font",
+      "score": 0.7633816599845886
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6865410208702087
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6489700078964233
+    },
+    {
+      "description": "Logo",
+      "score": 0.646655261516571
+    },
+    {
+      "description": "Brand",
+      "score": 0.6444573402404785
+    },
+    {
+      "description": "Graphics",
+      "score": 0.631453275680542
+    }
+  ]
+}

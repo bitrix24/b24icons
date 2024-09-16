@@ -1,0 +1,44 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Done",
+    "Dark",
+    "Sky",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.900199294090271
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7047134637832642
+    },
+    {
+      "description": "Font",
+      "score": 0.6641992926597595
+    },
+    {
+      "description": "Logo",
+      "score": 0.6406483054161072
+    },
+    {
+      "description": "Brand",
+      "score": 0.5885031819343567
+    },
+    {
+      "description": "Cloud",
+      "score": 0.5491068363189697
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5061737298965454
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5018194913864136
+    }
+  ]
+}

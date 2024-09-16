@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Imessage",
+    "Eye",
+    "Sky",
+    "Moon",
+    "Cloud",
+    "Astronomical object",
+    "Moonlight",
+    "Tree",
+    "Tints and shades",
+    "Font",
+    "Full moon"
+  ],
+  "labels": [
+    {
+      "description": "Eye",
+      "score": 0.9361605048179626
+    },
+    {
+      "description": "Sky",
+      "score": 0.9308114647865295
+    },
+    {
+      "description": "Moon",
+      "score": 0.9196520447731018
+    },
+    {
+      "description": "Cloud",
+      "score": 0.9035282135009766
+    },
+    {
+      "description": "Astronomical object",
+      "score": 0.8115184903144836
+    },
+    {
+      "description": "Moonlight",
+      "score": 0.7748398780822754
+    },
+    {
+      "description": "Tree",
+      "score": 0.7728708386421204
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7652571201324463
+    },
+    {
+      "description": "Font",
+      "score": 0.7486590147018433
+    },
+    {
+      "description": "Full moon",
+      "score": 0.7443414330482483
+    }
+  ]
+}

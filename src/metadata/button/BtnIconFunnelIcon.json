@@ -1,0 +1,51 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Btn",
+    "Icon",
+    "Funnel",
+    "Black",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7529246211051941
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7137507796287537
+    },
+    {
+      "description": "Font",
+      "score": 0.6968955993652344
+    },
+    {
+      "description": "Logo",
+      "score": 0.681132435798645
+    },
+    {
+      "description": "Brand",
+      "score": 0.6254306435585022
+    },
+    {
+      "description": "Parallel",
+      "score": 0.6052795648574829
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5877512693405151
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5559360384941101
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5021653175354004
+    }
+  ]
+}

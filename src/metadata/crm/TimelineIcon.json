@@ -1,0 +1,51 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Timeline",
+    "Rectangle",
+    "Font",
+    "Parallel"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7818669676780701
+    },
+    {
+      "description": "Font",
+      "score": 0.7462067008018494
+    },
+    {
+      "description": "Parallel",
+      "score": 0.7297283411026001
+    },
+    {
+      "description": "Circle",
+      "score": 0.6619763970375061
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6594346165657043
+    },
+    {
+      "description": "Logo",
+      "score": 0.6304294466972351
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6271583437919617
+    },
+    {
+      "description": "Brand",
+      "score": 0.5831257104873657
+    },
+    {
+      "description": "Auto part",
+      "score": 0.5730693936347961
+    },
+    {
+      "description": "Balance",
+      "score": 0.5305114388465881
+    }
+  ]
+}

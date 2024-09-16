@@ -1,0 +1,53 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Crm",
+    "Group",
+    "Gas",
+    "Font",
+    "Circle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Gas",
+      "score": 0.7540446519851685
+    },
+    {
+      "description": "Font",
+      "score": 0.7225539684295654
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6977040767669678
+    },
+    {
+      "description": "Circle",
+      "score": 0.6842624545097351
+    },
+    {
+      "description": "Logo",
+      "score": 0.6663215160369873
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6505129933357239
+    },
+    {
+      "description": "Brand",
+      "score": 0.6136574745178223
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5903792977333069
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5834221243858337
+    },
+    {
+      "description": "City",
+      "score": 0.5221849679946899
+    }
+  ]
+}

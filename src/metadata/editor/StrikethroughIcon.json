@@ -1,0 +1,51 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Strikethrough",
+    "Automotive design",
+    "Tints and shades",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Automotive design",
+      "score": 0.8229313492774963
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7557500004768372
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7161485552787781
+    },
+    {
+      "description": "Font",
+      "score": 0.6763139367103577
+    },
+    {
+      "description": "Art",
+      "score": 0.6406622529029846
+    },
+    {
+      "description": "Auto part",
+      "score": 0.6337549686431885
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.621657133102417
+    },
+    {
+      "description": "Automotive exterior",
+      "score": 0.6183770298957825
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5475755333900452
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.5402165651321411
+    }
+  ]
+}

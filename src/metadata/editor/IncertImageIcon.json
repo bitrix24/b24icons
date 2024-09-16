@@ -1,0 +1,44 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Incert",
+    "Image",
+    "Rectangle",
+    "Font",
+    "Tints and shades"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8467736840248108
+    },
+    {
+      "description": "Font",
+      "score": 0.7178788185119629
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.6825664043426514
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6108137965202332
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5841898322105408
+    },
+    {
+      "description": "Circle",
+      "score": 0.5513186454772949
+    },
+    {
+      "description": "Square",
+      "score": 0.5318521857261658
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5318282246589661
+    }
+  ]
+}

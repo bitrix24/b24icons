@@ -1,0 +1,45 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Battery",
+    "Stick",
+    "Rectangle",
+    "Handheld game console",
+    "Font",
+    "Gadget"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8777763247489929
+    },
+    {
+      "description": "Handheld game console",
+      "score": 0.8002245426177979
+    },
+    {
+      "description": "Font",
+      "score": 0.733033299446106
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.705414891242981
+    },
+    {
+      "description": "Gadget",
+      "score": 0.705374002456665
+    },
+    {
+      "description": "Circle",
+      "score": 0.6634235382080078
+    },
+    {
+      "description": "Video game console",
+      "score": 0.6589853167533875
+    },
+    {
+      "description": "Square",
+      "score": 0.5292895436286926
+    }
+  ]
+}

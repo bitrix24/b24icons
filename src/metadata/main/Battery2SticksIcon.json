@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Battery",
+    "Sticks",
+    "Rectangle",
+    "Font",
+    "Clock"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8376272320747375
+    },
+    {
+      "description": "Font",
+      "score": 0.7475590705871582
+    },
+    {
+      "description": "Clock",
+      "score": 0.7446327209472656
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7232860922813416
+    },
+    {
+      "description": "Number",
+      "score": 0.6163069009780884
+    },
+    {
+      "description": "Circle",
+      "score": 0.5965325832366943
+    },
+    {
+      "description": "Brand",
+      "score": 0.589587926864624
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5704971551895142
+    },
+    {
+      "description": "Home accessories",
+      "score": 0.5565340518951416
+    },
+    {
+      "description": "Display device",
+      "score": 0.5165454745292664
+    }
+  ]
+}

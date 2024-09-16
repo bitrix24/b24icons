@@ -1,0 +1,35 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Light",
+    "Bold",
+    "Sparkle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7234971523284912
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7078182697296143
+    },
+    {
+      "description": "Brand",
+      "score": 0.6251041293144226
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5851878523826599
+    },
+    {
+      "description": "Logo",
+      "score": 0.5844221115112305
+    },
+    {
+      "description": "Event",
+      "score": 0.5735325217247009
+    }
+  ]
+}

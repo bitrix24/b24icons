@@ -1,0 +1,55 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Onec",
+    "Font",
+    "Logo",
+    "Symbol",
+    "Rectangle",
+    "Magenta"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7556982636451721
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6968684196472168
+    },
+    {
+      "description": "Logo",
+      "score": 0.6955636143684387
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6795660257339478
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6685664653778076
+    },
+    {
+      "description": "Magenta",
+      "score": 0.664334237575531
+    },
+    {
+      "description": "Brand",
+      "score": 0.6557375192642212
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6436111927032471
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6385765671730042
+    },
+    {
+      "description": "Carmine",
+      "score": 0.632889449596405
+    }
+  ]
+}

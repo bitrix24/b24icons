@@ -1,0 +1,56 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Wechat",
+    "Head",
+    "Font",
+    "Art",
+    "Circle",
+    "Symmetry",
+    "Darkness"
+  ],
+  "labels": [
+    {
+      "description": "Head",
+      "score": 0.9717314839363098
+    },
+    {
+      "description": "Font",
+      "score": 0.7814373970031738
+    },
+    {
+      "description": "Art",
+      "score": 0.7563778162002563
+    },
+    {
+      "description": "Circle",
+      "score": 0.745387613773346
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7169024348258972
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6860905289649963
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6571284532546997
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.644734799861908
+    },
+    {
+      "description": "Brand",
+      "score": 0.6364063620567322
+    },
+    {
+      "description": "Logo",
+      "score": 0.6310287117958069
+    }
+  ]
+}

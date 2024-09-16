@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Fire",
+    "Eye",
+    "Eyelash",
+    "Font",
+    "Circle",
+    "Art"
+  ],
+  "labels": [
+    {
+      "description": "Eye",
+      "score": 0.9355766177177429
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.8365077376365662
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7344831228256226
+    },
+    {
+      "description": "Font",
+      "score": 0.7055961489677429
+    },
+    {
+      "description": "Circle",
+      "score": 0.6892040371894836
+    },
+    {
+      "description": "Art",
+      "score": 0.6856566071510315
+    },
+    {
+      "description": "Logo",
+      "score": 0.6597834229469299
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6353758573532104
+    },
+    {
+      "description": "Darkness",
+      "score": 0.633892297744751
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.6022143959999084
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Pencil",
+    "Draw",
+    "Gesture",
+    "Cloud",
+    "Sky",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.8525324463844299
+    },
+    {
+      "description": "Cloud",
+      "score": 0.7573252320289612
+    },
+    {
+      "description": "Sky",
+      "score": 0.7465844750404358
+    },
+    {
+      "description": "Font",
+      "score": 0.7389869689941406
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7232991456985474
+    },
+    {
+      "description": "Meteorological phenomenon",
+      "score": 0.6548119187355042
+    },
+    {
+      "description": "Logo",
+      "score": 0.6461234092712402
+    },
+    {
+      "description": "Event",
+      "score": 0.6426503658294678
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5690263509750366
+    },
+    {
+      "description": "Brand",
+      "score": 0.5687912702560425
+    }
+  ]
+}

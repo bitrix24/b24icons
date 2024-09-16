@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Ascending",
+    "Sort",
+    "Font",
+    "Rectangle",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8145158290863037
+    },
+    {
+      "description": "Font",
+      "score": 0.7708062529563904
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7672379612922668
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7263713479042053
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7253803014755249
+    },
+    {
+      "description": "Parallel",
+      "score": 0.6593628525733948
+    },
+    {
+      "description": "Logo",
+      "score": 0.646487832069397
+    },
+    {
+      "description": "Brand",
+      "score": 0.6055810451507568
+    },
+    {
+      "description": "Balance",
+      "score": 0.5922489762306213
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5749955773353577
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Lightning",
+    "Plus",
+    "Font",
+    "Symbol",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8005691170692444
+    },
+    {
+      "description": "Cross",
+      "score": 0.7858877778053284
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7395119071006775
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7365247011184692
+    },
+    {
+      "description": "Logo",
+      "score": 0.6752261519432068
+    },
+    {
+      "description": "Brand",
+      "score": 0.605392575263977
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6036127209663391
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5848855376243591
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5056918859481812
+    }
+  ]
+}

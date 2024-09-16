@@ -1,0 +1,56 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Dropbox",
+    "Circle",
+    "Font",
+    "Symmetry",
+    "Pattern",
+    "Logo",
+    "Darkness"
+  ],
+  "labels": [
+    {
+      "description": "Circle",
+      "score": 0.7521619200706482
+    },
+    {
+      "description": "Font",
+      "score": 0.7451154589653015
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7376298308372498
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7293258309364319
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7217485308647156
+    },
+    {
+      "description": "Logo",
+      "score": 0.717838704586029
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6859342455863953
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6451363563537598
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6268256902694702
+    },
+    {
+      "description": "Brand",
+      "score": 0.5958008170127869
+    }
+  ]
+}

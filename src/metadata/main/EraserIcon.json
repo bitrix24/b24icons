@@ -1,0 +1,39 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Eraser",
+    "Font",
+    "Logo",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.754971444606781
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7183230519294739
+    },
+    {
+      "description": "Logo",
+      "score": 0.6955032348632812
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6853163242340088
+    },
+    {
+      "description": "Brand",
+      "score": 0.6324419379234314
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6204390525817871
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5735322833061218
+    }
+  ]
+}

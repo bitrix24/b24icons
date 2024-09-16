@@ -1,0 +1,46 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Double",
+    "Arrow",
+    "Counter",
+    "Clockwise",
+    "Scrum",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7877148389816284
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7330855131149292
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6745818257331848
+    },
+    {
+      "description": "Logo",
+      "score": 0.6591293811798096
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6297664642333984
+    },
+    {
+      "description": "Brand",
+      "score": 0.6248561143875122
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5197185277938843
+    },
+    {
+      "description": "Circle",
+      "score": 0.5029812455177307
+    }
+  ]
+}

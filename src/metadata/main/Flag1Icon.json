@@ -1,0 +1,42 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Flag",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8177782893180847
+    },
+    {
+      "description": "Font",
+      "score": 0.7020477056503296
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6740461587905884
+    },
+    {
+      "description": "Logo",
+      "score": 0.6416151523590088
+    },
+    {
+      "description": "Circle",
+      "score": 0.6289197206497192
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6244052052497864
+    },
+    {
+      "description": "Brand",
+      "score": 0.5874070525169373
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5157918930053711
+    }
+  ]
+}

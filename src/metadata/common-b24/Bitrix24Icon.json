@@ -1,0 +1,55 @@
+{
+  "category": "Common-b24",
+  "subCategories": [
+    "Bitrix",
+    "Font",
+    "Symbol",
+    "Logo",
+    "Illustration",
+    "Graphics",
+    "Circle",
+    "Brand"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8288326263427734
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7577055096626282
+    },
+    {
+      "description": "Logo",
+      "score": 0.7383462190628052
+    },
+    {
+      "description": "Illustration",
+      "score": 0.7177314162254333
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6854267716407776
+    },
+    {
+      "description": "Circle",
+      "score": 0.6837829947471619
+    },
+    {
+      "description": "Brand",
+      "score": 0.6758427619934082
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6181146502494812
+    },
+    {
+      "description": "Graphic design",
+      "score": 0.5486379861831665
+    },
+    {
+      "description": "Trademark",
+      "score": 0.53453528881073
+    }
+  ]
+}

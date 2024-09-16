@@ -1,0 +1,21 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Pencil",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7685080766677856
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6650549173355103
+    },
+    {
+      "description": "Temperature",
+      "score": 0.5742623209953308
+    }
+  ]
+}

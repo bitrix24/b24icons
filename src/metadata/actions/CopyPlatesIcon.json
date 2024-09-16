@@ -1,0 +1,43 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Copy",
+    "Plates",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8364889025688171
+    },
+    {
+      "description": "Font",
+      "score": 0.7928245663642883
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7247541546821594
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6081967353820801
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5693692564964294
+    },
+    {
+      "description": "Square",
+      "score": 0.5297661423683167
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5111633539199829
+    },
+    {
+      "description": "Brand",
+      "score": 0.5017131567001343
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Cross",
+    "Symbol",
+    "Font",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Symbol",
+      "score": 0.7567490935325623
+    },
+    {
+      "description": "Font",
+      "score": 0.7124403119087219
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7065045833587646
+    },
+    {
+      "description": "Cross",
+      "score": 0.6867920756340027
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6769961714744568
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5928022861480713
+    },
+    {
+      "description": "Balance",
+      "score": 0.5587377548217773
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Chat",
+    "Message",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8335721492767334
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7088107466697693
+    },
+    {
+      "description": "Font",
+      "score": 0.7046056389808655
+    },
+    {
+      "description": "Logo",
+      "score": 0.6395129561424255
+    },
+    {
+      "description": "Brand",
+      "score": 0.606568455696106
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5507656335830688
+    },
+    {
+      "description": "Multimedia",
+      "score": 0.5372762084007263
+    },
+    {
+      "description": "Display device",
+      "score": 0.5039974451065063
+    }
+  ]
+}

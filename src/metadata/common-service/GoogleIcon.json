@@ -1,0 +1,56 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Google",
+    "Font",
+    "Symbol",
+    "Art",
+    "Rectangle",
+    "Circle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7419402599334717
+    },
+    {
+      "description": "Symbol",
+      "score": 0.729684054851532
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7257897257804871
+    },
+    {
+      "description": "Art",
+      "score": 0.7173851132392883
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7135888338088989
+    },
+    {
+      "description": "Circle",
+      "score": 0.6983088254928589
+    },
+    {
+      "description": "Logo",
+      "score": 0.6932919025421143
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6420427560806274
+    },
+    {
+      "description": "Brand",
+      "score": 0.6327125430107117
+    },
+    {
+      "description": "Number",
+      "score": 0.6190074682235718
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Crit",
+    "Battery",
+    "Black",
+    "Rectangle",
+    "Font",
+    "Circle",
+    "Gadget"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.870517373085022
+    },
+    {
+      "description": "Font",
+      "score": 0.7454984784126282
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7255175113677979
+    },
+    {
+      "description": "Circle",
+      "score": 0.7053825259208679
+    },
+    {
+      "description": "Gadget",
+      "score": 0.6717965602874756
+    },
+    {
+      "description": "Parallel",
+      "score": 0.600537121295929
+    },
+    {
+      "description": "Display device",
+      "score": 0.5742300152778625
+    },
+    {
+      "description": "Brand",
+      "score": 0.5704595446586609
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5431281328201294
+    },
+    {
+      "description": "Square",
+      "score": 0.5297461748123169
+    }
+  ]
+}

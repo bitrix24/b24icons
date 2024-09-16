@@ -1,0 +1,44 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Customer",
+    "Card",
+    "Rectangle",
+    "Font",
+    "Tints and shades"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8393535614013672
+    },
+    {
+      "description": "Font",
+      "score": 0.7479470372200012
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7200731039047241
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7198627591133118
+    },
+    {
+      "description": "Brand",
+      "score": 0.6075104475021362
+    },
+    {
+      "description": "Square",
+      "score": 0.546847939491272
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5428929924964905
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5344624519348145
+    }
+  ]
+}

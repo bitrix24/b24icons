@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Cubes",
+    "Liquid",
+    "Font",
+    "Gas",
+    "Logo",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Liquid",
+      "score": 0.8130500912666321
+    },
+    {
+      "description": "Font",
+      "score": 0.7838987112045288
+    },
+    {
+      "description": "Gas",
+      "score": 0.7775358557701111
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7427469491958618
+    },
+    {
+      "description": "Logo",
+      "score": 0.6790980696678162
+    },
+    {
+      "description": "Circle",
+      "score": 0.6663080453872681
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6450998187065125
+    },
+    {
+      "description": "Art",
+      "score": 0.6323950886726379
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6233338713645935
+    },
+    {
+      "description": "Brand",
+      "score": 0.6215721368789673
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Dead",
+    "Battery",
+    "Rectangle",
+    "Triangle",
+    "Parallel",
+    "Font",
+    "Logo",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8211722373962402
+    },
+    {
+      "description": "Triangle",
+      "score": 0.8089333176612854
+    },
+    {
+      "description": "Parallel",
+      "score": 0.7647017240524292
+    },
+    {
+      "description": "Font",
+      "score": 0.749612033367157
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7224255800247192
+    },
+    {
+      "description": "Logo",
+      "score": 0.6917665600776672
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6649168729782104
+    },
+    {
+      "description": "Brand",
+      "score": 0.6392707824707031
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6339502930641174
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6162499189376831
+    }
+  ]
+}

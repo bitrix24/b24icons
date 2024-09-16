@@ -1,0 +1,51 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Italic",
+    "Font",
+    "Rectangle",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7874423265457153
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.73590087890625
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7295998930931091
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6897507905960083
+    },
+    {
+      "description": "Brand",
+      "score": 0.5780680775642395
+    },
+    {
+      "description": "Logo",
+      "score": 0.5524502396583557
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5423917770385742
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5388385653495789
+    },
+    {
+      "description": "Cross",
+      "score": 0.5347333550453186
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5288650989532471
+    }
+  ]
+}

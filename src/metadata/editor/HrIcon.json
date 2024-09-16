@@ -1,0 +1,53 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Hr",
+    "Font",
+    "Rectangle",
+    "Parallel",
+    "Logo",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7711923122406006
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7404289245605469
+    },
+    {
+      "description": "Parallel",
+      "score": 0.7166550159454346
+    },
+    {
+      "description": "Logo",
+      "score": 0.6741185188293457
+    },
+    {
+      "description": "Circle",
+      "score": 0.6656739115715027
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6601969599723816
+    },
+    {
+      "description": "Brand",
+      "score": 0.6406382918357849
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6088533401489258
+    },
+    {
+      "description": "Laptop",
+      "score": 0.5300331711769104
+    },
+    {
+      "description": "Diagram",
+      "score": 0.5044616460800171
+    }
+  ]
+}

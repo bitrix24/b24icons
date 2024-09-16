@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Collaboration",
+    "Font",
+    "Circle",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7419533729553223
+    },
+    {
+      "description": "Circle",
+      "score": 0.7244359850883484
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7070866227149963
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6876159310340881
+    },
+    {
+      "description": "Auto part",
+      "score": 0.632573127746582
+    },
+    {
+      "description": "Logo",
+      "score": 0.5971606373786926
+    },
+    {
+      "description": "Brand",
+      "score": 0.5757107734680176
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5646357536315918
+    },
+    {
+      "description": "Rim",
+      "score": 0.5264143943786621
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5185206532478333
+    }
+  ]
+}

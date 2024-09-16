@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Demonstration",
+    "Off",
+    "Triangle",
+    "Font",
+    "Logo",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Triangle",
+      "score": 0.7568445205688477
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7329990267753601
+    },
+    {
+      "description": "Font",
+      "score": 0.724443793296814
+    },
+    {
+      "description": "Logo",
+      "score": 0.6860652565956116
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6798782348632812
+    },
+    {
+      "description": "Circle",
+      "score": 0.6501848101615906
+    },
+    {
+      "description": "Brand",
+      "score": 0.6311628818511963
+    },
+    {
+      "description": "Graphics",
+      "score": 0.603234589099884
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5799405574798584
+    },
+    {
+      "description": "Shadow",
+      "score": 0.5631370544433594
+    }
+  ]
+}

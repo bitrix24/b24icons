@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Document",
+    "Plus",
+    "Font",
+    "Rectangle",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7605722546577454
+    },
+    {
+      "description": "Cross",
+      "score": 0.7412109971046448
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6806629300117493
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6789233684539795
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6744185090065002
+    },
+    {
+      "description": "Logo",
+      "score": 0.6600112318992615
+    },
+    {
+      "description": "Brand",
+      "score": 0.6496912240982056
+    },
+    {
+      "description": "Circle",
+      "score": 0.5747926831245422
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5741497278213501
+    },
+    {
+      "description": "Art",
+      "score": 0.5129150152206421
+    }
+  ]
+}

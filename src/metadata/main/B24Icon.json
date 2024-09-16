@@ -1,0 +1,46 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "B",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7627004981040955
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7326041460037231
+    },
+    {
+      "description": "Logo",
+      "score": 0.6965909600257874
+    },
+    {
+      "description": "Brand",
+      "score": 0.6621041297912598
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6487787365913391
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5800672769546509
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5771365761756897
+    },
+    {
+      "description": "Number",
+      "score": 0.5375216007232666
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5305353403091431
+    }
+  ]
+}

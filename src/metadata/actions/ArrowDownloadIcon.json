@@ -1,0 +1,54 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Arrow",
+    "Download",
+    "Circle",
+    "Symbol",
+    "Font",
+    "Logo",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Circle",
+      "score": 0.7406138777732849
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7385441064834595
+    },
+    {
+      "description": "Font",
+      "score": 0.7306373119354248
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7195655107498169
+    },
+    {
+      "description": "Logo",
+      "score": 0.7077162265777588
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6897257566452026
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6551326513290405
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6483076214790344
+    },
+    {
+      "description": "Brand",
+      "score": 0.5982576608657837
+    },
+    {
+      "description": "Art",
+      "score": 0.5858751535415649
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Alert",
+    "Black",
+    "Font",
+    "Symmetry",
+    "Triangle",
+    "Circle",
+    "Logo",
+    "Pattern",
+    "Symbol",
+    "Graphics"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7822281718254089
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7573904395103455
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7465416193008423
+    },
+    {
+      "description": "Triangle",
+      "score": 0.7427254915237427
+    },
+    {
+      "description": "Circle",
+      "score": 0.7245903611183167
+    },
+    {
+      "description": "Logo",
+      "score": 0.7244707345962524
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7110143303871155
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7012677192687988
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6670005321502686
+    },
+    {
+      "description": "Brand",
+      "score": 0.6472939848899841
+    }
+  ]
+}

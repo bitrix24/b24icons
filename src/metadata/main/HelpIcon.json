@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Help",
+    "Font",
+    "Symbol",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.732842743396759
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.722569465637207
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7109860181808472
+    },
+    {
+      "description": "Circle",
+      "score": 0.7029969096183777
+    },
+    {
+      "description": "Logo",
+      "score": 0.6354610323905945
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5915490388870239
+    },
+    {
+      "description": "Brand",
+      "score": 0.581563413143158
+    },
+    {
+      "description": "Number",
+      "score": 0.5781022310256958
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5559919476509094
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5180937051773071
+    }
+  ]
+}

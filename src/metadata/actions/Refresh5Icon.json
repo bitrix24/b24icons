@@ -1,0 +1,30 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Refresh",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7645094990730286
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7415430545806885
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7214511632919312
+    },
+    {
+      "description": "Circle",
+      "score": 0.5756034851074219
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5663909316062927
+    }
+  ]
+}

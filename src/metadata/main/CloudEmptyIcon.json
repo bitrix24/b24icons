@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Cloud",
+    "Empty",
+    "Font",
+    "Sky"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7590484023094177
+    },
+    {
+      "description": "Sky",
+      "score": 0.7508646845817566
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7096490263938904
+    },
+    {
+      "description": "Circle",
+      "score": 0.6493636965751648
+    },
+    {
+      "description": "Pattern",
+      "score": 0.611259400844574
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5814420580863953
+    },
+    {
+      "description": "Darkness",
+      "score": 0.5738577246665955
+    },
+    {
+      "description": "Logo",
+      "score": 0.5636767745018005
+    },
+    {
+      "description": "Brand",
+      "score": 0.5437958240509033
+    },
+    {
+      "description": "Cloud",
+      "score": 0.5132150053977966
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Brightness",
+    "Bold",
+    "Emoji",
+    "Circle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Circle",
+      "score": 0.7310824394226074
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7041204571723938
+    },
+    {
+      "description": "Font",
+      "score": 0.7007750868797302
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6220386624336243
+    },
+    {
+      "description": "Logo",
+      "score": 0.5929493308067322
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5629482865333557
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5499286651611328
+    },
+    {
+      "description": "Brand",
+      "score": 0.5473934412002563
+    }
+  ]
+}

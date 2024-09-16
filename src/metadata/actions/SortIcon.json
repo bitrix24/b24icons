@@ -1,0 +1,51 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Sort",
+    "Font",
+    "Symbol",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8613738417625427
+    },
+    {
+      "description": "Font",
+      "score": 0.8063516020774841
+    },
+    {
+      "description": "Symbol",
+      "score": 0.767500638961792
+    },
+    {
+      "description": "Religious item",
+      "score": 0.7542392015457153
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7383397221565247
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7370697855949402
+    },
+    {
+      "description": "Event",
+      "score": 0.6409338712692261
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6347874402999878
+    },
+    {
+      "description": "Balance",
+      "score": 0.6161624789237976
+    },
+    {
+      "description": "Cloud",
+      "score": 0.6032428741455078
+    }
+  ]
+}

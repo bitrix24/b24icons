@@ -1,0 +1,53 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Cross",
+    "Circle",
+    "Head",
+    "Font",
+    "Circle",
+    "Art"
+  ],
+  "labels": [
+    {
+      "description": "Head",
+      "score": 0.9726879000663757
+    },
+    {
+      "description": "Font",
+      "score": 0.7252709865570068
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7166894674301147
+    },
+    {
+      "description": "Circle",
+      "score": 0.6928388476371765
+    },
+    {
+      "description": "Art",
+      "score": 0.6722962260246277
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6278957724571228
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6108381748199463
+    },
+    {
+      "description": "Fur",
+      "score": 0.602207362651825
+    },
+    {
+      "description": "Logo",
+      "score": 0.5891082286834717
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5413381457328796
+    }
+  ]
+}

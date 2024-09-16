@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Condition",
+    "Art",
+    "Font",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7293041944503784
+    },
+    {
+      "description": "Art",
+      "score": 0.698593258857727
+    },
+    {
+      "description": "Font",
+      "score": 0.6852364540100098
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6714584827423096
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.654096782207489
+    },
+    {
+      "description": "Logo",
+      "score": 0.6016459465026855
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5720622539520264
+    },
+    {
+      "description": "Circle",
+      "score": 0.5690611004829407
+    },
+    {
+      "description": "Drawing",
+      "score": 0.5453677177429199
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5174591541290283
+    }
+  ]
+}

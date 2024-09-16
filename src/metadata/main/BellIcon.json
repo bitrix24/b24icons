@@ -1,0 +1,26 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Bell",
+    "Font",
+    "Sky"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7011741995811462
+    },
+    {
+      "description": "Sky",
+      "score": 0.6657342910766602
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5460096001625061
+    },
+    {
+      "description": "Cloud",
+      "score": 0.504193902015686
+    }
+  ]
+}

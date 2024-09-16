@@ -1,0 +1,52 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Messenger",
+    "Head",
+    "Eye",
+    "Sky",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Head",
+      "score": 0.9716101288795471
+    },
+    {
+      "description": "Eye",
+      "score": 0.9404765963554382
+    },
+    {
+      "description": "Sky",
+      "score": 0.8551234602928162
+    },
+    {
+      "description": "Font",
+      "score": 0.7140470147132874
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6838094592094421
+    },
+    {
+      "description": "Darkness",
+      "score": 0.5955133438110352
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5933071374893188
+    },
+    {
+      "description": "Art",
+      "score": 0.5712243914604187
+    },
+    {
+      "description": "Shadow",
+      "score": 0.5538086891174316
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5322799682617188
+    }
+  ]
+}

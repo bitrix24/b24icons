@@ -1,0 +1,57 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Groupme",
+    "Font",
+    "Circle",
+    "Symbol",
+    "Tree",
+    "Logo",
+    "Symmetry",
+    "Monochrome photography"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.801838219165802
+    },
+    {
+      "description": "Circle",
+      "score": 0.7462001442909241
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7366023659706116
+    },
+    {
+      "description": "Cross",
+      "score": 0.712379515171051
+    },
+    {
+      "description": "Tree",
+      "score": 0.6901021003723145
+    },
+    {
+      "description": "Logo",
+      "score": 0.6892408132553101
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6885901093482971
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6646421551704407
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6627881526947021
+    },
+    {
+      "description": "Darkness",
+      "score": 0.654909610748291
+    }
+  ]
+}

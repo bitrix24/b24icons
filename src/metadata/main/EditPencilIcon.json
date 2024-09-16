@@ -1,0 +1,48 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Edit",
+    "Pencil",
+    "Font",
+    "Rectangle",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7852457761764526
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.781015932559967
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7205891013145447
+    },
+    {
+      "description": "Symbol",
+      "score": 0.671672523021698
+    },
+    {
+      "description": "Logo",
+      "score": 0.6404442191123962
+    },
+    {
+      "description": "Brand",
+      "score": 0.628774881362915
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6132143139839172
+    },
+    {
+      "description": "Number",
+      "score": 0.5518338084220886
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5182701349258423
+    }
+  ]
+}

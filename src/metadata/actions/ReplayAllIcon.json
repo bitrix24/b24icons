@@ -1,0 +1,56 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Replay",
+    "Eye",
+    "Plant",
+    "Slope",
+    "Grass",
+    "Terrestrial plant",
+    "Rectangle",
+    "Font",
+    "Tree"
+  ],
+  "labels": [
+    {
+      "description": "Eye",
+      "score": 0.9373888969421387
+    },
+    {
+      "description": "Plant",
+      "score": 0.9133195281028748
+    },
+    {
+      "description": "Slope",
+      "score": 0.7661253213882446
+    },
+    {
+      "description": "Grass",
+      "score": 0.756289541721344
+    },
+    {
+      "description": "Terrestrial plant",
+      "score": 0.7502638697624207
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.740306556224823
+    },
+    {
+      "description": "Font",
+      "score": 0.7394598722457886
+    },
+    {
+      "description": "Tree",
+      "score": 0.6957961916923523
+    },
+    {
+      "description": "Logo",
+      "score": 0.662149965763092
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.629460871219635
+    }
+  ]
+}

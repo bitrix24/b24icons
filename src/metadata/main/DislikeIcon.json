@@ -1,0 +1,46 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Dislike",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7564430236816406
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6929967999458313
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6838259100914001
+    },
+    {
+      "description": "Logo",
+      "score": 0.6550525426864624
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.6255367994308472
+    },
+    {
+      "description": "Brand",
+      "score": 0.6184972524642944
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5624667406082153
+    },
+    {
+      "description": "Graphics",
+      "score": 0.55088210105896
+    },
+    {
+      "description": "Circle",
+      "score": 0.515659511089325
+    }
+  ]
+}

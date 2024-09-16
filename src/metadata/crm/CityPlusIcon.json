@@ -1,0 +1,53 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "City",
+    "Plus",
+    "Rectangle",
+    "Font",
+    "Symbol",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8257818222045898
+    },
+    {
+      "description": "Font",
+      "score": 0.7816821932792664
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.74355548620224
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7043523192405701
+    },
+    {
+      "description": "Logo",
+      "score": 0.6787875890731812
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6404906511306763
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6245307922363281
+    },
+    {
+      "description": "Brand",
+      "score": 0.6176101565361023
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6097564101219177
+    },
+    {
+      "description": "Cross",
+      "score": 0.6095894575119019
+    }
+  ]
+}

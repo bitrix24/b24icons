@@ -1,0 +1,37 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Business",
+    "Process",
+    "Black",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7732816934585571
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6910675168037415
+    },
+    {
+      "description": "Symbol",
+      "score": 0.665104329586029
+    },
+    {
+      "description": "Logo",
+      "score": 0.5562285780906677
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5183082222938538
+    },
+    {
+      "description": "Brand",
+      "score": 0.5146827697753906
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Person",
+    "Plus",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.7616990804672241
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7077951431274414
+    },
+    {
+      "description": "Font",
+      "score": 0.6796510219573975
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6744182109832764
+    },
+    {
+      "description": "Event",
+      "score": 0.6581281423568726
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5874526500701904
+    },
+    {
+      "description": "Balance",
+      "score": 0.5488553047180176
+    },
+    {
+      "description": "City",
+      "score": 0.5203413963317871
+    },
+    {
+      "description": "Art",
+      "score": 0.5100434422492981
+    }
+  ]
+}

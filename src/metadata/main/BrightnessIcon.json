@@ -1,0 +1,48 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Brightness",
+    "Font",
+    "Symbol",
+    "Symmetry",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.7876556515693665
+    },
+    {
+      "description": "Font",
+      "score": 0.737602174282074
+    },
+    {
+      "description": "Symbol",
+      "score": 0.708034873008728
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6906086802482605
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6831175088882446
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6717702746391296
+    },
+    {
+      "description": "Art",
+      "score": 0.6583630442619324
+    },
+    {
+      "description": "Circle",
+      "score": 0.6211439371109009
+    },
+    {
+      "description": "Event",
+      "score": 0.5682023167610168
+    }
+  ]
+}

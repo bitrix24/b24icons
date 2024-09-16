@@ -1,0 +1,44 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Gantt",
+    "Graphs",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8372693061828613
+    },
+    {
+      "description": "Font",
+      "score": 0.7471866607666016
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7091220021247864
+    },
+    {
+      "description": "Logo",
+      "score": 0.6708015203475952
+    },
+    {
+      "description": "Brand",
+      "score": 0.6254854202270508
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5628527998924255
+    },
+    {
+      "description": "Circle",
+      "score": 0.5421445965766907
+    },
+    {
+      "description": "Trademark",
+      "score": 0.502121090888977
+    }
+  ]
+}

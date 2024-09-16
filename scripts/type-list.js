@@ -1,3 +1,9 @@
+/**
+ * List of icon types
+ *
+ * @type {string[]}
+ */
+
 module.exports.typeList = [
 	'actions',
 	'contact-center',

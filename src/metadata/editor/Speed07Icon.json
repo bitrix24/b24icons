@@ -1,0 +1,52 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Speed",
+    "0",
+    "Font",
+    "Logo",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7927343249320984
+    },
+    {
+      "description": "Logo",
+      "score": 0.6821942925453186
+    },
+    {
+      "description": "Circle",
+      "score": 0.6780900359153748
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6657894849777222
+    },
+    {
+      "description": "Brand",
+      "score": 0.6621871590614319
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.6390288472175598
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6171917915344238
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.609190046787262
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5938839912414551
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5846550464630127
+    }
+  ]
+}

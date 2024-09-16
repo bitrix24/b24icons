@@ -1,0 +1,54 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Justify",
+    "Rectangle",
+    "Dishware",
+    "Font",
+    "Circle",
+    "Parallel",
+    "Gas"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8154090046882629
+    },
+    {
+      "description": "Dishware",
+      "score": 0.7635383605957031
+    },
+    {
+      "description": "Font",
+      "score": 0.7377585768699646
+    },
+    {
+      "description": "Circle",
+      "score": 0.722655713558197
+    },
+    {
+      "description": "Parallel",
+      "score": 0.71089106798172
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6800884008407593
+    },
+    {
+      "description": "Gas",
+      "score": 0.6782388091087341
+    },
+    {
+      "description": "Metal",
+      "score": 0.5945806503295898
+    },
+    {
+      "description": "Auto part",
+      "score": 0.5732367038726807
+    },
+    {
+      "description": "Brand",
+      "score": 0.5720424056053162
+    }
+  ]
+}

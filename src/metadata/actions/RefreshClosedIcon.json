@@ -1,0 +1,54 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Refresh",
+    "Closed",
+    "Plant",
+    "Font",
+    "Symbol",
+    "Grass",
+    "Terrestrial plant"
+  ],
+  "labels": [
+    {
+      "description": "Plant",
+      "score": 0.7712094187736511
+    },
+    {
+      "description": "Font",
+      "score": 0.7383639812469482
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6902220845222473
+    },
+    {
+      "description": "Grass",
+      "score": 0.6884246468544006
+    },
+    {
+      "description": "Terrestrial plant",
+      "score": 0.6744747161865234
+    },
+    {
+      "description": "Herb",
+      "score": 0.6027863621711731
+    },
+    {
+      "description": "Brand",
+      "score": 0.5961888432502747
+    },
+    {
+      "description": "Logo",
+      "score": 0.5876356959342957
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.53689044713974
+    },
+    {
+      "description": "Annual plant",
+      "score": 0.5305780172348022
+    }
+  ]
+}

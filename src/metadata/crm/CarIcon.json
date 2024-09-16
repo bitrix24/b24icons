@@ -1,0 +1,57 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Car",
+    "Hood",
+    "Automotive lighting",
+    "Automotive design",
+    "Vehicle",
+    "Automotive tire",
+    "Car",
+    "Personal luxury car",
+    "Tints and shades",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Hood",
+      "score": 0.9159151911735535
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.8743985891342163
+    },
+    {
+      "description": "Automotive design",
+      "score": 0.8434264063835144
+    },
+    {
+      "description": "Vehicle",
+      "score": 0.8229801058769226
+    },
+    {
+      "description": "Automotive tire",
+      "score": 0.8205767869949341
+    },
+    {
+      "description": "Car",
+      "score": 0.7773507237434387
+    },
+    {
+      "description": "Personal luxury car",
+      "score": 0.7684395909309387
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7672033905982971
+    },
+    {
+      "description": "Font",
+      "score": 0.7245339751243591
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7237759232521057
+    }
+  ]
+}

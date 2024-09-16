@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Diamond",
+    "Symbol",
+    "Font",
+    "Logo",
+    "Art",
+    "Symmetry",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Symbol",
+      "score": 0.7592043876647949
+    },
+    {
+      "description": "Font",
+      "score": 0.7563692331314087
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7443658113479614
+    },
+    {
+      "description": "Logo",
+      "score": 0.7307664155960083
+    },
+    {
+      "description": "Art",
+      "score": 0.7214131355285645
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7078866362571716
+    },
+    {
+      "description": "Pattern",
+      "score": 0.683715283870697
+    },
+    {
+      "description": "Circle",
+      "score": 0.6599534153938293
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6427428126335144
+    },
+    {
+      "description": "Brand",
+      "score": 0.6315951943397522
+    }
+  ]
+}

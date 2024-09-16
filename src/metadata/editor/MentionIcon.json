@@ -1,0 +1,52 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Mention",
+    "Tints and shades",
+    "Symbol",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Tints and shades",
+      "score": 0.7684499621391296
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7200587391853333
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6942160725593567
+    },
+    {
+      "description": "Font",
+      "score": 0.6725021600723267
+    },
+    {
+      "description": "Circle",
+      "score": 0.6691505312919617
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5557320713996887
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5493512153625488
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.5382732152938843
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5351927280426025
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5072608590126038
+    }
+  ]
+}

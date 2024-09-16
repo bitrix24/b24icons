@@ -1,0 +1,31 @@
+{
+  "category": "Contact-center",
+  "subCategories": [
+    "Mobile",
+    "Store",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7597252726554871
+    },
+    {
+      "description": "Font",
+      "score": 0.7339591979980469
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6865736842155457
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5562937259674072
+    },
+    {
+      "description": "Brand",
+      "score": 0.5395691990852356
+    }
+  ]
+}

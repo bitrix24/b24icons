@@ -1,0 +1,57 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Setting",
+    "Black",
+    "Symbol",
+    "Font",
+    "Circle",
+    "Symmetry",
+    "Logo",
+    "Pattern",
+    "Tints and shades"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7308871150016785
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7239501476287842
+    },
+    {
+      "description": "Font",
+      "score": 0.7199307084083557
+    },
+    {
+      "description": "Circle",
+      "score": 0.7124879956245422
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7112690210342407
+    },
+    {
+      "description": "Logo",
+      "score": 0.6993941068649292
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6990665197372437
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.6903136968612671
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5517666339874268
+    },
+    {
+      "description": "Magenta",
+      "score": 0.5007665753364563
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Invoice",
+    "Rectangle",
+    "Font",
+    "Circle",
+    "Art"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8096292018890381
+    },
+    {
+      "description": "Font",
+      "score": 0.7662308216094971
+    },
+    {
+      "description": "Circle",
+      "score": 0.7177529335021973
+    },
+    {
+      "description": "Art",
+      "score": 0.7155244946479797
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.661943256855011
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6487123370170593
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6201529502868652
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.599629819393158
+    },
+    {
+      "description": "Visual arts",
+      "score": 0.5915247797966003
+    },
+    {
+      "description": "Brand",
+      "score": 0.5813348889350891
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Mail",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8062148094177246
+    },
+    {
+      "description": "Font",
+      "score": 0.6894077658653259
+    },
+    {
+      "description": "Circle",
+      "score": 0.5753920078277588
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5583667755126953
+    }
+  ]
+}

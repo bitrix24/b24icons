@@ -1,0 +1,53 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Add",
+    "From",
+    "Adressbook",
+    "Font",
+    "Symbol",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.7780722975730896
+    },
+    {
+      "description": "Font",
+      "score": 0.7702502012252808
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7273076176643372
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7228848338127136
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6976847052574158
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6146594285964966
+    },
+    {
+      "description": "Logo",
+      "score": 0.584412693977356
+    },
+    {
+      "description": "Brand",
+      "score": 0.5609009265899658
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5534238219261169
+    },
+    {
+      "description": "Circle",
+      "score": 0.5223273634910583
+    }
+  ]
+}

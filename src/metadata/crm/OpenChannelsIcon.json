@@ -1,0 +1,43 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Open",
+    "Channels",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.833023190498352
+    },
+    {
+      "description": "Font",
+      "score": 0.7416580319404602
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5971094369888306
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5319510698318481
+    },
+    {
+      "description": "Brand",
+      "score": 0.5246367454528809
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5126037001609802
+    },
+    {
+      "description": "Circle",
+      "score": 0.5040053725242615
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5033677220344543
+    }
+  ]
+}

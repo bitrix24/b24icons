@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Lead",
+    "Automotive lighting",
+    "Font",
+    "Rectangle",
+    "Automotive design",
+    "Circle",
+    "Gadget",
+    "Logo",
+    "Display device",
+    "Monochrome photography",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Automotive lighting",
+      "score": 0.7992340922355652
+    },
+    {
+      "description": "Font",
+      "score": 0.786098837852478
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7752213478088379
+    },
+    {
+      "description": "Automotive design",
+      "score": 0.7625019550323486
+    },
+    {
+      "description": "Circle",
+      "score": 0.7330535650253296
+    },
+    {
+      "description": "Gadget",
+      "score": 0.7066894769668579
+    },
+    {
+      "description": "Logo",
+      "score": 0.6922456622123718
+    },
+    {
+      "description": "Display device",
+      "score": 0.6796179413795471
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.676304042339325
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6743125319480896
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Forward",
+    "Font",
+    "Symbol",
+    "Art",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7534579634666443
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7428880333900452
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7018216848373413
+    },
+    {
+      "description": "Art",
+      "score": 0.6860489845275879
+    },
+    {
+      "description": "Logo",
+      "score": 0.6837579011917114
+    },
+    {
+      "description": "Cross",
+      "score": 0.6352831125259399
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6183121800422668
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6065270304679871
+    },
+    {
+      "description": "Brand",
+      "score": 0.5875213742256165
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5782896280288696
+    }
+  ]
+}

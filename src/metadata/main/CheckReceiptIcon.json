@@ -1,0 +1,39 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Check",
+    "Receipt",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8413203954696655
+    },
+    {
+      "description": "Font",
+      "score": 0.7450007200241089
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7100626826286316
+    },
+    {
+      "description": "Brand",
+      "score": 0.6180611848831177
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5428144931793213
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5163552165031433
+    },
+    {
+      "description": "Logo",
+      "score": 0.5077453851699829
+    }
+  ]
+}

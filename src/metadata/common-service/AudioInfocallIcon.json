@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Audio",
+    "Infocall",
+    "Eye",
+    "Sky",
+    "Tree",
+    "Font",
+    "Circle",
+    "Symbol",
+    "Rectangle",
+    "Darkness",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Eye",
+      "score": 0.936668872833252
+    },
+    {
+      "description": "Sky",
+      "score": 0.8362017869949341
+    },
+    {
+      "description": "Tree",
+      "score": 0.8026423454284668
+    },
+    {
+      "description": "Font",
+      "score": 0.7603464722633362
+    },
+    {
+      "description": "Circle",
+      "score": 0.7348112463951111
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7292757034301758
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7229446172714233
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7127522230148315
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.671440839767456
+    },
+    {
+      "description": "Logo",
+      "score": 0.6695207953453064
+    }
+  ]
+}

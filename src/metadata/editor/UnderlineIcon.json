@@ -1,0 +1,51 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Underline",
+    "Rectangle",
+    "Logo",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8495508432388306
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7101109623908997
+    },
+    {
+      "description": "Logo",
+      "score": 0.6941542029380798
+    },
+    {
+      "description": "Font",
+      "score": 0.6748387217521667
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6571916341781616
+    },
+    {
+      "description": "Circle",
+      "score": 0.6542098522186279
+    },
+    {
+      "description": "Brand",
+      "score": 0.587881326675415
+    },
+    {
+      "description": "Number",
+      "score": 0.5805048942565918
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5550338625907898
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5010115504264832
+    }
+  ]
+}

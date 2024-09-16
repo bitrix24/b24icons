@@ -1,0 +1,53 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Reply",
+    "Sky",
+    "Font",
+    "Tints and shades",
+    "Bird",
+    "Wing"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.8232517242431641
+    },
+    {
+      "description": "Font",
+      "score": 0.7625518441200256
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.754358172416687
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7423900365829468
+    },
+    {
+      "description": "Bird",
+      "score": 0.7051068544387817
+    },
+    {
+      "description": "Wing",
+      "score": 0.6872344613075256
+    },
+    {
+      "description": "Logo",
+      "score": 0.6354794502258301
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5814533233642578
+    },
+    {
+      "description": "Cloud",
+      "score": 0.5741248726844788
+    },
+    {
+      "description": "Shadow",
+      "score": 0.5460567474365234
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Subscript",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7278672456741333
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6792010068893433
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5869802236557007
+    },
+    {
+      "description": "Brand",
+      "score": 0.5719236731529236
+    }
+  ]
+}

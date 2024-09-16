@@ -1,0 +1,52 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Chats",
+    "Automotive lighting",
+    "Tints and shades",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Automotive lighting",
+      "score": 0.8077681064605713
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7410632371902466
+    },
+    {
+      "description": "Font",
+      "score": 0.7217339277267456
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7204171419143677
+    },
+    {
+      "description": "Circle",
+      "score": 0.7040274143218994
+    },
+    {
+      "description": "Logo",
+      "score": 0.6443827748298645
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6422668099403381
+    },
+    {
+      "description": "Number",
+      "score": 0.6237596273422241
+    },
+    {
+      "description": "Auto part",
+      "score": 0.5985209941864014
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5904830098152161
+    }
+  ]
+}

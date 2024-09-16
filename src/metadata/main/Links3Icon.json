@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Links",
+    "Rectangle",
+    "Font",
+    "Gas",
+    "Art",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.791495680809021
+    },
+    {
+      "description": "Font",
+      "score": 0.7009726762771606
+    },
+    {
+      "description": "Gas",
+      "score": 0.6982447504997253
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6894325017929077
+    },
+    {
+      "description": "Art",
+      "score": 0.6857181787490845
+    },
+    {
+      "description": "Logo",
+      "score": 0.6780688166618347
+    },
+    {
+      "description": "Pattern",
+      "score": 0.626591145992279
+    },
+    {
+      "description": "Brand",
+      "score": 0.6063527464866638
+    },
+    {
+      "description": "Circle",
+      "score": 0.6034253835678101
+    },
+    {
+      "description": "Cylinder",
+      "score": 0.5976260304450989
+    }
+  ]
+}

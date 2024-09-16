@@ -1,0 +1,48 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "List",
+    "Ai",
+    "Font",
+    "Logo",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7712334990501404
+    },
+    {
+      "description": "Logo",
+      "score": 0.6977400779724121
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6806612610816956
+    },
+    {
+      "description": "Brand",
+      "score": 0.6233922243118286
+    },
+    {
+      "description": "Circle",
+      "score": 0.6144766211509705
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6113848090171814
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6038716435432434
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5811697244644165
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5087219476699829
+    }
+  ]
+}

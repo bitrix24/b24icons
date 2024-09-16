@@ -1,0 +1,51 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Chat",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.839817464351654
+    },
+    {
+      "description": "Font",
+      "score": 0.7014482021331787
+    },
+    {
+      "description": "Logo",
+      "score": 0.6713743209838867
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6672807335853577
+    },
+    {
+      "description": "Brand",
+      "score": 0.6258746385574341
+    },
+    {
+      "description": "Display device",
+      "score": 0.6165608167648315
+    },
+    {
+      "description": "Multimedia",
+      "score": 0.5923753380775452
+    },
+    {
+      "description": "Circle",
+      "score": 0.5511975288391113
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5319837331771851
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5007061958312988
+    }
+  ]
+}

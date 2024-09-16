@@ -1,0 +1,50 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Form",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8107298016548157
+    },
+    {
+      "description": "Font",
+      "score": 0.7728971242904663
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7302725911140442
+    },
+    {
+      "description": "Gas",
+      "score": 0.6481525301933289
+    },
+    {
+      "description": "Logo",
+      "score": 0.6379469037055969
+    },
+    {
+      "description": "Brand",
+      "score": 0.6268807053565979
+    },
+    {
+      "description": "Number",
+      "score": 0.5889266133308411
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5785819888114929
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5565466284751892
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5517657399177551
+    }
+  ]
+}

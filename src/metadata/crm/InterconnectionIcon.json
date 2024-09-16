@@ -1,0 +1,52 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Interconnection",
+    "Rectangle",
+    "Font",
+    "Symbol",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.823740541934967
+    },
+    {
+      "description": "Font",
+      "score": 0.7811461687088013
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7317332029342651
+    },
+    {
+      "description": "Symbol",
+      "score": 0.71340012550354
+    },
+    {
+      "description": "Logo",
+      "score": 0.6891389489173889
+    },
+    {
+      "description": "Brand",
+      "score": 0.6279901266098022
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5984539985656738
+    },
+    {
+      "description": "Number",
+      "score": 0.588735818862915
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5789589285850525
+    },
+    {
+      "description": "Square",
+      "score": 0.5193423628807068
+    }
+  ]
+}

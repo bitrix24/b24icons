@@ -1,0 +1,47 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Arrow",
+    "Right",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7229177355766296
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7158647179603577
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6900458335876465
+    },
+    {
+      "description": "Logo",
+      "score": 0.6409342288970947
+    },
+    {
+      "description": "Brand",
+      "score": 0.5972554087638855
+    },
+    {
+      "description": "Sky",
+      "score": 0.5699245929718018
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5280463695526123
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5074129104614258
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.5014057755470276
+    }
+  ]
+}

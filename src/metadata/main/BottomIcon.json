@@ -1,0 +1,38 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Bottom",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7893579006195068
+    },
+    {
+      "description": "Font",
+      "score": 0.7326352000236511
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6879729628562927
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6022624969482422
+    },
+    {
+      "description": "Circle",
+      "score": 0.5539620518684387
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5168654918670654
+    },
+    {
+      "description": "Art",
+      "score": 0.5080035924911499
+    }
+  ]
+}

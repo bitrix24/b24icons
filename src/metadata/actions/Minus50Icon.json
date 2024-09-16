@@ -1,0 +1,51 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Minus",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8484261631965637
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7192492485046387
+    },
+    {
+      "description": "Font",
+      "score": 0.7167142629623413
+    },
+    {
+      "description": "Logo",
+      "score": 0.6950976848602295
+    },
+    {
+      "description": "Brand",
+      "score": 0.6314920783042908
+    },
+    {
+      "description": "Circle",
+      "score": 0.593353271484375
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5607581734657288
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5439300537109375
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5419990420341492
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5031551718711853
+    }
+  ]
+}

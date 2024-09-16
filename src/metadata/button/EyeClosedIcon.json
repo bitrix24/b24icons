@@ -1,0 +1,40 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Eye",
+    "Closed",
+    "Black",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.746103048324585
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7376871705055237
+    },
+    {
+      "description": "Art",
+      "score": 0.5730986595153809
+    },
+    {
+      "description": "Logo",
+      "score": 0.5678035020828247
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5615323781967163
+    },
+    {
+      "description": "Brand",
+      "score": 0.5548235177993774
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5158801078796387
+    }
+  ]
+}

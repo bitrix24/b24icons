@@ -1,0 +1,50 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Calculator",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8661983013153076
+    },
+    {
+      "description": "Font",
+      "score": 0.7279613018035889
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.727225124835968
+    },
+    {
+      "description": "Brand",
+      "score": 0.6370915174484253
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6001964807510376
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5468865633010864
+    },
+    {
+      "description": "Logo",
+      "score": 0.529666006565094
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5276721119880676
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5192726254463196
+    },
+    {
+      "description": "Square",
+      "score": 0.5007384419441223
+    }
+  ]
+}

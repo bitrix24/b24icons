@@ -1,0 +1,37 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Activity",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7571961283683777
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6795703768730164
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6092725992202759
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5811567306518555
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5711063742637634
+    },
+    {
+      "description": "Logo",
+      "score": 0.563178539276123
+    },
+    {
+      "description": "Art",
+      "score": 0.5349791049957275
+    }
+  ]
+}

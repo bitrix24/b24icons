@@ -1,0 +1,38 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Crm",
+    "Map",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7440661787986755
+    },
+    {
+      "description": "Logo",
+      "score": 0.6172884702682495
+    },
+    {
+      "description": "Brand",
+      "score": 0.6130666136741638
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6117047071456909
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5816939473152161
+    },
+    {
+      "description": "Circle",
+      "score": 0.550186812877655
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5281264781951904
+    }
+  ]
+}

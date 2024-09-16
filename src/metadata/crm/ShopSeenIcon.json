@@ -1,0 +1,56 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Shop",
+    "Seen",
+    "Automotive tire",
+    "Automotive design",
+    "Camera accessory",
+    "Font",
+    "Automotive lighting",
+    "Circle",
+    "Auto part"
+  ],
+  "labels": [
+    {
+      "description": "Automotive tire",
+      "score": 0.8652124404907227
+    },
+    {
+      "description": "Automotive design",
+      "score": 0.7786241173744202
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7271865606307983
+    },
+    {
+      "description": "Camera accessory",
+      "score": 0.7243333458900452
+    },
+    {
+      "description": "Font",
+      "score": 0.7233327627182007
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.7133620381355286
+    },
+    {
+      "description": "Circle",
+      "score": 0.7095874547958374
+    },
+    {
+      "description": "Auto part",
+      "score": 0.672768235206604
+    },
+    {
+      "description": "Tire",
+      "score": 0.6567248702049255
+    },
+    {
+      "description": "Automotive wheel system",
+      "score": 0.6143417358398438
+    }
+  ]
+}

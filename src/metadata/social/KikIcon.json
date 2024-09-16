@@ -1,0 +1,33 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Kik",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.767094075679779
+    },
+    {
+      "description": "Brand",
+      "score": 0.6360980868339539
+    },
+    {
+      "description": "Art",
+      "score": 0.6278817653656006
+    },
+    {
+      "description": "Logo",
+      "score": 0.6198594570159912
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6138055920600891
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5817087888717651
+    }
+  ]
+}

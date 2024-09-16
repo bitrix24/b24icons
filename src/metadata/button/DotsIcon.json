@@ -1,0 +1,35 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Dots",
+    "Black",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7826012969017029
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7235986590385437
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.660528838634491
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6328863501548767
+    },
+    {
+      "description": "Circle",
+      "score": 0.5312325954437256
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5061233043670654
+    }
+  ]
+}

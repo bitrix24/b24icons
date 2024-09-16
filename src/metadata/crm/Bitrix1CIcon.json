@@ -1,0 +1,50 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Bitrix",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7738267183303833
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7417384386062622
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7121580839157104
+    },
+    {
+      "description": "Logo",
+      "score": 0.6468232274055481
+    },
+    {
+      "description": "Circle",
+      "score": 0.6435944437980652
+    },
+    {
+      "description": "Art",
+      "score": 0.6274738311767578
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6140018701553345
+    },
+    {
+      "description": "Brand",
+      "score": 0.6130064725875854
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6002423167228699
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5967192649841309
+    }
+  ]
+}

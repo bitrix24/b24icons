@@ -1,0 +1,50 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Plus",
+    "Symbol",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8288785219192505
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7534855008125305
+    },
+    {
+      "description": "Font",
+      "score": 0.7480689287185669
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.694145679473877
+    },
+    {
+      "description": "Brand",
+      "score": 0.5970531702041626
+    },
+    {
+      "description": "Event",
+      "score": 0.5730514526367188
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5482662916183472
+    },
+    {
+      "description": "Circle",
+      "score": 0.5451449155807495
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5179459452629089
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5128356218338013
+    }
+  ]
+}

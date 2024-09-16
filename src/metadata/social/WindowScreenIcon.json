@@ -1,0 +1,39 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Window",
+    "Screen",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7958155870437622
+    },
+    {
+      "description": "Font",
+      "score": 0.7633486986160278
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7054194211959839
+    },
+    {
+      "description": "Brand",
+      "score": 0.5688361525535583
+    },
+    {
+      "description": "Circle",
+      "score": 0.5618362426757812
+    },
+    {
+      "description": "Home accessories",
+      "score": 0.5403201580047607
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5397359132766724
+    }
+  ]
+}

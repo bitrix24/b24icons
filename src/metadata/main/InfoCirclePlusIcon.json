@@ -1,0 +1,57 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Info",
+    "Circle",
+    "Plus",
+    "Font",
+    "Grass",
+    "Logo",
+    "Rectangle",
+    "Symbol",
+    "Art",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7957953214645386
+    },
+    {
+      "description": "Grass",
+      "score": 0.7442932724952698
+    },
+    {
+      "description": "Logo",
+      "score": 0.7247843742370605
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7090258598327637
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7027056813240051
+    },
+    {
+      "description": "Art",
+      "score": 0.6924988627433777
+    },
+    {
+      "description": "Circle",
+      "score": 0.6793918013572693
+    },
+    {
+      "description": "Brand",
+      "score": 0.6598927974700928
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6467869281768799
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5194858312606812
+    }
+  ]
+}

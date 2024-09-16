@@ -1,0 +1,40 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Cloud",
+    "Transfer",
+    "Data",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7234789729118347
+    },
+    {
+      "description": "Logo",
+      "score": 0.7096686959266663
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7019793391227722
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6616266369819641
+    },
+    {
+      "description": "Brand",
+      "score": 0.645147979259491
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5636386871337891
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5031612515449524
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Cross",
+    "Circle",
+    "Font",
+    "Circle",
+    "Symmetry",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7895874381065369
+    },
+    {
+      "description": "Circle",
+      "score": 0.7464271187782288
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.740359365940094
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.729020893573761
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7026062607765198
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6335368752479553
+    },
+    {
+      "description": "Art",
+      "score": 0.6285244822502136
+    },
+    {
+      "description": "Logo",
+      "score": 0.6270896792411804
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6070381999015808
+    },
+    {
+      "description": "Brand",
+      "score": 0.5926958918571472
+    }
+  ]
+}

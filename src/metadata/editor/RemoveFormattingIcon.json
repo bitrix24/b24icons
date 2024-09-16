@@ -1,0 +1,52 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Remove",
+    "Formatting",
+    "Symbol",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Symbol",
+      "score": 0.7245724201202393
+    },
+    {
+      "description": "Font",
+      "score": 0.7107361555099487
+    },
+    {
+      "description": "Cross",
+      "score": 0.7004417777061462
+    },
+    {
+      "description": "Logo",
+      "score": 0.6758033633232117
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6545315980911255
+    },
+    {
+      "description": "Brand",
+      "score": 0.6415109634399414
+    },
+    {
+      "description": "Balance",
+      "score": 0.5996847152709961
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5976521968841553
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5877504348754883
+    },
+    {
+      "description": "Circle",
+      "score": 0.5664144158363342
+    }
+  ]
+}

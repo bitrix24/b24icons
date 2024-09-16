@@ -1,0 +1,59 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Office365",
+    "Rectangle",
+    "Font",
+    "Symbol",
+    "Logo",
+    "Art",
+    "Magenta",
+    "Pattern",
+    "Symmetry",
+    "Graphics"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8712236285209656
+    },
+    {
+      "description": "Font",
+      "score": 0.8020671606063843
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7457100749015808
+    },
+    {
+      "description": "Logo",
+      "score": 0.7403882741928101
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7388556003570557
+    },
+    {
+      "description": "Art",
+      "score": 0.7347811460494995
+    },
+    {
+      "description": "Magenta",
+      "score": 0.7221955060958862
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7132952213287354
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6943824887275696
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6868830919265747
+    }
+  ]
+}

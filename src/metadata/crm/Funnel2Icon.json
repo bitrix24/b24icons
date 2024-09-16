@@ -1,0 +1,47 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Funnel",
+    "Font",
+    "Rectangle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7243257761001587
+    },
+    {
+      "description": "Font",
+      "score": 0.7235741019248962
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6961449980735779
+    },
+    {
+      "description": "Logo",
+      "score": 0.6958205699920654
+    },
+    {
+      "description": "Brand",
+      "score": 0.6576714515686035
+    },
+    {
+      "description": "Parallel",
+      "score": 0.6573203802108765
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6206766963005066
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5912297368049622
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5137634873390198
+    }
+  ]
+}

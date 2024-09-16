@@ -1,0 +1,51 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Shape",
+    "Tints and shades",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Tints and shades",
+      "score": 0.7336195707321167
+    },
+    {
+      "description": "Font",
+      "score": 0.7290439009666443
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7222529053688049
+    },
+    {
+      "description": "Circle",
+      "score": 0.7106603980064392
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6622071266174316
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.63020920753479
+    },
+    {
+      "description": "Water",
+      "score": 0.6281076073646545
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5935298800468445
+    },
+    {
+      "description": "Art",
+      "score": 0.5932056307792664
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5788602232933044
+    }
+  ]
+}

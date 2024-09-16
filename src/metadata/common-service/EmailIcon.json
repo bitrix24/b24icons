@@ -1,0 +1,58 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Email",
+    "Font",
+    "Triangle",
+    "Midnight",
+    "Logo",
+    "Pattern",
+    "Darkness",
+    "Circle",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7885786890983582
+    },
+    {
+      "description": "Triangle",
+      "score": 0.7761095762252808
+    },
+    {
+      "description": "Midnight",
+      "score": 0.7111968398094177
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7107551693916321
+    },
+    {
+      "description": "Logo",
+      "score": 0.702765941619873
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7006229162216187
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6849713325500488
+    },
+    {
+      "description": "Circle",
+      "score": 0.6785469651222229
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6731786727905273
+    },
+    {
+      "description": "Brand",
+      "score": 0.6625675559043884
+    }
+  ]
+}

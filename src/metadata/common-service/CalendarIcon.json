@@ -1,0 +1,57 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Calendar",
+    "Rectangle",
+    "Font",
+    "Circle",
+    "Pattern",
+    "Logo",
+    "Symmetry",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8531639575958252
+    },
+    {
+      "description": "Font",
+      "score": 0.7534728050231934
+    },
+    {
+      "description": "Circle",
+      "score": 0.7503640651702881
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7236734628677368
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7187211513519287
+    },
+    {
+      "description": "Logo",
+      "score": 0.7108510732650757
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.704848051071167
+    },
+    {
+      "description": "Symbol",
+      "score": 0.667718231678009
+    },
+    {
+      "description": "Brand",
+      "score": 0.6537923216819763
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6431496739387512
+    }
+  ]
+}

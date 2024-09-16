@@ -1,0 +1,48 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Cube",
+    "Plus",
+    "Cemetery",
+    "Symbol",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8434337377548218
+    },
+    {
+      "description": "Cemetery",
+      "score": 0.7564771771430969
+    },
+    {
+      "description": "Symbol",
+      "score": 0.740261435508728
+    },
+    {
+      "description": "Font",
+      "score": 0.7394510507583618
+    },
+    {
+      "description": "Religious item",
+      "score": 0.6243003606796265
+    },
+    {
+      "description": "Gas",
+      "score": 0.6170646548271179
+    },
+    {
+      "description": "Event",
+      "score": 0.6159185171127319
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6144453883171082
+    },
+    {
+      "description": "Crucifix",
+      "score": 0.6035580039024353
+    }
+  ]
+}

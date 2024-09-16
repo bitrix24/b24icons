@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Magic",
+    "Image",
+    "Font",
+    "Rectangle",
+    "Symbol",
+    "Terrestrial plant"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8128348588943481
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.80842125415802
+    },
+    {
+      "description": "Cross",
+      "score": 0.7681983113288879
+    },
+    {
+      "description": "Symbol",
+      "score": 0.728729248046875
+    },
+    {
+      "description": "Terrestrial plant",
+      "score": 0.6715990900993347
+    },
+    {
+      "description": "Logo",
+      "score": 0.6528895497322083
+    },
+    {
+      "description": "Brand",
+      "score": 0.6091015338897705
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6037821769714355
+    },
+    {
+      "description": "Grass",
+      "score": 0.5953049659729004
+    },
+    {
+      "description": "Circle",
+      "score": 0.5661646723747253
+    }
+  ]
+}

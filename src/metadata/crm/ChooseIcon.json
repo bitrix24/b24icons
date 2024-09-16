@@ -1,0 +1,54 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Choose",
+    "Sky",
+    "Gas",
+    "Eyelash",
+    "Art",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.8632557392120361
+    },
+    {
+      "description": "Gas",
+      "score": 0.7623646855354309
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.7446480393409729
+    },
+    {
+      "description": "Art",
+      "score": 0.7432104349136353
+    },
+    {
+      "description": "Font",
+      "score": 0.7355577349662781
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7335677146911621
+    },
+    {
+      "description": "Circle",
+      "score": 0.6912246346473694
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6453022360801697
+    },
+    {
+      "description": "Logo",
+      "score": 0.643991231918335
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6392414569854736
+    }
+  ]
+}

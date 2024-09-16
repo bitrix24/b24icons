@@ -1,0 +1,54 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Task",
+    "Black",
+    "Font",
+    "Wing",
+    "Logo",
+    "Event"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.727745771408081
+    },
+    {
+      "description": "Font",
+      "score": 0.7233991026878357
+    },
+    {
+      "description": "Wing",
+      "score": 0.6961510181427002
+    },
+    {
+      "description": "Logo",
+      "score": 0.6828679442405701
+    },
+    {
+      "description": "Event",
+      "score": 0.675577700138092
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6436212062835693
+    },
+    {
+      "description": "Airplane",
+      "score": 0.6070696115493774
+    },
+    {
+      "description": "Air travel",
+      "score": 0.606888473033905
+    },
+    {
+      "description": "Art",
+      "score": 0.6019589900970459
+    },
+    {
+      "description": "Brand",
+      "score": 0.6016455292701721
+    }
+  ]
+}

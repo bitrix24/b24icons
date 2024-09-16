@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Cloud",
+    "Cloud",
+    "Font",
+    "Sky"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7318919897079468
+    },
+    {
+      "description": "Font",
+      "score": 0.726292073726654
+    },
+    {
+      "description": "Sky",
+      "score": 0.6841833591461182
+    },
+    {
+      "description": "Circle",
+      "score": 0.6536427140235901
+    },
+    {
+      "description": "Art",
+      "score": 0.6252415776252747
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6197755932807922
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5991541743278503
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5808015465736389
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.572681725025177
+    },
+    {
+      "description": "Magenta",
+      "score": 0.5677712559700012
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Folder",
+    "Left",
+    "Arrow",
+    "Rectangle",
+    "Font",
+    "Symbol",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.843157172203064
+    },
+    {
+      "description": "Font",
+      "score": 0.74764084815979
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7055367231369019
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6956602334976196
+    },
+    {
+      "description": "Logo",
+      "score": 0.6884562969207764
+    },
+    {
+      "description": "Brand",
+      "score": 0.6248387694358826
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6078876256942749
+    },
+    {
+      "description": "Square",
+      "score": 0.5632066130638123
+    },
+    {
+      "description": "Circle",
+      "score": 0.5433968305587769
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Telegram",
+    "Circle",
+    "Gesture",
+    "Eyelash",
+    "Logo",
+    "Circle",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.8525940775871277
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.7877241969108582
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7175522446632385
+    },
+    {
+      "description": "Logo",
+      "score": 0.7087894678115845
+    },
+    {
+      "description": "Circle",
+      "score": 0.7038045525550842
+    },
+    {
+      "description": "Font",
+      "score": 0.6867899894714355
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6681458353996277
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6321853995323181
+    },
+    {
+      "description": "Art",
+      "score": 0.6204414963722229
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6119758486747742
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Favorite",
+    "0",
+    "Gesture",
+    "Font",
+    "Symbol",
+    "Symmetry",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8273026347160339
+    },
+    {
+      "description": "Gesture",
+      "score": 0.8064337968826294
+    },
+    {
+      "description": "Religious item",
+      "score": 0.7660350799560547
+    },
+    {
+      "description": "Font",
+      "score": 0.7426594495773315
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7147049307823181
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7110470533370972
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6991820931434631
+    },
+    {
+      "description": "Logo",
+      "score": 0.6986965537071228
+    },
+    {
+      "description": "Event",
+      "score": 0.6595431566238403
+    },
+    {
+      "description": "Circle",
+      "score": 0.6289008855819702
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Arrow",
+    "Back",
+    "Dark",
+    "Font",
+    "Symbol",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7340297102928162
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7259107828140259
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6876466870307922
+    },
+    {
+      "description": "Logo",
+      "score": 0.6683982014656067
+    },
+    {
+      "description": "Brand",
+      "score": 0.628885805606842
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5809711813926697
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5269654989242554
+    },
+    {
+      "description": "Number",
+      "score": 0.5124308466911316
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5011552572250366
+    }
+  ]
+}

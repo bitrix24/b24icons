@@ -1,0 +1,54 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Liveid",
+    "Font",
+    "Rectangle",
+    "Logo",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7564053535461426
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7412090301513672
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7174907326698303
+    },
+    {
+      "description": "Logo",
+      "score": 0.7075292468070984
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6711313128471375
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6525126099586487
+    },
+    {
+      "description": "Brand",
+      "score": 0.6364239454269409
+    },
+    {
+      "description": "Carmine",
+      "score": 0.6252836585044861
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5984097123146057
+    },
+    {
+      "description": "Magenta",
+      "score": 0.597249448299408
+    }
+  ]
+}

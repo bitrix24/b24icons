@@ -1,0 +1,34 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Facebook",
+    "Symbol",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8573753833770752
+    },
+    {
+      "description": "Religious item",
+      "score": 0.8012576103210449
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7465635538101196
+    },
+    {
+      "description": "Font",
+      "score": 0.7075506448745728
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.698992908000946
+    },
+    {
+      "description": "Event",
+      "score": 0.6006329655647278
+    }
+  ]
+}

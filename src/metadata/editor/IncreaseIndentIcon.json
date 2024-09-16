@@ -1,0 +1,48 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Increase",
+    "Indent",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8514085412025452
+    },
+    {
+      "description": "Font",
+      "score": 0.7584194540977478
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7241264581680298
+    },
+    {
+      "description": "Logo",
+      "score": 0.6976683139801025
+    },
+    {
+      "description": "Parallel",
+      "score": 0.6540522575378418
+    },
+    {
+      "description": "Brand",
+      "score": 0.6489527821540833
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5768138766288757
+    },
+    {
+      "description": "Circle",
+      "score": 0.5596420764923096
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5274187922477722
+    }
+  ]
+}

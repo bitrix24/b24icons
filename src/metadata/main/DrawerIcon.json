@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Drawer",
+    "Font",
+    "Gas",
+    "Logo",
+    "Brand"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.775007963180542
+    },
+    {
+      "description": "Gas",
+      "score": 0.7632536292076111
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7389830350875854
+    },
+    {
+      "description": "Logo",
+      "score": 0.7198306322097778
+    },
+    {
+      "description": "Brand",
+      "score": 0.6640808582305908
+    },
+    {
+      "description": "Output device",
+      "score": 0.6484631299972534
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6374207139015198
+    },
+    {
+      "description": "Office equipment",
+      "score": 0.60587078332901
+    },
+    {
+      "description": "Room",
+      "score": 0.5840254426002502
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5327647924423218
+    }
+  ]
+}

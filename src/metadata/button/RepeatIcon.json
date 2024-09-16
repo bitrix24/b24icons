@@ -1,0 +1,27 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Repeat",
+    "Dark",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7365173697471619
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7331671118736267
+    },
+    {
+      "description": "Symbol",
+      "score": 0.593953013420105
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5294426679611206
+    }
+  ]
+}

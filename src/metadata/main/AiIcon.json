@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Ai",
+    "Font",
+    "Grass",
+    "Symbol",
+    "Circle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7930359244346619
+    },
+    {
+      "description": "Grass",
+      "score": 0.7538661956787109
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7303001880645752
+    },
+    {
+      "description": "Circle",
+      "score": 0.7095854878425598
+    },
+    {
+      "description": "Logo",
+      "score": 0.7020309567451477
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6483347415924072
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6464215517044067
+    },
+    {
+      "description": "Brand",
+      "score": 0.6408668756484985
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6025058627128601
+    },
+    {
+      "description": "Number",
+      "score": 0.5546741485595703
+    }
+  ]
+}

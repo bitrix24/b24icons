@@ -1,0 +1,58 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Googleads",
+    "Font",
+    "Tints and shades",
+    "Sky",
+    "Circle",
+    "Darkness",
+    "Monochrome photography",
+    "Midnight",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7894132733345032
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.765155017375946
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7233270406723022
+    },
+    {
+      "description": "Sky",
+      "score": 0.7013105154037476
+    },
+    {
+      "description": "Circle",
+      "score": 0.7007618546485901
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6940023899078369
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6775692701339722
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6715528964996338
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6687490940093994
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.6574931144714355
+    }
+  ]
+}

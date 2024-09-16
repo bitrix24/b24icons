@@ -1,0 +1,52 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Bold",
+    "Rectangle",
+    "Logo",
+    "Font",
+    "Tints and shades"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8357179164886475
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7074766159057617
+    },
+    {
+      "description": "Logo",
+      "score": 0.6822018623352051
+    },
+    {
+      "description": "Font",
+      "score": 0.6682921648025513
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.6671798825263977
+    },
+    {
+      "description": "Brand",
+      "score": 0.6347605586051941
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6086633205413818
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5542140007019043
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5474264025688171
+    },
+    {
+      "description": "Circle",
+      "score": 0.5117018818855286
+    }
+  ]
+}

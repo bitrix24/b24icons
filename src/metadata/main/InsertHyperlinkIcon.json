@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Insert",
+    "Hyperlink",
+    "Tints and shades",
+    "Font",
+    "Circle",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Tints and shades",
+      "score": 0.7572099566459656
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7270317077636719
+    },
+    {
+      "description": "Font",
+      "score": 0.7192440629005432
+    },
+    {
+      "description": "Circle",
+      "score": 0.6897878050804138
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6788837909698486
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6345989108085632
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5987351536750793
+    },
+    {
+      "description": "Number",
+      "score": 0.5558362007141113
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.5441856980323792
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5431613922119141
+    }
+  ]
+}

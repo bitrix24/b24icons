@@ -1,0 +1,56 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Add",
+    "Folder",
+    "Black",
+    "Rectangle",
+    "Font",
+    "Symbol",
+    "Logo",
+    "Brand"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8163412809371948
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7978475093841553
+    },
+    {
+      "description": "Font",
+      "score": 0.7868127226829529
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7454879283905029
+    },
+    {
+      "description": "Logo",
+      "score": 0.7201159596443176
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7094221115112305
+    },
+    {
+      "description": "Brand",
+      "score": 0.6720075011253357
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6582517027854919
+    },
+    {
+      "description": "Event",
+      "score": 0.6174542307853699
+    },
+    {
+      "description": "Service",
+      "score": 0.6039637923240662
+    }
+  ]
+}

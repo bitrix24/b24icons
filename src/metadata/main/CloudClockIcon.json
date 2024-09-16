@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Cloud",
+    "Clock",
+    "Gas",
+    "Circle",
+    "Font",
+    "Logo",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Gas",
+      "score": 0.7534586191177368
+    },
+    {
+      "description": "Circle",
+      "score": 0.7311435341835022
+    },
+    {
+      "description": "Font",
+      "score": 0.7250443696975708
+    },
+    {
+      "description": "Logo",
+      "score": 0.7171137928962708
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.710113525390625
+    },
+    {
+      "description": "Symbol",
+      "score": 0.672667384147644
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6563757061958313
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6228957772254944
+    },
+    {
+      "description": "Brand",
+      "score": 0.6047558784484863
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5329703092575073
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "category": "Common-b24",
+  "subCategories": [
+    "Ui",
+    "User",
+    "Gas",
+    "Astronomical object",
+    "Font",
+    "Tints and shades",
+    "Event",
+    "Midnight",
+    "Darkness",
+    "Circle",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Gas",
+      "score": 0.7805915474891663
+    },
+    {
+      "description": "Astronomical object",
+      "score": 0.7707532048225403
+    },
+    {
+      "description": "Font",
+      "score": 0.7350229620933533
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7302206158638
+    },
+    {
+      "description": "Event",
+      "score": 0.6966608166694641
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6942493319511414
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6887116432189941
+    },
+    {
+      "description": "Circle",
+      "score": 0.6803006529808044
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6695647239685059
+    },
+    {
+      "description": "Heat",
+      "score": 0.6113071441650391
+    }
+  ]
+}

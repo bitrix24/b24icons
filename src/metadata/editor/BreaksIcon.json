@@ -1,0 +1,42 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Breaks",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7965778708457947
+    },
+    {
+      "description": "Font",
+      "score": 0.7713267803192139
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7190874218940735
+    },
+    {
+      "description": "Parallel",
+      "score": 0.6598235964775085
+    },
+    {
+      "description": "Laptop",
+      "score": 0.6541154980659485
+    },
+    {
+      "description": "Brand",
+      "score": 0.6139315962791443
+    },
+    {
+      "description": "Circle",
+      "score": 0.5783647298812866
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5095583200454712
+    }
+  ]
+}

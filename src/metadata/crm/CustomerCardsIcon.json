@@ -1,0 +1,47 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Customer",
+    "Cards",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8035127520561218
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7185178995132446
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6840417981147766
+    },
+    {
+      "description": "Logo",
+      "score": 0.636900782585144
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6309758424758911
+    },
+    {
+      "description": "Brand",
+      "score": 0.6204652786254883
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6032618880271912
+    },
+    {
+      "description": "Number",
+      "score": 0.5568619966506958
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5092107057571411
+    }
+  ]
+}

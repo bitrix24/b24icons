@@ -1,0 +1,26 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Redo",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.728668749332428
+    },
+    {
+      "description": "Font",
+      "score": 0.7219619154930115
+    },
+    {
+      "description": "Symbol",
+      "score": 0.689282238483429
+    },
+    {
+      "description": "Graphics",
+      "score": 0.522897481918335
+    }
+  ]
+}

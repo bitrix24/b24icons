@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Check",
+    "Font",
+    "Sky",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7323309183120728
+    },
+    {
+      "description": "Font",
+      "score": 0.7279387712478638
+    },
+    {
+      "description": "Sky",
+      "score": 0.7129011750221252
+    },
+    {
+      "description": "Logo",
+      "score": 0.7019901871681213
+    },
+    {
+      "description": "Meteorological phenomenon",
+      "score": 0.6501001119613647
+    },
+    {
+      "description": "Cloud",
+      "score": 0.6373835206031799
+    },
+    {
+      "description": "Event",
+      "score": 0.622013509273529
+    },
+    {
+      "description": "Brand",
+      "score": 0.6183461546897888
+    },
+    {
+      "description": "Art",
+      "score": 0.5694835782051086
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5632224678993225
+    }
+  ]
+}

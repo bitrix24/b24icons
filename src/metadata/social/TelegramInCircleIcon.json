@@ -1,0 +1,58 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Telegram",
+    "Circle",
+    "Eye",
+    "Human body",
+    "Jaw",
+    "Eyelash",
+    "Gesture",
+    "Font",
+    "Circle",
+    "Logo",
+    "Art"
+  ],
+  "labels": [
+    {
+      "description": "Eye",
+      "score": 0.9358835816383362
+    },
+    {
+      "description": "Human body",
+      "score": 0.8851374983787537
+    },
+    {
+      "description": "Jaw",
+      "score": 0.878885805606842
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.8589211702346802
+    },
+    {
+      "description": "Gesture",
+      "score": 0.852604866027832
+    },
+    {
+      "description": "Font",
+      "score": 0.7358366250991821
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7117379307746887
+    },
+    {
+      "description": "Circle",
+      "score": 0.6977022290229797
+    },
+    {
+      "description": "Logo",
+      "score": 0.6872721910476685
+    },
+    {
+      "description": "Art",
+      "score": 0.6840166449546814
+    }
+  ]
+}

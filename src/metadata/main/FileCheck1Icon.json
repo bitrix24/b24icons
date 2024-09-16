@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "File",
+    "Check",
+    "Rectangle",
+    "Logo",
+    "Symbol",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7619017362594604
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7045217156410217
+    },
+    {
+      "description": "Logo",
+      "score": 0.6995913982391357
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6990458369255066
+    },
+    {
+      "description": "Font",
+      "score": 0.6939757466316223
+    },
+    {
+      "description": "Circle",
+      "score": 0.6513233184814453
+    },
+    {
+      "description": "Brand",
+      "score": 0.6200795769691467
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6035544872283936
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5273958444595337
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5090829133987427
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Help",
+    "Black",
+    "Font",
+    "Symbol",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7460225224494934
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7242982387542725
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7135239839553833
+    },
+    {
+      "description": "Circle",
+      "score": 0.6800776124000549
+    },
+    {
+      "description": "Logo",
+      "score": 0.6620385050773621
+    },
+    {
+      "description": "Number",
+      "score": 0.6013011336326599
+    },
+    {
+      "description": "Brand",
+      "score": 0.5806018114089966
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5739426016807556
+    },
+    {
+      "description": "Graphics",
+      "score": 0.564690351486206
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5620169639587402
+    }
+  ]
+}

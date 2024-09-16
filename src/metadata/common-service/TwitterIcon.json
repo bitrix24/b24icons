@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Twitter",
+    "Cloud",
+    "Sky",
+    "Gas",
+    "Astronomical object",
+    "Moonlight",
+    "Font",
+    "Darkness",
+    "Wing",
+    "Event",
+    "Midnight"
+  ],
+  "labels": [
+    {
+      "description": "Cloud",
+      "score": 0.9549288749694824
+    },
+    {
+      "description": "Sky",
+      "score": 0.9022899866104126
+    },
+    {
+      "description": "Gas",
+      "score": 0.7683171033859253
+    },
+    {
+      "description": "Astronomical object",
+      "score": 0.7550501823425293
+    },
+    {
+      "description": "Moonlight",
+      "score": 0.7315973043441772
+    },
+    {
+      "description": "Font",
+      "score": 0.7293201088905334
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7091127038002014
+    },
+    {
+      "description": "Wing",
+      "score": 0.7060378789901733
+    },
+    {
+      "description": "Event",
+      "score": 0.6904639601707458
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6813438534736633
+    }
+  ]
+}

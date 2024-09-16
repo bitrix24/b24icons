@@ -1,0 +1,54 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Connection",
+    "Rectangle",
+    "Font",
+    "Symbol",
+    "Logo",
+    "Circle",
+    "Number"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7720797061920166
+    },
+    {
+      "description": "Font",
+      "score": 0.7701139450073242
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7524828910827637
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7355906963348389
+    },
+    {
+      "description": "Logo",
+      "score": 0.7123623490333557
+    },
+    {
+      "description": "Circle",
+      "score": 0.7056776285171509
+    },
+    {
+      "description": "Number",
+      "score": 0.6879940629005432
+    },
+    {
+      "description": "Brand",
+      "score": 0.6604416966438293
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6546695232391357
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5901695489883423
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Make",
+    "Shorter",
+    "Font",
+    "Rectangle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7449133396148682
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7190437912940979
+    },
+    {
+      "description": "Logo",
+      "score": 0.6780282855033875
+    },
+    {
+      "description": "Brand",
+      "score": 0.6293700933456421
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5525949001312256
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5311821699142456
+    },
+    {
+      "description": "Laptop",
+      "score": 0.5077725052833557
+    }
+  ]
+}

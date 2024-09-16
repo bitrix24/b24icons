@@ -1,0 +1,51 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Arrow",
+    "Down",
+    "Symbol",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Symbol",
+      "score": 0.737144410610199
+    },
+    {
+      "description": "Font",
+      "score": 0.7299997210502625
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7185430526733398
+    },
+    {
+      "description": "Logo",
+      "score": 0.6614600419998169
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6294876337051392
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6189183592796326
+    },
+    {
+      "description": "Brand",
+      "score": 0.5666016936302185
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5577988624572754
+    },
+    {
+      "description": "Circle",
+      "score": 0.5179536938667297
+    },
+    {
+      "description": "Art",
+      "score": 0.5140535235404968
+    }
+  ]
+}

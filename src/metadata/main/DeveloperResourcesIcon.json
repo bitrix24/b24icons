@@ -1,0 +1,42 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Developer",
+    "Resources",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.707617998123169
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.678080677986145
+    },
+    {
+      "description": "Art",
+      "score": 0.5806680917739868
+    },
+    {
+      "description": "Brand",
+      "score": 0.5691337585449219
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.560705304145813
+    },
+    {
+      "description": "Logo",
+      "score": 0.5582132339477539
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5325008630752563
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5208559036254883
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Globe",
+    "Circle",
+    "Font",
+    "Symmetry",
+    "Pattern",
+    "Jewellery",
+    "Fashion accessory"
+  ],
+  "labels": [
+    {
+      "description": "Circle",
+      "score": 0.7518379092216492
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7267552018165588
+    },
+    {
+      "description": "Font",
+      "score": 0.7207946181297302
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7031334638595581
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6785998344421387
+    },
+    {
+      "description": "Jewellery",
+      "score": 0.6725652813911438
+    },
+    {
+      "description": "Fashion accessory",
+      "score": 0.6665573716163635
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.6611958742141724
+    },
+    {
+      "description": "Metal",
+      "score": 0.6558030247688293
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6549108028411865
+    }
+  ]
+}

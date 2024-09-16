@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Apps",
+    "Rectangle",
+    "Font",
+    "Pattern",
+    "Circle",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8706857562065125
+    },
+    {
+      "description": "Font",
+      "score": 0.7617591023445129
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7364972233772278
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7252092361450195
+    },
+    {
+      "description": "Circle",
+      "score": 0.713762640953064
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.704230785369873
+    },
+    {
+      "description": "Brand",
+      "score": 0.5844066143035889
+    },
+    {
+      "description": "Square",
+      "score": 0.5800816416740417
+    },
+    {
+      "description": "Graphics",
+      "score": 0.539082407951355
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5220780372619629
+    }
+  ]
+}

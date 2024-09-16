@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Tutorial",
+    "Head",
+    "Eye",
+    "Sky",
+    "Tints and shades",
+    "Font",
+    "Tree",
+    "Circle",
+    "Art",
+    "Darkness",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Head",
+      "score": 0.9732606410980225
+    },
+    {
+      "description": "Eye",
+      "score": 0.9423245787620544
+    },
+    {
+      "description": "Sky",
+      "score": 0.8081917762756348
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7635481953620911
+    },
+    {
+      "description": "Font",
+      "score": 0.7507750988006592
+    },
+    {
+      "description": "Tree",
+      "score": 0.741953432559967
+    },
+    {
+      "description": "Circle",
+      "score": 0.7381944060325623
+    },
+    {
+      "description": "Art",
+      "score": 0.7182027101516724
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7100831866264343
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7056717276573181
+    }
+  ]
+}

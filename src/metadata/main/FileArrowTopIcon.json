@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "File",
+    "Arrow",
+    "Top",
+    "Rectangle",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.837116539478302
+    },
+    {
+      "description": "Font",
+      "score": 0.7774119973182678
+    },
+    {
+      "description": "Symbol",
+      "score": 0.743806004524231
+    },
+    {
+      "description": "Cross",
+      "score": 0.7173657417297363
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7023701667785645
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6184755563735962
+    },
+    {
+      "description": "Brand",
+      "score": 0.6060657501220703
+    },
+    {
+      "description": "Number",
+      "score": 0.5884907841682434
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5834597945213318
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5492590665817261
+    }
+  ]
+}

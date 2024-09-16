@@ -1,0 +1,47 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Dialogue",
+    "Rectangle",
+    "Font",
+    "Gadget"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8541208505630493
+    },
+    {
+      "description": "Font",
+      "score": 0.7363523244857788
+    },
+    {
+      "description": "Gadget",
+      "score": 0.7116657495498657
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6387203931808472
+    },
+    {
+      "description": "Display device",
+      "score": 0.5861492156982422
+    },
+    {
+      "description": "Circle",
+      "score": 0.5791128873825073
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5184532403945923
+    },
+    {
+      "description": "Brand",
+      "score": 0.510398268699646
+    },
+    {
+      "description": "Square",
+      "score": 0.5091787576675415
+    }
+  ]
+}

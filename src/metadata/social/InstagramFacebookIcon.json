@@ -1,0 +1,48 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Instagram",
+    "Facebook",
+    "Rectangle",
+    "Font",
+    "Number"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8091583251953125
+    },
+    {
+      "description": "Font",
+      "score": 0.7101668119430542
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6999586820602417
+    },
+    {
+      "description": "Number",
+      "score": 0.6936565637588501
+    },
+    {
+      "description": "Brand",
+      "score": 0.6429928541183472
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6283243298530579
+    },
+    {
+      "description": "Circle",
+      "score": 0.5612813234329224
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5157329440116882
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5006400346755981
+    }
+  ]
+}

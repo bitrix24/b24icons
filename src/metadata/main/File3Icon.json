@@ -1,0 +1,42 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "File",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8456474542617798
+    },
+    {
+      "description": "Font",
+      "score": 0.7575733661651611
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6510850191116333
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6146174073219299
+    },
+    {
+      "description": "Brand",
+      "score": 0.6026294827461243
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5284596681594849
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5220680236816406
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5044196248054504
+    }
+  ]
+}

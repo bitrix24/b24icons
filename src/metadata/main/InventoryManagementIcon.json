@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Inventory",
+    "Management",
+    "Font",
+    "Symbol",
+    "Rectangle",
+    "Logo",
+    "Gas"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7790645956993103
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7448917031288147
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7346944808959961
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7167015075683594
+    },
+    {
+      "description": "Logo",
+      "score": 0.6957690715789795
+    },
+    {
+      "description": "Gas",
+      "score": 0.6656810641288757
+    },
+    {
+      "description": "Brand",
+      "score": 0.6467068195343018
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.645281195640564
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6432678699493408
+    },
+    {
+      "description": "Cross",
+      "score": 0.5416591763496399
+    }
+  ]
+}

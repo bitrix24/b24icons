@@ -1,0 +1,26 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Cursor",
+    "Click",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7973767518997192
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.680305540561676
+    },
+    {
+      "description": "Brand",
+      "score": 0.5875874757766724
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5120392441749573
+    }
+  ]
+}

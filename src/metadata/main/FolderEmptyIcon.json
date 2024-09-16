@@ -1,0 +1,44 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Folder",
+    "Empty",
+    "Rectangle",
+    "Font",
+    "Gadget"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8566983938217163
+    },
+    {
+      "description": "Font",
+      "score": 0.7123403549194336
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7071036100387573
+    },
+    {
+      "description": "Gadget",
+      "score": 0.682835578918457
+    },
+    {
+      "description": "Logo",
+      "score": 0.6218137145042419
+    },
+    {
+      "description": "Brand",
+      "score": 0.5673696398735046
+    },
+    {
+      "description": "Circle",
+      "score": 0.5516169667243958
+    },
+    {
+      "description": "Multimedia",
+      "score": 0.5378710031509399
+    }
+  ]
+}

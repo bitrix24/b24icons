@@ -1,0 +1,46 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Btn",
+    "Icon",
+    "Print",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8388446569442749
+    },
+    {
+      "description": "Font",
+      "score": 0.7775006294250488
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7341346740722656
+    },
+    {
+      "description": "Logo",
+      "score": 0.6905076503753662
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6557028293609619
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6317350268363953
+    },
+    {
+      "description": "Brand",
+      "score": 0.6308649778366089
+    },
+    {
+      "description": "Trademark",
+      "score": 0.528582751750946
+    }
+  ]
+}

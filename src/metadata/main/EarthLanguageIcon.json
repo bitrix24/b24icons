@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Earth",
+    "Language",
+    "Symmetry",
+    "Circle",
+    "Pattern",
+    "Font",
+    "Gas"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.746899425983429
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7307870388031006
+    },
+    {
+      "description": "Circle",
+      "score": 0.7286875247955322
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6977245807647705
+    },
+    {
+      "description": "Font",
+      "score": 0.6802610754966736
+    },
+    {
+      "description": "Gas",
+      "score": 0.6649243235588074
+    },
+    {
+      "description": "Auto part",
+      "score": 0.6318836212158203
+    },
+    {
+      "description": "Rim",
+      "score": 0.60214763879776
+    },
+    {
+      "description": "Automotive fog light",
+      "score": 0.5892438888549805
+    },
+    {
+      "description": "Ball",
+      "score": 0.5876497030258179
+    }
+  ]
+}

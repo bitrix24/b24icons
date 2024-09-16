@@ -1,0 +1,39 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Mail",
+    "Out",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7653733491897583
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7502630949020386
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6907060146331787
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5944691896438599
+    },
+    {
+      "description": "Circle",
+      "score": 0.5714980959892273
+    },
+    {
+      "description": "Number",
+      "score": 0.5401605367660522
+    },
+    {
+      "description": "Brand",
+      "score": 0.5399825572967529
+    }
+  ]
+}

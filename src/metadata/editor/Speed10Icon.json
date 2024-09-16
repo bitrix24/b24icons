@@ -1,0 +1,58 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Speed",
+    "0",
+    "Gesture",
+    "Watch",
+    "Font",
+    "Automotive tire",
+    "Circle",
+    "Automotive lighting",
+    "Logo",
+    "Clock",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.8526036739349365
+    },
+    {
+      "description": "Watch",
+      "score": 0.7794305682182312
+    },
+    {
+      "description": "Font",
+      "score": 0.7691537737846375
+    },
+    {
+      "description": "Automotive tire",
+      "score": 0.7432806491851807
+    },
+    {
+      "description": "Circle",
+      "score": 0.7334975004196167
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.7223273515701294
+    },
+    {
+      "description": "Logo",
+      "score": 0.7129421234130859
+    },
+    {
+      "description": "Clock",
+      "score": 0.6779141426086426
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6651201844215393
+    },
+    {
+      "description": "Brand",
+      "score": 0.6630858778953552
+    }
+  ]
+}

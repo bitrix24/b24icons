@@ -1,0 +1,53 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Add",
+    "Font",
+    "Symbol",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7884100675582886
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7287619709968567
+    },
+    {
+      "description": "Circle",
+      "score": 0.7275169491767883
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6665130257606506
+    },
+    {
+      "description": "Logo",
+      "score": 0.6605553030967712
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6392119526863098
+    },
+    {
+      "description": "Brand",
+      "score": 0.6262972950935364
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6106699705123901
+    },
+    {
+      "description": "Magenta",
+      "score": 0.5974078178405762
+    },
+    {
+      "description": "Number",
+      "score": 0.5758704543113708
+    }
+  ]
+}

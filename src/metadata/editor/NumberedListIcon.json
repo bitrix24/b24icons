@@ -1,0 +1,44 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Numbered",
+    "List",
+    "Rectangle",
+    "Font",
+    "Parallel"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7821318507194519
+    },
+    {
+      "description": "Font",
+      "score": 0.7676634192466736
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7168123722076416
+    },
+    {
+      "description": "Parallel",
+      "score": 0.676533043384552
+    },
+    {
+      "description": "Logo",
+      "score": 0.6302503943443298
+    },
+    {
+      "description": "Brand",
+      "score": 0.6142069101333618
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5540514588356018
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5102047920227051
+    }
+  ]
+}

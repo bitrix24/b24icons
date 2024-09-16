@@ -1,0 +1,41 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Refresh",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7435401678085327
+    },
+    {
+      "description": "Auto part",
+      "score": 0.6423110961914062
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6418288350105286
+    },
+    {
+      "description": "Circle",
+      "score": 0.6385420560836792
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6339216232299805
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6020482778549194
+    },
+    {
+      "description": "Graphics",
+      "score": 0.532301664352417
+    },
+    {
+      "description": "Logo",
+      "score": 0.5159841179847717
+    }
+  ]
+}

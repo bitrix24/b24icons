@@ -1,0 +1,55 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Agenda",
+    "Gap",
+    "Art",
+    "Font",
+    "Symbol",
+    "Circle",
+    "Symmetry",
+    "Graphics"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8565700054168701
+    },
+    {
+      "description": "Art",
+      "score": 0.800699770450592
+    },
+    {
+      "description": "Font",
+      "score": 0.7898745536804199
+    },
+    {
+      "description": "Symbol",
+      "score": 0.756267249584198
+    },
+    {
+      "description": "Religious item",
+      "score": 0.7345227599143982
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7252141833305359
+    },
+    {
+      "description": "Circle",
+      "score": 0.7194471955299377
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7105284929275513
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6638051271438599
+    },
+    {
+      "description": "Logo",
+      "score": 0.6576613783836365
+    }
+  ]
+}

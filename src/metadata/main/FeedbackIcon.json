@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Feedback",
+    "Symbol",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Symbol",
+      "score": 0.7397099137306213
+    },
+    {
+      "description": "Font",
+      "score": 0.7381963133811951
+    },
+    {
+      "description": "Logo",
+      "score": 0.6962485909461975
+    },
+    {
+      "description": "Cross",
+      "score": 0.6837993264198303
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6770911812782288
+    },
+    {
+      "description": "Brand",
+      "score": 0.6250925064086914
+    },
+    {
+      "description": "Circle",
+      "score": 0.6240159869194031
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6079793572425842
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6056140065193176
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5970115065574646
+    }
+  ]
+}

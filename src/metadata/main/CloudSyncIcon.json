@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Cloud",
+    "Sync",
+    "Font",
+    "Logo",
+    "Symbol",
+    "Pattern",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7250675559043884
+    },
+    {
+      "description": "Font",
+      "score": 0.7249692678451538
+    },
+    {
+      "description": "Logo",
+      "score": 0.713603138923645
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7104122042655945
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6803497672080994
+    },
+    {
+      "description": "Circle",
+      "score": 0.6642530560493469
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6435561776161194
+    },
+    {
+      "description": "Brand",
+      "score": 0.6434710025787354
+    },
+    {
+      "description": "Number",
+      "score": 0.5768471956253052
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5546244978904724
+    }
+  ]
+}

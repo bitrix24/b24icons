@@ -1,0 +1,38 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Refresh",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7440665364265442
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7227020263671875
+    },
+    {
+      "description": "Logo",
+      "score": 0.6965746879577637
+    },
+    {
+      "description": "Brand",
+      "score": 0.6360458731651306
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6175565719604492
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6063227653503418
+    },
+    {
+      "description": "Art",
+      "score": 0.5079485177993774
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Skype",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.713715672492981
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7114874720573425
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6976436972618103
+    },
+    {
+      "description": "Circle",
+      "score": 0.6591240763664246
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6374049186706543
+    },
+    {
+      "description": "Logo",
+      "score": 0.5944491028785706
+    },
+    {
+      "description": "Graphics",
+      "score": 0.589357852935791
+    },
+    {
+      "description": "Brand",
+      "score": 0.5767529606819153
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5350977778434753
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.5298473834991455
+    }
+  ]
+}

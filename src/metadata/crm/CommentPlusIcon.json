@@ -1,0 +1,47 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Comment",
+    "Plus",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.7915773987770081
+    },
+    {
+      "description": "Font",
+      "score": 0.7385891675949097
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7332050800323486
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7010129690170288
+    },
+    {
+      "description": "Logo",
+      "score": 0.6083256006240845
+    },
+    {
+      "description": "Brand",
+      "score": 0.5998567342758179
+    },
+    {
+      "description": "Cemetery",
+      "score": 0.5770889520645142
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5320993065834045
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5148133635520935
+    }
+  ]
+}

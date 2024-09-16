@@ -1,0 +1,45 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Deal",
+    "Plus",
+    "Font",
+    "Rectangle",
+    "Logo",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7685912251472473
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7667270302772522
+    },
+    {
+      "description": "Cross",
+      "score": 0.7192321419715881
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6999271512031555
+    },
+    {
+      "description": "Logo",
+      "score": 0.6897565126419067
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6853330135345459
+    },
+    {
+      "description": "Brand",
+      "score": 0.6412890553474426
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6246147751808167
+    }
+  ]
+}

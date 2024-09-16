@@ -1,0 +1,37 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Send",
+    "Contact",
+    "Rectangle",
+    "Font",
+    "Symbol",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8020316362380981
+    },
+    {
+      "description": "Font",
+      "score": 0.771439254283905
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7059974074363708
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6804449558258057
+    },
+    {
+      "description": "Circle",
+      "score": 0.6734618544578552
+    },
+    {
+      "description": "Brand",
+      "score": 0.5538275241851807
+    }
+  ]
+}

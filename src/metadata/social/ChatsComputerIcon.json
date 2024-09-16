@@ -1,0 +1,55 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Chats",
+    "Computer",
+    "Rectangle",
+    "Circle",
+    "Font",
+    "Logo",
+    "Art",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.795449435710907
+    },
+    {
+      "description": "Circle",
+      "score": 0.7460162043571472
+    },
+    {
+      "description": "Font",
+      "score": 0.7277436852455139
+    },
+    {
+      "description": "Logo",
+      "score": 0.6966909170150757
+    },
+    {
+      "description": "Art",
+      "score": 0.692641019821167
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6902222037315369
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6715528964996338
+    },
+    {
+      "description": "Brand",
+      "score": 0.6518193483352661
+    },
+    {
+      "description": "Gadget",
+      "score": 0.6454625129699707
+    },
+    {
+      "description": "Graphics",
+      "score": 0.629427969455719
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Book",
+    "Open",
+    "Rectangle",
+    "Gas",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8391045331954956
+    },
+    {
+      "description": "Gas",
+      "score": 0.7321425080299377
+    },
+    {
+      "description": "Font",
+      "score": 0.7206806540489197
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6437240839004517
+    },
+    {
+      "description": "Cylinder",
+      "score": 0.6347834467887878
+    },
+    {
+      "description": "Circle",
+      "score": 0.6192347407341003
+    },
+    {
+      "description": "Brand",
+      "score": 0.5736011862754822
+    },
+    {
+      "description": "Column",
+      "score": 0.5580990314483643
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5314731597900391
+    },
+    {
+      "description": "Automotive fog light",
+      "score": 0.5221862196922302
+    }
+  ]
+}

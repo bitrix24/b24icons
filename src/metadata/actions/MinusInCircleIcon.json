@@ -1,0 +1,31 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Minus",
+    "Circle",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.750090479850769
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7204921245574951
+    },
+    {
+      "description": "Circle",
+      "score": 0.6909419894218445
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5992710590362549
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5219061374664307
+    }
+  ]
+}

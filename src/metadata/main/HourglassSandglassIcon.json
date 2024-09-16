@@ -1,0 +1,47 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Hourglass",
+    "Sandglass",
+    "Gesture",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.8526048064231873
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.717975914478302
+    },
+    {
+      "description": "Font",
+      "score": 0.6736723780632019
+    },
+    {
+      "description": "Circle",
+      "score": 0.6502384543418884
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6346277594566345
+    },
+    {
+      "description": "Event",
+      "score": 0.6146782040596008
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.565748393535614
+    },
+    {
+      "description": "Shadow",
+      "score": 0.5233046412467957
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.5016775727272034
+    }
+  ]
+}

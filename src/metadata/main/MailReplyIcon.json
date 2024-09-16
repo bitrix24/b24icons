@@ -1,0 +1,27 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Mail",
+    "Reply",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7467684149742126
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7224280834197998
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.673194944858551
+    },
+    {
+      "description": "Brand",
+      "score": 0.537948727607727
+    }
+  ]
+}

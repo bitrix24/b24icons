@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Door",
+    "Opened",
+    "Rectangle",
+    "Art",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8078604340553284
+    },
+    {
+      "description": "Art",
+      "score": 0.7170478701591492
+    },
+    {
+      "description": "Logo",
+      "score": 0.6975417137145996
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6816636323928833
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.6544574499130249
+    },
+    {
+      "description": "Font",
+      "score": 0.6321997046470642
+    },
+    {
+      "description": "Brand",
+      "score": 0.6237996220588684
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6179123520851135
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6155056357383728
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5509936213493347
+    }
+  ]
+}

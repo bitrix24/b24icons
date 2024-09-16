@@ -1,0 +1,56 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Group",
+    "Gesture",
+    "Tree",
+    "Font",
+    "Symbol",
+    "Circle",
+    "Logo",
+    "Event",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.8526048064231873
+    },
+    {
+      "description": "Tree",
+      "score": 0.8352097272872925
+    },
+    {
+      "description": "Font",
+      "score": 0.7572010159492493
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7517713308334351
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7396841049194336
+    },
+    {
+      "description": "Circle",
+      "score": 0.7320826053619385
+    },
+    {
+      "description": "Logo",
+      "score": 0.7110640406608582
+    },
+    {
+      "description": "Event",
+      "score": 0.7095077633857727
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6833418607711792
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6531912088394165
+    }
+  ]
+}

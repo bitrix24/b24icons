@@ -1,0 +1,58 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Campaign",
+    "Font",
+    "Tints and shades",
+    "Circle",
+    "Triangle",
+    "Logo",
+    "Darkness",
+    "Pattern",
+    "Midnight"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7809627652168274
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7343046069145203
+    },
+    {
+      "description": "Circle",
+      "score": 0.7171016335487366
+    },
+    {
+      "description": "Triangle",
+      "score": 0.7089961171150208
+    },
+    {
+      "description": "Logo",
+      "score": 0.7053115367889404
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7022029757499695
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6895570755004883
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6848984956741333
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6803123354911804
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6595830321311951
+    }
+  ]
+}

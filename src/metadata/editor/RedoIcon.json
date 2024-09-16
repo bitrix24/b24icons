@@ -1,0 +1,41 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Redo",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7322459816932678
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7259604930877686
+    },
+    {
+      "description": "Art",
+      "score": 0.6441659927368164
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5898739099502563
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5879666209220886
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5381345748901367
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5372472405433655
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5289891958236694
+    }
+  ]
+}

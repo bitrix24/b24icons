@@ -1,0 +1,38 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Calendar",
+    "Sharing",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.803530216217041
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7488721609115601
+    },
+    {
+      "description": "Logo",
+      "score": 0.6400472521781921
+    },
+    {
+      "description": "Brand",
+      "score": 0.6056771278381348
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5993121266365051
+    },
+    {
+      "description": "Graphics",
+      "score": 0.593176007270813
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5010414719581604
+    }
+  ]
+}

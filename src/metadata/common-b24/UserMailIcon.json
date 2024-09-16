@@ -1,0 +1,57 @@
+{
+  "category": "Common-b24",
+  "subCategories": [
+    "Ui",
+    "User",
+    "Mail",
+    "Triangle",
+    "Font",
+    "Symbol",
+    "Logo",
+    "Circle",
+    "Darkness",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Triangle",
+      "score": 0.8135679960250854
+    },
+    {
+      "description": "Font",
+      "score": 0.7692577242851257
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7251426577568054
+    },
+    {
+      "description": "Logo",
+      "score": 0.7171269655227661
+    },
+    {
+      "description": "Circle",
+      "score": 0.7076213359832764
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7024202942848206
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6837199330329895
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6777942776679993
+    },
+    {
+      "description": "Graphics",
+      "score": 0.663443922996521
+    },
+    {
+      "description": "Brand",
+      "score": 0.6576802730560303
+    }
+  ]
+}

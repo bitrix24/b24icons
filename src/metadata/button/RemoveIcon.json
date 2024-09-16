@@ -1,0 +1,53 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Remove",
+    "Black",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7700365781784058
+    },
+    {
+      "description": "Font",
+      "score": 0.7423124313354492
+    },
+    {
+      "description": "Logo",
+      "score": 0.6664920449256897
+    },
+    {
+      "description": "Circle",
+      "score": 0.6245043277740479
+    },
+    {
+      "description": "Brand",
+      "score": 0.5867047905921936
+    },
+    {
+      "description": "Ceiling",
+      "score": 0.5751004815101624
+    },
+    {
+      "description": "Diagram",
+      "score": 0.560952365398407
+    },
+    {
+      "description": "Cylinder",
+      "score": 0.5424453020095825
+    },
+    {
+      "description": "Gadget",
+      "score": 0.5269864797592163
+    },
+    {
+      "description": "Camera accessory",
+      "score": 0.5241720676422119
+    }
+  ]
+}

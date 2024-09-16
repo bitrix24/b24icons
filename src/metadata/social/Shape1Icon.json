@@ -1,0 +1,56 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Shape",
+    "Gadget",
+    "Rectangle",
+    "Automotive lighting",
+    "Circle",
+    "Logo",
+    "Multimedia",
+    "Font",
+    "Display device"
+  ],
+  "labels": [
+    {
+      "description": "Gadget",
+      "score": 0.8151131868362427
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7697334289550781
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.7560177445411682
+    },
+    {
+      "description": "Circle",
+      "score": 0.7399318814277649
+    },
+    {
+      "description": "Logo",
+      "score": 0.720089852809906
+    },
+    {
+      "description": "Multimedia",
+      "score": 0.6943322420120239
+    },
+    {
+      "description": "Font",
+      "score": 0.6668260097503662
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.665898323059082
+    },
+    {
+      "description": "Display device",
+      "score": 0.6649019122123718
+    },
+    {
+      "description": "Output device",
+      "score": 0.6589846014976501
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Print",
+    "Rectangle",
+    "Font",
+    "Output device",
+    "Gadget"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8612305521965027
+    },
+    {
+      "description": "Font",
+      "score": 0.7576107978820801
+    },
+    {
+      "description": "Output device",
+      "score": 0.7429566979408264
+    },
+    {
+      "description": "Gadget",
+      "score": 0.6831100583076477
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6752625107765198
+    },
+    {
+      "description": "Brand",
+      "score": 0.5939950942993164
+    },
+    {
+      "description": "Logo",
+      "score": 0.5835036039352417
+    },
+    {
+      "description": "Computer monitor accessory",
+      "score": 0.5708317160606384
+    },
+    {
+      "description": "Multimedia",
+      "score": 0.5705007314682007
+    },
+    {
+      "description": "Display device",
+      "score": 0.506447970867157
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Skype",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7456656694412231
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7355719208717346
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6287149786949158
+    },
+    {
+      "description": "Brand",
+      "score": 0.6077165603637695
+    },
+    {
+      "description": "Graphics",
+      "score": 0.603864848613739
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5999345779418945
+    },
+    {
+      "description": "Logo",
+      "score": 0.5914431214332581
+    },
+    {
+      "description": "Number",
+      "score": 0.580863356590271
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5085915923118591
+    }
+  ]
+}

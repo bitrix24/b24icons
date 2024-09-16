@@ -1,0 +1,34 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Swap",
+    "Symbol",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8447600603103638
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7448021173477173
+    },
+    {
+      "description": "Font",
+      "score": 0.7347021102905273
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6317430734634399
+    },
+    {
+      "description": "Brand",
+      "score": 0.6205838918685913
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5819849967956543
+    }
+  ]
+}

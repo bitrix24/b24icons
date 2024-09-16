@@ -1,0 +1,45 @@
+{
+  "category": "Contact-center",
+  "subCategories": [
+    "Incoming",
+    "Call",
+    "Sound",
+    "On",
+    "Font",
+    "Art"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7083037495613098
+    },
+    {
+      "description": "Font",
+      "score": 0.6964994668960571
+    },
+    {
+      "description": "Art",
+      "score": 0.6920632719993591
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.563321053981781
+    },
+    {
+      "description": "Logo",
+      "score": 0.5592793822288513
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5509579181671143
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5267865657806396
+    },
+    {
+      "description": "Brand",
+      "score": 0.5212213397026062
+    }
+  ]
+}

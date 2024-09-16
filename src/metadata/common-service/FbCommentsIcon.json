@@ -1,0 +1,56 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Fb",
+    "Comments",
+    "Font",
+    "Symbol",
+    "Rectangle",
+    "Darkness",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8391291499137878
+    },
+    {
+      "description": "Font",
+      "score": 0.7794790863990784
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7473174333572388
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.719092845916748
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6909461617469788
+    },
+    {
+      "description": "Logo",
+      "score": 0.686930775642395
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6590256690979004
+    },
+    {
+      "description": "Circle",
+      "score": 0.6244305968284607
+    },
+    {
+      "description": "Event",
+      "score": 0.617821216583252
+    },
+    {
+      "description": "Brand",
+      "score": 0.6117370128631592
+    }
+  ]
+}

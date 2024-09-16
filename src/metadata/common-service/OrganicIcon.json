@@ -1,0 +1,52 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Organic",
+    "Font",
+    "Darkness"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.776153028011322
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6932932734489441
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6643465757369995
+    },
+    {
+      "description": "Sky",
+      "score": 0.6521986722946167
+    },
+    {
+      "description": "Circle",
+      "score": 0.6446284651756287
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6267334818840027
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6112427711486816
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6062512397766113
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6035462021827698
+    },
+    {
+      "description": "Brand",
+      "score": 0.5977550745010376
+    }
+  ]
+}

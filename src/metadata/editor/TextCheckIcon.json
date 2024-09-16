@@ -1,0 +1,55 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Text",
+    "Check",
+    "Automotive tire",
+    "Gesture",
+    "Font",
+    "Circle",
+    "Automotive wheel system",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Automotive tire",
+      "score": 0.9200484156608582
+    },
+    {
+      "description": "Gesture",
+      "score": 0.8526042103767395
+    },
+    {
+      "description": "Font",
+      "score": 0.7640787363052368
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7282912731170654
+    },
+    {
+      "description": "Circle",
+      "score": 0.7232725024223328
+    },
+    {
+      "description": "Automotive wheel system",
+      "score": 0.6962279081344604
+    },
+    {
+      "description": "Logo",
+      "score": 0.6926019191741943
+    },
+    {
+      "description": "Auto part",
+      "score": 0.6456756591796875
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6432221531867981
+    },
+    {
+      "description": "Audio equipment",
+      "score": 0.6424562335014343
+    }
+  ]
+}

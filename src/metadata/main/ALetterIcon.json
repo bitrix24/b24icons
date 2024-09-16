@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "A",
+    "Letter",
+    "Symmetry",
+    "Circle",
+    "Font",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7104356288909912
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.710274875164032
+    },
+    {
+      "description": "Circle",
+      "score": 0.7015944123268127
+    },
+    {
+      "description": "Font",
+      "score": 0.6866040229797363
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6739570498466492
+    },
+    {
+      "description": "Logo",
+      "score": 0.6321700811386108
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6315664649009705
+    },
+    {
+      "description": "Brand",
+      "score": 0.6212829351425171
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.6083518266677856
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5734907388687134
+    }
+  ]
+}

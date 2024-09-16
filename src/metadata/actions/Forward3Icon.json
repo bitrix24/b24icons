@@ -1,0 +1,39 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Forward",
+    "Bird",
+    "Tints and shades",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Bird",
+      "score": 0.7508691549301147
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.739753782749176
+    },
+    {
+      "description": "Font",
+      "score": 0.7269294857978821
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7259262800216675
+    },
+    {
+      "description": "Wing",
+      "score": 0.6474030017852783
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.567318856716156
+    },
+    {
+      "description": "Shadow",
+      "score": 0.5025075078010559
+    }
+  ]
+}

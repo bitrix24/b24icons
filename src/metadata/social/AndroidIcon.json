@@ -1,0 +1,52 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Android",
+    "Font",
+    "Camera accessory",
+    "Rectangle",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7968413829803467
+    },
+    {
+      "description": "Camera accessory",
+      "score": 0.7781718969345093
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7367205023765564
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6988885998725891
+    },
+    {
+      "description": "Circle",
+      "score": 0.6868184208869934
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.5522293448448181
+    },
+    {
+      "description": "Logo",
+      "score": 0.5323818325996399
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5096045732498169
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5087515711784363
+    },
+    {
+      "description": "Gadget",
+      "score": 0.508253276348114
+    }
+  ]
+}

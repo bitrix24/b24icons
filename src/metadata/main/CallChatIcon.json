@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Call",
+    "Chat",
+    "Font",
+    "Rectangle",
+    "Symbol",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7500365376472473
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7369067668914795
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7213059067726135
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6801393628120422
+    },
+    {
+      "description": "Logo",
+      "score": 0.6775302886962891
+    },
+    {
+      "description": "Circle",
+      "score": 0.6503862142562866
+    },
+    {
+      "description": "Automotive exterior",
+      "score": 0.6066956520080566
+    },
+    {
+      "description": "Brand",
+      "score": 0.6059755086898804
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5968600511550903
+    },
+    {
+      "description": "Auto part",
+      "score": 0.5239295363426208
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Fb",
+    "Messanger",
+    "Head",
+    "Eye",
+    "Human body",
+    "Tree",
+    "Sky",
+    "Cloud",
+    "Moonlight",
+    "Astronomical object",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Head",
+      "score": 0.971613883972168
+    },
+    {
+      "description": "Eye",
+      "score": 0.9412449598312378
+    },
+    {
+      "description": "Human body",
+      "score": 0.8868765830993652
+    },
+    {
+      "description": "Tree",
+      "score": 0.8483330607414246
+    },
+    {
+      "description": "Sky",
+      "score": 0.847176194190979
+    },
+    {
+      "description": "Cloud",
+      "score": 0.8242703080177307
+    },
+    {
+      "description": "Moonlight",
+      "score": 0.7827255129814148
+    },
+    {
+      "description": "Astronomical object",
+      "score": 0.7707527875900269
+    },
+    {
+      "description": "Font",
+      "score": 0.7515413761138916
+    },
+    {
+      "description": "Circle",
+      "score": 0.7108021974563599
+    }
+  ]
+}

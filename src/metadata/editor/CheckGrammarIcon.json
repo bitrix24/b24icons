@@ -1,0 +1,51 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Check",
+    "Grammar",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7789922952651978
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.728977382183075
+    },
+    {
+      "description": "Logo",
+      "score": 0.6987977623939514
+    },
+    {
+      "description": "Graphics",
+      "score": 0.659567654132843
+    },
+    {
+      "description": "Brand",
+      "score": 0.658332347869873
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.5910578370094299
+    },
+    {
+      "description": "Art",
+      "score": 0.5832197070121765
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5812299847602844
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5758470296859741
+    },
+    {
+      "description": "Circle",
+      "score": 0.5705379247665405
+    }
+  ]
+}

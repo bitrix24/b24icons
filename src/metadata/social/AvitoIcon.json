@@ -1,0 +1,48 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Avito",
+    "Font",
+    "Snout",
+    "Pattern",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7537617087364197
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7337132692337036
+    },
+    {
+      "description": "Snout",
+      "score": 0.72796630859375
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6967279314994812
+    },
+    {
+      "description": "Circle",
+      "score": 0.6858854293823242
+    },
+    {
+      "description": "Logo",
+      "score": 0.6501150131225586
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.574492335319519
+    },
+    {
+      "description": "Fur",
+      "score": 0.5602258443832397
+    },
+    {
+      "description": "Brand",
+      "score": 0.5343530774116516
+    }
+  ]
+}

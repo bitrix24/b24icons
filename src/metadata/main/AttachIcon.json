@@ -1,0 +1,50 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Attach",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7411632537841797
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7205045819282532
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6896414160728455
+    },
+    {
+      "description": "Art",
+      "score": 0.6618836522102356
+    },
+    {
+      "description": "Logo",
+      "score": 0.6173035502433777
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6130339503288269
+    },
+    {
+      "description": "Brand",
+      "score": 0.6097695231437683
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6073487401008606
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.595047116279602
+    },
+    {
+      "description": "Fashion accessory",
+      "score": 0.5930745601654053
+    }
+  ]
+}

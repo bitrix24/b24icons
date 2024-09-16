@@ -1,0 +1,53 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Btn",
+    "Icon",
+    "Copy",
+    "Dark",
+    "Art"
+  ],
+  "labels": [
+    {
+      "description": "Art",
+      "score": 0.6822852492332458
+    },
+    {
+      "description": "Font",
+      "score": 0.6579794883728027
+    },
+    {
+      "description": "Circle",
+      "score": 0.6145419478416443
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6102756261825562
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5994170904159546
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5779145956039429
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5423416495323181
+    },
+    {
+      "description": "Drawing",
+      "score": 0.5258461833000183
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.5229930877685547
+    },
+    {
+      "description": "Painting",
+      "score": 0.5059309601783752
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Bitrix24",
+    "Virtual",
+    "Wa",
+    "Head",
+    "Rectangle",
+    "Font",
+    "Symbol",
+    "Circle",
+    "Neon",
+    "Display device",
+    "Darkness",
+    "Art",
+    "Emblem"
+  ],
+  "labels": [
+    {
+      "description": "Head",
+      "score": 0.9721379280090332
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.8353462219238281
+    },
+    {
+      "description": "Font",
+      "score": 0.8039494752883911
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7554421424865723
+    },
+    {
+      "description": "Circle",
+      "score": 0.7396886348724365
+    },
+    {
+      "description": "Neon",
+      "score": 0.7304723858833313
+    },
+    {
+      "description": "Display device",
+      "score": 0.7230040431022644
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7159605026245117
+    },
+    {
+      "description": "Art",
+      "score": 0.7026034593582153
+    },
+    {
+      "description": "Emblem",
+      "score": 0.7020125985145569
+    }
+  ]
+}

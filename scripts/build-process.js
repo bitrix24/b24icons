@@ -1,5 +1,5 @@
-const {exec} = require('node:child_process');
-const { typeList } = require('./type-list');
+const { exec} = require('node:child_process')
+const { typeList } = require('./type-list')
 
 class Command
 {
@@ -156,49 +156,56 @@ class Builder
 	}
 }
 
-const builder = (new Builder());
-builder.clearCommands();
-builder.addLog(`>> start`);
+const builder = (new Builder())
+builder.clearCommands()
+builder.addLog(`Processing SVG icons ...`)
 
 typeList.map((type) => {
-	builder.addLog(`${type} >> start >>>`);
-	builder.addLog(`${type} >> clear`);
-	builder.addCommand(`rimraf ./${type} ./optimized/${type}`);
+	builder.addLog(`[ ${type} ]`);
+	
+	builder.addCommand(`rimraf ./export/${type} ./optimized/${type}`);
+	builder.addLog(`✓ clear`);
 	
 	if(type.includes('specialized'))
 	{
-		builder.addLog(`${type} >> skip svgo >> make copy as is`);
 		if(process.platform === 'win32')
 		{
 			builder.addCommand(`mkdir optimized/${type}`);
-			builder.addCommand(`Copy-Item ./src/${type} ./optimized -Recurse -Force`);
+			builder.addCommand(`Copy-Item ./src/icons/${type} ./optimized -Recurse -Force`);
 		}
 		else
 		{
 			builder.addCommand(`mkdir -p ./optimized`);
 			builder.addCommand(`mkdir -p ./optimized/${type}`);
-			builder.addCommand(`cp -R ./src/${type} ./optimized/`);
+			builder.addCommand(`cp -R ./src/icons/${type} ./optimized/`);
 		}
+		
+		builder.addLog(`ⓘ skip svgo && copy as is`);
 	}
 	else
 	{
-		builder.addLog(`${type} >> svgo`);
-		builder.addCommand(`svgo --config=svgo.solid.mjs -f ./src/${type} -o ./optimized/${type} --pretty --indent=2`);
+		builder.addCommand(`svgo --config=svgo.solid.mjs -f ./src/icons/${type} -o ./optimized/${type} --pretty --indent=2`);
+		builder.addLog(`✓ svgo`);
 	}
 	
-	builder.addLog(`${type} >> copy`);
 	if(process.platform === 'win32')
 	{
-		builder.addCommand(`mkdir ${type}`);
-		builder.addCommand(`Copy-Item ./optimized/${type} ./ -Recurse -Force`);
+		builder.addCommand(`mkdir export/${type}`);
+		builder.addCommand(`Copy-Item ./optimized/${type} ./export/ -Recurse -Force`);
 	}
 	else
 	{
-		builder.addCommand(`mkdir -p ./${type}`);
-		builder.addCommand(`cp -R ./optimized/${type} ./`);
+		builder.addCommand(`mkdir -p ./export/${type}`);
+		builder.addCommand(`cp -R ./optimized/${type} ./export/`);
 	}
-	builder.addLog(`${type} >> finish >>>`);
-});
-builder.addLog(`>> finish`);
+	builder.addLog(`✓ copy`);
+	builder.addLog(`✓ finish`);
+	builder.addLog(``);
+})
 
-builder.run();
+builder.addLog(`Finished processing SVG icons.`)
+
+builder.run()
+.catch((error) => {
+	console.error(error);
+})

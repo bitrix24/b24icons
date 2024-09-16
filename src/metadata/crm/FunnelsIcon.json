@@ -1,0 +1,34 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Funnels",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8086292147636414
+    },
+    {
+      "description": "Font",
+      "score": 0.795195460319519
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7393237948417664
+    },
+    {
+      "description": "Number",
+      "score": 0.6019235849380493
+    },
+    {
+      "description": "Brand",
+      "score": 0.5949881076812744
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5851191878318787
+    }
+  ]
+}

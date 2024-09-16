@@ -1,0 +1,54 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "More",
+    "Cubes",
+    "Font",
+    "Pattern",
+    "Circle",
+    "Rectangle",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7833455204963684
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7348855137825012
+    },
+    {
+      "description": "Circle",
+      "score": 0.7303306460380554
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7283304929733276
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7107239961624146
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.691214919090271
+    },
+    {
+      "description": "Recreation",
+      "score": 0.5952046513557434
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5910587906837463
+    },
+    {
+      "description": "Square",
+      "score": 0.574989914894104
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5317553877830505
+    }
+  ]
+}

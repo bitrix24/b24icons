@@ -1,0 +1,53 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Follow",
+    "Black",
+    "Circle",
+    "Art",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Circle",
+      "score": 0.6966089010238647
+    },
+    {
+      "description": "Art",
+      "score": 0.6891026496887207
+    },
+    {
+      "description": "Font",
+      "score": 0.6807384490966797
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6412330269813538
+    },
+    {
+      "description": "Sky",
+      "score": 0.6249641180038452
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.611721396446228
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6099932193756104
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5877208709716797
+    },
+    {
+      "description": "Brand",
+      "score": 0.5504202842712402
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.53083336353302
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Customer",
+    "Card",
+    "Plus",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7582778930664062
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7245992422103882
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6970438957214355
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5998480916023254
+    },
+    {
+      "description": "Brand",
+      "score": 0.5560706257820129
+    },
+    {
+      "description": "Logo",
+      "score": 0.5356128811836243
+    }
+  ]
+}

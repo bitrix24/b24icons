@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Crossed",
+    "Eye",
+    "Symbol",
+    "Circle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Symbol",
+      "score": 0.7223612070083618
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7132923603057861
+    },
+    {
+      "description": "Circle",
+      "score": 0.6997304558753967
+    },
+    {
+      "description": "Font",
+      "score": 0.697242259979248
+    },
+    {
+      "description": "Logo",
+      "score": 0.6402868628501892
+    },
+    {
+      "description": "Metal",
+      "score": 0.6362716555595398
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6271340250968933
+    },
+    {
+      "description": "Fashion accessory",
+      "score": 0.6162585020065308
+    },
+    {
+      "description": "Automotive tire",
+      "score": 0.6035800576210022
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5961505174636841
+    }
+  ]
+}

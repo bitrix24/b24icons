@@ -1,0 +1,38 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Contact",
+    "Rectangle",
+    "Tints and shades"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8284698724746704
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.6864711046218872
+    },
+    {
+      "description": "Font",
+      "score": 0.6511166095733643
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5905150175094604
+    },
+    {
+      "description": "Brand",
+      "score": 0.5799440145492554
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5561932325363159
+    },
+    {
+      "description": "Ceiling",
+      "score": 0.5551920533180237
+    }
+  ]
+}

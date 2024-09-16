@@ -1,0 +1,30 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Plus",
+    "Symbol",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.795448899269104
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7159417867660522
+    },
+    {
+      "description": "Font",
+      "score": 0.6754017472267151
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5932831168174744
+    },
+    {
+      "description": "Brand",
+      "score": 0.5041593313217163
+    }
+  ]
+}

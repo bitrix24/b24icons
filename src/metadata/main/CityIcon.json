@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "City",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8504488468170166
+    },
+    {
+      "description": "Font",
+      "score": 0.7609850168228149
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7350641489028931
+    },
+    {
+      "description": "Logo",
+      "score": 0.6861240863800049
+    },
+    {
+      "description": "Brand",
+      "score": 0.6379463076591492
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6202850937843323
+    },
+    {
+      "description": "Circle",
+      "score": 0.5688038468360901
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5681797862052917
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5353708863258362
+    },
+    {
+      "description": "Typesetting",
+      "score": 0.5321125388145447
+    }
+  ]
+}

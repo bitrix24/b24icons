@@ -1,0 +1,57 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Battery",
+    "Black",
+    "Rectangle",
+    "Font",
+    "Circle",
+    "Pattern",
+    "Display device",
+    "Logo",
+    "Number"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8562239408493042
+    },
+    {
+      "description": "Font",
+      "score": 0.7831128835678101
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7330213785171509
+    },
+    {
+      "description": "Circle",
+      "score": 0.7255968451499939
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7013226747512817
+    },
+    {
+      "description": "Display device",
+      "score": 0.7012969851493835
+    },
+    {
+      "description": "Logo",
+      "score": 0.6962630748748779
+    },
+    {
+      "description": "Number",
+      "score": 0.6781104207038879
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6501045227050781
+    },
+    {
+      "description": "Brand",
+      "score": 0.6478191614151001
+    }
+  ]
+}

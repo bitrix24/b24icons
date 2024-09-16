@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Attach",
+    "Gesture",
+    "Automotive tire",
+    "Font",
+    "Automotive wheel system"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.8525884747505188
+    },
+    {
+      "description": "Automotive tire",
+      "score": 0.7810506224632263
+    },
+    {
+      "description": "Font",
+      "score": 0.7489539980888367
+    },
+    {
+      "description": "Automotive wheel system",
+      "score": 0.6861695051193237
+    },
+    {
+      "description": "Circle",
+      "score": 0.628606915473938
+    },
+    {
+      "description": "Fashion accessory",
+      "score": 0.6201485395431519
+    },
+    {
+      "description": "Metal",
+      "score": 0.5987170934677124
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5870243906974792
+    },
+    {
+      "description": "Logo",
+      "score": 0.576754629611969
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5691372752189636
+    }
+  ]
+}

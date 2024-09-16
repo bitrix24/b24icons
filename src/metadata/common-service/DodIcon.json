@@ -1,0 +1,59 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Dod",
+    "Tints and shades",
+    "Font",
+    "Flash photography",
+    "Sky",
+    "Symbol",
+    "Circle",
+    "Midnight",
+    "Darkness",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Tints and shades",
+      "score": 0.7713074088096619
+    },
+    {
+      "description": "Font",
+      "score": 0.7562849521636963
+    },
+    {
+      "description": "Flash photography",
+      "score": 0.7523572444915771
+    },
+    {
+      "description": "Sky",
+      "score": 0.7378036379814148
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7333834767341614
+    },
+    {
+      "description": "Circle",
+      "score": 0.713740348815918
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6784433126449585
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6753212213516235
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6664615869522095
+    },
+    {
+      "description": "Event",
+      "score": 0.651913583278656
+    }
+  ]
+}

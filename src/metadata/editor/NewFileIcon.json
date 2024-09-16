@@ -1,0 +1,43 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "New",
+    "File",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.7966328263282776
+    },
+    {
+      "description": "Font",
+      "score": 0.7480962872505188
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7371020317077637
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.704991340637207
+    },
+    {
+      "description": "Logo",
+      "score": 0.628768801689148
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6045753359794617
+    },
+    {
+      "description": "Brand",
+      "score": 0.5966790914535522
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5081678032875061
+    }
+  ]
+}

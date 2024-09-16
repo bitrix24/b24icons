@@ -1,0 +1,51 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Shop",
+    "List",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8211424350738525
+    },
+    {
+      "description": "Font",
+      "score": 0.7529796957969666
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7262641787528992
+    },
+    {
+      "description": "Gadget",
+      "score": 0.6310882568359375
+    },
+    {
+      "description": "Automotive design",
+      "score": 0.613085150718689
+    },
+    {
+      "description": "Brand",
+      "score": 0.6111276149749756
+    },
+    {
+      "description": "Logo",
+      "score": 0.6067396998405457
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5972157120704651
+    },
+    {
+      "description": "Circle",
+      "score": 0.5200716257095337
+    },
+    {
+      "description": "Diagram",
+      "score": 0.5143370032310486
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Clock",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7385748028755188
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7342336773872375
+    },
+    {
+      "description": "Circle",
+      "score": 0.7029089331626892
+    },
+    {
+      "description": "Brand",
+      "score": 0.6164106130599976
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5984256267547607
+    },
+    {
+      "description": "Graphics",
+      "score": 0.595754086971283
+    },
+    {
+      "description": "Logo",
+      "score": 0.5797783732414246
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5122413635253906
+    }
+  ]
+}

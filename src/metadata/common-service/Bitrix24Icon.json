@@ -1,0 +1,55 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Bitrix24",
+    "Sky",
+    "Font",
+    "Circle",
+    "Darkness",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.9110503196716309
+    },
+    {
+      "description": "Font",
+      "score": 0.7533106803894043
+    },
+    {
+      "description": "Circle",
+      "score": 0.70243901014328
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6971139907836914
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6947680711746216
+    },
+    {
+      "description": "Logo",
+      "score": 0.6909981369972229
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6456820964813232
+    },
+    {
+      "description": "Moonlight",
+      "score": 0.6439337134361267
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6408525705337524
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6386657357215881
+    }
+  ]
+}

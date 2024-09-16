@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Chat",
+    "Button",
+    "Font",
+    "Rectangle",
+    "Circle",
+    "Symbol",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7427414059638977
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7309024930000305
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7254547476768494
+    },
+    {
+      "description": "Circle",
+      "score": 0.7121195793151855
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7037533521652222
+    },
+    {
+      "description": "Logo",
+      "score": 0.685347855091095
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6385270357131958
+    },
+    {
+      "description": "Brand",
+      "score": 0.6322739720344543
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6225122809410095
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6186341643333435
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Copilot",
+    "Ai",
+    "Art",
+    "Circle",
+    "Terrestrial plant",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Art",
+      "score": 0.7974194288253784
+    },
+    {
+      "description": "Circle",
+      "score": 0.713231086730957
+    },
+    {
+      "description": "Terrestrial plant",
+      "score": 0.6974591612815857
+    },
+    {
+      "description": "Logo",
+      "score": 0.6967475414276123
+    },
+    {
+      "description": "Font",
+      "score": 0.6528715491294861
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6527438163757324
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6080005764961243
+    },
+    {
+      "description": "Drawing",
+      "score": 0.6074261665344238
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6030149459838867
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5791125297546387
+    }
+  ]
+}

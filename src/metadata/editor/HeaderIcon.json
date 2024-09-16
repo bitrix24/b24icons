@@ -1,0 +1,46 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Header",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7592597603797913
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7288569211959839
+    },
+    {
+      "description": "Brand",
+      "score": 0.654671311378479
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6432432532310486
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6369360685348511
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6368237137794495
+    },
+    {
+      "description": "Logo",
+      "score": 0.6318982243537903
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5251652002334595
+    },
+    {
+      "description": "Cross",
+      "score": 0.524000883102417
+    }
+  ]
+}

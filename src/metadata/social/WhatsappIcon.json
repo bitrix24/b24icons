@@ -1,0 +1,42 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Whatsapp",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7335631847381592
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7254583239555359
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6644680500030518
+    },
+    {
+      "description": "Circle",
+      "score": 0.6627106666564941
+    },
+    {
+      "description": "Logo",
+      "score": 0.5965483784675598
+    },
+    {
+      "description": "Graphics",
+      "score": 0.591507077217102
+    },
+    {
+      "description": "Brand",
+      "score": 0.5892713665962219
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5058606863021851
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Conversion",
+    "Eyelash",
+    "Circle",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Eyelash",
+      "score": 0.7989399433135986
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6961591839790344
+    },
+    {
+      "description": "Circle",
+      "score": 0.6911709904670715
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6712858080863953
+    },
+    {
+      "description": "Font",
+      "score": 0.6566175818443298
+    },
+    {
+      "description": "Event",
+      "score": 0.6220967769622803
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5776820778846741
+    },
+    {
+      "description": "Logo",
+      "score": 0.558133602142334
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5513433218002319
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5477245450019836
+    }
+  ]
+}

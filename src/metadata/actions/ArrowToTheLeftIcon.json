@@ -1,0 +1,43 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Arrow",
+    "Left",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7242206335067749
+    },
+    {
+      "description": "Font",
+      "score": 0.7242205739021301
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6816856861114502
+    },
+    {
+      "description": "Brand",
+      "score": 0.6053621172904968
+    },
+    {
+      "description": "Logo",
+      "score": 0.6046093702316284
+    },
+    {
+      "description": "Graphics",
+      "score": 0.578976035118103
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.517071008682251
+    },
+    {
+      "description": "Number",
+      "score": 0.5133596062660217
+    }
+  ]
+}

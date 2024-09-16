@@ -1,0 +1,45 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "More",
+    "Cubes",
+    "Font",
+    "Rectangle",
+    "Pattern",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7698731422424316
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.750085175037384
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7279143333435059
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7085488438606262
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6695095896720886
+    },
+    {
+      "description": "Circle",
+      "score": 0.6206189393997192
+    },
+    {
+      "description": "Brand",
+      "score": 0.5803713202476501
+    },
+    {
+      "description": "Square",
+      "score": 0.5672228932380676
+    }
+  ]
+}

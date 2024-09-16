@@ -1,0 +1,56 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Cloud",
+    "Letter",
+    "Post",
+    "Gesture",
+    "Art",
+    "Font",
+    "Symbol",
+    "Circle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.8526047468185425
+    },
+    {
+      "description": "Art",
+      "score": 0.761647641658783
+    },
+    {
+      "description": "Font",
+      "score": 0.7610989212989807
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7394027709960938
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7226232290267944
+    },
+    {
+      "description": "Circle",
+      "score": 0.7017860412597656
+    },
+    {
+      "description": "Logo",
+      "score": 0.6949576139450073
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6202914714813232
+    },
+    {
+      "description": "Brand",
+      "score": 0.613516092300415
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6113171577453613
+    }
+  ]
+}

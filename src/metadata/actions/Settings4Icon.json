@@ -1,0 +1,52 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Settings",
+    "Symmetry",
+    "Font",
+    "Circle",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7418151497840881
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7345035076141357
+    },
+    {
+      "description": "Font",
+      "score": 0.7329325079917908
+    },
+    {
+      "description": "Circle",
+      "score": 0.7048776149749756
+    },
+    {
+      "description": "Pattern",
+      "score": 0.701560378074646
+    },
+    {
+      "description": "Plant",
+      "score": 0.6377917528152466
+    },
+    {
+      "description": "Tree",
+      "score": 0.605247974395752
+    },
+    {
+      "description": "Logo",
+      "score": 0.5967646837234497
+    },
+    {
+      "description": "Food",
+      "score": 0.5261476635932922
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5120028853416443
+    }
+  ]
+}

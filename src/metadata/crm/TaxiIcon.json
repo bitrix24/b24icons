@@ -1,0 +1,51 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Taxi",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8247052431106567
+    },
+    {
+      "description": "Font",
+      "score": 0.7497442960739136
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7386060953140259
+    },
+    {
+      "description": "Logo",
+      "score": 0.6660555601119995
+    },
+    {
+      "description": "Brand",
+      "score": 0.6614314913749695
+    },
+    {
+      "description": "Circle",
+      "score": 0.653984785079956
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6527194380760193
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6358757019042969
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6301692724227905
+    },
+    {
+      "description": "Gas",
+      "score": 0.608975350856781
+    }
+  ]
+}

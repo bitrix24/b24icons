@@ -1,0 +1,60 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Common",
+    "Human body",
+    "Flash photography",
+    "Font",
+    "Eyelash",
+    "Tints and shades",
+    "Sky",
+    "Circle",
+    "Darkness",
+    "Monochrome photography",
+    "Midnight"
+  ],
+  "labels": [
+    {
+      "description": "Human body",
+      "score": 0.8841500282287598
+    },
+    {
+      "description": "Flash photography",
+      "score": 0.8129582405090332
+    },
+    {
+      "description": "Font",
+      "score": 0.8007531762123108
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.7992655038833618
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7713977694511414
+    },
+    {
+      "description": "Sky",
+      "score": 0.7578528523445129
+    },
+    {
+      "description": "Circle",
+      "score": 0.7274467349052429
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7194222211837769
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.7065011858940125
+    },
+    {
+      "description": "Midnight",
+      "score": 0.6991239190101624
+    }
+  ]
+}

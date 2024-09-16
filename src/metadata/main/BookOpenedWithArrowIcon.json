@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Book",
+    "Opened",
+    "With",
+    "Arrow",
+    "Rectangle",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8101140260696411
+    },
+    {
+      "description": "Font",
+      "score": 0.782254159450531
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7294719815254211
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6873312592506409
+    },
+    {
+      "description": "Logo",
+      "score": 0.6413127779960632
+    },
+    {
+      "description": "Circle",
+      "score": 0.6375676989555359
+    },
+    {
+      "description": "Brand",
+      "score": 0.6221017241477966
+    },
+    {
+      "description": "Art",
+      "score": 0.5918282270431519
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5839828252792358
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5720643997192383
+    }
+  ]
+}

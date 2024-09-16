@@ -1,0 +1,43 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Crown",
+    "Font",
+    "Pattern",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7505286931991577
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7020398378372192
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6896046996116638
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6647332310676575
+    },
+    {
+      "description": "Logo",
+      "score": 0.658493161201477
+    },
+    {
+      "description": "Circle",
+      "score": 0.6527436375617981
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5921871662139893
+    },
+    {
+      "description": "Brand",
+      "score": 0.5070961713790894
+    }
+  ]
+}

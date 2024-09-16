@@ -1,0 +1,50 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Barcode",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7963518500328064
+    },
+    {
+      "description": "Font",
+      "score": 0.75562584400177
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6850395202636719
+    },
+    {
+      "description": "Circle",
+      "score": 0.6579630970954895
+    },
+    {
+      "description": "Parallel",
+      "score": 0.6523769497871399
+    },
+    {
+      "description": "Logo",
+      "score": 0.6445714831352234
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6090592741966248
+    },
+    {
+      "description": "Number",
+      "score": 0.6068227887153625
+    },
+    {
+      "description": "Brand",
+      "score": 0.5832698345184326
+    },
+    {
+      "description": "Metal",
+      "score": 0.5659520030021667
+    }
+  ]
+}

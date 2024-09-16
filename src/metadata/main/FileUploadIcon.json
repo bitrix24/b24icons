@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "File",
+    "Upload",
+    "Rectangle",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.805855393409729
+    },
+    {
+      "description": "Font",
+      "score": 0.7814136147499084
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7316733598709106
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7246865630149841
+    },
+    {
+      "description": "Brand",
+      "score": 0.6135234832763672
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5619245171546936
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5538486242294312
+    },
+    {
+      "description": "Logo",
+      "score": 0.540343165397644
+    },
+    {
+      "description": "Number",
+      "score": 0.5366394519805908
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5279350876808167
+    }
+  ]
+}

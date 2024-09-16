@@ -1,0 +1,34 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Stop",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8235254883766174
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6964258551597595
+    },
+    {
+      "description": "Font",
+      "score": 0.6678149104118347
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5542115569114685
+    },
+    {
+      "description": "Brand",
+      "score": 0.5536376237869263
+    },
+    {
+      "description": "Circle",
+      "score": 0.5005874633789062
+    }
+  ]
+}

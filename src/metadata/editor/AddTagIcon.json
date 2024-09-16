@@ -1,0 +1,53 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Add",
+    "Tag",
+    "Font",
+    "Symbol",
+    "Rectangle",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8468061089515686
+    },
+    {
+      "description": "Font",
+      "score": 0.7639435529708862
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7524179816246033
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7339722514152527
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7126088738441467
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6715636253356934
+    },
+    {
+      "description": "Circle",
+      "score": 0.5708327293395996
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5159110426902771
+    },
+    {
+      "description": "Brand",
+      "score": 0.5122882723808289
+    },
+    {
+      "description": "Logo",
+      "score": 0.5031260848045349
+    }
+  ]
+}

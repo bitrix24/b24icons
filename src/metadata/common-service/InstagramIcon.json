@@ -1,0 +1,59 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Instagram",
+    "Rectangle",
+    "Circle",
+    "Font",
+    "Symbol",
+    "Pattern",
+    "Number",
+    "Logo",
+    "Display device",
+    "Magenta"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8729910850524902
+    },
+    {
+      "description": "Circle",
+      "score": 0.7629057765007019
+    },
+    {
+      "description": "Font",
+      "score": 0.755499005317688
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7538191080093384
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.729218065738678
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7283615469932556
+    },
+    {
+      "description": "Number",
+      "score": 0.7017688155174255
+    },
+    {
+      "description": "Logo",
+      "score": 0.6974683403968811
+    },
+    {
+      "description": "Display device",
+      "score": 0.6880536079406738
+    },
+    {
+      "description": "Magenta",
+      "score": 0.6835213899612427
+    }
+  ]
+}

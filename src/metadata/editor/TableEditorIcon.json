@@ -1,0 +1,39 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Table",
+    "Editor",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8622595071792603
+    },
+    {
+      "description": "Font",
+      "score": 0.7561675906181335
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7243021130561829
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6188068389892578
+    },
+    {
+      "description": "Parallel",
+      "score": 0.6181530356407166
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5489265322685242
+    },
+    {
+      "description": "Circle",
+      "score": 0.5357771515846252
+    }
+  ]
+}

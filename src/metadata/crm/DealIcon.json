@@ -1,0 +1,50 @@
+{
+  "category": "Crm",
+  "subCategories": [
+    "Deal",
+    "Gesture",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.852604866027832
+    },
+    {
+      "description": "Font",
+      "score": 0.7223392724990845
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6926732659339905
+    },
+    {
+      "description": "Art",
+      "score": 0.584558367729187
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5802335143089294
+    },
+    {
+      "description": "Shadow",
+      "score": 0.5482761859893799
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5375062227249146
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5254477858543396
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.5161888599395752
+    },
+    {
+      "description": "Sky",
+      "score": 0.5004914402961731
+    }
+  ]
+}

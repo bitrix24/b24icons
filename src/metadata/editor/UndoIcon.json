@@ -1,0 +1,54 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Undo",
+    "Sky",
+    "Cloud",
+    "Font",
+    "Wing",
+    "Logo",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Sky",
+      "score": 0.8611630201339722
+    },
+    {
+      "description": "Cloud",
+      "score": 0.7574241757392883
+    },
+    {
+      "description": "Font",
+      "score": 0.7459561228752136
+    },
+    {
+      "description": "Wing",
+      "score": 0.712462842464447
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7054793834686279
+    },
+    {
+      "description": "Logo",
+      "score": 0.7004954814910889
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6898952126502991
+    },
+    {
+      "description": "Art",
+      "score": 0.6179742217063904
+    },
+    {
+      "description": "Brand",
+      "score": 0.6006215810775757
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5977214574813843
+    }
+  ]
+}

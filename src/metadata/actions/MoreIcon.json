@@ -1,0 +1,35 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "More",
+    "Font",
+    "Rectangle",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7155478596687317
+    },
+    {
+      "description": "Font",
+      "score": 0.713842511177063
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6846950054168701
+    },
+    {
+      "description": "Logo",
+      "score": 0.67606121301651
+    },
+    {
+      "description": "Brand",
+      "score": 0.6311143040657043
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5896787643432617
+    }
+  ]
+}

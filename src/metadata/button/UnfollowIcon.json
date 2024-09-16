@@ -1,0 +1,52 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Unfollow",
+    "Black",
+    "Font",
+    "Aircraft"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7282716631889343
+    },
+    {
+      "description": "Aircraft",
+      "score": 0.713637113571167
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.667290985584259
+    },
+    {
+      "description": "Airplane",
+      "score": 0.6230854392051697
+    },
+    {
+      "description": "Aerospace manufacturer",
+      "score": 0.6178847551345825
+    },
+    {
+      "description": "Event",
+      "score": 0.6107010245323181
+    },
+    {
+      "description": "Wing",
+      "score": 0.5951867699623108
+    },
+    {
+      "description": "Aviation",
+      "score": 0.5886210799217224
+    },
+    {
+      "description": "Logo",
+      "score": 0.5774992108345032
+    },
+    {
+      "description": "Flight",
+      "score": 0.5604616403579712
+    }
+  ]
+}

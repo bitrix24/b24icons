@@ -1,0 +1,59 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Outlook",
+    "Rectangle",
+    "Font",
+    "Circle",
+    "Symbol",
+    "Pattern",
+    "Logo",
+    "Flash photography",
+    "Sky",
+    "Darkness"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7794122099876404
+    },
+    {
+      "description": "Font",
+      "score": 0.7535371780395508
+    },
+    {
+      "description": "Circle",
+      "score": 0.7522591352462769
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7240319848060608
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7086461186408997
+    },
+    {
+      "description": "Logo",
+      "score": 0.6966145634651184
+    },
+    {
+      "description": "Flash photography",
+      "score": 0.6841809749603271
+    },
+    {
+      "description": "Sky",
+      "score": 0.6756874322891235
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6690691709518433
+    },
+    {
+      "description": "Brand",
+      "score": 0.6561022996902466
+    }
+  ]
+}

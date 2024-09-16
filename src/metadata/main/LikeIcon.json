@@ -1,0 +1,50 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Like",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7508561015129089
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6807011961936951
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6431830525398254
+    },
+    {
+      "description": "Logo",
+      "score": 0.6353163123130798
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6239273548126221
+    },
+    {
+      "description": "Circle",
+      "score": 0.593075692653656
+    },
+    {
+      "description": "Cross",
+      "score": 0.5797969698905945
+    },
+    {
+      "description": "Graphics",
+      "score": 0.568878173828125
+    },
+    {
+      "description": "Brand",
+      "score": 0.5300979614257812
+    },
+    {
+      "description": "City",
+      "score": 0.5160062909126282
+    }
+  ]
+}

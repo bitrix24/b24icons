@@ -1,0 +1,39 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Mail",
+    "Read",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7298558354377747
+    },
+    {
+      "description": "Font",
+      "score": 0.6871706247329712
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6491612195968628
+    },
+    {
+      "description": "Circle",
+      "score": 0.6324974298477173
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5706773996353149
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5307201743125916
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5129518508911133
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Vk",
+    "Lists",
+    "Rectangle",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8190901875495911
+    },
+    {
+      "description": "Font",
+      "score": 0.7520195245742798
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7221140265464783
+    },
+    {
+      "description": "Logo",
+      "score": 0.6767593622207642
+    },
+    {
+      "description": "Brand",
+      "score": 0.6261160373687744
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6000223159790039
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5139241218566895
+    }
+  ]
+}

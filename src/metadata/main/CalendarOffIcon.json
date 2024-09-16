@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Calendar",
+    "Off",
+    "Rectangle",
+    "Font",
+    "Logo",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8083288073539734
+    },
+    {
+      "description": "Font",
+      "score": 0.7545585632324219
+    },
+    {
+      "description": "Logo",
+      "score": 0.6899333000183105
+    },
+    {
+      "description": "Circle",
+      "score": 0.6642144322395325
+    },
+    {
+      "description": "Brand",
+      "score": 0.6235352754592896
+    },
+    {
+      "description": "Grass",
+      "score": 0.6105455756187439
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6055327653884888
+    },
+    {
+      "description": "Pattern",
+      "score": 0.558375895023346
+    },
+    {
+      "description": "Number",
+      "score": 0.556304395198822
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.5155277252197266
+    }
+  ]
+}

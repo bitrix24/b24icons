@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Funnel",
+    "Font",
+    "Logo",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7531449198722839
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7267884016036987
+    },
+    {
+      "description": "Logo",
+      "score": 0.7040284872055054
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6803475022315979
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6519092917442322
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6228001117706299
+    },
+    {
+      "description": "Triangle",
+      "score": 0.5967585444450378
+    },
+    {
+      "description": "Brand",
+      "score": 0.5962658524513245
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5836378931999207
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.5114061236381531
+    }
+  ]
+}

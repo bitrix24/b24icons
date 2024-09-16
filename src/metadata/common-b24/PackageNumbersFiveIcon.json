@@ -1,0 +1,57 @@
+{
+  "category": "Common-b24",
+  "subCategories": [
+    "Ui",
+    "Package",
+    "Numbers",
+    "Five",
+    "Rectangle",
+    "Font",
+    "Tints and shades",
+    "Pattern",
+    "Symmetry",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8379798531532288
+    },
+    {
+      "description": "Font",
+      "score": 0.8178197741508484
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7135534882545471
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6947766542434692
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6907650232315063
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6677291393280029
+    },
+    {
+      "description": "Circle",
+      "score": 0.664373517036438
+    },
+    {
+      "description": "Number",
+      "score": 0.6287962198257446
+    },
+    {
+      "description": "Monochrome",
+      "score": 0.6171639561653137
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5967758297920227
+    }
+  ]
+}

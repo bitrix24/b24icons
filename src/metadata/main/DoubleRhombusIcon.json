@@ -1,0 +1,47 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Double",
+    "Rhombus",
+    "Font",
+    "Art"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7629072070121765
+    },
+    {
+      "description": "Art",
+      "score": 0.7249251008033752
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7183982729911804
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6051548719406128
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5879392027854919
+    },
+    {
+      "description": "Logo",
+      "score": 0.5864112973213196
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.557985246181488
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5212745666503906
+    },
+    {
+      "description": "Shadow",
+      "score": 0.5060587525367737
+    }
+  ]
+}

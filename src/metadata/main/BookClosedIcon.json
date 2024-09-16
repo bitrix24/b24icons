@@ -1,0 +1,44 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Book",
+    "Closed",
+    "Rectangle",
+    "Gadget",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8494167327880859
+    },
+    {
+      "description": "Gadget",
+      "score": 0.7272263169288635
+    },
+    {
+      "description": "Font",
+      "score": 0.7099552750587463
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6614338755607605
+    },
+    {
+      "description": "Display device",
+      "score": 0.6226758360862732
+    },
+    {
+      "description": "Multimedia",
+      "score": 0.5869655013084412
+    },
+    {
+      "description": "Circle",
+      "score": 0.5818756818771362
+    },
+    {
+      "description": "Brand",
+      "score": 0.5704525709152222
+    }
+  ]
+}

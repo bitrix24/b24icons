@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Implementation",
+    "Request",
+    "Font",
+    "Symmetry",
+    "Snout",
+    "Circle",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7729426622390747
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.7295863628387451
+    },
+    {
+      "description": "Snout",
+      "score": 0.7268427610397339
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7230001091957092
+    },
+    {
+      "description": "Circle",
+      "score": 0.7183558940887451
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7100706100463867
+    },
+    {
+      "description": "Art",
+      "score": 0.6003744602203369
+    },
+    {
+      "description": "Logo",
+      "score": 0.5509390234947205
+    },
+    {
+      "description": "Magenta",
+      "score": 0.5504549145698547
+    },
+    {
+      "description": "Sports equipment",
+      "score": 0.5275434255599976
+    }
+  ]
+}

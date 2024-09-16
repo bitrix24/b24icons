@@ -1,0 +1,54 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Search",
+    "Black",
+    "Automotive tire",
+    "Circle",
+    "Tints and shades",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Automotive tire",
+      "score": 0.772864580154419
+    },
+    {
+      "description": "Circle",
+      "score": 0.7432103753089905
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7418550252914429
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7228942513465881
+    },
+    {
+      "description": "Font",
+      "score": 0.6688337326049805
+    },
+    {
+      "description": "Fashion accessory",
+      "score": 0.6536151766777039
+    },
+    {
+      "description": "Rim",
+      "score": 0.6302348375320435
+    },
+    {
+      "description": "Metal",
+      "score": 0.6203045845031738
+    },
+    {
+      "description": "Event",
+      "score": 0.6198132038116455
+    },
+    {
+      "description": "Automotive wheel system",
+      "score": 0.6161291003227234
+    }
+  ]
+}

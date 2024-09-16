@@ -1,0 +1,50 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Compass",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7242740988731384
+    },
+    {
+      "description": "Font",
+      "score": 0.7186191082000732
+    },
+    {
+      "description": "Circle",
+      "score": 0.6794180870056152
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6341692805290222
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6234405636787415
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.5783868432044983
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5720493197441101
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5551456809043884
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5485328435897827
+    },
+    {
+      "description": "Art",
+      "score": 0.5382117033004761
+    }
+  ]
+}

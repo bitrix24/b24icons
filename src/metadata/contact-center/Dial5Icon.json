@@ -1,0 +1,45 @@
+{
+  "category": "Contact-center",
+  "subCategories": [
+    "Dial",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7582104206085205
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7161583304405212
+    },
+    {
+      "description": "Brand",
+      "score": 0.6422486901283264
+    },
+    {
+      "description": "Logo",
+      "score": 0.6330498456954956
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6279628276824951
+    },
+    {
+      "description": "Number",
+      "score": 0.6162373423576355
+    },
+    {
+      "description": "Circle",
+      "score": 0.5414838194847107
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5344306826591492
+    },
+    {
+      "description": "Trademark",
+      "score": 0.513641893863678
+    }
+  ]
+}

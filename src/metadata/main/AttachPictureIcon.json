@@ -1,0 +1,43 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Attach",
+    "Picture",
+    "Font",
+    "Rectangle"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7855085730552673
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7474813461303711
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6899687647819519
+    },
+    {
+      "description": "Brand",
+      "score": 0.6311088800430298
+    },
+    {
+      "description": "Logo",
+      "score": 0.6020556092262268
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5518650412559509
+    },
+    {
+      "description": "Symbol",
+      "score": 0.551604151725769
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5065991282463074
+    }
+  ]
+}

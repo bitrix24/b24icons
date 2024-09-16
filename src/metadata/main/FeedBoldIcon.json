@@ -1,0 +1,47 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Feed",
+    "Bold",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8407877087593079
+    },
+    {
+      "description": "Font",
+      "score": 0.7194178104400635
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6725491881370544
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.6536965370178223
+    },
+    {
+      "description": "Circle",
+      "score": 0.6087638735771179
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5912587642669678
+    },
+    {
+      "description": "Brand",
+      "score": 0.5903324484825134
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5437818169593811
+    },
+    {
+      "description": "Square",
+      "score": 0.5339799523353577
+    }
+  ]
+}

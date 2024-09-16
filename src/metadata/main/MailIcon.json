@@ -1,0 +1,53 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Mail",
+    "Rectangle",
+    "Font",
+    "Art",
+    "Pattern",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8541529774665833
+    },
+    {
+      "description": "Font",
+      "score": 0.77219557762146
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7354203462600708
+    },
+    {
+      "description": "Art",
+      "score": 0.7307485342025757
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6777637004852295
+    },
+    {
+      "description": "Logo",
+      "score": 0.6657514572143555
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6339792013168335
+    },
+    {
+      "description": "Brand",
+      "score": 0.6167522072792053
+    },
+    {
+      "description": "Circle",
+      "score": 0.6144262552261353
+    },
+    {
+      "description": "T-shirt",
+      "score": 0.5983641743659973
+    }
+  ]
+}

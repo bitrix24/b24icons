@@ -1,0 +1,55 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Settings",
+    "Font",
+    "Symmetry",
+    "Circle",
+    "Pattern",
+    "Plant",
+    "Logo",
+    "Tree"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7676985859870911
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7429060935974121
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.74027019739151
+    },
+    {
+      "description": "Circle",
+      "score": 0.7359024882316589
+    },
+    {
+      "description": "Pattern",
+      "score": 0.7039238214492798
+    },
+    {
+      "description": "Plant",
+      "score": 0.6933721303939819
+    },
+    {
+      "description": "Logo",
+      "score": 0.6762638092041016
+    },
+    {
+      "description": "Tree",
+      "score": 0.6718749403953552
+    },
+    {
+      "description": "Fashion accessory",
+      "score": 0.662142813205719
+    },
+    {
+      "description": "Ball",
+      "score": 0.572807788848877
+    }
+  ]
+}

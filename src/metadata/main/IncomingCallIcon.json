@@ -1,0 +1,47 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Incoming",
+    "Call",
+    "Font",
+    "Art"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7595478296279907
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7123526334762573
+    },
+    {
+      "description": "Art",
+      "score": 0.6835715770721436
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6566804051399231
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6362288594245911
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5525258183479309
+    },
+    {
+      "description": "Brand",
+      "score": 0.5443225502967834
+    },
+    {
+      "description": "Number",
+      "score": 0.5337594151496887
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5129488110542297
+    }
+  ]
+}

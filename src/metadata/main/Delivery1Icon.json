@@ -1,0 +1,54 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Delivery",
+    "Gesture",
+    "Automotive lighting",
+    "Font",
+    "Automotive exterior",
+    "Logo",
+    "Vehicle"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.852604866027832
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.8429230451583862
+    },
+    {
+      "description": "Font",
+      "score": 0.7379231452941895
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7367107272148132
+    },
+    {
+      "description": "Automotive exterior",
+      "score": 0.7306423187255859
+    },
+    {
+      "description": "Logo",
+      "score": 0.6985715627670288
+    },
+    {
+      "description": "Vehicle",
+      "score": 0.6790986061096191
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6604398488998413
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6107733249664307
+    },
+    {
+      "description": "Auto part",
+      "score": 0.5879144072532654
+    }
+  ]
+}

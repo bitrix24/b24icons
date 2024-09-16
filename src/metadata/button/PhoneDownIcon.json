@@ -1,0 +1,48 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Phone",
+    "Down",
+    "Black",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7286520600318909
+    },
+    {
+      "description": "Font",
+      "score": 0.723150372505188
+    },
+    {
+      "description": "Brand",
+      "score": 0.6184008121490479
+    },
+    {
+      "description": "Circle",
+      "score": 0.617825448513031
+    },
+    {
+      "description": "Fashion accessory",
+      "score": 0.5938283801078796
+    },
+    {
+      "description": "Logo",
+      "score": 0.5910400748252869
+    },
+    {
+      "description": "Pattern",
+      "score": 0.5202492475509644
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5125983357429504
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5033579468727112
+    }
+  ]
+}

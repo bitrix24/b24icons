@@ -1,0 +1,45 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Chat",
+    "Black",
+    "Rectangle",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.735454797744751
+    },
+    {
+      "description": "Font",
+      "score": 0.7300559878349304
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7131398916244507
+    },
+    {
+      "description": "Circle",
+      "score": 0.6858715415000916
+    },
+    {
+      "description": "Auto part",
+      "score": 0.5925667881965637
+    },
+    {
+      "description": "Brand",
+      "score": 0.5894693732261658
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5853695869445801
+    },
+    {
+      "description": "Logo",
+      "score": 0.5164607763290405
+    }
+  ]
+}

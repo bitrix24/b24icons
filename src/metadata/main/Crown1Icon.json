@@ -1,0 +1,42 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Crown",
+    "Font",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7720823884010315
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7148232460021973
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6709772944450378
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6378375291824341
+    },
+    {
+      "description": "Circle",
+      "score": 0.6159878373146057
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6109387278556824
+    },
+    {
+      "description": "Logo",
+      "score": 0.5403792262077332
+    },
+    {
+      "description": "City",
+      "score": 0.5369232892990112
+    }
+  ]
+}

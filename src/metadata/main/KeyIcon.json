@@ -1,0 +1,52 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Key",
+    "Automotive tire",
+    "Automotive lighting",
+    "Automotive exterior",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Automotive tire",
+      "score": 0.8728336095809937
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.7724380493164062
+    },
+    {
+      "description": "Automotive exterior",
+      "score": 0.7351185083389282
+    },
+    {
+      "description": "Font",
+      "score": 0.7278282642364502
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7150975465774536
+    },
+    {
+      "description": "Automotive window part",
+      "score": 0.609356701374054
+    },
+    {
+      "description": "Automotive design",
+      "score": 0.6042277812957764
+    },
+    {
+      "description": "Automotive wheel system",
+      "score": 0.6014143824577332
+    },
+    {
+      "description": "Bumper",
+      "score": 0.5773864984512329
+    },
+    {
+      "description": "Auto part",
+      "score": 0.5680551528930664
+    }
+  ]
+}

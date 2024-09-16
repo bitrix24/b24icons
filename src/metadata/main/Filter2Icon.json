@@ -1,0 +1,32 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Filter"
+  ],
+  "labels": [
+    {
+      "description": "Electric blue",
+      "score": 0.7117888927459717
+    },
+    {
+      "description": "Font",
+      "score": 0.659270703792572
+    },
+    {
+      "description": "Circle",
+      "score": 0.6319609880447388
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6006503701210022
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5878172516822815
+    },
+    {
+      "description": "Event",
+      "score": 0.5213031768798828
+    }
+  ]
+}

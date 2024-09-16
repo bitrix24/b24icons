@@ -1,0 +1,39 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Clock",
+    "With",
+    "Arrow",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7609708309173584
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7407150268554688
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6615802049636841
+    },
+    {
+      "description": "Logo",
+      "score": 0.6088255047798157
+    },
+    {
+      "description": "Brand",
+      "score": 0.5978493094444275
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5623233318328857
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5124771595001221
+    }
+  ]
+}

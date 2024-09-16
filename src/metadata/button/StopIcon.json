@@ -1,0 +1,44 @@
+{
+  "category": "Button",
+  "subCategories": [
+    "Ui",
+    "Stop",
+    "Black",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8245973587036133
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7104752659797668
+    },
+    {
+      "description": "Font",
+      "score": 0.6961689591407776
+    },
+    {
+      "description": "Circle",
+      "score": 0.6608465313911438
+    },
+    {
+      "description": "Brand",
+      "score": 0.6378172039985657
+    },
+    {
+      "description": "Logo",
+      "score": 0.6343594789505005
+    },
+    {
+      "description": "Pattern",
+      "score": 0.630699634552002
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5705729126930237
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "G",
+    "Assistant",
+    "Automotive lighting",
+    "Sky",
+    "Font",
+    "Circle",
+    "Tree",
+    "Midnight",
+    "Astronomical object",
+    "Moonlight",
+    "Event",
+    "Darkness"
+  ],
+  "labels": [
+    {
+      "description": "Automotive lighting",
+      "score": 0.8672072291374207
+    },
+    {
+      "description": "Sky",
+      "score": 0.8478642106056213
+    },
+    {
+      "description": "Font",
+      "score": 0.7681756615638733
+    },
+    {
+      "description": "Circle",
+      "score": 0.7606518864631653
+    },
+    {
+      "description": "Tree",
+      "score": 0.7492894530296326
+    },
+    {
+      "description": "Midnight",
+      "score": 0.7469404339790344
+    },
+    {
+      "description": "Astronomical object",
+      "score": 0.7291577458381653
+    },
+    {
+      "description": "Moonlight",
+      "score": 0.7136291861534119
+    },
+    {
+      "description": "Event",
+      "score": 0.7108979225158691
+    },
+    {
+      "description": "Darkness",
+      "score": 0.6704124808311462
+    }
+  ]
+}

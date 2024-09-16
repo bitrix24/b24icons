@@ -1,0 +1,40 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Insert",
+    "Video",
+    "Rectangle",
+    "Symbol",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8315542936325073
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7019203305244446
+    },
+    {
+      "description": "Font",
+      "score": 0.6950162053108215
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6846393346786499
+    },
+    {
+      "description": "Brand",
+      "score": 0.5465667843818665
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5191778540611267
+    },
+    {
+      "description": "Square",
+      "score": 0.5042993426322937
+    }
+  ]
+}

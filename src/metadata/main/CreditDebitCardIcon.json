@@ -1,0 +1,48 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Credit",
+    "Debit",
+    "Card",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8445928692817688
+    },
+    {
+      "description": "Font",
+      "score": 0.769308865070343
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7064545750617981
+    },
+    {
+      "description": "Number",
+      "score": 0.599545419216156
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5976383686065674
+    },
+    {
+      "description": "Parallel",
+      "score": 0.5532813668251038
+    },
+    {
+      "description": "Brand",
+      "score": 0.5316985845565796
+    },
+    {
+      "description": "Circle",
+      "score": 0.526184618473053
+    },
+    {
+      "description": "Square",
+      "score": 0.5074977874755859
+    }
+  ]
+}

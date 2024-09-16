@@ -1,0 +1,53 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Arrow",
+    "Top",
+    "Gesture",
+    "Font",
+    "Symbol",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.852604866027832
+    },
+    {
+      "description": "Font",
+      "score": 0.79302978515625
+    },
+    {
+      "description": "Cross",
+      "score": 0.7533569931983948
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7496122717857361
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7352544665336609
+    },
+    {
+      "description": "Logo",
+      "score": 0.7269394993782043
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6413899064064026
+    },
+    {
+      "description": "Slope",
+      "score": 0.6312118768692017
+    },
+    {
+      "description": "Number",
+      "score": 0.6193839311599731
+    },
+    {
+      "description": "Triangle",
+      "score": 0.6181784868240356
+    }
+  ]
+}

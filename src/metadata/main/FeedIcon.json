@@ -1,0 +1,42 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Feed",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8335386514663696
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7158523797988892
+    },
+    {
+      "description": "Font",
+      "score": 0.6972541213035583
+    },
+    {
+      "description": "Pattern",
+      "score": 0.612116277217865
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5530709028244019
+    },
+    {
+      "description": "Circle",
+      "score": 0.5044647455215454
+    },
+    {
+      "description": "Number",
+      "score": 0.5037347078323364
+    },
+    {
+      "description": "Square",
+      "score": 0.5023391842842102
+    }
+  ]
+}

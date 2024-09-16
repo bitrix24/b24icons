@@ -1,0 +1,55 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Headset",
+    "Symbol",
+    "Font",
+    "Circle",
+    "Logo",
+    "Rectangle",
+    "Symmetry",
+    "Gas"
+  ],
+  "labels": [
+    {
+      "description": "Symbol",
+      "score": 0.7599102258682251
+    },
+    {
+      "description": "Font",
+      "score": 0.7439601421356201
+    },
+    {
+      "description": "Circle",
+      "score": 0.7374719977378845
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7250794172286987
+    },
+    {
+      "description": "Logo",
+      "score": 0.691405177116394
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6771193146705627
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6739018559455872
+    },
+    {
+      "description": "Gas",
+      "score": 0.6679916977882385
+    },
+    {
+      "description": "Brand",
+      "score": 0.6176633238792419
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6105329990386963
+    }
+  ]
+}

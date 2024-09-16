@@ -1,0 +1,57 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Camera",
+    "Digital camera",
+    "Camera",
+    "Camera lens",
+    "Reflex camera",
+    "Circle",
+    "Rectangle",
+    "Font",
+    "Cameras & optics",
+    "Camera accessory"
+  ],
+  "labels": [
+    {
+      "description": "Digital camera",
+      "score": 0.8587151765823364
+    },
+    {
+      "description": "Camera",
+      "score": 0.8394131064414978
+    },
+    {
+      "description": "Camera lens",
+      "score": 0.8221384882926941
+    },
+    {
+      "description": "Reflex camera",
+      "score": 0.7441555261611938
+    },
+    {
+      "description": "Circle",
+      "score": 0.7380638718605042
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7313593626022339
+    },
+    {
+      "description": "Font",
+      "score": 0.730528712272644
+    },
+    {
+      "description": "Cameras & optics",
+      "score": 0.7170213460922241
+    },
+    {
+      "description": "Camera accessory",
+      "score": 0.7149696350097656
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7123220562934875
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "category": "Social",
+  "subCategories": [
+    "Viber",
+    "Rectangle",
+    "Font",
+    "Automotive lighting"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7440720796585083
+    },
+    {
+      "description": "Font",
+      "score": 0.7179641127586365
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7146816253662109
+    },
+    {
+      "description": "Automotive lighting",
+      "score": 0.7114035487174988
+    },
+    {
+      "description": "Brand",
+      "score": 0.6204093098640442
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6201139092445374
+    },
+    {
+      "description": "Circle",
+      "score": 0.605647623538971
+    },
+    {
+      "description": "Logo",
+      "score": 0.5973508358001709
+    },
+    {
+      "description": "Auto part",
+      "score": 0.5818032622337341
+    },
+    {
+      "description": "Still life photography",
+      "score": 0.5580110549926758
+    }
+  ]
+}

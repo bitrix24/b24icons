@@ -1,0 +1,53 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Numerable",
+    "List",
+    "Font",
+    "Rectangle",
+    "Parallel",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.8049907684326172
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.7695798873901367
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7290846109390259
+    },
+    {
+      "description": "Parallel",
+      "score": 0.6903595924377441
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6880886554718018
+    },
+    {
+      "description": "Circle",
+      "score": 0.6549882292747498
+    },
+    {
+      "description": "Brand",
+      "score": 0.6216155886650085
+    },
+    {
+      "description": "Logo",
+      "score": 0.6125081777572632
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5653131008148193
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5246647596359253
+    }
+  ]
+}

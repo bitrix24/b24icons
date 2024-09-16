@@ -1,0 +1,56 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Ok",
+    "Font",
+    "Circle",
+    "Symbol",
+    "Logo",
+    "Darkness",
+    "Symmetry"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7706365585327148
+    },
+    {
+      "description": "Circle",
+      "score": 0.7623969912528992
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7348396182060242
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7040845155715942
+    },
+    {
+      "description": "Logo",
+      "score": 0.7020971775054932
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7019848227500916
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.6773877143859863
+    },
+    {
+      "description": "Brand",
+      "score": 0.6536633372306824
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6514200568199158
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6185142397880554
+    }
+  ]
+}

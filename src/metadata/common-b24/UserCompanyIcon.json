@@ -1,0 +1,60 @@
+{
+  "category": "Common-b24",
+  "subCategories": [
+    "Ui",
+    "User",
+    "Company",
+    "Gesture",
+    "Font",
+    "Tree",
+    "Flash photography",
+    "Symmetry",
+    "Darkness",
+    "Midnight",
+    "Circle",
+    "Monochrome photography",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Gesture",
+      "score": 0.8526048064231873
+    },
+    {
+      "description": "Font",
+      "score": 0.8036776781082153
+    },
+    {
+      "description": "Tree",
+      "score": 0.7933159470558167
+    },
+    {
+      "description": "Flash photography",
+      "score": 0.7473472356796265
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.723356306552887
+    },
+    {
+      "description": "Darkness",
+      "score": 0.7105034589767456
+    },
+    {
+      "description": "Midnight",
+      "score": 0.7052446603775024
+    },
+    {
+      "description": "Circle",
+      "score": 0.7042017579078674
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.676045298576355
+    },
+    {
+      "description": "Logo",
+      "score": 0.6706575751304626
+    }
+  ]
+}

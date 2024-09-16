@@ -1,0 +1,46 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Plates",
+    "Rectangle",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.7926586270332336
+    },
+    {
+      "description": "Font",
+      "score": 0.7804699540138245
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7323727607727051
+    },
+    {
+      "description": "Symbol",
+      "score": 0.657565712928772
+    },
+    {
+      "description": "Brand",
+      "score": 0.6126736998558044
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5848202109336853
+    },
+    {
+      "description": "Logo",
+      "score": 0.5466209650039673
+    },
+    {
+      "description": "Number",
+      "score": 0.5302619338035583
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5131557583808899
+    }
+  ]
+}

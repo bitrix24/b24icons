@@ -1,0 +1,53 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Brush",
+    "Eye",
+    "Eyelash",
+    "Art",
+    "Font",
+    "Pattern"
+  ],
+  "labels": [
+    {
+      "description": "Eye",
+      "score": 0.9375535249710083
+    },
+    {
+      "description": "Eyelash",
+      "score": 0.7423747181892395
+    },
+    {
+      "description": "Art",
+      "score": 0.7203760147094727
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6902638673782349
+    },
+    {
+      "description": "Font",
+      "score": 0.6765807271003723
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6668503284454346
+    },
+    {
+      "description": "Monochrome photography",
+      "score": 0.5792356133460999
+    },
+    {
+      "description": "Drawing",
+      "score": 0.5438235998153687
+    },
+    {
+      "description": "Logo",
+      "score": 0.5410479307174683
+    },
+    {
+      "description": "Brand",
+      "score": 0.5393263101577759
+    }
+  ]
+}

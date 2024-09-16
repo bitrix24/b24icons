@@ -1,0 +1,47 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Barcode",
+    "Rectangle",
+    "Font",
+    "Parallel"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8238769173622131
+    },
+    {
+      "description": "Font",
+      "score": 0.7455993890762329
+    },
+    {
+      "description": "Parallel",
+      "score": 0.7090205550193787
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6811227202415466
+    },
+    {
+      "description": "Logo",
+      "score": 0.6295273303985596
+    },
+    {
+      "description": "Brand",
+      "score": 0.6004416942596436
+    },
+    {
+      "description": "Metal",
+      "score": 0.593417763710022
+    },
+    {
+      "description": "Graphics",
+      "score": 0.559113085269928
+    },
+    {
+      "description": "Circle",
+      "score": 0.5158714056015015
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Anchor",
+    "Gas",
+    "Symbol",
+    "Font",
+    "Tints and shades",
+    "Symmetry",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Cross",
+      "score": 0.8574912548065186
+    },
+    {
+      "description": "Gas",
+      "score": 0.7794209122657776
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7613082528114319
+    },
+    {
+      "description": "Font",
+      "score": 0.7608070969581604
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7410969734191895
+    },
+    {
+      "description": "Tints and shades",
+      "score": 0.7401013374328613
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.739531397819519
+    },
+    {
+      "description": "Circle",
+      "score": 0.7328248620033264
+    },
+    {
+      "description": "Balance",
+      "score": 0.6088356375694275
+    },
+    {
+      "description": "Art",
+      "score": 0.6010046601295471
+    }
+  ]
+}

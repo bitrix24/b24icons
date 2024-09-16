@@ -1,0 +1,53 @@
+{
+  "category": "Editor",
+  "subCategories": [
+    "Text",
+    "Color",
+    "Gas",
+    "Logo",
+    "Font",
+    "Circle"
+  ],
+  "labels": [
+    {
+      "description": "Gas",
+      "score": 0.750733494758606
+    },
+    {
+      "description": "Logo",
+      "score": 0.7194138169288635
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7190597653388977
+    },
+    {
+      "description": "Font",
+      "score": 0.6975171566009521
+    },
+    {
+      "description": "Circle",
+      "score": 0.665008008480072
+    },
+    {
+      "description": "Brand",
+      "score": 0.625816822052002
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6244776844978333
+    },
+    {
+      "description": "Symmetry",
+      "score": 0.5962710976600647
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5917588472366333
+    },
+    {
+      "description": "Art",
+      "score": 0.5641579031944275
+    }
+  ]
+}

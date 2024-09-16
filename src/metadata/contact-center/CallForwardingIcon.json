@@ -1,0 +1,27 @@
+{
+  "category": "Contact-center",
+  "subCategories": [
+    "Call",
+    "Forwarding",
+    "Font",
+    "Art"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7019590735435486
+    },
+    {
+      "description": "Art",
+      "score": 0.6843457221984863
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.6439442038536072
+    },
+    {
+      "description": "Symbol",
+      "score": 0.5183279514312744
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "category": "Actions",
+  "subCategories": [
+    "Pen",
+    "Rectangle",
+    "Logo",
+    "Font"
+  ],
+  "labels": [
+    {
+      "description": "Rectangle",
+      "score": 0.8320807814598083
+    },
+    {
+      "description": "Logo",
+      "score": 0.6807735562324524
+    },
+    {
+      "description": "Font",
+      "score": 0.6709851622581482
+    },
+    {
+      "description": "Slope",
+      "score": 0.6505518555641174
+    },
+    {
+      "description": "Grass",
+      "score": 0.6186839938163757
+    },
+    {
+      "description": "Herb",
+      "score": 0.6104024052619934
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6017139554023743
+    },
+    {
+      "description": "Plant",
+      "score": 0.5760930180549622
+    },
+    {
+      "description": "Annual plant",
+      "score": 0.5744902491569519
+    },
+    {
+      "description": "Macro photography",
+      "score": 0.5392050743103027
+    }
+  ]
+}

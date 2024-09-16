@@ -1,0 +1,40 @@
+{
+  "category": "Common-service",
+  "subCategories": [
+    "Ui",
+    "Service",
+    "Yahoo",
+    "Font",
+    "Logo"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7645861506462097
+    },
+    {
+      "description": "Electric blue",
+      "score": 0.7334016561508179
+    },
+    {
+      "description": "Logo",
+      "score": 0.7110120058059692
+    },
+    {
+      "description": "Brand",
+      "score": 0.6407237648963928
+    },
+    {
+      "description": "Graphics",
+      "score": 0.6394946575164795
+    },
+    {
+      "description": "Symbol",
+      "score": 0.6264270544052124
+    },
+    {
+      "description": "Trademark",
+      "score": 0.5203500390052795
+    }
+  ]
+}

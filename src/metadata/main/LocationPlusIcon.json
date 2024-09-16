@@ -1,0 +1,51 @@
+{
+  "category": "Main",
+  "subCategories": [
+    "Location",
+    "Plus",
+    "Font",
+    "Symbol"
+  ],
+  "labels": [
+    {
+      "description": "Font",
+      "score": 0.7704020738601685
+    },
+    {
+      "description": "Symbol",
+      "score": 0.7470658421516418
+    },
+    {
+      "description": "Cross",
+      "score": 0.6897634863853455
+    },
+    {
+      "description": "Rectangle",
+      "score": 0.6598012447357178
+    },
+    {
+      "description": "Logo",
+      "score": 0.6446352005004883
+    },
+    {
+      "description": "Pattern",
+      "score": 0.6135519742965698
+    },
+    {
+      "description": "Circle",
+      "score": 0.6042671799659729
+    },
+    {
+      "description": "Brand",
+      "score": 0.6023572683334351
+    },
+    {
+      "description": "Terrestrial plant",
+      "score": 0.6014163494110107
+    },
+    {
+      "description": "Graphics",
+      "score": 0.5972034335136414
+    }
+  ]
+}
