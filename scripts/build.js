@@ -226,8 +226,6 @@ async function ensureWriteJson(
 
 async function buildIcons(pack, type, format)
 {
-	const metaDataPackageJson = { icons: [] }
-	
 	let outDir = `./${pack}/${type}`;
 	if(format === 'esm')
 	{
@@ -235,6 +233,10 @@ async function buildIcons(pack, type, format)
 	}
 	
 	let icons = await getIcons(type);
+	const metaDataPackageJson = {
+		ttl: 0,
+		icons: {}
+	}
 	
 	await Promise.all(
 		icons.flatMap(async ({ componentName, svg, isDeprecated }) => {
@@ -275,28 +277,31 @@ async function buildIcons(pack, type, format)
 			let metaDataJson = {};
 			try
 			{
-				metaDataJson = await import(`../src/metadata/${type}/${componentName}.json`, {
-					assert: {
-						type: "json",
-					},
-				});
+				metaDataJson = JSON.parse(await fs.readFile(
+					`./src/metadata/${type}/${componentName}.json`,
+					'utf8'
+				));
 			}
 			catch(error)
 			{
 				metaDataJson = {
+					specialized: true,
 					category: null,
 					subCategories: [],
 					labels: [],
 				};
 				
 				console.error(
-					`../src/metadata/${type}/${componentName}.json`,
-					error
+					error,
+					`../src/metadata/${type}/${componentName}.json`
 				);
+				
 				process.exit(1)
+				
 			}
 			
-			metaDataPackageJson.icons[componentName] = metaDataJson;
+			metaDataPackageJson.ttl++;
+			metaDataPackageJson.icons[componentName] = {... metaDataJson };
 			
 			return [
 				ensureWrite(
@@ -325,10 +330,6 @@ async function buildIcons(pack, type, format)
 		`${outDir}/index.d.ts`,
 		exportAll(icons, 'esm', false)
 	);
-	
-	console.log(
-		`${outDir}/metadata.json`,
-		metaDataPackageJson);
 	
 	await ensureWriteJson(
 		`${outDir}/metadata.json`,
