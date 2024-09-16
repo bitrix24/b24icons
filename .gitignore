@@ -1,6 +1,7 @@
 # dependencies
 /node_modules
 /vue/playground/node_modules
+/vue/metadata.json
 
 # testing
 

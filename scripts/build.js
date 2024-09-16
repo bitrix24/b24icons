@@ -124,44 +124,46 @@ let transform = {
 	}
 }
 
-async function getIcons(style)
+function prepareIconName(type, fileName)
 {
-	let files = await fs.readdir(`./optimized/${style}`);
+	let componentName = camelcase(
+		fileName.replace(/\.svg$/, '')
+			//.replaceAll('-', '')
+			.replaceAll(' ', '')
+			.replaceAll('(', '').replaceAll(')', '')
+			.replaceAll('[', '').replaceAll(']', '')
+			.replaceAll('{', '').replaceAll('}', ''),
+		{
+			pascalCase: true,
+		}
+	);
+	
+	/**
+	 * @memo clear component name
+	 */
+	componentName = componentName
+		.replace('Ui', '')
+		.replace('White', '').replace('Black', '')
+		.replace('Light', '').replace('Dark', '');
+	
+	if(type === 'common-service')
+	{
+		componentName = componentName.replace('Service', '');
+	}
+	
+	componentName = componentName.charAt(0).toUpperCase() + componentName.slice(1);
+	
+	return `${componentName}Icon`;
+}
+
+async function getIcons(type)
+{
+	let files = await fs.readdir(`./optimized/${type}`);
 	return Promise.all(
 		files.map(async (file) => {
-			let componentName = camelcase(
-				file.replace(/\.svg$/, '')
-					//.replaceAll('-', '')
-					.replaceAll(' ', '')
-					.replaceAll('(', '').replaceAll(')', '')
-					.replaceAll('[', '').replaceAll(']', '')
-					.replaceAll('{', '').replaceAll('}', ''),
-				{
-					pascalCase: true,
-				}
-			);
-			
-			
-			// region fix componentName ////
-			/**
-			 * @memo clear component name
-			 */
-			componentName = componentName.replace('Ui', '')
-				.replace('White', '').replace('Black', '')
-				.replace('Light', '').replace('Dark', '');
-			
-			if(style === 'common-service')
-			{
-				componentName = componentName
-					.replace('Service', '');
-			}
-			
-			componentName = componentName.charAt(0).toUpperCase() + componentName.slice(1);
-			// endregion ////
-			
 			return {
-				svg: await fs.readFile(`./optimized/${style}/${file}`, 'utf8'),
-				componentName: `${componentName}Icon`,
+				svg: await fs.readFile(`./optimized/${type}/${file}`, 'utf8'),
+				componentName: prepareIconName(type, file),
 				isDeprecated: deprecated.includes(file),
 			};
 		})
@@ -222,15 +224,17 @@ async function ensureWriteJson(
 	)
 }
 
-async function buildIcons(pack, style, format)
+async function buildIcons(pack, type, format)
 {
-	let outDir = `./${pack}/${style}`;
+	const metaDataPackageJson = { icons: [] }
+	
+	let outDir = `./${pack}/${type}`;
 	if(format === 'esm')
 	{
 		outDir += '/esm';
 	}
 	
-	let icons = await getIcons(style);
+	let icons = await getIcons(type);
 	
 	await Promise.all(
 		icons.flatMap(async ({ componentName, svg, isDeprecated }) => {
@@ -267,7 +271,33 @@ async function buildIcons(pack, style, format)
 				types.push(`declare const ${componentName}: FunctionalComponent<HTMLAttributes & VNodeProps>;`);
 				types.push(`export default ${componentName};`);
 			}
-
+			
+			let metaDataJson = {};
+			try
+			{
+				metaDataJson = await import(`../src/metadata/${type}/${componentName}.json`, {
+					assert: {
+						type: "json",
+					},
+				});
+			}
+			catch(error)
+			{
+				metaDataJson = {
+					category: null,
+					subCategories: [],
+					labels: [],
+				};
+				
+				console.error(
+					`../src/metadata/${type}/${componentName}.json`,
+					error
+				);
+				process.exit(1)
+			}
+			
+			metaDataPackageJson.icons[componentName] = metaDataJson;
+			
 			return [
 				ensureWrite(
 					`${outDir}/${componentName}.js`,
@@ -294,6 +324,15 @@ async function buildIcons(pack, style, format)
 	await ensureWrite(
 		`${outDir}/index.d.ts`,
 		exportAll(icons, 'esm', false)
+	);
+	
+	console.log(
+		`${outDir}/metadata.json`,
+		metaDataPackageJson);
+	
+	await ensureWriteJson(
+		`${outDir}/metadata.json`,
+		metaDataPackageJson
 	);
 }
 
@@ -347,7 +386,6 @@ async function main(
 	const cjsPackageJson = { module: './esm/index.js', sideEffects: false }
 	const esmPackageJson = { type: 'module', sideEffects: false }
 	const metaDataJson = { typeList: typeList }
-	const metaDataPackageJson = { icons: [] }
 
 	console.log(`Building ${pack} package ...`);
 	
@@ -365,13 +403,11 @@ async function main(
 					type,
 					'cjs'
 				),
-				ensureWriteJson(`./${pack}/${type}/metadata.json`, metaDataPackageJson),
 				buildIcons(
 					pack,
 					type,
 					'esm'
 				),
-				ensureWriteJson(`./${pack}/${type}/esm/metadata.json`, metaDataPackageJson),
 			];
 		})),
 		...(typeList.map((type) => {
