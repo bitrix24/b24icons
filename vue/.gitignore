@@ -1,7 +1,6 @@
 # dependencies
 /node_modules
 /playground/node_modules
-/metadata.json
 
 # logs
 logs
@@ -21,6 +20,7 @@ Thumbs.db
 /@tmp
 
 # production
+/metadata.json
 /actions
 /contact-center
 /crm
