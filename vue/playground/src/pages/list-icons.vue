@@ -1,78 +1,33 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import * as B24IconsMain from "@bitrix24/icons-vue/main";
-import      B24IconsMainMetaData from '@bitrix24/icons-vue/main/metadata.json';
 
-import * as B24IconsSocial from "@bitrix24/icons-vue/social";
-import      B24IconsSocialMetaData from '@bitrix24/icons-vue/social/metadata.json';
-
-import * as B24IconsEditor from "@bitrix24/icons-vue/editor";
-import      B24IconsEditorMetaData from '@bitrix24/icons-vue/editor/metadata.json';
-
-import * as B24IconsCrm from "@bitrix24/icons-vue/crm";
-import      B24IconsCrmMetaData from '@bitrix24/icons-vue/crm/metadata.json';
-
-import * as B24IconsContactCenter from "@bitrix24/icons-vue/contact-center";
-import      B24IconsContactCenterMetaData from '@bitrix24/icons-vue/contact-center/metadata.json';
-
-import * as B24IconsActions from "@bitrix24/icons-vue/actions";
-import      B24IconsActionsMetaData from '@bitrix24/icons-vue/actions/metadata.json';
-
-import * as B24IconsButton from "@bitrix24/icons-vue/button";
-import      B24IconsButtonMetaData from '@bitrix24/icons-vue/button/metadata.json';
-
-import * as B24IconsButtonSpecialized from "@bitrix24/icons-vue/button-specialized";
-import      B24IconsButtonSpecializedMetaData from '@bitrix24/icons-vue/button-specialized/metadata.json';
-
-import * as B24IconsCommonB24 from "@bitrix24/icons-vue/common-b24";
-import      B24IconsCommonB24MetaData from '@bitrix24/icons-vue/common-b24/metadata.json';
-
-import * as B24IconsCommonService from "@bitrix24/icons-vue/common-service";
-import      B24IconsCommonServiceMetaData from '@bitrix24/icons-vue/common-service/metadata.json';
-
-const iconsGroups = {
-	B24IconsMain,
-	B24IconsSocial,
-	B24IconsEditor,
-	B24IconsCrm,
-	B24IconsContactCenter,
-	B24IconsActions,
-	B24IconsButton,
-	B24IconsButtonSpecialized,
-	B24IconsCommonB24,
-	B24IconsCommonService,
-};
+import metaData from '../../../metadata.json'
+import B24Icon from '@bitrix24/icons-vue/components/B24Icon.vue'
+import B24IconsMainMetaData from '@bitrix24/icons-vue/main/metadata.json'
+import B24IconsSocialMetaData from '@bitrix24/icons-vue/social/metadata.json'
+import B24IconsEditorMetaData from '@bitrix24/icons-vue/editor/metadata.json'
+import B24IconsCrmMetaData from '@bitrix24/icons-vue/crm/metadata.json'
+import B24IconsContactCenterMetaData from '@bitrix24/icons-vue/contact-center/metadata.json'
+import B24IconsActionsMetaData from '@bitrix24/icons-vue/actions/metadata.json'
+import B24IconsButtonMetaData from '@bitrix24/icons-vue/button/metadata.json'
+import B24IconsButtonSpecializedMetaData from '@bitrix24/icons-vue/button-specialized/metadata.json'
+import B24IconsCommonB24MetaData from '@bitrix24/icons-vue/common-b24/metadata.json'
+import B24IconsCommonServiceMetaData from '@bitrix24/icons-vue/common-service/metadata.json'
 
 const iconsGroupsMeta = {
-	B24IconsMain: B24IconsMainMetaData,
-	B24IconsSocial: B24IconsSocialMetaData,
-	B24IconsEditor: B24IconsEditorMetaData,
-	B24IconsCrm: B24IconsCrmMetaData,
-	B24IconsContactCenter: B24IconsContactCenterMetaData,
-	B24IconsActions: B24IconsActionsMetaData,
-	B24IconsButton: B24IconsButtonMetaData,
-	B24IconsButtonSpecialized: B24IconsButtonSpecializedMetaData,
-	B24IconsCommonB24: B24IconsCommonB24MetaData,
-	B24IconsCommonService: B24IconsCommonServiceMetaData,
+	Main: B24IconsMainMetaData,
+	Social: B24IconsSocialMetaData,
+	Editor: B24IconsEditorMetaData,
+	Crm: B24IconsCrmMetaData,
+	ContactCenter: B24IconsContactCenterMetaData,
+	Actions: B24IconsActionsMetaData,
+	Button: B24IconsButtonMetaData,
+	ButtonSpecialized: B24IconsButtonSpecializedMetaData,
+	CommonB24: B24IconsCommonB24MetaData,
+	CommonService: B24IconsCommonServiceMetaData,
 };
 
-const getComponent = (name: string) => {
-	const data = name.split('::');
-	const group = (data[0] || '');
-	const icon = (data[1] || '');
-	
-	if(
-		!!iconsGroups[group]
-		&& !!iconsGroups[group][icon]
-	)
-	{
-		return iconsGroups[group][icon];
-	}
-	
-	console.error(`Icon ${name} not exist`);
-	return iconsGroups['B24IconsActions']['AgendaGapIcon'];
-}
-
+const list22 = metaData?.typesName || [];
+const list = ['CommonB24'];
 </script>
 
 <template>
@@ -88,7 +43,7 @@ const getComponent = (name: string) => {
 			</tr>
 		</thead>
 		<template
-			v-for="(groupKey, indexGroup) in Object.keys(iconsGroups)"
+			v-for="(groupKey, indexGroup) in list"
 			:key="indexGroup"
 		>
 		<tbody>
@@ -102,9 +57,9 @@ const getComponent = (name: string) => {
 				:key="index"
 			>
 				<td class="p-2 align-top border border-1 border-gray-100">
-					<div class="size-20 inline-block border border-gray-50"><component
-						:is="getComponent(`${groupKey}::${index}`)"
-						class="size-18"
+					<div class="flex flex-row items-center justify-center size-20 border border-gray-50"><B24Icon
+						:name="`${groupKey}::${index}`"
+						class="size-16"
 					/></div>
 				</td>
 				<td class="p-2 align-top border border-1 border-gray-100">
