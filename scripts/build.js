@@ -124,6 +124,11 @@ let transform = {
 	}
 }
 
+function toUpperFirstChar(value)
+{
+	return value.charAt(0).toUpperCase() + value.slice(1)
+}
+
 function prepareIconName(type, fileName)
 {
 	let componentName = camelcase(
@@ -151,7 +156,7 @@ function prepareIconName(type, fileName)
 		componentName = componentName.replace('Service', '');
 	}
 	
-	componentName = componentName.charAt(0).toUpperCase() + componentName.slice(1);
+	componentName = toUpperFirstChar(componentName);
 	
 	return `${componentName}Icon`;
 }
@@ -384,10 +389,6 @@ async function main(
 	pack
 )
 {
-	const cjsPackageJson = { module: './esm/index.js', sideEffects: false }
-	const esmPackageJson = { type: 'module', sideEffects: false }
-	const metaDataJson = { typeList: typeList }
-
 	console.log(`Building ${pack} package ...`);
 	
 	// region clear ////
@@ -395,6 +396,10 @@ async function main(
 		typeList.map((type) => rimraf(`./export/${pack}/${type}/*`))
 	);
 	// endregion ////
+	
+	// region build icons ////
+	const cjsPackageJson = { module: './esm/index.js', sideEffects: false }
+	const esmPackageJson = { type: 'module', sideEffects: false }
 	
 	await Promise.all([
 		...(typeList.map((type) => {
@@ -416,23 +421,62 @@ async function main(
 				ensureWriteJson(`./${pack}/${type}/esm/package.json`, esmPackageJson),
 				ensureWriteJson(`./${pack}/${type}/package.json`, cjsPackageJson),
 			];
-		})),
-		...[
-			ensureWriteJson(`./${pack}/metadata.json`, metaDataJson),
-		]
-	]);
+		}))
+	])
+	// endregion ////
 	
+	// region metadata.json ////
+	.then(() => {
+		console.log(`Init metadata ...`)
+		return new Promise(resolve => setTimeout(resolve, 1_600))
+	})
+	.then(async () => {
+		const metaDataJson = {
+			types: [],
+			typesName: [],
+			list: [],
+		}
+		
+		for(const type of typeList)
+		{
+			metaDataJson.types.push(type)
+			
+			const typeKey = toUpperFirstChar(camelcase(type))
+			metaDataJson.typesName.push(typeKey)
+			
+			const metaDataPackageJson = JSON.parse(await fs.readFile(
+				`./${pack}/${type}/esm/metadata.json`,
+				'utf8'
+			))
+			
+			const iconsKey = Object.keys(metaDataPackageJson?.icons || {})
+			
+			for(const icon of iconsKey)
+			{
+				metaDataJson.list.push(`${typeKey}::${icon}`)
+			}
+		}
+		
+		await ensureWriteJson(
+			`./${pack}/metadata.json`,
+			metaDataJson
+		)
+	})
+	// endregion ////
+	
+	// region package.json ////
 	let packageJson = JSON.parse(await fs.readFile(
 		`./${pack}/package.json`,
 		'utf8'
-	));
+	))
 	
-	packageJson.exports = await buildExports(typeList);
+	packageJson.exports = await buildExports(typeList)
 	
 	await ensureWriteJson(
 		`./${pack}/package.json`,
 		packageJson
-	);
+	)
+	// endregion ////
 	
 	return console.log(`Finished building ${pack} package.`)
 }
