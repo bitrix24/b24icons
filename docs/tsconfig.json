@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"types": ["vite/client"],
+		"skipLibCheck": true,
+		"strict": false,
+		"allowJs": true,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"incremental": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"downlevelIteration": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"__allowImportingTsExtensions": true,
+		"__allowSyntheticDefaultImports": true,
+		"paths": {
+			"~/.vitepress/*": ["./.vitepress/*"],
+			"@bitrix24/icons-vue/components/*": ["../vue/components/*"]
+		},
+	},
+}

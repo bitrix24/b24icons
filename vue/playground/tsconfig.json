@@ -17,6 +17,7 @@
 		"isolatedModules": true,
 		"jsx": "preserve",
 		"paths": {
+			"@bitrix24/icons-vue/components/*": ["../components/*"],
 			"@bitrix24/icons-vue/main/*": ["../main/esm/*"],
 			"@bitrix24/icons-vue/actions/*": ["../actions/esm/*"],
 			"@bitrix24/icons-vue/crm/*": ["../crm/esm/*"],

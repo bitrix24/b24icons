@@ -14,6 +14,7 @@ export default defineConfig({
 	],
 	resolve: {
 		alias: {
+			'@bitrix24/icons-vue/components': fileURLToPath(new URL('../components', import.meta.url)),
 			'@bitrix24/icons-vue/main': fileURLToPath(new URL('../main/esm', import.meta.url)),
 			'@bitrix24/icons-vue/actions': fileURLToPath(new URL('../actions/esm', import.meta.url)),
 			'@bitrix24/icons-vue/crm': fileURLToPath(new URL('../crm/esm', import.meta.url)),

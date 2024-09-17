@@ -11,12 +11,13 @@
     "svg",
     "vue"
   ],
-  "homepage": "https://github.com/bitrix24/b24icons",
+  "homepage": "https://bitrix24.github.io/b24icons/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bitrix24/b24icons.git"
   },
   "files": [
+    "components",
     "actions",
     "contact-center",
     "crm",
