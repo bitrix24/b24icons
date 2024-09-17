@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "@bitrix24/icons"
   text: "Bitrix24 SVG icons for development web-applications"
-  tagline: My great project tagline
+  tagline: '@todo My great project tagline'
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: View all icons
+      link: /icons
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: GitHub
+      link: https://github.com/bitrix24/b24icons
 
 features:
   - title: Feature A
