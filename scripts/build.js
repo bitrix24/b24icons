@@ -366,11 +366,15 @@ async function buildExports(styles)
 			import: `./dist/${style}/esm/index.js`,
 			require: `./dist/${style}/index.js`,
 		}
+		
+		pkg[`./${style}/metadata.json`] = { default: `./dist/${style}/esm/metadata.json` }
+		
 		pkg[`./${style}/*`] = {
 			types: `./dist/${style}/*.d.ts`,
 			import: `./dist/${style}/esm/*.js`,
 			require: `./dist/${style}/*.js`,
 		}
+		
 		pkg[`./${style}/*.js`] = {
 			types: `./${style}/*.d.ts`,
 			import: `./${style}/esm/*.js`,

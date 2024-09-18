@@ -15,20 +15,6 @@
 		"type": "git",
 		"url": "git+https://github.com/bitrix24/b24icons.git"
 	},
-	"_____files": [
-		"actions/",
-		"contact-center/",
-		"crm/",
-		"editor/",
-		"main/",
-		"social/",
-		"button-specialized/",
-		"button/",
-		"common-service/",
-		"common-b24/",
-		"README.md",
-		"LICENSE"
-	],
 	"private": true,
 	"workspaces": [
 		"packages/*",

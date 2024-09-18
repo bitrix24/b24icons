@@ -1,6 +1,6 @@
 import { h, computed, defineAsyncComponent, defineComponent } from 'vue'
 import type {PropType} from "vue"
-import metaData from '../metadata.json' assert { type: "json" }
+import metaData from '../metadata.json'
 
 //import AnotherComponent from './AnotherComponent.js';
 
