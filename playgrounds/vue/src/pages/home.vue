@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { defineComponent } from 'vue'
 import { useRouter } from 'vue-router'
+//import { B24Icon } from "@bitrix24/icons-vue/components/B24Icon"
+import QrIcon from "@bitrix24/icons-vue/button/QrIcon"
 
 let Examples = defineComponent({
 	props: ['routes'],
@@ -17,6 +19,8 @@ let routes = router
 <template>
 	<h1 class="text-h1 mb-xs flex whitespace-pre-wrap">Examples</h1>
 	<div class="prose">
+		<div tmp="B24Icon" name="Button::QrIcon" ></div>
+		<QrIcon />
 		<Examples :routes="routes" v-slot="{ routes, slots }">
 			<ul>
 				<li v-for="{ children, meta, path } in routes">

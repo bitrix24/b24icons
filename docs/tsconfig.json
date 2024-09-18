@@ -20,7 +20,7 @@
 		"__allowSyntheticDefaultImports": true,
 		"paths": {
 			"~/.vitepress/*": ["./.vitepress/*"],
-			"@bitrix24/icons-vue/components/*": ["../vue/components/*"]
+			"@bitrix24/icons-vue/components/*": ["../packages/@bitrix24-icons-vue/dist/components/*"]
 		},
 	},
 }

@@ -13,7 +13,7 @@ export default defineConfig({
 			alias: [
 				{
 					find: '@bitrix24/icons-vue/components',
-					replacement: fileURLToPath(new URL('../../vue/components', import.meta.url)),
+					replacement: fileURLToPath(new URL('../../packages/@bitrix24-icons-vue/dist/components', import.meta.url)),
 				},
 				{
 					find: '~/.vitepress',

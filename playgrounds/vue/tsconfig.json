@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"types": ["vite/client"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": false,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"incremental": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		// @todo fix this
+		//"moduleResolution": "nodenext",
+		"moduleResolution": "node",
+		"downlevelIteration": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"paths": {
+			"@bitrix24/icons-vue/*": ["../../packages/@bitrix24-icons-vue/dist/*"],
+			"@bitrix24/icons-vue/components/*": ["../../packages/@bitrix24-icons-vue/dist/components/*"],
+			"@bitrix24/icons-vue/main/*": ["../../packages/@bitrix24-icons-vue/dist/main/esm/*"],
+			"@bitrix24/icons-vue/actions/*": ["../../packages/@bitrix24-icons-vue/dist/actions/esm/*"],
+			"@bitrix24/icons-vue/crm/*": ["../../packages/@bitrix24-icons-vue/dist/crm/esm/*"],
+			"@bitrix24/icons-vue/contact-center/*": ["../../packages/@bitrix24-icons-vue/dist/contact-center/esm/*"],
+			"@bitrix24/icons-vue/social/*": ["../../packages/@bitrix24-icons-vue/dist/social/esm/*"],
+			"@bitrix24/icons-vue/common-b24/*": ["../../packages/@bitrix24-icons-vue/dist/common-b24/esm/*"],
+			"@bitrix24/icons-vue/common-service/*": ["../../packages/@bitrix24-icons-vue/dist/common-service/esm/*"],
+			"@bitrix24/icons-vue/editor/*": ["../../packages/@bitrix24-icons-vue/dist/editor/esm/*"],
+			"___@bitrix24/icons-vue/button/*": ["../../packages/@bitrix24-icons-vue/dist/button/esm/*"],
+			"@bitrix24/icons-vue/button-specialized/*": ["../../packages/@bitrix24-icons-vue/dist/button-specialized/esm/*"],
+		}
+	},
+	"include": ["**/*.ts", "**/*.tsx", "**/*.vue"],
+	"exclude": ["node_modules"]
+}

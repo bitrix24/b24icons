@@ -11,8 +11,8 @@ head:
 
 <script setup>
 import { computed, ref } from 'vue'
-import metaData from '~/.vitepress/../../vue/metadata.json'
-import B24Icon from '@bitrix24/icons-vue/components/B24Icon.vue'
+import metaData from '~/.vitepress/../../packages/@bitrix24-icons-vue/dist/metadata.json'
+import { B24Icon } from '@bitrix24/icons-vue/components/B24Icon'
 import PageContainer from '~/.vitepress/theme/components/PageContainer.vue'
 
 const showIcons = 24;

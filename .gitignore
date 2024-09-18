@@ -1,14 +1,18 @@
 # dependencies
 /node_modules
-/vue/playground/node_modules
-/vue/metadata.json
+/packages/**/node_modules
+/playgrounds/**/node_modules
 
 # testing
+/coverage
+/packages/**/coverage
+/playgrounds/**/coverage
 
 # logs
 logs
 *.log
-/vue/playground/*.log
+/packages/**/*.log
+/playgrounds/**/*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -25,9 +29,14 @@ Thumbs.db
 # production
 /optimized
 /export
-/vue/playground/dist
+
+/packages/**/dist
+/packages/@bitrix24-icons-vue/src/metadata.json
+
 docs/.vitepress/dist
 docs/.vitepress/cache
+
+/playgrounds/**/dist
 
 # TypeScript
 *.tsbuildinfo

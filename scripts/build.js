@@ -10,7 +10,7 @@ const { deprecated } = require('./deprecated');
 const { typeList } = require('./type-list');
 
 let transform = {
-	react: async (svg, componentName, format, isDeprecated) => {
+	'@bitrix24-icons-react': async (svg, componentName, format, isDeprecated) => {
 		let component = await svgr(
 			svg,
 			{
@@ -56,7 +56,7 @@ let transform = {
 				'module.exports ='
 			);
 	},
-	vue: (svg, componentName, format, isDeprecated) => {
+	'@bitrix24-icons-vue': (svg, componentName, format, isDeprecated) => {
 		
 		let isHasTagStyle = false;
 		if(svg.search('<style>') !== -1)
@@ -231,7 +231,7 @@ async function ensureWriteJson(
 
 async function buildIcons(pack, type, format)
 {
-	let outDir = `./${pack}/${type}`;
+	let outDir = `./packages/${pack}/dist/${type}`;
 	if(format === 'esm')
 	{
 		outDir += '/esm';
@@ -256,7 +256,7 @@ async function buildIcons(pack, type, format)
 			/** @type {string[]} */
 			let types = [];
 
-			if(pack === 'react')
+			if(pack === '@bitrix24-icons-react')
 			{
 				types.push(`import * as React from 'react';`);
 				if(isDeprecated)
@@ -298,7 +298,7 @@ async function buildIcons(pack, type, format)
 				
 				console.error(
 					error,
-					`../src/metadata/${type}/${componentName}.json`
+					`./src/metadata/${type}/${componentName}.json`
 				);
 				
 				process.exit(1)
@@ -306,7 +306,7 @@ async function buildIcons(pack, type, format)
 			}
 			
 			metaDataPackageJson.ttl++;
-			metaDataPackageJson.icons[componentName] = {... metaDataJson };
+			metaDataPackageJson.icons[componentName] = { ... metaDataJson };
 			
 			return [
 				ensureWrite(
@@ -351,8 +351,8 @@ async function buildExports(styles)
 
 	// To appease Vite's optimizeDeps feature which requires a root-level import
 	pkg[`.`] = {
-		import: `./index.esm.js`,
-		require: `./index.js`,
+		import: `./dist/bitrix24icons.esm.js`,
+		require: `./dist/index.js`,
 	}
 
 	// For those that want to read the version from package.json
@@ -362,14 +362,14 @@ async function buildExports(styles)
 	for(let style of styles)
 	{
 		pkg[`./${style}`] = {
-			types: `./${style}/index.d.ts`,
-			import: `./${style}/esm/index.js`,
-			require: `./${style}/index.js`,
+			types: `./dist/${style}/index.d.ts`,
+			import: `./dist/${style}/esm/index.js`,
+			require: `./dist/${style}/index.js`,
 		}
 		pkg[`./${style}/*`] = {
-			types: `./${style}/*.d.ts`,
-			import: `./${style}/esm/*.js`,
-			require: `./${style}/*.js`,
+			types: `./dist/${style}/*.d.ts`,
+			import: `./dist/${style}/esm/*.js`,
+			require: `./dist/${style}/*.js`,
 		}
 		pkg[`./${style}/*.js`] = {
 			types: `./${style}/*.d.ts`,
@@ -377,6 +377,17 @@ async function buildExports(styles)
 			require: `./${style}/*.js`,
 		}
 	}
+	
+	// For components ////
+	pkg[`./components/*`] = {
+		types: `./dist/components/*.d.ts`,
+		default: `./dist/components/*.js`,
+	}
+	pkg[`./components/*.js`] = {
+		types: `./components/*.d.ts`,
+		default: `./components/*.js`,
+	}
+	pkg[`./metadata.json`] = { default: './dist/metadata.json' }
 	
 	return pkg
 }
@@ -418,8 +429,8 @@ async function main(
 		})),
 		...(typeList.map((type) => {
 			return [
-				ensureWriteJson(`./${pack}/${type}/esm/package.json`, esmPackageJson),
-				ensureWriteJson(`./${pack}/${type}/package.json`, cjsPackageJson),
+				ensureWriteJson(`./packages/${pack}/dist/${type}/esm/package.json`, esmPackageJson),
+				ensureWriteJson(`./packages/${pack}/dist/${type}/package.json`, cjsPackageJson),
 			];
 		}))
 	])
@@ -428,7 +439,7 @@ async function main(
 	// region metadata.json ////
 	.then(() => {
 		console.log(`Init metadata ...`)
-		return new Promise(resolve => setTimeout(resolve, 1_600))
+		return new Promise(resolve => setTimeout(resolve, 2_600))
 	})
 	.then(async () => {
 		const metaDataJson = {
@@ -445,7 +456,7 @@ async function main(
 			metaDataJson.typesName.push(typeKey)
 			
 			const metaDataPackageJson = JSON.parse(await fs.readFile(
-				`./${pack}/${type}/esm/metadata.json`,
+				`./packages/${pack}/dist/${type}/esm/metadata.json`,
 				'utf8'
 			))
 			
@@ -458,7 +469,12 @@ async function main(
 		}
 		
 		await ensureWriteJson(
-			`./${pack}/metadata.json`,
+			`./packages/${pack}/dist/metadata.json`,
+			metaDataJson
+		)
+		
+		await ensureWriteJson(
+			`./packages/${pack}/src/metadata.json`,
 			metaDataJson
 		)
 	})
@@ -466,14 +482,14 @@ async function main(
 	
 	// region package.json ////
 	let packageJson = JSON.parse(await fs.readFile(
-		`./${pack}/package.json`,
+		`./packages/${pack}/package.json`,
 		'utf8'
 	))
 	
 	packageJson.exports = await buildExports(typeList)
 	
 	await ensureWriteJson(
-		`./${pack}/package.json`,
+		`./packages/${pack}/package.json`,
 		packageJson
 	)
 	// endregion ////

@@ -4,7 +4,7 @@ layout: page
 
 
 <script setup>
-import B24Icon from '@bitrix24/icons-vue/components/B24Icon.vue';
+import { B24Icon } from '@bitrix24/icons-vue/components/B24Icon';
 import PageContainer from '~/.vitepress/theme/components/PageContainer.vue';
 </script>
 
