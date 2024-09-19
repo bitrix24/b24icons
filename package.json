@@ -21,16 +21,15 @@
 		"playgrounds/*"
 	],
 	"scripts": {
+		"vue": "npm run --workspace=@bitrix24/icons-vue",
 		
 		"prepublishOnly": "npm run build",
-		"prebuild": "rimraf ./optimized/* ./export/* ./packages/{@bitrix24-icons-vue,@bitrix24-icons-react}/dist/*",
+		"prebuild": "rimraf ./optimized/* ./export/* ./packages/{@bitrix24-icons-vue,@bitrix24-icons-react}/dist/* ./packages/@bitrix24-icons-vue/src/*.json",
 		
 		"build": "npm-run-all -s build:*",
 		"build:by-type": "node ./scripts/build-process",
 		"build:vue": "node ./scripts/build @bitrix24-icons-vue",
 		"build:vue-packages": "npm run vue build",
-		
-		"vue": "npm run --workspace=@bitrix24/icons-vue",
 		
 		"playground-vue": "npm-run-all -s playground-vue:*",
 		"playground-vue:build": "npm run build",
@@ -39,12 +38,14 @@
 		"docs:dev": "npm-run-all -s docs:dev:*",
 		"docs:dev:init": "npm run build",
 		"docs:dev:vitepress": "vitepress dev docs",
+		
 		"docs:build": "npm-run-all -s docs:build:*",
 		"docs:build:init": "npm run build",
 		"docs:build:vitepress": "vitepress build docs",
 		"docs:preview": "vitepress preview docs"
 	},
 	"devDependencies": {
+		"fuse.js": "^6.5.3",
 		"@babel/core": "^7.12.10",
 		"@babel/plugin-transform-react-jsx": "^7.12.12",
 		"@svgr/core": "^5.5.0",

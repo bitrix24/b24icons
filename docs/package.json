@@ -5,6 +5,7 @@
 	"description": "",
 	"type": "module",
 	"dependencies": {
-		"@bitrix24/icons-vue": "*"
+		"@bitrix24/icons-vue": "*",
+		"fuse.js": "^6.5.3"
 	}
 }
