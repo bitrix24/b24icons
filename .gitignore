@@ -32,6 +32,7 @@ Thumbs.db
 
 /packages/**/dist
 /packages/@bitrix24-icons-vue/src/metadata.json
+/packages/@bitrix24-icons-vue/src/info-metadata.json
 
 docs/.vitepress/dist
 docs/.vitepress/cache
