@@ -2,12 +2,20 @@ import { h, computed, defineAsyncComponent, defineComponent } from 'vue'
 import type {PropType} from "vue"
 import metaData from '../metadata.json'
 
-//import AnotherComponent from './AnotherComponent.js';
+type IconRow = {
+	code: string,
+	name: string,
+	type: string,
+	icon: string,
+}
+
+const iconsList = metaData.list as unknown as IconRow[];
+const supportIcons = iconsList.map((iconRow) => iconRow?.code || '');
 
 /**
  * Insert name like `Main::InsertHyperlinkIcon`
  */
-export const B24Icon = defineComponent({
+export let B24Icon = defineComponent({
 	name: 'B24Icon',
 	props: {
 		class: {
@@ -17,39 +25,38 @@ export const B24Icon = defineComponent({
 		name: {
 			type: String,
 			required: true,
-			validator(value: string)
-			{
-				return (metaData?.list || []).includes(value)
+			validator: (value: string): boolean => {
+				return supportIcons.includes(value.toLowerCase())
 			}
 		}
 	},
 	setup(props) {
 		const dynamicComponent = computed(() => {
-			const tmp = props.name.split('::');
-			const iconGroup = (tmp[0] || '');
-			const iconName = (tmp[1] || '');
+			let iconRow = iconsList.find((item) => item.code === props.name.toLowerCase())
 			
-			const mappingTypes = Object.fromEntries(
-				(metaData?.typesName || []).map((key, index) => [key, (metaData?.types || [])[index]]),
-			);
+			if(!iconRow)
+			{
+				console.error(`Icon [${props.name}] not supported`)
+				return
+			}
 			
 			try
 			{
 				return defineAsyncComponent(() => {
-					return import(`../${mappingTypes[iconGroup]}/esm/${iconName}.js`)
+					return import(`../${iconRow.type}/esm/${iconRow.icon}.js`)
 				})
 			}
 			catch(error)
 			{
-				console.error(`Error load icon ${props.name}`, error)
+				console.error(`Icon [${iconRow.name}] loading error:`, error)
 			}
 		})
 		
 		return {
 			dynamicComponent
-		};
+		}
 	},
 	render() {
-		return h(this.dynamicComponent, { class: this.$props.class});
+		return h(this.dynamicComponent, { class: this.$props.class})
 	}
 })
