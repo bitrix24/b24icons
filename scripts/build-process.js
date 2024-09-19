@@ -199,7 +199,6 @@ typeList.map((type) => {
 		builder.addCommand(`cp -R ./optimized/${type} ./export/`);
 	}
 	builder.addLog(`✓ copy`);
-	builder.addLog(`✓ finish`);
 	builder.addLog(``);
 })
 

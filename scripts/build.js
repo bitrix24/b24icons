@@ -65,16 +65,14 @@ let transform = {
 			 * let's encode the tag <style>
 			 */
 			isHasTagStyle = true;
-			console.warn('svg has tag [style] => convert him as tag [main]');
-			svg = svg.replaceAll('<style>', '<main>');
-			svg = svg.replaceAll('</style>', '</main>');
-			// console.warn(`svg ${componentName}: `, svg); ////
+			console.warn(`component [ ${componentName} ] svg has tag [style]`);
+			svg = svg.replaceAll('<style>', '<main>').replaceAll('</style>', '</main>');
 		}
 		
 		let { code } = compileVue(
 			svg,
 			{
-				mode: 'module',
+				mode: 'module'
 			}
 		);
 		
@@ -209,23 +207,27 @@ async function ensureWrite(
 	text
 )
 {
-	await fs.mkdir(dirname(file), { recursive: true });
+	await fs.mkdir(dirname(file), { recursive: true })
 	await fs.writeFile(file, text, 'utf8')
 }
 
 /**
  * @param {string} file
  * @param {{}} json
+ * @param {boolean} isMinify
  * @returns {Promise<void>}
  */
 async function ensureWriteJson(
 	file,
-	json
+	json,
+	isMinify = false
 )
 {
 	await ensureWrite(
 		file,
-		JSON.stringify(json, null, 2) + '\n'
+		isMinify
+			? JSON.stringify(json)
+			: (JSON.stringify(json, null, 2) + '\n')
 	)
 }
 
@@ -239,7 +241,6 @@ async function buildIcons(pack, type, format)
 	
 	let icons = await getIcons(type);
 	const metaDataPackageJson = {
-		ttl: 0,
 		icons: {}
 	}
 	
@@ -279,7 +280,7 @@ async function buildIcons(pack, type, format)
 				types.push(`export default ${componentName};`);
 			}
 			
-			let metaDataJson = {};
+			let metaDataJson;
 			try
 			{
 				metaDataJson = JSON.parse(await fs.readFile(
@@ -305,17 +306,16 @@ async function buildIcons(pack, type, format)
 				
 			}
 			
-			metaDataPackageJson.ttl++;
 			metaDataPackageJson.icons[componentName] = { ... metaDataJson };
 			
 			return [
-				ensureWrite(
+				await ensureWrite(
 					`${outDir}/${componentName}.js`,
 					content
 				),
 				...(types
 					? [
-						ensureWrite(
+						await ensureWrite(
 							`${outDir}/${componentName}.d.ts`,
 							types.join('\n') + '\n'
 						)
@@ -338,7 +338,8 @@ async function buildIcons(pack, type, format)
 	
 	await ensureWriteJson(
 		`${outDir}/metadata.json`,
-		metaDataPackageJson
+		metaDataPackageJson,
+		true
 	);
 }
 
@@ -351,12 +352,26 @@ async function buildExports(styles)
 
 	// To appease Vite's optimizeDeps feature which requires a root-level import
 	pkg[`.`] = {
+		types: `./dist/index.d.ts`,
 		import: `./dist/bitrix24icons.esm.js`,
-		require: `./dist/index.js`,
+		require: `./dist/bitrix24icons.js`,
 	}
-
+	
 	// For those that want to read the version from package.json
 	pkg[`./package.json`] = { default: './package.json' }
+	
+	pkg[`./metadata.json`] = { default: './dist/metadata.json' }
+	pkg[`./info-metadata.json`] = { default: './dist/info-metadata.json' }
+	
+	// For components ////
+	pkg[`./components/*`] = {
+		types: `./dist/components/*.d.ts`,
+		default: `./dist/components/*.js`,
+	}
+	pkg[`./components/*.js`] = {
+		types: `./components/*.d.ts`,
+		default: `./components/*.js`,
+	}
 	
 	// Explicit exports for each style:
 	for(let style of styles)
@@ -366,8 +381,6 @@ async function buildExports(styles)
 			import: `./dist/${style}/esm/index.js`,
 			require: `./dist/${style}/index.js`,
 		}
-		
-		pkg[`./${style}/metadata.json`] = { default: `./dist/${style}/esm/metadata.json` }
 		
 		pkg[`./${style}/*`] = {
 			types: `./dist/${style}/*.d.ts`,
@@ -382,16 +395,7 @@ async function buildExports(styles)
 		}
 	}
 	
-	// For components ////
-	pkg[`./components/*`] = {
-		types: `./dist/components/*.d.ts`,
-		default: `./dist/components/*.js`,
-	}
-	pkg[`./components/*.js`] = {
-		types: `./components/*.d.ts`,
-		default: `./components/*.js`,
-	}
-	pkg[`./metadata.json`] = { default: './dist/metadata.json' }
+	
 	
 	return pkg
 }
@@ -417,14 +421,15 @@ async function main(
 	const esmPackageJson = { type: 'module', sideEffects: false }
 	
 	await Promise.all([
-		...(typeList.map((type) => {
+		...(typeList.map(async (type) =>
+		{
 			return [
-				buildIcons(
+				await buildIcons(
 					pack,
 					type,
 					'cjs'
 				),
-				buildIcons(
+				await buildIcons(
 					pack,
 					type,
 					'esm'
@@ -440,48 +445,89 @@ async function main(
 	])
 	// endregion ////
 	
-	// region metadata.json ////
-	.then(() => {
-		console.log(`Init metadata ...`)
-		return new Promise(resolve => setTimeout(resolve, 2_600))
-	})
-	.then(async () => {
-		const metaDataJson = {
-			types: [],
-			typesName: [],
-			list: [],
+	// region { metadata, info-metadata }.json ////
+	console.log(`Init metadata ...`)
+	
+	const metaDataJson = {
+		list: [],
+	}
+	
+	const metaDataInfoJson = {
+		list: []
+	}
+	
+	for(const type of typeList)
+	{
+		const typeName = toUpperFirstChar(camelcase(type))
+		
+		const typeRow = {
+			code: type,
+			name: typeName,
+			list: []
 		}
 		
-		for(const type of typeList)
+		const iconMetaDataFileEsm = `./packages/${pack}/dist/${type}/esm/metadata.json`;
+		const iconMetaDataFile = `./packages/${pack}/dist/${type}/metadata.json`;
+		
+		const metaDataPackageJson = JSON.parse(await fs.readFile(
+			iconMetaDataFileEsm,
+			'utf8'
+		))
+		
+		const iconsKey = Object.keys(metaDataPackageJson?.icons || {})
+		
+		for(const icon of iconsKey)
 		{
-			metaDataJson.types.push(type)
+			const iconName = `${typeName}::${icon}`
 			
-			const typeKey = toUpperFirstChar(camelcase(type))
-			metaDataJson.typesName.push(typeKey)
-			
-			const metaDataPackageJson = JSON.parse(await fs.readFile(
-				`./packages/${pack}/dist/${type}/esm/metadata.json`,
-				'utf8'
-			))
-			
-			const iconsKey = Object.keys(metaDataPackageJson?.icons || {})
-			
-			for(const icon of iconsKey)
-			{
-				metaDataJson.list.push(`${typeKey}::${icon}`)
+			const iconRow = {
+				code: iconName.toLowerCase(),
+				name: iconName,
+				type: typeRow.code,
+				icon
 			}
+			
+			metaDataJson.list.push(iconRow)
+			typeRow.list.push(Object.assign(
+				{},
+				{
+					... iconRow
+				},
+				{
+					data: metaDataPackageJson?.icons[icon]
+				}
+			))
 		}
 		
-		await ensureWriteJson(
-			`./packages/${pack}/dist/metadata.json`,
-			metaDataJson
-		)
+		metaDataInfoJson.list.push(typeRow)
 		
-		await ensureWriteJson(
-			`./packages/${pack}/src/metadata.json`,
-			metaDataJson
-		)
-	})
+		await rimraf(iconMetaDataFile)
+		await rimraf(iconMetaDataFileEsm)
+	}
+	
+	await ensureWriteJson(
+		`./packages/${pack}/dist/metadata.json`,
+		metaDataJson,
+		true
+	)
+	
+	await ensureWriteJson(
+		`./packages/${pack}/dist/info-metadata.json`,
+		metaDataInfoJson,
+		true
+	)
+	
+	await ensureWriteJson(
+		`./packages/${pack}/src/metadata.json`,
+		metaDataJson,
+		true
+	)
+	
+	await ensureWriteJson(
+		`./packages/${pack}/src/info-metadata.json`,
+		metaDataInfoJson,
+		true
+	)
 	// endregion ////
 	
 	// region package.json ////

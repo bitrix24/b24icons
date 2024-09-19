@@ -37,7 +37,7 @@ NODE_ENV=production  npx esbuild $input       --format=esm --outfile=$DST/$name.
 
 # Common JS
 # shellcheck disable=SC2068
-NODE_ENV=development npx esbuild $input       --format=cjs --outfile=$DST/$name.js    --bundle --define:__DEV__="true" ${sharedOptions[@]} $@ &
+NODE_ENV=development npx esbuild $input       --format=cjs --outfile=$DST/$name.js         --minify   --bundle --define:__DEV__="true" ${sharedOptions[@]} $@ &
 
 # Generate ESM types
 tsc --emitDeclarationOnly --outDir $DST &
