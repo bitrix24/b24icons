@@ -30,19 +30,31 @@
   "private": true,
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/bitrix24icons.esm.js",
-      "require": "./dist/index.js"
+      "require": "./dist/bitrix24icons.js"
     },
     "./package.json": {
       "default": "./package.json"
+    },
+    "./metadata.json": {
+      "default": "./dist/metadata.json"
+    },
+    "./info-metadata.json": {
+      "default": "./dist/info-metadata.json"
+    },
+    "./components/*": {
+      "types": "./dist/components/*.d.ts",
+      "default": "./dist/components/*.js"
+    },
+    "./components/*.js": {
+      "types": "./components/*.d.ts",
+      "default": "./components/*.js"
     },
     "./actions": {
       "types": "./dist/actions/index.d.ts",
       "import": "./dist/actions/esm/index.js",
       "require": "./dist/actions/index.js"
-    },
-    "./actions/metadata.json": {
-      "default": "./dist/actions/esm/metadata.json"
     },
     "./actions/*": {
       "types": "./dist/actions/*.d.ts",
@@ -59,9 +71,6 @@
       "import": "./dist/contact-center/esm/index.js",
       "require": "./dist/contact-center/index.js"
     },
-    "./contact-center/metadata.json": {
-      "default": "./dist/contact-center/esm/metadata.json"
-    },
     "./contact-center/*": {
       "types": "./dist/contact-center/*.d.ts",
       "import": "./dist/contact-center/esm/*.js",
@@ -76,9 +85,6 @@
       "types": "./dist/crm/index.d.ts",
       "import": "./dist/crm/esm/index.js",
       "require": "./dist/crm/index.js"
-    },
-    "./crm/metadata.json": {
-      "default": "./dist/crm/esm/metadata.json"
     },
     "./crm/*": {
       "types": "./dist/crm/*.d.ts",
@@ -95,9 +101,6 @@
       "import": "./dist/editor/esm/index.js",
       "require": "./dist/editor/index.js"
     },
-    "./editor/metadata.json": {
-      "default": "./dist/editor/esm/metadata.json"
-    },
     "./editor/*": {
       "types": "./dist/editor/*.d.ts",
       "import": "./dist/editor/esm/*.js",
@@ -112,9 +115,6 @@
       "types": "./dist/main/index.d.ts",
       "import": "./dist/main/esm/index.js",
       "require": "./dist/main/index.js"
-    },
-    "./main/metadata.json": {
-      "default": "./dist/main/esm/metadata.json"
     },
     "./main/*": {
       "types": "./dist/main/*.d.ts",
@@ -131,9 +131,6 @@
       "import": "./dist/social/esm/index.js",
       "require": "./dist/social/index.js"
     },
-    "./social/metadata.json": {
-      "default": "./dist/social/esm/metadata.json"
-    },
     "./social/*": {
       "types": "./dist/social/*.d.ts",
       "import": "./dist/social/esm/*.js",
@@ -148,9 +145,6 @@
       "types": "./dist/button-specialized/index.d.ts",
       "import": "./dist/button-specialized/esm/index.js",
       "require": "./dist/button-specialized/index.js"
-    },
-    "./button-specialized/metadata.json": {
-      "default": "./dist/button-specialized/esm/metadata.json"
     },
     "./button-specialized/*": {
       "types": "./dist/button-specialized/*.d.ts",
@@ -167,9 +161,6 @@
       "import": "./dist/button/esm/index.js",
       "require": "./dist/button/index.js"
     },
-    "./button/metadata.json": {
-      "default": "./dist/button/esm/metadata.json"
-    },
     "./button/*": {
       "types": "./dist/button/*.d.ts",
       "import": "./dist/button/esm/*.js",
@@ -184,9 +175,6 @@
       "types": "./dist/common-service/index.d.ts",
       "import": "./dist/common-service/esm/index.js",
       "require": "./dist/common-service/index.js"
-    },
-    "./common-service/metadata.json": {
-      "default": "./dist/common-service/esm/metadata.json"
     },
     "./common-service/*": {
       "types": "./dist/common-service/*.d.ts",
@@ -203,9 +191,6 @@
       "import": "./dist/common-b24/esm/index.js",
       "require": "./dist/common-b24/index.js"
     },
-    "./common-b24/metadata.json": {
-      "default": "./dist/common-b24/esm/metadata.json"
-    },
     "./common-b24/*": {
       "types": "./dist/common-b24/*.d.ts",
       "import": "./dist/common-b24/esm/*.js",
@@ -215,24 +200,12 @@
       "types": "./common-b24/*.d.ts",
       "import": "./common-b24/esm/*.js",
       "require": "./common-b24/*.js"
-    },
-    "./components/*": {
-      "types": "./dist/components/*.d.ts",
-      "default": "./dist/components/*.js"
-    },
-    "./components/*.js": {
-      "types": "./components/*.d.ts",
-      "default": "./components/*.js"
-    },
-    "./metadata.json": {
-      "default": "./dist/metadata.json"
     }
   },
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "npm-run-all -s build:*",
     "build:vue-packages": "sh ../../scripts/build-packages.sh --external:vue",
-    "watch": "sh ../../scripts/watch.sh --external:vue",
     "playground": "npm run --workspace=@bitrix24/icons-vue-playground dev",
     "clean": "rimraf ./dist"
   },

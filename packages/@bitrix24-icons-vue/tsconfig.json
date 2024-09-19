@@ -3,6 +3,7 @@
 		"src",
 	],
 	"compilerOptions": {
+		"outDir": "dist",
 		"module": "esnext",
 		"lib": ["dom", "esnext", "dom.iterable"],
 		"importHelpers": true,
