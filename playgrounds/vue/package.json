@@ -9,7 +9,6 @@
 	"scripts": {
 		"prebuild": "npm run build --workspace=@bitrix24/icons-vue",
 		"predev": "npm run build --workspace=@bitrix24/icons-vue",
-		"dev:icons": "npm run watch --workspace=@bitrix24/icons-vue",
 		"dev:serve": "vite serve",
 		"dev": "npm-run-all -p dev:*",
 		"build": "NODE_ENV=production vite build",

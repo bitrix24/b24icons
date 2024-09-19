@@ -1,76 +1,75 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, type Ref } from 'vue'
 import { B24Icon } from "@bitrix24/icons-vue/components/B24Icon"
-import QrIcon from "@bitrix24/icons-vue/button/QrIcon"
-import metaData from '@bitrix24/icons-vue/metadata.json'
-import B24IconsMainMetaData from '@bitrix24/icons-vue/main/metadata.json'
-import B24IconsSocialMetaData from '@bitrix24/icons-vue/social/metadata.json'
-import B24IconsEditorMetaData from '@bitrix24/icons-vue/editor/metadata.json'
-import B24IconsCrmMetaData from '@bitrix24/icons-vue/crm/metadata.json'
-import B24IconsContactCenterMetaData from '@bitrix24/icons-vue/contact-center/metadata.json'
-import B24IconsActionsMetaData from '@bitrix24/icons-vue/actions/metadata.json'
-import B24IconsButtonMetaData from '@bitrix24/icons-vue/button/metadata.json'
-import B24IconsButtonSpecializedMetaData from '@bitrix24/icons-vue/button-specialized/metadata.json'
-import B24IconsCommonB24MetaData from '@bitrix24/icons-vue/common-b24/metadata.json'
-import B24IconsCommonServiceMetaData from '@bitrix24/icons-vue/common-service/metadata.json'
+import infoMetaData from '@bitrix24/icons-vue/info-metadata.json'
 
-const iconsGroupsMeta = {
-	Main: B24IconsMainMetaData,
-	Social: B24IconsSocialMetaData,
-	Editor: B24IconsEditorMetaData,
-	Crm: B24IconsCrmMetaData,
-	ContactCenter: B24IconsContactCenterMetaData,
-	Actions: B24IconsActionsMetaData,
-	Button: B24IconsButtonMetaData,
-	ButtonSpecialized: B24IconsButtonSpecializedMetaData,
-	CommonB24: B24IconsCommonB24MetaData,
-	CommonService: B24IconsCommonServiceMetaData,
-};
+type IconDataLabel = {
+	description: string,
+	score: number
+}
 
-const list = ref(metaData?.typesName || []);
+type IconData = {
+	category: string,
+	subCategories: string[],
+	labels: IconDataLabel[]
+}
 
-console.log(import.meta);
+type IconRow = {
+	code: string,
+	name: string,
+	type: string,
+	icon: string,
+	data: IconData
+}
+
+type GroupRow = {
+	code: string,
+	name: string,
+	list: IconRow[]
+}
+
+const list: Ref<GroupRow[]> = ref(infoMetaData?.list || []);
 </script>
 
 <template>
 	<h1 class="text-h1 mb-sm flex whitespace-pre-wrap">List Icons</h1>
 	
 	<table class="w-full">
-		<thead>
+		<thead class="sticky top-0">
 			<tr>
-				<th class="p-2 align-top border border-2 border-gray-300">Icon</th>
-				<th class="p-2 align-top border border-2 border-gray-300">Name</th>
-				<th class="p-2 align-top border border-2 border-gray-300">Sub Categories</th>
-				<th class="p-2 align-top border border-2 border-gray-300">Labels</th>
+				<th class="p-2 align-top border-1 border-gray-100 bg-gray-350 text-base-master">Icon</th>
+				<th class="p-2 align-top border-1 border-gray-100 bg-gray-350 text-base-master">Name</th>
+				<th class="p-2 align-top border-1 border-gray-100 bg-gray-350 text-base-master">Sub Categories</th>
+				<th class="p-2 align-top border-1 border-gray-100 bg-gray-350 text-base-master">Labels</th>
 			</tr>
 		</thead>
 		<template
-			v-for="(groupKey, indexGroup) in list"
-			:key="indexGroup"
+			v-for="(group, indexGroup) in list"
+			:key="group.code"
 		>
 		<tbody>
 			<tr>
-				<td colspan="4"><h3 class="text-h3">{{ groupKey }}</h3></td>
+				<td colspan="4" class="p-3 text-center"><h3 class="text-h3 font-semibold">{{ group.name }}</h3></td>
 			</tr>
 		</tbody>
 		<tbody>
 			<tr
-				v-for="(row, index) in iconsGroupsMeta[groupKey].icons"
-				:key="index"
+				v-for="(icon, indexIcon) in group.list"
+				:key="icon.code"
+				class="hover:bg-gray-150"
 			>
 				<td class="p-2 align-top border border-1 border-gray-100">
-					<div class="flex flex-row items-center justify-center size-20 border border-gray-50"><B24Icon
-						:name="`${groupKey}::${index}`"
+					<div class="flex flex-row items-center justify-center size-20 border border-gray-50 shadow-2xl bg-white"><B24Icon
+						:name="icon.name"
 						class="size-16"
 					/></div>
 				</td>
 				<td class="p-2 align-top border border-1 border-gray-100">
-					{{ index }} <br>
-					{{ row.category }}
+					{{ icon.name }}
 				</td>
 				<td class="p-2 align-top border border-1 border-gray-100">
 					<template
-						v-for="(subCategory, indexSubCategory) in row.subCategories"
+						v-for="(subCategory, indexSubCategory) in icon.data.subCategories"
 						:key="indexSubCategory"
 					>
 						<div>{{ subCategory }}</div>
@@ -78,7 +77,7 @@ console.log(import.meta);
 				</td>
 				<td class="p-2 align-top border border-1 border-gray-100">
 					<template
-						v-for="(label, indexLabel) in row.labels"
+						v-for="(label, indexLabel) in icon.data.labels"
 						:key="indexLabel"
 					>
 						<div>{{ label.description }} <small>[ {{ label.score.toFixed(2) }} ]</small></div>
