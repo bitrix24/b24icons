@@ -395,8 +395,6 @@ async function buildExports(styles)
 		}
 	}
 	
-	
-	
 	return pkg
 }
 
@@ -519,14 +517,12 @@ async function main(
 	
 	await ensureWriteJson(
 		`./packages/${pack}/src/metadata.json`,
-		metaDataJson,
-		true
+		metaDataJson
 	)
 	
 	await ensureWriteJson(
 		`./packages/${pack}/src/info-metadata.json`,
-		metaDataInfoJson,
-		true
+		metaDataInfoJson
 	)
 	// endregion ////
 	
