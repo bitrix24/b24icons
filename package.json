@@ -45,7 +45,6 @@
 		"docs:preview": "vitepress preview docs"
 	},
 	"devDependencies": {
-		"fuse.js": "^6.5.3",
 		"@babel/core": "^7.12.10",
 		"@babel/plugin-transform-react-jsx": "^7.12.12",
 		"@svgr/core": "^5.5.0",
