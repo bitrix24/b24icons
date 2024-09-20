@@ -1,34 +1,38 @@
-import { useDebounce } from '@vueuse/core';
-import { nextTick, onMounted, ref, watch } from 'vue';
+import {useDebounce} from '@vueuse/core';
+import {nextTick, onMounted, ref, watch} from 'vue';
 
-const useSearchInput = () => {
-	const searchInput = ref();
+const useSearchInput = () =>
+{
+	const searchInput = ref<HTMLElement | null>(null);
 	const searchQuery = ref<string>('');
 	const searchQueryDebounced = useDebounce<string>(searchQuery, 200);
 	
-	watch(searchQueryDebounced, (searchString) => {
+	watch(searchQueryDebounced, (searchString) =>
+	{
 		const newUrl = new URL(window.location.href);
 		
-		if (searchString === '') {
+		if(searchString === '')
+		{
 			newUrl.searchParams.delete('search');
-		} else {
+		}
+		else
+		{
 			newUrl.searchParams.set('search', searchString);
 		}
 		
-		nextTick(() => {
+		nextTick(() =>
+		{
 			window.history.replaceState({}, '', newUrl);
 		});
 	});
 	
-	onMounted(() => {
+	onMounted(() =>
+	{
 		const searchParams = new URLSearchParams(window.location.search);
 		
-		if (searchParams.has('search')) {
+		if(searchParams.has('search'))
+		{
 			searchQuery.value = searchParams.get('search');
-		}
-		
-		if (searchParams.has('focus')) {
-			searchInput.value.focus();
 		}
 	});
 	
