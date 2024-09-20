@@ -16,7 +16,7 @@ import PageContainer from '~/.vitepress/theme/components/PageContainer.vue';
 import List from '~/.vitepress/theme/components/icons/List.vue';
 import type { IconRow } from '~/.vitepress/theme/types';
 
-const list: Ref<IconRow[]> = ref(metaData.list as unknown as IconRow[]);
+const list: Ref<IconRow[]> = ref(metaData.list as unknown as IconRow[])
 
 </script>
 
