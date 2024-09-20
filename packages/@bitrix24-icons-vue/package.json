@@ -27,7 +27,7 @@
     "README.md"
   ],
   "sideEffects": false,
-  "private": true,
+  "private": false,
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
