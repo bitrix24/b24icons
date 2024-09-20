@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: View all icons
-      link: /icons
+      link: /guide/icons
     - theme: alt
       text: GitHub
       link: https://github.com/bitrix24/b24icons
