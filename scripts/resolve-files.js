@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-let fastGlob = require('fast-glob')
+import fastGlob from 'fast-glob'
 
 let parts = process.argv.slice(2)
 let [args, flags] = parts.reduce(

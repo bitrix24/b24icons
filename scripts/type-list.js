@@ -4,7 +4,7 @@
  * @type {string[]}
  */
 
-module.exports.typeList = [
+export const typeList = [
 	'actions',
 	'contact-center',
 	'crm',

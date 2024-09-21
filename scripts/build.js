@@ -1,13 +1,16 @@
-const fs = require('fs').promises;
-const camelcase = require('camelcase');
-const { promisify } = require('util');
-const rimraf = promisify(require('rimraf'));
-const svgr = require('@svgr/core').default;
-const babel = require('@babel/core');
-const { compile: compileVue } = require('@vue/compiler-dom');
-const { dirname } = require('path');
-const { deprecated } = require('./deprecated');
-const { typeList } = require('./type-list');
+import fs from 'fs/promises';
+import camelcase from 'camelcase';
+import { promisify } from 'util';
+import rimrafCallback from 'rimraf';
+import svgr from '@svgr/core';
+import * as babel from '@babel/core';
+import { compile as compileVue } from '@vue/compiler-dom';
+import { dirname } from 'path';
+import { deprecated } from './deprecated.js';
+import { typeList } from './type-list.js';
+
+// Преобразуем rimraf в промис с помощью promisify
+const rimraf = promisify(rimrafCallback);
 
 let transform = {
 	'@bitrix24-icons-react': async (svg, componentName, format, isDeprecated) => {
@@ -476,13 +479,22 @@ async function main(
 		
 		for(const icon of iconsKey)
 		{
-			const iconName = `${typeName}::${icon}`
+			const iconCode = `${typeName}::${icon}`
+			
+			const iconName = metaDataPackageJson?.icons[icon]?.name
+				? metaDataPackageJson.icons[icon].name
+				: icon
+					.replace(/Icon$/, '')
+					.replace(/([a-z])([A-Z])/g, '$1 $2')
+					.toLowerCase()
 			
 			const iconRow = {
-				code: iconName.toLowerCase(),
+				code: iconCode.toLowerCase(),
+				fullCode: iconCode,
 				name: iconName,
 				type: typeRow.code,
-				icon
+				icon: icon,
+				specialized: metaDataPackageJson?.icons[icon]?.specialized || null,
 			}
 			
 			metaDataJson.list.push(iconRow)
@@ -492,7 +504,12 @@ async function main(
 					... iconRow
 				},
 				{
-					data: metaDataPackageJson?.icons[icon]
+					data: {
+						name: metaDataPackageJson.icons[icon]?.name || null,
+						category: metaDataPackageJson?.icons[icon]?.category || null,
+						subCategories: metaDataPackageJson?.icons[icon]?.subCategories || [],
+						dateFix: metaDataPackageJson?.icons[icon]?.dateFix || null,
+					}
 				}
 			))
 		}

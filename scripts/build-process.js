@@ -1,5 +1,5 @@
-const { exec} = require('node:child_process')
-const { typeList } = require('./type-list')
+import { exec } from 'node:child_process'
+import { typeList } from './type-list.js'
 
 class Command
 {

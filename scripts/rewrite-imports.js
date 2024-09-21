@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-let fs = require('fs')
-let path = require('path')
-let fastGlob = require('fast-glob')
+import fs from 'fs';
+import path from 'path';
+import fastGlob from 'fast-glob';
 
 console.time('Rewrote imports in')
 fastGlob.sync([process.argv.slice(2).join('')]).forEach((file) => {
