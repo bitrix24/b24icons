@@ -1,5 +1,5 @@
 {
-	"name": "@bitrix24/icons",
+	"name": "@bitrix24/b24icons",
 	"version": "0.1.0",
 	"author": "Bitrix",
 	"license": "MIT",
@@ -21,7 +21,7 @@
 		"playgrounds/*"
 	],
 	"scripts": {
-		"vue": "npm run --workspace=@bitrix24/icons-vue",
+		"vue": "npm run --workspace=@bitrix24/b24icons-vue",
 		
 		"prepublishOnly": "npm run build",
 		"prebuild": "rimraf ./optimized/* ./export/* ./packages/{@bitrix24-icons-vue,@bitrix24-icons-react}/dist/* ./packages/@bitrix24-icons-vue/src/*.json",
@@ -33,7 +33,7 @@
 		
 		"playground-vue": "npm-run-all -s playground-vue:*",
 		"playground-vue:build": "npm run build",
-		"playground-vue:run-dev": "npm run --workspace=@bitrix24/icons-vue-playground dev",
+		"playground-vue:run-dev": "npm run --workspace=@bitrix24/b24icons-vue-playground dev",
 		
 		"docs:dev": "npm-run-all -s docs:dev:*",
 		"docs:dev:init": "npm run build",

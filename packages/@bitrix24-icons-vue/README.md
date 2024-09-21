@@ -1,2 +1,2 @@
-# @bitrix24/icons-vue
+# @bitrix24/b24icons-vue
 Bitrix24 SVG icons for development web-applications (vue)

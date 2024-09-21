@@ -13,7 +13,7 @@ export const en = defineConfig({
 		},
 		
 		editLink: {
-			pattern: 'https://github.com/bitrix24/icons/edit/main/docs/:path',
+			pattern: 'https://github.com/bitrix24/b24icons/edit/main/docs/:path',
 			text: 'Edit this page on GitHub'
 		},
 		
@@ -33,7 +33,7 @@ function nav(): DefaultTheme.NavItem[] {
 			items: [
 				{
 					text: 'Changelog',
-					link: 'https://github.com/bitrix24/icons/blob/main/CHANGELOG.md'
+					link: 'https://github.com/bitrix24/b24icons/blob/main/CHANGELOG.md'
 				},
 			]
 		}

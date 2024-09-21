@@ -1,5 +1,5 @@
 {
-  "name": "@bitrix24/icons-vue",
+  "name": "@bitrix24/b24icons-vue",
   "version": "0.1.0",
   "author": "Bitrix",
   "license": "MIT",
@@ -206,7 +206,7 @@
     "prepublishOnly": "npm run build",
     "build": "npm-run-all -s build:*",
     "build:vue-packages": "sh ../../scripts/build-packages.sh --external:vue",
-    "playground": "npm run --workspace=@bitrix24/icons-vue-playground dev",
+    "playground": "npm run --workspace=@bitrix24/b24icons-vue-playground dev",
     "clean": "rimraf ./dist"
   },
   "publishConfig": {

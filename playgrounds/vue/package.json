@@ -1,5 +1,5 @@
 {
-	"name": "@bitrix24/icons-vue-playground",
+	"name": "@bitrix24/b24icons-vue-playground",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -7,15 +7,15 @@
 		"example": "examples"
 	},
 	"scripts": {
-		"prebuild": "npm run build --workspace=@bitrix24/icons-vue",
-		"predev": "npm run build --workspace=@bitrix24/icons-vue",
+		"prebuild": "npm run build --workspace=@bitrix24/b24icons-vue",
+		"predev": "npm run build --workspace=@bitrix24/b24icons-vue",
 		"dev:serve": "vite serve",
 		"dev": "npm-run-all -p dev:*",
 		"build": "NODE_ENV=production vite build",
 		"clean": "rimraf ./dist"
 	},
 	"dependencies": {
-		"@bitrix24/icons-vue": "*",
+		"@bitrix24/b24icons-vue": "*",
 		"@bitrix24/b24style": "^0.1.1",
 		"tailwindcss": "^3.4.10",
 		"autoprefixer": "^10.4.7",

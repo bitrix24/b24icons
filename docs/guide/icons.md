@@ -11,7 +11,7 @@ head:
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import metaData from '@bitrix24/icons-vue/metadata.json';
+import metaData from '@bitrix24/b24icons-vue/metadata.json';
 import PageContainer from '~/.vitepress/theme/components/PageContainer.vue';
 import List from '~/.vitepress/theme/components/icons/List.vue';
 import type { IconRow } from '~/.vitepress/theme/types';

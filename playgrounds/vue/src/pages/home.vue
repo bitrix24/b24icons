@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { defineComponent } from 'vue'
 import { useRouter } from 'vue-router'
-import { B24Icon } from "@bitrix24/icons-vue"
+import { B24Icon } from "@bitrix24/b24icons-vue"
 
 let Examples = defineComponent({
 	props: ['routes'],

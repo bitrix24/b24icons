@@ -13,10 +13,10 @@ const customAlias: any = [
 
 const domain: string = 'https://bitrix24.github.io';
 //const baseFolder: string = '/';
-const baseFolder: string = '/icons/';
+const baseFolder: string = '/b24icons/';
 
 export const shared = defineConfig({
-	title: '@bitrix24/icons',
+	title: '@bitrix24/b24icons',
 	
 	lastUpdated: true,
 	cleanUrls: false,
@@ -29,8 +29,8 @@ export const shared = defineConfig({
 		['meta', { name: 'theme-color', content: '#5f67ee' }],
 		['meta', { property: 'og:type', content: 'website' }],
 		['meta', { property: 'og:locale', content: 'en' }],
-		['meta', { property: 'og:title', content: '@bitrix24/icons | Bitrix24 SVG icons for development web-applications' }],
-		['meta', { property: 'og:site_name', content: '@bitrix24/icons' }],
+		['meta', { property: 'og:title', content: '@bitrix24/b24icons | Bitrix24 SVG icons for development web-applications' }],
+		['meta', { property: 'og:site_name', content: '@bitrix24/b24icons' }],
 		// @todo
 		//['meta', { property: 'og:image', content: `${domain}${baseFolder}bitrix24_style.jpg` }],
 		['meta', { property: 'og:url', content: `${domain}${baseFolder}` }],
@@ -47,8 +47,8 @@ export const shared = defineConfig({
 				},
 				link: 'https://t.me/b24_dev'
 			},
-			{icon: 'github', link: 'https://github.com/bitrix24/icons'},
-			{icon: 'npm', link: 'https://www.npmjs.com/package/@bitrix24/icons'}
+			{icon: 'github', link: 'https://github.com/bitrix24/b24icons'},
+			{icon: 'npm', link: 'https://www.npmjs.com/package/@bitrix24/b24icons'}
 		],
 	},
 	vite: {

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, type Ref } from 'vue'
-import { B24Icon } from "@bitrix24/icons-vue/components/B24Icon"
-import infoMetaData from '@bitrix24/icons-vue/info-metadata.json'
+import { B24Icon } from "@bitrix24/b24icons-vue/components/B24Icon"
+import infoMetaData from '@bitrix24/b24icons-vue/info-metadata.json'
 
 type IconDataLabel = {
 	description: string,

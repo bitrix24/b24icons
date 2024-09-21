@@ -1,6 +1,6 @@
 # Installation {#installation}
 
-`@bitrix24/icons` ...
+`@bitrix24/b24icons` ...
 
 
 ### Example
@@ -9,7 +9,7 @@ You can pass additional props to adjust the icon.
 
 ```vue
 <script setup>
-import ALetterIcon from '@bitrix24/icons-vue/main/ALetterIcon';
+import ALetterIcon from '@bitrix24/b24icons-vue/main/ALetterIcon';
 </script>
 
 <template>
@@ -32,7 +32,7 @@ The example below imports all ES Modules, so exercise caution when using it. Imp
 ```vue [components/B24Icon.vue]
 <script setup>
 import { computed } from 'vue';
-import * as B24IconsMain from "@bitrix24/icons-vue/main";
+import * as B24IconsMain from "@bitrix24/b24icons-vue/main";
 
 const iconsGroups = {
 	B24IconsMain

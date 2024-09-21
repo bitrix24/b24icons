@@ -1,15 +1,17 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "@bitrix24/icons"
+  name: "@bitrix24/b24icons"
   text: "Bitrix24 SVG icons for development web-applications"
   tagline: '@todo My great project tagline'
   actions:
     - theme: brand
       text: View all icons
       link: /guide/icons
+    - theme: alt
+      text: Quickstart
+      link: /guide/getting-started
     - theme: alt
       text: GitHub
       link: https://github.com/bitrix24/b24icons

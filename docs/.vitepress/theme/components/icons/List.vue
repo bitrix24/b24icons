@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, watch } from 'vue'
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue'
-import { B24Icon } from '@bitrix24/icons-vue'
+import { B24Icon } from '@bitrix24/b24icons-vue'
 import type { IconRow } from '../../types'
 import { useElementSize, useEventListener, useVirtualList } from '@vueuse/core'
 import useDynamicFilter from '../../composables/useDynamicFilter'
@@ -99,7 +99,7 @@ onMounted(() => {
 			<VPButton
 				text="Search on Github issues"
 				theme="alt"
-				:href="`https://github.com/bitrix24/icons/issues?q=is%3Aopen+${searchQuery}`"
+				:href="`https://github.com/bitrix24/b24icons/issues?q=is%3Aopen+${searchQuery}`"
 				target="_blank"
 			/>
 		</div>

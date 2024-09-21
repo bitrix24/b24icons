@@ -1,11 +1,11 @@
 {
-	"name": "@bitrix24/icon-docs",
+	"name": "@bitrix24/b24icons-docs",
 	"private": true,
 	"version": "0.0.0",
 	"description": "",
 	"type": "module",
 	"dependencies": {
-		"@bitrix24/icons-vue": "*",
+		"@bitrix24/b24icons-vue": "*",
 		"@vueuse/core": "^11.1.0",
 		"fuse.js": "^7"
 	}
