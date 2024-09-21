@@ -1,43 +1,15 @@
 {
-  "category": "Button",
-  "specialized": true,
+  "dateFix": "2024-09-24",
+  "name": "Button Spinner",
+  "category": "Button Specialized",
+  "specialized": {
+    "animateSpin": true
+  },
   "subCategories": [
-    "Btn",
-    "Spinner",
-    "Font"
-  ],
-  "labels": [
-    {
-      "description": "Font",
-      "score": 0.7455971837043762
-    },
-    {
-      "description": "Logo",
-      "score": 0.6154253482818604
-    },
-    {
-      "description": "Brand",
-      "score": 0.5969110131263733
-    },
-    {
-      "description": "Monochrome photography",
-      "score": 0.589589536190033
-    },
-    {
-      "description": "Circle",
-      "score": 0.5737108588218689
-    },
-    {
-      "description": "Pattern",
-      "score": 0.5688237547874451
-    },
-    {
-      "description": "Monochrome",
-      "score": 0.5322635769844055
-    },
-    {
-      "description": "Graphics",
-      "score": 0.5053426623344421
-    }
+    "UI",
+    "Button",
+    "Specialized",
+    "Animate",
+    "Spinner"
   ]
 }

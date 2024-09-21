@@ -1,60 +1,14 @@
 {
+  "dateFix": "2024-09-24",
+  "name": "Yandex Dialogs",
   "category": "Common-service",
   "subCategories": [
-    "Ui",
     "Service",
     "Ya",
-    "Dialogs",
-    "Font",
-    "Symbol",
-    "Tree",
-    "Circle",
-    "Darkness",
+    "Yandex",
+    "Brand",
     "Logo",
-    "Television",
-    "Symmetry",
-    "Pattern"
-  ],
-  "labels": [
-    {
-      "description": "Font",
-      "score": 0.7939985990524292
-    },
-    {
-      "description": "Symbol",
-      "score": 0.768114447593689
-    },
-    {
-      "description": "Electric blue",
-      "score": 0.7051538228988647
-    },
-    {
-      "description": "Tree",
-      "score": 0.6978973746299744
-    },
-    {
-      "description": "Circle",
-      "score": 0.6970325708389282
-    },
-    {
-      "description": "Darkness",
-      "score": 0.6959283947944641
-    },
-    {
-      "description": "Logo",
-      "score": 0.6910830140113831
-    },
-    {
-      "description": "Television",
-      "score": 0.6848092675209045
-    },
-    {
-      "description": "Symmetry",
-      "score": 0.6788504719734192
-    },
-    {
-      "description": "Pattern",
-      "score": 0.6654412746429443
-    }
+    "Dialogs",
+    "Trademark"
   ]
 }

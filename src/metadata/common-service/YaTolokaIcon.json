@@ -1,60 +1,14 @@
 {
+  "dateFix": "2024-09-24",
+  "name": "Yandex Toloka",
   "category": "Common-service",
   "subCategories": [
-    "Ui",
     "Service",
     "Ya",
+    "Yandex",
     "Toloka",
-    "Circle",
-    "Font",
-    "Gas",
-    "Symmetry",
-    "Event",
-    "Pattern",
-    "Darkness",
-    "Ball",
-    "Midnight"
-  ],
-  "labels": [
-    {
-      "description": "Circle",
-      "score": 0.7484851479530334
-    },
-    {
-      "description": "Font",
-      "score": 0.7389753460884094
-    },
-    {
-      "description": "Gas",
-      "score": 0.7374560832977295
-    },
-    {
-      "description": "Symmetry",
-      "score": 0.7135306000709534
-    },
-    {
-      "description": "Event",
-      "score": 0.7130060791969299
-    },
-    {
-      "description": "Pattern",
-      "score": 0.7076737880706787
-    },
-    {
-      "description": "Darkness",
-      "score": 0.7031766176223755
-    },
-    {
-      "description": "Ball",
-      "score": 0.6913312673568726
-    },
-    {
-      "description": "Midnight",
-      "score": 0.6832720637321472
-    },
-    {
-      "description": "Macro photography",
-      "score": 0.6161194443702698
-    }
+    "Brand",
+    "Logo",
+    "Trademark"
   ]
 }
