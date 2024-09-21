@@ -116,17 +116,27 @@ onMounted(() => {
 					>
 						<div class="relative h-[100px] w-full">
 							<button class="absolute inset-0 flex h-full w-full cursor-auto items-center justify-center rounded text-gray-900 dark:text-gray-200 ring-1 ring-inset ring-gray-900/[0.08] dark:ring-gray-150/[0.28]">
-								<span :title="icon.name">
+								<span :title="icon.fullCode">
 									<B24Icon
-										:name="icon.name"
+										:name="icon.fullCode"
 										class="size-10"
+										:class="[
+											icon.specialized?.animateSpin ? 'animate-spin' : '',
+											
+											icon.specialized?.width === 'w-lg' ? 'w-lg' : '',
+											icon.specialized?.height === 'h-lg' ? 'h-lg' : '',
+											
+											icon.specialized?.width === 'w-[21px]' ? 'w-[21px]' : '',
+											icon.specialized?.height === 'h-[21px]' ? 'h-[21px]' : '',
+										]"
+										
 									/>
 								</span>
 							</button>
 						</div>
 						<p
 							class="mt-3 h-10 truncate text-center text-[0.8125rem] leading-5 text-gray-500 group-focus-within:line-clamp-2 group-focus-within:whitespace-normal group-hover:line-clamp-2 group-hover:whitespace-normal"
-						>{{ icon.icon }}</p>
+						>{{ icon.name }}</p>
 					</div>
 				</div>
 			</template>
