@@ -155,6 +155,12 @@
     .DocSearch {
       --docsearch-primary-color: var(--vp-c-brand-1) !important;
     }
+
+    @media (prefers-reduced-motion: reduce) {
+        .VPDoc.content svg g{
+           animation-iteration-count: infinite!important;
+        }
+    }
 }
 
 /*/
