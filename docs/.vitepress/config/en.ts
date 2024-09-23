@@ -35,6 +35,10 @@ function nav(): DefaultTheme.NavItem[] {
 					text: 'Changelog',
 					link: 'https://github.com/bitrix24/b24icons/blob/main/CHANGELOG.md'
 				},
+				{
+					text: '@bitrix24/b24style',
+					link: 'https://bitrix24.github.io/b24style/reference/colors.html'
+				},
 			]
 		}
 	]
