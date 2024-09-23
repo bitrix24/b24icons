@@ -163,7 +163,7 @@ builder.addLog(`Processing SVG icons ...`)
 typeList.map((type) => {
 	builder.addLog(`[ ${type} ]`);
 	
-	builder.addCommand(`rimraf ./export/${type} ./optimized/${type}`);
+	builder.addCommand(`rimraf --glob ./export/${type} ./optimized/${type}`);
 	builder.addLog(`✓ clear`);
 	
 	if(type.includes('specialized'))
@@ -184,7 +184,7 @@ typeList.map((type) => {
 	}
 	else
 	{
-		builder.addCommand(`svgo --config=svgo.solid.mjs -f ./src/icons/${type} -o ./optimized/${type} --pretty --indent=2`);
+		builder.addCommand(`svgo --config=svgo.solid.js -f ./src/icons/${type} -o ./optimized/${type} --pretty --indent=2`);
 		builder.addLog(`✓ svgo`);
 	}
 	
