@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { computed, ref, onMounted, watch } from 'vue'
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue'
+import CopyButton from './CopyButton.vue';
 import { B24Icon } from '@bitrix24/b24icons-vue'
-import type { IconRow } from '../../types'
+import type { GroupRow, InfoIconRow } from '../../types'
 import { useElementSize, useEventListener, useVirtualList } from '@vueuse/core'
 import useDynamicFilter from '../../composables/useDynamicFilter'
 import splitIntoChunks from "../../utils/splitIntoChunks"
@@ -12,7 +13,7 @@ const ICON_SIZE = 110;
 const ICON_GRID_GAP = 24;
 
 const props = defineProps<{
-	icons: IconRow[]
+	groups: GroupRow[]
 }>()
 
 const containerRef = ref<HTMLElement | null>(null)
@@ -25,7 +26,16 @@ const columnSize = computed(() => {
 })
 
 const iconList = computed(() => {
-	return props.icons
+	
+	let result: InfoIconRow[] = [];
+	for(const group of props.groups)
+	{
+		result = result.concat(
+			group.list.map((item: InfoIconRow) => item)
+		)
+	}
+	
+	return result
 })
 
 const { searchInput, searchQuery, searchQueryDebounced } = useSearchInput();
@@ -76,16 +86,16 @@ onMounted(() => {
 					type="search"
 					v-model="searchQuery"
 					placeholder="Search icons ..."
-					class="relative justify-start rounded w-full h-14 text-lg placeholder:text-base-500 pl-12 py-2 pr-2 border hover:border-info active:border-info-background-on focus-visible:border-info-background-on"
+					class="relative justify-start rounded w-full h-14 text-lg placeholder:text-base-500 pl-12 py-2 pr-4 border hover:border-info active:border-info-background-on focus-visible:border-info-background-on"
 				/>
 			</div>
 		</div>
 		<div
 			class="flex flex-col items-center"
-			v-if="list.length === 0"
+			v-if="iconList.length > 0 && filteredIcons.length === 0"
 		>
 			<div class="text-base-350">
-				<B24Icon name="Main::CloudEmptyIcon" class="size-32" />
+				<B24Icon name="Main::AttentionIIcon" class="size-32" />
 			</div>
 			<h2 class="text-h1 my-6">
 				No icons found for '{{ searchQuery }}'
@@ -95,7 +105,7 @@ onMounted(() => {
 				theme="alt"
 				@click="searchQuery=''"
 			/>
-			<span class="my-2 font-md text-base-350">or</span>
+			<span class="my-2 font-md text-base-500">or</span>
 			<VPButton
 				text="Search on Github issues"
 				theme="alt"
@@ -103,7 +113,7 @@ onMounted(() => {
 				target="_blank"
 			/>
 		</div>
-		<div v-bind="wrapperProps" class="aspect-square">
+		<div v-bind="wrapperProps" class="aspect-square isolate">
 			<template
 				v-for="{ index, data: icons } in list"
 				:key="index"
@@ -112,16 +122,38 @@ onMounted(() => {
 					<div
 						v-for="icon in icons"
 						:key="icon.code"
-						class="group"
+						class="group/block"
 					>
-						<div class="relative h-[100px] w-full">
-							<button class="absolute inset-0 flex h-full w-full cursor-auto items-center justify-center rounded text-gray-900 dark:text-gray-200 ring-1 ring-inset ring-gray-900/[0.08] dark:ring-gray-150/[0.28]">
-								<span :title="icon.fullCode">
+						<div class="group/icon relative h-[100px] w-full">
+							<div
+								class="absolute
+									z-20 inset-0
+									h-full w-full
+									items-end justify-center
+									rounded
+									hidden
+									group-hover/block:flex
+									bg-info-background-on/[0.70]
+								"
+							>
+								<p class="
+									text-center text-[0.8125rem] leading-1
+									text-info-on
+									line-clamp-2
+									whitespace-normal
+									pb-2
+								">{{ icon.name }}</p>
+							</div>
+							<div class="absolute z-10 inset-0 flex h-full w-full items-center justify-center rounded text-gray-900 dark:text-gray-200 ring-1 ring-inset ring-gray-900/[0.08] dark:ring-gray-150/[0.28]">
+								<div
+									class="icon-wrapper group-hover/block:blur-[2px]"
+									:id="icon.code.replace('::', '_')"
+								>
 									<B24Icon
-										:name="icon.fullCode"
+										:name="icon.code"
 										class="size-10"
 										:class="[
-											icon.specialized?.animateSpin ? 'animate-spin' : '',
+											icon.specialized?.animateSpin ? 'animate-spin-slow' : '',
 											
 											icon.specialized?.width === 'w-lg' ? 'w-lg' : '',
 											icon.specialized?.height === 'h-lg' ? 'h-lg' : '',
@@ -131,12 +163,16 @@ onMounted(() => {
 										]"
 										
 									/>
-								</span>
-							</button>
+								</div>
+							</div>
 						</div>
-						<p
-							class="mt-3 h-10 truncate text-center text-[0.8125rem] leading-5 text-gray-500 group-focus-within:line-clamp-2 group-focus-within:whitespace-normal group-hover:line-clamp-2 group-hover:whitespace-normal"
-						>{{ icon.name }}</p>
+						<div class="h-10 mt-0.5 mb-2">
+							<CopyButton
+								:icon="icon"
+								popover-position="bottom"
+							/>
+						</div>
+						
 					</div>
 				</div>
 			</template>
