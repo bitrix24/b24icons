@@ -31,7 +31,7 @@
 		"vue": "npm run --workspace=@bitrix24/b24icons-vue",
 		
 		"prepublishOnly": "npm run build",
-		"prebuild": "rimraf ./optimized/* ./export/* ./packages/{@bitrix24-icons-vue,@bitrix24-icons-react}/dist/* ./packages/@bitrix24-icons-vue/src/*.json",
+		"prebuild": "rimraf --glob ./optimized/* ./export/* ./packages/{@bitrix24-icons-vue,@bitrix24-icons-react}/dist/* ./packages/@bitrix24-icons-vue/src/*.json",
 		
 		"build": "npm-run-all -s build:*",
 		"build:by-type": "node ./scripts/build-process",
@@ -49,6 +49,7 @@
 		"docs:build": "npm-run-all -s docs:build:*",
 		"docs:build:init": "npm run build",
 		"docs:build:vitepress": "vitepress build docs",
+		
 		"docs:preview": "vitepress preview docs"
 	},
 	"devDependencies": {
@@ -61,11 +62,11 @@
 		"autoprefixer": "^10.4.20",
 		"camelcase": "^6.0.0",
 		"esbuild": "^0.17.8",
-		"fast-glob": "^3.2.11",
+		"fast-glob": "^3.3.2",
 		"npm-run-all": "^4.1.5",
 		"postcss": "^8.4.47",
-		"prettier": "^2.8.7",
-		"rimraf": "^3.0.2",
+		"prettier": "^3.3.3",
+		"rimraf": "^6.0.1",
 		"svgo": "^3.0.2",
 		"tailwindcss": "^3.4.11",
 		"ts-node": "^10.0.0",
@@ -76,6 +77,7 @@
 	},
 	"dependencies": {
 		"@vueuse/core": "^11.1.0",
+		"@headlessui/vue": "^1.7.23",
 		"fuse.js": "^7"
 	}
 }
