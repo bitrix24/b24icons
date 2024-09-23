@@ -207,7 +207,7 @@
     "build": "npm-run-all -s build:*",
     "build:vue-packages": "sh ../../scripts/build-packages.sh --external:vue",
     "playground": "npm run --workspace=@bitrix24/b24icons-vue-playground dev",
-    "clean": "rimraf ./dist"
+    "clean": "rimraf --glob ./dist"
   },
   "publishConfig": {
     "access": "public"
