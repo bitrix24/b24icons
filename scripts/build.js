@@ -1,16 +1,12 @@
 import fs from 'fs/promises';
 import camelcase from 'camelcase';
-import { promisify } from 'util';
-import rimrafCallback from 'rimraf';
+import { rimraf } from 'rimraf';
 import svgr from '@svgr/core';
 import * as babel from '@babel/core';
 import { compile as compileVue } from '@vue/compiler-dom';
 import { dirname } from 'path';
 import { deprecated } from './deprecated.js';
 import { typeList } from './type-list.js';
-
-// Преобразуем rimraf в промис с помощью promisify
-const rimraf = promisify(rimrafCallback);
 
 let transform = {
 	'@bitrix24-icons-react': async (svg, componentName, format, isDeprecated) => {
@@ -68,7 +64,7 @@ let transform = {
 			 * let's encode the tag <style>
 			 */
 			isHasTagStyle = true;
-			console.warn(`component [ ${componentName} ] svg has tag [style]`);
+			console.warn(`ⓘ component [ ${componentName} ] svg has tag [style]`);
 			svg = svg.replaceAll('<style>', '<main>').replaceAll('</style>', '</main>');
 		}
 		
@@ -413,7 +409,7 @@ async function main(
 	
 	// region clear ////
 	await Promise.all(
-		typeList.map((type) => rimraf(`./export/${pack}/${type}/*`))
+		typeList.map((type) => rimraf(`./export/${pack}/${type}/*`, { glob: true }))
 	);
 	// endregion ////
 	
@@ -447,6 +443,7 @@ async function main(
 	// endregion ////
 	
 	// region { metadata, info-metadata }.json ////
+	console.log(``)
 	console.log(`Init metadata ...`)
 	
 	const metaDataJson = {
@@ -479,7 +476,7 @@ async function main(
 		
 		for(const icon of iconsKey)
 		{
-			const iconCode = `${typeName}::${icon}`
+			const iconCode = `${typeRow.code}::${icon}`
 			
 			const iconName = metaDataPackageJson?.icons[icon]?.name
 				? metaDataPackageJson.icons[icon].name
@@ -489,35 +486,27 @@ async function main(
 					.toLowerCase()
 			
 			const iconRow = {
-				code: iconCode.toLowerCase(),
-				fullCode: iconCode,
+				code: iconCode,
 				name: iconName,
 				type: typeRow.code,
 				icon: icon,
 				specialized: metaDataPackageJson?.icons[icon]?.specialized || null,
+				data: {
+					name: metaDataPackageJson.icons[icon]?.name || null,
+					category: metaDataPackageJson?.icons[icon]?.category || null,
+					subCategories: metaDataPackageJson?.icons[icon]?.subCategories || [],
+					dateFix: metaDataPackageJson?.icons[icon]?.dateFix || null,
+				},
 			}
 			
-			metaDataJson.list.push(iconRow)
-			typeRow.list.push(Object.assign(
-				{},
-				{
-					... iconRow
-				},
-				{
-					data: {
-						name: metaDataPackageJson.icons[icon]?.name || null,
-						category: metaDataPackageJson?.icons[icon]?.category || null,
-						subCategories: metaDataPackageJson?.icons[icon]?.subCategories || [],
-						dateFix: metaDataPackageJson?.icons[icon]?.dateFix || null,
-					}
-				}
-			))
+			metaDataJson.list.push(iconRow.code)
+			typeRow.list.push(iconRow)
 		}
 		
 		metaDataInfoJson.list.push(typeRow)
 		
-		await rimraf(iconMetaDataFile)
-		await rimraf(iconMetaDataFileEsm)
+		await rimraf(iconMetaDataFile, { glob: true })
+		await rimraf(iconMetaDataFileEsm, { glob: true })
 	}
 	
 	await ensureWriteJson(
