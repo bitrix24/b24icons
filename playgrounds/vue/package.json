@@ -12,7 +12,7 @@
 		"dev:serve": "vite serve",
 		"dev": "npm-run-all -p dev:*",
 		"build": "NODE_ENV=production vite build",
-		"clean": "rimraf ./dist"
+		"clean": "rimraf --glob ./dist"
 	},
 	"dependencies": {
 		"@bitrix24/b24icons-vue": "*",
