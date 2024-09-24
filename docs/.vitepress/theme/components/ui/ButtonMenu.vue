@@ -1,18 +1,15 @@
 <script setup lang="ts">
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue'
-import { ref } from 'vue'
-import type { InfoIconRow } from '../../types'
-import ChevronToTheRightIcon from '@bitrix24/b24icons-vue/actions/ChevronDownIcon'
-
+import { computed, ref } from 'vue'
 import {
 	Listbox,
 	ListboxButton,
 	ListboxOptions,
 	ListboxOption,
 } from '@headlessui/vue'
+import { useStorage } from '@vueuse/core'
 
 interface Props {
-	text: string,
 	options: {
 		text: string
 		onClick?: () => void
@@ -30,6 +27,16 @@ const props = withDefaults(defineProps<Props>(), {
 
 const emit = defineEmits(['click', 'optionClick'])
 
+const buttonRef = ref(null)
+
+const selectedOption = useStorage(props.id, props.options[0].text)
+const selectionOptionAction = computed(() => props.options.find(option => option.text === selectedOption.value).onClick)
+
+function onClick(event) {
+	selectionOptionAction.value()
+	emit('click', event)
+}
+
 function onOptionClick(event, option) {
 	if(!props.callOptionOnClick) {
 		return
@@ -43,60 +50,30 @@ function onOptionClick(event, option) {
 </script>
 
 <template>
-	<Listbox>
-		<div class="relative flex flex-col flex-nowrap">
-			<ListboxButton
-				class="
-					relative
-					flex flex-row flex-nowrap
-					items-center justify-between
-					
-					min-w-full
-					px-2 py-2
-					
-					font-normal text-md leading-5
-					rounded
-					bg-white dark:bg-gray-900
-					dark:text-info-on
-					ring-0 ring-inset ring-info-background-on
-					group-hover/block:ring-1
-					group-hover/block:bg-info-background-on
-					group-hover/block:text-info-on
-					group-hover/block:text-left
-				"
-			>
-				<div class="truncate flex-auto group-hover/block:hidden">{{ props.text }}</div>
-				<div class="hidden group-hover/block:block">Copy</div>
-				<ChevronToTheRightIcon class="size-5 flex-none hidden group-hover/block:block" />
-			</ListboxButton>
-			<ListboxOptions
-				class="
-					shadow-xl shadow-info-background-on/[0.20]
-					absolute top-0 -left-4 -right-4 z-50
-					flex flex-col flex-nowrap
-					rounded
-					p-0.5 min-w-full
-					border border-gray-200
-					bg-white dark:bg-[#0f172a] dark:border-gray-900/[0.40]
-					transition
-					overflow-auto
-				"
-			>
+	<Listbox v-model="selectedOption">
+		<div class="relative">
+			<div class="flex">
+				<VPButton
+					v-bind="$attrs"
+					:text="selectedOption"
+					@click="onClick"
+					theme="alt"
+					class="main-button"
+					:class="[props.buttonClass]"
+					ref="buttonRef"
+				/>
+				<ListboxButton
+					:as="VPButton"
+					:text="''"
+					theme="alt"
+					class="arrow-up-button"
+					:class="popoverPosition"
+				/>
+			</div>
+			<ListboxOptions class="menu-items" :class="popoverPosition">
 				<ListboxOption
 					as="button"
-					class="
-						text-left
-						block rounded
-						px-3 py-2 leading-tight
-						text-xs text-normal
-						line-clamp-2
-						list-none
-						transition
-						text-base
-						border-none
-						hover:bg-info-background-on
-						hover:text-info-on
-					"
+					class="menu-item"
 					v-for="option in options"
 					:value="option.text"
 					@click="onOptionClick($event, option)"
@@ -107,3 +84,91 @@ function onOptionClick(event, option) {
 		</div>
 	</Listbox>
 </template>
+
+<style>
+ul.menu-items {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	border-radius: 12px;
+	padding: 12px;
+	min-width: 128px;
+	border: 1px solid var(--vp-c-divider);
+	background-color: var(--vp-c-bg-elv);
+	box-shadow: var(--vp-shadow-3);
+	transition: background-color 0.5s;
+	max-height: calc(100vh - var(--vp-nav-height));
+	overflow-y: auto;
+	z-index: 90;
+	right: 0;
+}
+
+.menu-item {
+	text-align: left;
+	display: block;
+	border-radius: 6px;
+	padding: 0 12px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 500;
+	color: var(--vp-c-text-1);
+	white-space: nowrap;
+	transition: background-color .25s,color .25s;
+	list-style: none;
+}
+
+.menu-item:hover {
+	color: var(--vp-c-brand);
+	background-color: var(--vp-c-default-soft);
+}
+
+.menu-item:active {
+	color: var(--vp-c-brand);
+	background-color: var(--vp-c-bg-elv);
+}
+
+.main-button {
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	padding-right: 12px !important;
+}
+
+.arrow-up-button {
+	display: inline-flex;
+	height: 40px;
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	padding-left: 4px !important;
+	padding-right: 8px !important;
+	position: relative;
+	left: -1px;
+}
+
+.arrow-up-button::before {
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%0A%3E%3Cpolyline points='18 15 12 9 6 15' /%3E%3C/svg%3E%0A");
+	width: 20px;
+	height: 28px;
+	margin: auto;
+	display: block;
+}
+
+.dark .arrow-up-button::before {
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%0A%3E%3Cpolyline points='18 15 12 9 6 15' /%3E%3C/svg%3E%0A");
+}
+
+.menu-items.bottom {
+	top: 32px;
+}
+
+.menu-items.top {
+	bottom: 48px;
+}
+
+.arrow-up-button.top::before {
+	transform: rotate(0deg);
+}
+
+.arrow-up-button.bottom::before {
+	transform: rotate(180deg);
+}
+</style>
