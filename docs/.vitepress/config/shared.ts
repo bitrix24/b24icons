@@ -11,9 +11,12 @@ const customAlias: any = [
 	}
 ];
 
-const domain: string = 'https://bitrix24.github.io';
-//const baseFolder: string = '/';
-const baseFolder: string = '/b24icons/';
+const configParams = Object.freeze({
+	domain: 'https://bitrix24.github.io',
+	baseFolder: '/b24icons/',
+	github: 'https://github.com/bitrix24/b24icons',
+	npm: 'https://www.npmjs.com/package/@bitrix24/b24icons',
+})
 
 export const shared = defineConfig({
 	title: '@bitrix24/b24icons',
@@ -22,18 +25,18 @@ export const shared = defineConfig({
 	cleanUrls: false,
 	metaChunk: true,
 	
-	base: baseFolder,
+	base: configParams.baseFolder,
 	/* prettier-ignore */
 	head: [
-		['link', { rel: 'icon', href: `${baseFolder}favicon.ico` }],
+		['link', { rel: 'icon', href: `${configParams.baseFolder}favicon.ico` }],
 		['meta', { name: 'theme-color', content: '#5f67ee' }],
 		['meta', { property: 'og:type', content: 'website' }],
 		['meta', { property: 'og:locale', content: 'en' }],
 		['meta', { property: 'og:title', content: '@bitrix24/b24icons | Bitrix24 SVG icons for development web-applications' }],
 		['meta', { property: 'og:site_name', content: '@bitrix24/b24icons' }],
 		// @todo
-		//['meta', { property: 'og:image', content: `${domain}${baseFolder}bitrix24_style.jpg` }],
-		['meta', { property: 'og:url', content: `${domain}${baseFolder}` }],
+		['meta', { property: 'og:image', content: `${configParams.domain}${configParams.baseFolder}bitrix24_icons.jpg` }],
+		['meta', { property: 'og:url', content: `${configParams.domain}${configParams.baseFolder}` }],
 	],
 	
 	themeConfig: {
@@ -47,11 +50,14 @@ export const shared = defineConfig({
 				},
 				link: 'https://t.me/b24_dev'
 			},
-			{icon: 'github', link: 'https://github.com/bitrix24/b24icons'},
-			{icon: 'npm', link: 'https://www.npmjs.com/package/@bitrix24/b24icons'}
+			{icon: 'github', link: configParams.github},
+			{icon: 'npm', link: configParams.npm}
 		],
 	},
 	vite: {
+		define: {
+			__SH_BASE__: configParams
+		},
 		resolve: {
 			alias: customAlias
 		},
