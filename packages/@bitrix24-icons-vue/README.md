@@ -24,4 +24,4 @@ import Bitrix24Icon from '@bitrix24/b24icons-vue/common-service/Bitrix24Icon'
 </template>
 ```
 
-Read more about the library in the [documentation](https://bitrix24.github.io/b24icons/guide/vue.html).
+Find more details in the [documentation](https://bitrix24.github.io/b24icons/guide/vue.html).
