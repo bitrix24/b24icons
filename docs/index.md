@@ -18,10 +18,10 @@ hero:
 
 features:
   - title: All Icons in One Place
-    details: The library offers a complete set of Bitrix24 SVG icons for convenient use
+    details: The library provides a full set of Bitrix24 SVG icons for easy and convenient use.
   - title: Smart Icon Loading
-    details: The B24Icon component ensures optimal icon loading by using dynamic imports without breaking tree-shaking
+    details: The B24Icon component optimizes icon loading by utilizing dynamic imports while preserving tree-shaking.
   - title: Tree-shaking support
-    details: The icons are optimized for tree-shaking, allowing you to import only those you use
+    details: The icons are optimized for tree-shaking, enabling you to import only what you need.
 ---
 
