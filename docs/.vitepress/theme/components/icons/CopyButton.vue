@@ -9,10 +9,6 @@ const props = defineProps<{
 	popoverPosition?: 'top'|'bottom'
 }>()
 
-const downloadText = 'Download!'
-const copiedText = 'Copied!'
-
-const messageText = ref(props.icon.name)
 const isActionComplete = ref(false)
 
 const componentName = computed(() =>
@@ -20,13 +16,13 @@ const componentName = computed(() =>
 	return props.icon.code
 })
 
-function toUpperFirstChar(value)
+function toUpperFirstChar(value: string): string
 {
 	return value.charAt(0).toUpperCase() + value.slice(1)
 }
 
 // region Action ////
-function success(message: string)
+function success()
 {
 	isActionComplete.value = true;
 	window.setTimeout(() => {
@@ -34,35 +30,59 @@ function success(message: string)
 	}, 1_000)
 }
 
+function getIconFullName(): string
+{
+	return `#type#::#icon#`
+		.replace('#icon#', props.icon.icon)
+		.replace('#type#', toUpperFirstChar(props.icon.type))
+}
+
 function copyComponentName()
 {
-	const code = [
-		`#type#::#icon#`
-	].join("\n")
-		.replaceAll('#icon#', props.icon.icon)
-		.replaceAll('#type#', toUpperFirstChar(props.icon.type))
+	const code = getIconFullName()
 	
 	navigator.clipboard.writeText(code)
 	
-	success(copiedText)
+	success()
 }
 
 function copyVue()
 {
 	const attrs = ['']
 	
-	attrs.push('class="w-xl h-xl"')
+	attrs.push('class="w-3 h-3"')
 	
 	const code = [
-		//`import #icon# from '@bitrix24/b24icons-vue/#type#/#icon#'`,
+		`import #icon# from '@bitrix24/b24icons-vue/#type#/#icon#'`,
+		``,
 		`<#icon#${attrs.join(' ')} />`
 	].join("\n")
-	.replaceAll('#icon#', props.icon.icon)
-	.replaceAll('#type#', props.icon.type)
+	.replace('#icon#', props.icon.icon)
+	.replace('#icon#', props.icon.icon)
+	.replace('#icon#', props.icon.icon)
+	.replace('#type#', props.icon.type)
 	
 	navigator.clipboard.writeText(code)
 	
-	success(copiedText)
+	success()
+}
+
+function copyVueB24Icon()
+{
+	const attrs = ['']
+	
+	attrs.push(`name="${getIconFullName()}"`)
+	attrs.push('class="w-3 h-3"')
+	
+	const code = [
+		`import { B24Icon } from '@bitrix24/b24icons-vue'`,
+		``,
+		`<B24Icon${attrs.join(' ')} />`
+	].join("\n")
+	
+	navigator.clipboard.writeText(code)
+	
+	success()
 }
 
 function copySVG()
@@ -71,7 +91,7 @@ function copySVG()
 	
 	navigator.clipboard.writeText(svgString)
 	
-	success(copiedText)
+	success()
 }
 
 function copyDataUrl()
@@ -82,16 +102,17 @@ function copyDataUrl()
 	const dataUrl = `data:image/svg+xml;base64,${btoa(svgString)}`
 	navigator.clipboard.writeText(dataUrl)
 	
-	success(copiedText)
+	success()
 }
 
 // endregion ////
 
 const options = ref([
+	{ text: 'Copy Name' , onClick: copyComponentName },
+	{ text: 'Copy via Vue Component' , onClick: copyVue },
+	{ text: 'Copy via Vue B24Icon' , onClick: copyVueB24Icon },
 	{ text: 'Copy SVG' , onClick: copySVG },
 	{ text: 'Copy Data URL' , onClick: copyDataUrl },
-	{ text: 'Copy Component Name' , onClick: copyComponentName },
-	{ text: 'Copy Vue' , onClick: copyVue },
 ]);
 
 </script>

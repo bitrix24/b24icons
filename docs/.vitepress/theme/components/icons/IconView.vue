@@ -21,11 +21,11 @@ function openSlideover ()
 
 <template>
 	<button
-		class="group/block outline-none rounded"
+		class="group/block outline-none"
 		@click="openSlideover"
 	>
 		<div class="
-			relative h-[100px] w-full rounded
+			relative h-[115px] w-full rounded-lg
 			border border-base-100
 			ring-none ring-offset-2 ring-info-background-on ring-offset-white
 			group-hover/block:border-info
@@ -36,7 +36,9 @@ function openSlideover ()
 			<div class="
 				absolute z-10 inset-0
 				flex h-full w-full items-center justify-center
-				rounded icon-wrapper
+				icon-wrapper
+				text-base-900
+				dark:text-base-300
 			">
 				<KeepAlive>
 					<B24Icon
@@ -57,7 +59,7 @@ function openSlideover ()
 		</div>
 		<p class="
 			mt-1 h-10 truncate text-center text-[0.8125rem] leading-5
-			text-gray-500
+			text-base-500
 			group-focus/block:line-clamp-2
 			group-focus/block:whitespace-normal
 			group-hover/block:line-clamp-2

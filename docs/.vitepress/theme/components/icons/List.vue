@@ -32,7 +32,15 @@ const iconList = computed(() => {
 	for(const group of props.groups)
 	{
 		result = result.concat(
-			group.list.map((item: InfoIconRow) => item)
+			group.list.map((item: InfoIconRow) => {
+				return Object.assign(
+					{},
+					item,
+					{
+						subCategories: item.data.subCategories.join('; ')
+					}
+				)
+			})
 		)
 	}
 	
@@ -48,8 +56,9 @@ const filteredIcons = useDynamicFilter(
 	searchQuery,
 	iconList,
 	[
+		{ name: 'code' },
 		{ name: 'name' },
-		{ name: 'type' }
+		{ name: 'subCategories' },
 	]
 )
 
