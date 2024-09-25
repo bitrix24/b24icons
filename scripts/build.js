@@ -245,6 +245,34 @@ async function buildIcons(pack, type, format)
 	
 	await Promise.all(
 		icons.flatMap(async ({ componentName, svg, isDeprecated }) => {
+			svg = svg
+				//.replaceAll('none', 'currentColor')
+				.replaceAll('#fff', 'currentColor')
+				.replaceAll('#FFF', 'currentColor')
+				.replaceAll('#CCC', 'currentColor')
+				.replaceAll('#C9CCD0', 'currentColor')
+				.replaceAll('#BDC1C6', 'currentColor')
+				.replaceAll('#959CA4', 'currentColor')
+				.replaceAll('#828B95', 'currentColor')
+				.replaceAll('#525C69', 'currentColor')
+				.replaceAll('#535c69', 'currentColor')
+				.replaceAll('#535C69', 'currentColor')
+				.replaceAll('#000', 'currentColor')
+				.replaceAll('#8DBB00', 'currentColor')
+				.replaceAll('#95C500', 'currentColor')
+				.replaceAll('#34A853', 'currentColor')
+				.replaceAll('#289D37', 'currentColor')
+				.replaceAll('#4690FB', 'currentColor')
+				.replaceAll('#2a79a6', 'currentColor')
+				.replaceAll('#4285F4', 'currentColor')
+				.replaceAll('#0078D4', 'currentColor')
+				.replaceAll('#ff0400', 'currentColor')
+				.replaceAll('#D61921', 'currentColor')
+				.replaceAll('#eb3c00', 'currentColor')
+				.replaceAll('#EA4335', 'currentColor')
+				.replaceAll('#FBBC05', 'currentColor')
+				.replaceAll('#FF9E00', 'currentColor')
+				.replaceAll('#FF6200', 'currentColor')
 			
 			let content = await transform[pack](
 				svg,
