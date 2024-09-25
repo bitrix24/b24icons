@@ -40,7 +40,7 @@ function resolveFiles(components) {
 	flags.ignore = flags.ignore ?? ''
 	flags.ignore = flags.ignore.split(',').filter(Boolean)
 	
-	const files = fastGlob
+	return fastGlob
 		.sync(args.join(''))
 		.filter((file) => {
 			for (let ignore of flags.ignore) {
@@ -50,8 +50,6 @@ function resolveFiles(components) {
 			}
 			return true
 		});
-
-	return files;
 }
 
 function rewriteImports(directory, pattern) {
