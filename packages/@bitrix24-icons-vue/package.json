@@ -205,7 +205,7 @@
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "npm-run-all -s build:*",
-    "build:vue-packages": "sh ../../scripts/build-packages.sh --external:vue",
+    "build:vue-packages": "node ../../scripts/build-packages --external:vue",
     "playground": "npm run --workspace=@bitrix24/b24icons-vue-playground dev",
     "clean": "rimraf --glob ./dist"
   },
