@@ -1,5 +1,5 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
-import pkg from "../../../package.json";
+import { configParams } from './params'
 
 export const en = defineConfig({
 	lang: 'en-US',
@@ -24,21 +24,19 @@ export const en = defineConfig({
 	}
 })
 
+
 function nav(): DefaultTheme.NavItem[] {
 	return [
 		{text: 'Quickstart', link: '/guide/getting-started'},
 		{text: 'Icons', link: '/guide/icons'},
 		{
-			text: pkg.version,
+			text: configParams.version,
 			items: [
 				{
 					text: 'Changelog',
-					link: 'https://github.com/bitrix24/b24icons/blob/main/CHANGELOG.md'
+					link: `${configParams.github}/blob/main/CHANGELOG.md`
 				},
-				{
-					text: '@bitrix24/b24style',
-					link: 'https://bitrix24.github.io/b24style/reference/colors.html'
-				},
+				... configParams.relative
 			]
 		}
 	]
@@ -50,7 +48,8 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
 			text: 'Guide',
 			collapsed: false,
 			items: [
-				{ text: 'Getting Started', link: 'getting-started' }
+				{ text: 'Getting Started', link: 'getting-started' },
+				{ text: 'Vue', link: 'vue' }
 			]
 		},
 		{ text: 'Icons', base: '/guide/', link: 'icons' }

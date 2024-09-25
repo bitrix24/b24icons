@@ -1,5 +1,6 @@
 import { fileURLToPath, URL } from 'node:url';
 import { defineConfig } from 'vitepress'
+import { configParams } from './params'
 
 /**
  * @memo fix
@@ -10,13 +11,6 @@ const customAlias: any = [
 		replacement: fileURLToPath(new URL('./../', import.meta.url)),
 	}
 ];
-
-const configParams = Object.freeze({
-	domain: 'https://bitrix24.github.io',
-	baseFolder: '/b24icons/',
-	github: 'https://github.com/bitrix24/b24icons',
-	npm: 'https://www.npmjs.com/package/@bitrix24/b24icons',
-})
 
 export const shared = defineConfig({
 	title: '@bitrix24/b24icons',
@@ -34,8 +28,7 @@ export const shared = defineConfig({
 		['meta', { property: 'og:locale', content: 'en' }],
 		['meta', { property: 'og:title', content: '@bitrix24/b24icons | Bitrix24 SVG icons for development web-applications' }],
 		['meta', { property: 'og:site_name', content: '@bitrix24/b24icons' }],
-		// @todo
-		['meta', { property: 'og:image', content: `${configParams.domain}${configParams.baseFolder}bitrix24_icons.jpg` }],
+		['meta', { property: 'og:image', content: `${configParams.domain}${configParams.baseFolder}bitrix24_b24icons.jpg` }],
 		['meta', { property: 'og:url', content: `${configParams.domain}${configParams.baseFolder}` }],
 	],
 	
@@ -50,8 +43,7 @@ export const shared = defineConfig({
 				},
 				link: 'https://t.me/b24_dev'
 			},
-			{icon: 'github', link: configParams.github},
-			{icon: 'npm', link: configParams.npm}
+			{icon: 'github', link: configParams.github}
 		],
 	},
 	vite: {
