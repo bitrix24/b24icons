@@ -1,2 +1,5 @@
 # @bitrix24/b24icons
-Bitrix24 SVG icons for development web-applications
+
+The library contains SVG icons for Bitrix24.
+
+Read more about the library in the [documentation](https://bitrix24.github.io/b24icons/).
