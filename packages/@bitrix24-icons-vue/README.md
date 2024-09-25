@@ -12,7 +12,7 @@ $ npm i @bitrix24/b24icons-vue
 
 ## Usage
 
-```vue
+```js
 <script setup>
 import Bitrix24Icon from '@bitrix24/b24icons-vue/common-service/Bitrix24Icon'
 </script>
