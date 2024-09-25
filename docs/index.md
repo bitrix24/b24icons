@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: "@bitrix24/b24icons"
-  text: "Bitrix24 SVG icons for development web-applications"
-  tagline: '@todo My great project tagline'
+  text: "Bitrix24 Icons for Web Applications"
+  tagline: 'Design your applications in the Bitrix24 style'
   actions:
     - theme: brand
       text: View all icons
@@ -17,11 +17,11 @@ hero:
       link: https://github.com/bitrix24/b24icons
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: All Icons in One Place
+    details: The library offers a complete set of Bitrix24 SVG icons for convenient use
+  - title: Smart Icon Loading
+    details: The B24Icon component ensures optimal icon loading by using dynamic imports without breaking tree-shaking
+  - title: Tree-shaking support
+    details: The icons are optimized for tree-shaking, allowing you to import only those you use
 ---
 
