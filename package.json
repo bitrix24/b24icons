@@ -63,6 +63,7 @@
 		"camelcase": "^6.0.0",
 		"esbuild": "^0.17.8",
 		"fast-glob": "^3.3.2",
+		"mini-svg-data-uri": "^1.4.4",
 		"npm-run-all": "^4.1.5",
 		"postcss": "^8.4.47",
 		"prettier": "^3.3.3",
