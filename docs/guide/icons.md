@@ -4,17 +4,13 @@ layout: page
 outline: 2
 outlineTitle: Categories
 sidebar: true
-head:
-  - - link
-    - rel: canonical
-      content: https://bitrix24.github.io/b24icons/icons/
 ---
 
 <script setup lang="ts">
 import { ref } from 'vue';
 import infoMetaData from '@bitrix24/b24icons-vue/info-metadata.json';
 import PageContainer from '~/.vitepress/theme/components/PageContainer.vue';
-import Slideovers from    '~/.vitepress/theme/components/ui/Slideovers.vue';
+import Slideovers from '~/.vitepress/theme/components/ui/Slideovers.vue';
 import List from '~/.vitepress/theme/components/icons/List.vue';
 import type { GroupRow } from '~/.vitepress/theme/types';
 
