@@ -22,7 +22,6 @@
 		"url": "https://github.com/bitrix24/b24icons"
 	},
 	"type": "module",
-	"private": true,
 	"workspaces": [
 		"packages/*",
 		"playgrounds/*"
