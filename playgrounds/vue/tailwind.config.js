@@ -9,7 +9,10 @@ export default {
 		extend: {},
 	},
 	plugins: [
-		require('@bitrix24/b24style'),
+		require('@bitrix24/b24style')({
+			logs: false,
+			useLocalFonts: false,
+		}),
 		require('@tailwindcss/typography')
 	]
 }
