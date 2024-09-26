@@ -1,34 +1,11 @@
 <script setup lang="ts">
 import { ref, type Ref } from 'vue'
-import { B24Icon } from "@bitrix24/b24icons-vue/components/B24Icon"
+import { B24Icon } from "@bitrix24/b24icons-vue"
 import infoMetaData from '@bitrix24/b24icons-vue/info-metadata.json'
-
-type IconDataLabel = {
-	description: string,
-	score: number
-}
-
-type IconData = {
-	category: string,
-	subCategories: string[],
-	labels: IconDataLabel[]
-}
-
-type IconRow = {
-	code: string,
-	name: string,
-	type: string,
-	icon: string,
-	data: IconData
-}
-
-type GroupRow = {
-	code: string,
-	name: string,
-	list: IconRow[]
-}
+import type { GroupRow, InfoIconRow, InfoIconData } from '../types'
 
 const list: Ref<GroupRow[]> = ref(infoMetaData?.list || []);
+
 </script>
 
 <template>
@@ -40,48 +17,62 @@ const list: Ref<GroupRow[]> = ref(infoMetaData?.list || []);
 				<th class="p-2 align-top border-1 border-gray-100 bg-gray-350 text-base-master">Icon</th>
 				<th class="p-2 align-top border-1 border-gray-100 bg-gray-350 text-base-master">Name</th>
 				<th class="p-2 align-top border-1 border-gray-100 bg-gray-350 text-base-master">Sub Categories</th>
-				<th class="p-2 align-top border-1 border-gray-100 bg-gray-350 text-base-master">Labels</th>
 			</tr>
 		</thead>
 		<template
 			v-for="(group, indexGroup) in list"
 			:key="group.code"
 		>
-		<tbody>
+		<tbody class="sticky top-10">
 			<tr>
-				<td colspan="4" class="p-3 text-center"><h3 class="text-h3 font-semibold">{{ group.name }}</h3></td>
+				<td colspan="3" class="p-3 text-center bg-gray-100"><h3 class="text-h3 font-semibold">{{ group.name }}</h3></td>
 			</tr>
 		</tbody>
 		<tbody>
 			<tr
 				v-for="(icon, indexIcon) in group.list"
 				:key="icon.code"
-				class="hover:bg-gray-150"
+				class="hover:bg-gray-20"
 			>
 				<td class="p-2 align-top border border-1 border-gray-100">
-					<div class="flex flex-row items-center justify-center size-20 border border-gray-50 shadow-2xl bg-white"><B24Icon
-						:name="icon.name"
+					<div class="flex flex-row items-center justify-center size-20 border border-gray-50 bg-white"><B24Icon
+						:name="icon.code"
 						class="size-16"
 					/></div>
 				</td>
 				<td class="p-2 align-top border border-1 border-gray-100">
-					{{ icon.name }}
+					<dl class="divide-y divide-gray-100">
+						<div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+							<dt class="text-sm font-medium leading-6 text-gray-900">name</dt>
+							<dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{{ icon.name }}</dd>
+						</div>
+						<div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+							<dt class="text-sm font-medium leading-6 text-gray-900">code</dt>
+							<dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{{ icon.code }}</dd>
+						</div>
+						<div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+							<dt class="text-sm font-medium leading-6 text-gray-900">type</dt>
+							<dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{{ icon.type }}</dd>
+						</div>
+						<div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+							<dt class="text-sm font-medium leading-6 text-gray-900">icon</dt>
+							<dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{{ icon.icon }}</dd>
+						</div>
+						<div class="px-4 py-2 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+							<dt class="text-sm font-medium leading-6 text-gray-900">specialized</dt>
+							<dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0"><pre>{{ icon.specialized }}</pre></dd>
+						</div>
+					</dl>
 				</td>
 				<td class="p-2 align-top border border-1 border-gray-100">
+					<ul class="list-disc list-inside">
 					<template
 						v-for="(subCategory, indexSubCategory) in icon.data.subCategories"
 						:key="indexSubCategory"
 					>
-						<div>{{ subCategory }}</div>
+						<li>{{ subCategory }}</li>
 					</template>
-				</td>
-				<td class="p-2 align-top border border-1 border-gray-100">
-					<template
-						v-for="(label, indexLabel) in icon.data.labels"
-						:key="indexLabel"
-					>
-						<div>{{ label.description }} <small>[ {{ label.score.toFixed(2) }} ]</small></div>
-					</template>
+					</ul>
 				</td>
 			</tr>
 		</tbody>
