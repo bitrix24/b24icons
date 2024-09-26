@@ -2,7 +2,7 @@
 import { ref, type Ref } from 'vue'
 import { B24Icon } from "@bitrix24/b24icons-vue"
 import infoMetaData from '@bitrix24/b24icons-vue/info-metadata.json'
-import type { GroupRow, InfoIconRow, InfoIconData } from '../types'
+import type { GroupRow } from '../types'
 
 const list: Ref<GroupRow[]> = ref(infoMetaData?.list || []);
 
