@@ -1,6 +1,6 @@
 {
   "name": "@bitrix24/b24icons-vue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Bitrix",
   "license": "MIT",
   "description": "Bitrix24 SVG icons for development web-applications for Vue",
@@ -19,8 +19,8 @@
   },
   "type": "module",
   "typings": "dist/index.d.ts",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "main": "dist/bitrix24icons.js",
+  "module": "dist/bitrix24icons.esm.js",
   "files": [
     "dist",
     "LICENSE",
