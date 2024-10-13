@@ -15,4 +15,5 @@ export const typeList = [
 	'button',
 	'common-service',
 	'common-b24',
+	'specialized',
 ];
