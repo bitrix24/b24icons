@@ -1,0 +1,9 @@
+<svg viewBox="0 0 64 64" width="1em" xmlns="http://www.w3.org/2000/svg">
+	<path
+		class="path-solid" d="M 32,4 A 28 28,0,0,0,32,60"
+		fill="none"
+		stroke="currentColor"
+		stroke-miterlimit="10"
+		stroke-linecap="round"
+	/>
+</svg>

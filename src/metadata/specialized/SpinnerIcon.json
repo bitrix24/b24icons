@@ -1,0 +1,16 @@
+{
+	"dateFix": "2024-10-13",
+	"name": "Spinner",
+	"category": "Specialized",
+	"specialized": {
+		"animateSpinNormal": true,
+		"stroke": "stroke-normal"
+	},
+	"subCategories": [
+		"UI",
+		"Specialized",
+		"Spinner",
+		"Animate",
+		"Circle"
+	]
+}
