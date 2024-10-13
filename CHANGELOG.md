@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.1.3 (2024-10-13)
+
+### Bugs
+
+- fix BtnSpinnerIcon
+- fix CopyBtn
+
+### New
+
+- add specialized::LetCatInIcon
+- add specialized::SpinnerIcon
+
 ## 0.1.2 (2024-09-30)
 
 ### Bugs
