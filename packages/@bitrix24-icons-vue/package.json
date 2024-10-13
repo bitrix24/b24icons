@@ -200,6 +200,21 @@
       "types": "./common-b24/*.d.ts",
       "import": "./common-b24/esm/*.js",
       "require": "./common-b24/*.js"
+    },
+    "./specialized": {
+      "types": "./dist/specialized/index.d.ts",
+      "import": "./dist/specialized/esm/index.js",
+      "require": "./dist/specialized/index.js"
+    },
+    "./specialized/*": {
+      "types": "./dist/specialized/*.d.ts",
+      "import": "./dist/specialized/esm/*.js",
+      "require": "./dist/specialized/*.js"
+    },
+    "./specialized/*.js": {
+      "types": "./specialized/*.d.ts",
+      "import": "./specialized/esm/*.js",
+      "require": "./specialized/*.js"
     }
   },
   "scripts": {
