@@ -1,9 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="25 25 50 50"
-     style="-webkit-animation:rotate 2s linear infinite;animation:rotate 2s linear infinite;-webkit-transform-origin:center center;transform-origin:center center">
-	<style>@keyframes rotate{to{transform:rotate(360deg)}}@keyframes
-		dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:89,200;stroke-dashoffset:-35px}to{stroke-dasharray:89,200;stroke-dashoffset:-124px}}
-	</style>
-	<circle cx="50" cy="50" r="20" fill="none" stroke-miterlimit="10"
-	        style="-webkit-animation:dash 1.5s ease-in-out infinite;animation:dash 1.5s ease-in-out infinite"
-	        stroke="currentColor" stroke-width="6" stroke-dasharray="20,200" stroke-linecap="round"/>
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	viewBox="25 25 50 50"
+><circle
+	cx="50" cy="50" r="20" fill="none"
+/><circle
+	class="animate-loader-dash"
+	cx="50" cy="50" r="20" fill="none" stroke="currentColor"
+	stroke-miterlimit="10"
+	stroke-linecap="round"
+/>
+<style>
+	.animate-loader-dash {
+		animation: loader-dash 1.5s ease-in-out infinite !important;
+	}
+	
+	
+	@keyframes loader-dash {
+		0% {
+			stroke-dasharray: 1,200;
+			stroke-dashoffset: 0
+		}
+		
+		50% {
+			stroke-dasharray: 89,200;
+			stroke-dashoffset: -35px
+		}
+		
+		to {
+			stroke-dasharray: 89,200;
+			stroke-dashoffset: -124px
+		}
+	}
+</style>
 </svg>

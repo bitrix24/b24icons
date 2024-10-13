@@ -1,15 +1,16 @@
 {
-  "dateFix": "2024-09-24",
-  "name": "Button Spinner",
-  "category": "Button Specialized",
-  "specialized": {
-    "animateSpin": true
-  },
-  "subCategories": [
-    "UI",
-    "Button",
-    "Specialized",
-    "Animate",
-    "Spinner"
-  ]
+	"dateFix": "2024-09-24",
+	"name": "Button Spinner",
+	"category": "Button Specialized",
+	"specialized": {
+		"animateSpin": true,
+		"stroke": "stroke-bold"
+	},
+	"subCategories": [
+		"UI",
+		"Button",
+		"Specialized",
+		"Animate",
+		"Spinner"
+	]
 }
