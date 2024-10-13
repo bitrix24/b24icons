@@ -46,6 +46,10 @@ function toUpperFirstChar(value: string): string
 									class="size-24 text-base-master dark:text-base-200"
 									:class="[
 										icon.specialized?.animateSpin ? 'animate-spin-slow' : '',
+										icon.specialized?.animateSpinNormal ? 'animate-spin' : '',
+										icon.specialized?.stroke === 'stroke-bold' ? 'stroke-[6px]' : '',
+										icon.specialized?.stroke === 'stroke-normal' ? 'stroke-2' : '',
+										icon.specialized?.stroke === 'stroke-thin' ? 'stroke-1' : '',
 										
 										icon.specialized?.width === 'w-lg' ? 'w-lg' : '',
 										icon.specialized?.height === 'h-lg' ? 'h-lg' : '',

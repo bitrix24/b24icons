@@ -14,6 +14,8 @@ export type InfoIconRow = {
 	icon: string,
 	specialized?: {
 		animateSpin?: boolean,
+		animateSpinNormal?: boolean,
+		stroke?: 'stroke-bold'|'stroke-normal'|'stroke-thin',
 		width?: 'auto'|'w-lg'|'w-[21px]',
 		height?: 'auto'|'h-lg'|'h-[21px]',
 	},
