@@ -50,34 +50,34 @@ function prepareBySpecializedClassNameList(): string[]
 {
 	const className = []
 	
-	if(props.icon.specialized.animateSpin)
+	if(props.icon?.specialized?.animateSpin)
 	{
 		className.push('animate-spin-slow')
 	}
 	
-	if(props.icon.specialized.animateSpinNormal)
+	if(props.icon?.specialized?.animateSpinNormal)
 	{
 		className.push('animate-spin')
 	}
 	
-	if(props.icon.specialized.stroke === 'stroke-bold')
+	if(props.icon?.specialized?.stroke === 'stroke-bold')
 	{
 		className.push('stroke-[6px]')
 	}
-	else if(props.icon.specialized.stroke === 'stroke-normal')
+	else if(props.icon?.specialized?.stroke === 'stroke-normal')
 	{
 		className.push('stroke-2')
 	}
-	else if(props.icon.specialized.stroke === 'stroke-thin')
+	else if(props.icon?.specialized?.stroke === 'stroke-thin')
 	{
 		className.push('stroke-1')
 	}
 	
-	if(props.icon.specialized.width === 'w-lg')
+	if(props.icon?.specialized?.width === 'w-lg')
 	{
 		className.push('w-lg')
 	}
-	else if(props.icon.specialized.width === 'w-[21px]')
+	else if(props.icon?.specialized?.width === 'w-[21px]')
 	{
 		className.push('w-[21px]')
 	}
@@ -86,11 +86,11 @@ function prepareBySpecializedClassNameList(): string[]
 		className.push('w-3')
 	}
 	
-	if(props.icon.specialized.height === 'h-lg')
+	if(props.icon?.specialized?.height === 'h-lg')
 	{
 		className.push('h-lg')
 	}
-	else if(props.icon.specialized.height === 'h-[21px]')
+	else if(props.icon?.specialized?.height === 'h-[21px]')
 	{
 		className.push('h-[21px]')
 	}
