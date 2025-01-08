@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2 (2025-01-08)
+
+- fix(Linux): svg file path
+
 ## 1.0.1 (2025-01-08)
 
 ### feat
