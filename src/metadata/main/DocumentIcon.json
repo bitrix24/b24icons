@@ -1,39 +1,9 @@
 {
   "category": "Main",
   "subCategories": [
-    "Document",
-    "Rectangle",
-    "Font",
-    "Tints and shades"
+    "Document"
   ],
   "labels": [
-    {
-      "description": "Rectangle",
-      "score": 0.7906126976013184
-    },
-    {
-      "description": "Font",
-      "score": 0.7349241971969604
-    },
-    {
-      "description": "Tints and shades",
-      "score": 0.7333118915557861
-    },
-    {
-      "description": "Electric blue",
-      "score": 0.7034125924110413
-    },
-    {
-      "description": "Circle",
-      "score": 0.6257501244544983
-    },
-    {
-      "description": "Brand",
-      "score": 0.6167502999305725
-    },
-    {
-      "description": "Logo",
-      "score": 0.5944742560386658
-    }
+  
   ]
 }

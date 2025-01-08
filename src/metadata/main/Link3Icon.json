@@ -2,37 +2,8 @@
   "category": "Main",
   "subCategories": [
     "Link",
-    "Font",
-    "Art"
+    "Font"
   ],
   "labels": [
-    {
-      "description": "Font",
-      "score": 0.6810173392295837
-    },
-    {
-      "description": "Electric blue",
-      "score": 0.6807352900505066
-    },
-    {
-      "description": "Art",
-      "score": 0.6766747832298279
-    },
-    {
-      "description": "Macro photography",
-      "score": 0.554679274559021
-    },
-    {
-      "description": "Drawing",
-      "score": 0.5403040051460266
-    },
-    {
-      "description": "Still life photography",
-      "score": 0.5266575217247009
-    },
-    {
-      "description": "Pattern",
-      "score": 0.5177419185638428
-    }
   ]
 }

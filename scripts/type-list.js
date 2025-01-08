@@ -6,6 +6,7 @@
 
 export const typeList = [
 	'actions',
+	'animated',
 	'contact-center',
 	'crm',
 	'editor',

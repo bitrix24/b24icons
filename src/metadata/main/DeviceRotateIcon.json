@@ -2,29 +2,8 @@
   "category": "Main",
   "subCategories": [
     "Device",
-    "Rotate",
-    "Font"
+    "Rotate"
   ],
   "labels": [
-    {
-      "description": "Electric blue",
-      "score": 0.7282565236091614
-    },
-    {
-      "description": "Font",
-      "score": 0.720863938331604
-    },
-    {
-      "description": "Symbol",
-      "score": 0.6105194687843323
-    },
-    {
-      "description": "Brand",
-      "score": 0.5146243572235107
-    },
-    {
-      "description": "Graphics",
-      "score": 0.5135801434516907
-    }
   ]
 }
