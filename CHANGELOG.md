@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3 (2025-01-09)
+
+- chore(deps): update
+- feat(Main\MoonIcon): add icon
+- fix: colors in render mode
+
 ## 1.0.2 (2025-01-08)
 
 - fix(Linux): svg file path
