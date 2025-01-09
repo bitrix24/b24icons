@@ -1,6 +1,6 @@
 {
 	"name": "@bitrix24/b24icons",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": "Bitrix",
 	"license": "MIT",
 	"description": "Bitrix24 SVG icons for development web-applications",
@@ -75,11 +75,11 @@
 		"ts-node": "^10.0.0",
 		"typescript": "^5.4.3",
 		"vitepress": "^1.3.4",
-		"vue": "^3.4.27",
-		"vue-router": "^4.3.2"
+		"vue": "^3.5.13",
+		"vue-router": "^4.5.0"
 	},
 	"dependencies": {
-		"@vueuse/core": "^11.1.0",
+		"@vueuse/core": "^12.3.0",
 		"@headlessui/vue": "^1.7.23",
 		"fuse.js": "^7"
 	}
