@@ -1,6 +1,6 @@
 {
   "name": "@bitrix24/b24icons-vue",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "author": "Bitrix",
   "license": "MIT",
   "description": "Bitrix24 SVG icons for development web-applications for Vue",
