@@ -2,30 +2,9 @@
   "category": "Actions",
   "subCategories": [
     "Double",
-    "Shevrons",
+    "Chevron",
     "Right",
     "Font"
   ],
-  "labels": [
-    {
-      "description": "Electric blue",
-      "score": 0.7240892648696899
-    },
-    {
-      "description": "Font",
-      "score": 0.7117624282836914
-    },
-    {
-      "description": "Brand",
-      "score": 0.589458703994751
-    },
-    {
-      "description": "Symbol",
-      "score": 0.5688962340354919
-    },
-    {
-      "description": "Rectangle",
-      "score": 0.5533098578453064
-    }
-  ]
+  "labels": []
 }
