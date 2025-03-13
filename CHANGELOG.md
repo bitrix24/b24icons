@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.4 (2025-01-09)
+
+- chore(deps): update
+- feat(DoubleChevronLeft): add new
+- feat(GitHub): add new
+- fix(DoubleChevronRight): improve
+
 ## 1.0.3 (2025-01-09)
 
 - chore(deps): update
