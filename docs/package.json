@@ -1,12 +1,19 @@
 {
-	"name": "@bitrix24/b24icons-docs",
-	"private": true,
-	"version": "0.0.0",
-	"description": "",
-	"type": "module",
-	"dependencies": {
-		"@bitrix24/b24icons-vue": "*",
-		"@vueuse/core": "^12.3.0",
-		"fuse.js": "^7"
-	}
+  "name": "@bitrix24/b24icons-docs",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "@bitrix24/b24icons-vue": "*",
+    "@bitrix24/b24ui-nuxt": "^0.6.7",
+    "vue-router": "^4.5.1"
+  },
+  "dependencies": {
+    "vitepress": "^1.6.3",
+    "@vueuse/core": "^13.3.0",
+    "vue": "^3.5.16",
+    "fuse.js": "^7.1.0",
+    "@headlessui/vue": "^1.7.23"
+  }
 }
