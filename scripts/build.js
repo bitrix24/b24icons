@@ -582,7 +582,7 @@ async function main(
       'utf8'
     );
 
-    const caseRender = metaDataJson.list.map((code) =>
+    const caseRender = metaDataJson.list.sort().map((code) =>
     {
       const tmp = code.split('::')
 
