@@ -15,12 +15,11 @@ import List from '~/.vitepress/theme/components/icons/List.vue';
 import type { GroupRow } from '~/.vitepress/theme/types';
 
 const groups: Ref<GroupRow[]> = ref(infoMetaData.list as unknown as GroupRow[])
-
 </script>
 
 <div class="VPDoc content">
-	<PageContainer>
-		<List :groups="groups" />
-	</PageContainer>
-	<Slideovers />
+  <PageContainer>
+    <List :groups="groups" />
+  </PageContainer>
+  <Slideovers />
 </div>

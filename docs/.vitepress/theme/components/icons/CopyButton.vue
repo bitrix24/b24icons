@@ -1,185 +1,184 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import {computed, ref} from 'vue'
 import ButtonMenu from '../ui/ButtonMenu.vue'
-import type { InfoIconRow } from '../../types'
+import type {InfoIconRow} from '../../types'
 import getIcon from '../../utils/getIcon'
 
 const props = defineProps<{
-	icon: InfoIconRow,
-	popoverPosition?: 'top'|'bottom'
+  icon: InfoIconRow,
+  popoverPosition?: 'top'|'bottom'
 }>()
 
 const isActionComplete = ref(false)
 
 const componentName = computed(() =>
 {
-	return props.icon.code
+  return props.icon.code
 })
 
 function toUpperFirstChar(value: string): string
 {
-	return value.charAt(0).toUpperCase() + value.slice(1)
+  return value.charAt(0).toUpperCase() + value.slice(1)
 }
 
 // region Action ////
 function success()
 {
-	isActionComplete.value = true;
-	window.setTimeout(() => {
-		isActionComplete.value = false;
-	}, 1_000)
+  isActionComplete.value = true;
+  window.setTimeout(() =>
+  {
+    isActionComplete.value = false;
+  }, 1_000)
 }
 
 function getIconFullName(): string
 {
-	return `#type#::#icon#`
-		.replace('#icon#', props.icon.icon)
-		.replace('#type#', toUpperFirstChar(props.icon.type))
+  return `#type#::#icon#`
+    .replace('#icon#', props.icon.icon)
+    .replace('#type#', toUpperFirstChar(props.icon.type))
 }
 
 function copyComponentName()
 {
-	const code = getIconFullName()
-	
-	navigator.clipboard.writeText(code)
-	
-	success()
+  const code = getIconFullName()
+
+  navigator.clipboard.writeText(code)
+
+  success()
 }
 
 function prepareBySpecializedClassNameList(): string[]
 {
-	const className = []
-	
-	if(props.icon?.specialized?.animateSpin)
-	{
-		className.push('animate-spin-slow')
-	}
-	
-	if(props.icon?.specialized?.animateSpinNormal)
-	{
-		className.push('animate-spin')
-	}
-	
-	if(props.icon?.specialized?.stroke === 'stroke-bold')
-	{
-		className.push('stroke-[6px]')
-	}
-	else if(props.icon?.specialized?.stroke === 'stroke-normal')
-	{
-		className.push('stroke-2')
-	}
-	else if(props.icon?.specialized?.stroke === 'stroke-thin')
-	{
-		className.push('stroke-1')
-	}
-	
-	if(props.icon?.specialized?.width === 'w-lg')
-	{
-		className.push('w-lg')
-	}
-	else if(props.icon?.specialized?.width === 'w-[21px]')
-	{
-		className.push('w-[21px]')
-	}
-	else
-	{
-		className.push('w-3')
-	}
-	
-	if(props.icon?.specialized?.height === 'h-lg')
-	{
-		className.push('h-lg')
-	}
-	else if(props.icon?.specialized?.height === 'h-[21px]')
-	{
-		className.push('h-[21px]')
-	}
-	else
-	{
-		className.push('h-3')
-	}
-	
-	return className
+  const className = []
+
+  if(props.icon?.specialized?.animateSpin)
+  {
+    className.push('animate-spin-slow')
+  }
+
+  if(props.icon?.specialized?.animateSpinNormal)
+  {
+    className.push('animate-spin')
+  }
+
+  if(props.icon?.specialized?.stroke === 'stroke-bold')
+  {
+    className.push('stroke-[6px]')
+  }
+  else if(props.icon?.specialized?.stroke === 'stroke-normal')
+  {
+    className.push('stroke-2')
+  }
+  else if(props.icon?.specialized?.stroke === 'stroke-thin')
+  {
+    className.push('stroke-1')
+  }
+
+  if(props.icon?.specialized?.width === 'w-lg')
+  {
+    className.push('w-lg')
+  }
+  else if(props.icon?.specialized?.width === 'w-[21px]')
+  {
+    className.push('w-[21px]')
+  }
+  else
+  {
+    className.push('w-3')
+  }
+
+  if(props.icon?.specialized?.height === 'h-lg')
+  {
+    className.push('h-lg')
+  }
+  else if(props.icon?.specialized?.height === 'h-[21px]')
+  {
+    className.push('h-[21px]')
+  }
+  else
+  {
+    className.push('h-3')
+  }
+
+  return className
 }
 
 function copyVue()
 {
-	const attrs = ['']
-	attrs.push(`class="${prepareBySpecializedClassNameList().join(' ')}"`)
-	
-	const code = [
-		`import #icon# from '@bitrix24/b24icons-vue/#type#/#icon#'`,
-		``,
-		`<#icon#${attrs.join(' ')} />`
-	].join("\n")
-	.replace('#icon#', props.icon.icon)
-	.replace('#icon#', props.icon.icon)
-	.replace('#icon#', props.icon.icon)
-	.replace('#type#', props.icon.type)
-	
-	navigator.clipboard.writeText(code)
-	
-	success()
+  const attrs = ['']
+  attrs.push(`class="${prepareBySpecializedClassNameList().join(' ')}"`)
+
+  const code = [
+    `import #icon# from '@bitrix24/b24icons-vue/#type#/#icon#'`,
+    ``,
+    `<#icon#${attrs.join(' ')} />`
+  ].join("\n")
+    .replace('#icon#', props.icon.icon)
+    .replace('#icon#', props.icon.icon)
+    .replace('#icon#', props.icon.icon)
+    .replace('#type#', props.icon.type)
+
+  navigator.clipboard.writeText(code)
+
+  success()
 }
 
 function copyVueB24Icon()
 {
-	const attrs = ['']
-	
-	attrs.push(`name="${getIconFullName()}"`)
-	attrs.push(`class="${prepareBySpecializedClassNameList().join(' ')}"`)
-	
-	const code = [
-		`import { B24Icon } from '@bitrix24/b24icons-vue'`,
-		``,
-		`<B24Icon${attrs.join(' ')} />`
-	].join("\n")
-	
-	navigator.clipboard.writeText(code)
-	
-	success()
+  const attrs = ['']
+
+  attrs.push(`name="${getIconFullName()}"`)
+  attrs.push(`class="${prepareBySpecializedClassNameList().join(' ')}"`)
+
+  const code = [
+    `import { B24Icon } from '@bitrix24/b24icons-vue'`,
+    ``,
+    `<B24Icon${attrs.join(' ')} />`
+  ].join("\n")
+
+  navigator.clipboard.writeText(code)
+
+  success()
 }
 
 function copySVG()
 {
-	const svgString = getIcon(componentName.value)
-	
-	navigator.clipboard.writeText(svgString)
-	
-	success()
+  const svgString = getIcon(componentName.value)
+
+  navigator.clipboard.writeText(svgString)
+
+  success()
 }
 
 function copyDataUrl()
 {
-	const svgString = getIcon(componentName.value)
-	
-	// Create SVG data url
-	const dataUrl = `data:image/svg+xml;base64,${btoa(svgString)}`
-	navigator.clipboard.writeText(dataUrl)
-	
-	success()
+  const svgString = getIcon(componentName.value)
+
+  // Create SVG data url
+  const dataUrl = `data:image/svg+xml;base64,${btoa(svgString)}`
+  navigator.clipboard.writeText(dataUrl)
+
+  success()
 }
 
 // endregion ////
 
 const options = ref([
-	{ text: 'Copy Name' , onClick: copyComponentName },
-	{ text: 'Copy via Vue Component' , onClick: copyVue },
-	{ text: 'Copy via Vue B24Icon' , onClick: copyVueB24Icon },
-	{ text: 'Copy SVG' , onClick: copySVG },
-	{ text: 'Copy Data URL' , onClick: copyDataUrl },
+  {text: 'Copy Name', onClick: copyComponentName},
+  {text: 'Copy via Vue Component', onClick: copyVue},
+  {text: 'Copy via Vue B24Icon', onClick: copyVueB24Icon},
+  {text: 'Copy SVG', onClick: copySVG},
+  {text: 'Copy Data URL', onClick: copyDataUrl},
 ]);
 
 </script>
 
 <template>
-	<ButtonMenu
-		:class="[
-			isActionComplete ? 'text-accent-green' : ''
-		]"
-		id="action-button"
-		callOptionOnClick
-		:popoverPosition="popoverPosition"
-		:options="options"
-	/>
+  <ButtonMenu
+    :class="[ isActionComplete ? 'text-success-background-on' : '' ]"
+    id="action-button"
+    call-option-on-click
+    :popoverPosition="popoverPosition"
+    :options="options"
+  />
 </template>
