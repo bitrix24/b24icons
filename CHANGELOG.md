@@ -1,5 +1,25 @@
 # Changelog
 
+## 2.0.1 (2025-06-xx)
+## [2.0.1](https://github.com/bitrix24/b24icons/compare/v1.0.5...v2.0.1) (2025-05-07)
+
+### Features
+
+- **Icons:** add many icons for new interface
+
+### Bug Fixes
+
+- **build:** fix sort
+- fix(build): improve import
+
+## Docs
+
+- **vitepress:** improve
+
+### Chore
+- **deps:** improve
+- **code-style:** add .editorconfig
+
 ## 1.0.5 (2025-01-09)
 
 ## 1.0.4 (2025-01-09)
