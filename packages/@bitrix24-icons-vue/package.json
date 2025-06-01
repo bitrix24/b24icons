@@ -57,7 +57,7 @@
       "require": "./dist/actions/index.js"
     },
     "./actions/*": {
-      "types": "./dist/actions/*.d.ts",
+      "types": "./dist/actions/esm/*.d.ts",
       "import": "./dist/actions/esm/*",
       "require": "./dist/actions/*"
     },
@@ -72,7 +72,7 @@
       "require": "./dist/animated/index.js"
     },
     "./animated/*": {
-      "types": "./dist/animated/*.d.ts",
+      "types": "./dist/animated/esm/*.d.ts",
       "import": "./dist/animated/esm/*",
       "require": "./dist/animated/*"
     },
@@ -87,7 +87,7 @@
       "require": "./dist/contact-center/index.js"
     },
     "./contact-center/*": {
-      "types": "./dist/contact-center/*.d.ts",
+      "types": "./dist/contact-center/esm/*.d.ts",
       "import": "./dist/contact-center/esm/*",
       "require": "./dist/contact-center/*"
     },
@@ -102,7 +102,7 @@
       "require": "./dist/crm/index.js"
     },
     "./crm/*": {
-      "types": "./dist/crm/*.d.ts",
+      "types": "./dist/crm/esm/*.d.ts",
       "import": "./dist/crm/esm/*",
       "require": "./dist/crm/*"
     },
@@ -117,7 +117,7 @@
       "require": "./dist/editor/index.js"
     },
     "./editor/*": {
-      "types": "./dist/editor/*.d.ts",
+      "types": "./dist/editor/esm/*.d.ts",
       "import": "./dist/editor/esm/*",
       "require": "./dist/editor/*"
     },
@@ -132,7 +132,7 @@
       "require": "./dist/main/index.js"
     },
     "./main/*": {
-      "types": "./dist/main/*.d.ts",
+      "types": "./dist/main/esm/*.d.ts",
       "import": "./dist/main/esm/*",
       "require": "./dist/main/*"
     },
@@ -147,7 +147,7 @@
       "require": "./dist/social/index.js"
     },
     "./social/*": {
-      "types": "./dist/social/*.d.ts",
+      "types": "./dist/social/esm/*.d.ts",
       "import": "./dist/social/esm/*",
       "require": "./dist/social/*"
     },
@@ -162,7 +162,7 @@
       "require": "./dist/button-specialized/index.js"
     },
     "./button-specialized/*": {
-      "types": "./dist/button-specialized/*.d.ts",
+      "types": "./dist/button-specialized/esm/*.d.ts",
       "import": "./dist/button-specialized/esm/*",
       "require": "./dist/button-specialized/*"
     },
@@ -177,7 +177,7 @@
       "require": "./dist/button/index.js"
     },
     "./button/*": {
-      "types": "./dist/button/*.d.ts",
+      "types": "./dist/button/esm/*.d.ts",
       "import": "./dist/button/esm/*",
       "require": "./dist/button/*"
     },
@@ -192,7 +192,7 @@
       "require": "./dist/common-service/index.js"
     },
     "./common-service/*": {
-      "types": "./dist/common-service/*.d.ts",
+      "types": "./dist/common-service/esm/*.d.ts",
       "import": "./dist/common-service/esm/*",
       "require": "./dist/common-service/*"
     },
@@ -207,7 +207,7 @@
       "require": "./dist/common-b24/index.js"
     },
     "./common-b24/*": {
-      "types": "./dist/common-b24/*.d.ts",
+      "types": "./dist/common-b24/esm/*.d.ts",
       "import": "./dist/common-b24/esm/*",
       "require": "./dist/common-b24/*"
     },
@@ -222,7 +222,7 @@
       "require": "./dist/specialized/index.js"
     },
     "./specialized/*": {
-      "types": "./dist/specialized/*.d.ts",
+      "types": "./dist/specialized/esm/*.d.ts",
       "import": "./dist/specialized/esm/*",
       "require": "./dist/specialized/*"
     },
