@@ -230,6 +230,21 @@
       "types": "./dist/specialized/*.d.ts",
       "import": "./dist/specialized/esm/*.js",
       "require": "./dist/specialized/*.js"
+    },
+    "./outline": {
+      "types": "./dist/outline/index.d.ts",
+      "import": "./dist/outline/esm/index.js",
+      "require": "./dist/outline/index.js"
+    },
+    "./outline/*": {
+      "types": "./dist/outline/*.d.ts",
+      "import": "./dist/outline/esm/*",
+      "require": "./dist/outline/*"
+    },
+    "./outline/*.js": {
+      "types": "./dist/outline/*.d.ts",
+      "import": "./dist/outline/esm/*.js",
+      "require": "./dist/outline/*.js"
     }
   },
   "typesVersions": {
@@ -269,6 +284,9 @@
       ],
       "specialized/*": [
         "./dist/specialized/esm/*.d.ts"
+      ],
+      "outline/*": [
+        "./dist/outline/esm/*.d.ts"
       ]
     }
   },

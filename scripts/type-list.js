@@ -15,4 +15,5 @@ export const typeList = [
   'common-service',
   'common-b24',
   'specialized',
+  'outline',
 ];
