@@ -1,9 +1,8 @@
 {
+  "id": "PersonMessageArrow2Icon",
+  "fileName": "person-message-arrow-2.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Person",
-    "Message",
-    "Arrow"
-  ],
+  "subCategories": [],
   "labels": []
 }

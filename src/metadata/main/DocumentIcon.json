@@ -1,9 +1,8 @@
 {
+  "id": "DocumentIcon",
+  "fileName": "document.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Document"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

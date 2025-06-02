@@ -1,11 +1,8 @@
 {
+  "id": "Shield2CoreProblemIcon",
+  "fileName": "shield-2-core-problem.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Shield",
-    "Core",
-    "Error",
-    "Break",
-    "Problem"
-  ],
+  "subCategories": [],
   "labels": []
 }

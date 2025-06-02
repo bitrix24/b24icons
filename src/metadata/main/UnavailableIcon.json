@@ -1,7 +1,8 @@
 {
+  "id": "UnavailableIcon",
+  "fileName": "unavailable.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Unavailable"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,8 +1,8 @@
 {
+  "id": "VideoAndChatIcon",
+  "fileName": "video-and-chat.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Video",
-    "Chat"
-  ],
+  "subCategories": [],
   "labels": []
 }

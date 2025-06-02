@@ -1,7 +1,8 @@
 {
+  "id": "PersonIcon",
+  "fileName": "person.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Person"
-  ],
+  "subCategories": [],
   "labels": []
 }

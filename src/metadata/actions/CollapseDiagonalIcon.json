@@ -1,9 +1,8 @@
 {
+  "id": "CollapseDiagonalIcon",
+  "fileName": "collapse-diagonal.svg",
+  "updatedAt": null,
   "category": "Actions",
-  "subCategories": [
-    "Collapse",
-    "Diagonal"
-  ],
-  "labels": [
-  ]
+  "subCategories": [],
+  "labels": []
 }

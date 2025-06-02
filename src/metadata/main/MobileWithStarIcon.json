@@ -1,9 +1,8 @@
 {
+  "id": "MobileWithStarIcon",
+  "fileName": "mobile-with-star.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Mobile",
-    "With",
-    "Star"
-  ],
+  "subCategories": [],
   "labels": []
 }

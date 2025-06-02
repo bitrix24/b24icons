@@ -1,8 +1,8 @@
 {
+  "id": "PersonLocationIcon",
+  "fileName": "person-location.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Person",
-    "Location"
-  ],
+  "subCategories": [],
   "labels": []
 }

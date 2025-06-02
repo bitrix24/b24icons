@@ -1,8 +1,8 @@
 {
+  "id": "PersonsDenyIcon",
+  "fileName": "persons-deny.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Persons",
-    "Deny"
-  ],
+  "subCategories": [],
   "labels": []
 }

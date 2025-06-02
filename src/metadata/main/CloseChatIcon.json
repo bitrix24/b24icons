@@ -1,10 +1,8 @@
 {
+  "id": "CloseChatIcon",
+  "fileName": "close-chat.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Close",
-    "Chat"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

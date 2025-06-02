@@ -1,25 +1,8 @@
 {
+  "id": "Undo1Icon",
+  "fileName": "undo-1.svg",
+  "updatedAt": null,
   "category": "Actions",
-  "subCategories": [
-    "Undo",
-    "Font"
-  ],
-  "labels": [
-    {
-      "description": "Font",
-      "score": 0.7190590500831604
-    },
-    {
-      "description": "Electric blue",
-      "score": 0.7098864316940308
-    },
-    {
-      "description": "Symbol",
-      "score": 0.6613894104957581
-    },
-    {
-      "description": "Circle",
-      "score": 0.5079408884048462
-    }
-  ]
+  "subCategories": [],
+  "labels": []
 }

@@ -1,7 +1,8 @@
 {
+  "id": "WavesIcon",
+  "fileName": "waves.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Waves"
-  ],
+  "subCategories": [],
   "labels": []
 }

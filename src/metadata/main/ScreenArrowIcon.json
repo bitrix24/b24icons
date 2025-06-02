@@ -1,8 +1,8 @@
 {
+  "id": "ScreenArrowIcon",
+  "fileName": "screen-arrow.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Screen",
-    "Arrow"
-  ],
+  "subCategories": [],
   "labels": []
 }

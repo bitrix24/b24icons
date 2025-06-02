@@ -36,6 +36,8 @@ Thumbs.db
 
 docs/.vitepress/dist
 docs/.vitepress/cache
+docs/auto-imports.d.ts
+docs/components.d.ts
 
 /playgrounds/**/dist
 

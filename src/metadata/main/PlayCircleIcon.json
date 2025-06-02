@@ -1,8 +1,8 @@
 {
+  "id": "PlayCircleIcon",
+  "fileName": "play-circle.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Play",
-    "Circle"
-  ],
+  "subCategories": [],
   "labels": []
 }

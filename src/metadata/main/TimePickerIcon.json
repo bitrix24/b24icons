@@ -1,8 +1,8 @@
 {
+  "id": "TimePickerIcon",
+  "fileName": "time-picker.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Time",
-    "Picker"
-  ],
+  "subCategories": [],
   "labels": []
 }

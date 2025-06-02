@@ -1,8 +1,8 @@
 {
+  "id": "PersonsStorageIcon",
+  "fileName": "persons-storage.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Persons",
-    "Storage"
-  ],
+  "subCategories": [],
   "labels": []
 }

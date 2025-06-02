@@ -1,8 +1,8 @@
 {
+  "id": "SoundOffIcon",
+  "fileName": "sound-off.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Sound",
-    "Off"
-  ],
+  "subCategories": [],
   "labels": []
 }

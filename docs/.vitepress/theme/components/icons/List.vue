@@ -14,95 +14,92 @@ const ICON_SIZE = 110;
 const ICON_GRID_GAP = 24;
 
 const props = defineProps<{
-	groups: GroupRow[]
+  groups: GroupRow[]
 }>()
 
 const containerRef = ref<HTMLElement | null>(null)
 const { width: containerWidth } = useElementSize(containerRef)
 
 const columnSize = computed(() => {
-	return Math.floor(
-		containerWidth.value / (ICON_SIZE + ICON_GRID_GAP)
-	)
+  return Math.floor(
+    containerWidth.value / (ICON_SIZE + ICON_GRID_GAP)
+  )
 })
 
 const iconList = computed(() => {
-	
-	let result: InfoIconRow[] = [];
-	for(const group of props.groups)
-	{
-		result = result.concat(
-			group.list.map((item: InfoIconRow) => {
-				return Object.assign(
-					{},
-					item,
-					{
-						subCategories: item.data.subCategories.join('; ')
-					}
-				)
-			})
-		)
-	}
-	
-	return result
+  let result: InfoIconRow[] = [];
+  for (const group of props.groups) {
+    result = result.concat(
+      group.list.map((item: InfoIconRow) => {
+        return Object.assign(
+          {},
+          item,
+          {
+            subCategories: item.data.subCategories.join('; ')
+          }
+        )
+      })
+    )
+  }
+
+  return result
 })
 
 const { searchInput, searchQuery, searchQueryDebounced } = useSearchInput();
 watch(searchQueryDebounced, () => {
-	scrollTo(0)
+  scrollTo(0)
 })
 
 const filteredIcons = useDynamicFilter(
-	searchQuery,
-	iconList,
-	[
-		{ name: 'code' },
-		{ name: 'name' },
-		{ name: 'subCategories' },
-	]
+  searchQuery,
+  iconList,
+  [
+    { name: 'code' },
+    { name: 'name' },
+    { name: 'subCategories' }
+  ]
 )
 
 const chunkedItems = computed(() => {
-	return splitIntoChunks(
-		filteredIcons.value, columnSize.value
-	)
+  return splitIntoChunks(
+    filteredIcons.value, columnSize.value
+  )
 })
 
 const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
-	chunkedItems,
-	{
-		itemHeight: ICON_SIZE + ICON_GRID_GAP,
-		overscan: 10
-	}
+  chunkedItems,
+  {
+    itemHeight: ICON_SIZE + ICON_GRID_GAP,
+    overscan: 10
+  }
 )
 
 onMounted(() => {
-	containerProps.ref.value = document.documentElement;
-	useEventListener(window, 'scroll', containerProps.onScroll)
+  containerProps.ref.value = document.documentElement;
+  useEventListener(window, 'scroll', containerProps.onScroll)
 })
-
 </script>
 
 <template>
-	<div ref="containerRef" class="pb-[400px]">
-		<StickyContainer>
-			<SearchInput
-				placeholder="Search icons ..."
-				v-model="searchQuery"
-				ref="searchInput"
-			/>
-		</StickyContainer>
-		<EmptyList
-			v-if="iconList.length > 0 && filteredIcons.length === 0"
-			:searchQuery="searchQuery"
-			@clear="searchQuery = ''"
-		/>
-		<div v-bind="wrapperProps" class="aspect-square isolate">
-			<Grid
-				v-for="{ index, data: icons } in list"
-				:key="index"
-				:icons="icons"
-			/>
-		</div>
-	</div>
+  <div ref="containerRef" class="pb-[400px]">
+    <StickyContainer>
+      <SearchInput
+        placeholder="Search icons ..."
+        v-model="searchQuery"
+        ref="searchInput"
+      />
+    </StickyContainer>
+    <EmptyList
+      v-if="iconList.length > 0 && filteredIcons.length === 0"
+      :searchQuery="searchQuery"
+      @clear="searchQuery = ''"
+    />
+    <div v-bind="wrapperProps" class="aspect-square isolate">
+      <Grid
+        v-for="{ index, data: icons } in list"
+        :key="index"
+        :icons="icons"
+      />
+    </div>
+  </div>
 </template>

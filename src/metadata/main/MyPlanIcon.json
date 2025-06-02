@@ -1,8 +1,8 @@
 {
+  "id": "MyPlanIcon",
+  "fileName": "my-plan.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "My",
-    "Plan"
-  ],
+  "subCategories": [],
   "labels": []
 }

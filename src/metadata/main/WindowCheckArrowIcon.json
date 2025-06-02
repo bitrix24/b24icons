@@ -1,9 +1,8 @@
 {
+  "id": "WindowCheckArrowIcon",
+  "fileName": "window-check-arrow.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Window",
-    "Check",
-    "Arrow"
-  ],
+  "subCategories": [],
   "labels": []
 }

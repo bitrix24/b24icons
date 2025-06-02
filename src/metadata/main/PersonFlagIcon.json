@@ -1,8 +1,8 @@
 {
+  "id": "PersonFlagIcon",
+  "fileName": "person-flag.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Person",
-    "Flag"
-  ],
+  "subCategories": [],
   "labels": []
 }

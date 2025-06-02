@@ -1,9 +1,8 @@
 {
+  "id": "Link3Icon",
+  "fileName": "link-3.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Link",
-    "Font"
-  ],
-  "labels": [
-  ]
+  "subCategories": [],
+  "labels": []
 }

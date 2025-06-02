@@ -1,12 +1,8 @@
 {
+  "id": "TorrentIcon",
+  "fileName": "torrent.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Torrent",
-    "Funnel",
-    "BP",
-    "Business-process",
-    "Plus",
-    "Message"
-  ],
+  "subCategories": [],
   "labels": []
 }

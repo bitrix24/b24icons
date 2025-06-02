@@ -1,7 +1,8 @@
 {
+  "id": "MarkersIcon",
+  "fileName": "markers.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Markers"
-  ],
+  "subCategories": [],
   "labels": []
 }

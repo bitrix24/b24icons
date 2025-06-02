@@ -1,10 +1,8 @@
 {
+  "id": "MessageChatWithArrowIcon",
+  "fileName": "message-chat-with-arrow.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Message",
-    "Chat",
-    "With",
-    "Arrow"
-  ],
+  "subCategories": [],
   "labels": []
 }

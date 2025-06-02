@@ -1,9 +1,8 @@
 {
-  "category": "Animation",
-  "subCategories": [
-    "Loader",
-    "Clock"
-  ],
-  "labels": [
-  ]
+  "id": "LoaderClockIcon",
+  "fileName": "loader-clock.svg",
+  "updatedAt": null,
+  "category": "Animated",
+  "subCategories": [],
+  "labels": []
 }

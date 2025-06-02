@@ -1,8 +1,8 @@
 {
+  "id": "SignalWifiIcon",
+  "fileName": "signal-wifi.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Signal",
-    "Wifi"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,11 +1,8 @@
 {
+  "id": "WaitingPointsIcon",
+  "fileName": "waiting-points.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Waiting",
-    "List",
-    "Watch",
-    "Clock",
-    "Time"
-  ],
+  "subCategories": [],
   "labels": []
 }

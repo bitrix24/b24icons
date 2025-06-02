@@ -1,7 +1,8 @@
 {
+  "id": "MenuIcon",
+  "fileName": "menu.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Menu"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,8 +1,8 @@
 {
+  "id": "SpeedMeterIcon",
+  "fileName": "speed-meter.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Speed",
-    "Meter"
-  ],
+  "subCategories": [],
   "labels": []
 }

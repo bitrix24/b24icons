@@ -1,7 +1,8 @@
 {
+  "id": "SunglassesIcon",
+  "fileName": "sunglasses.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Sunglasses"
-  ],
+  "subCategories": [],
   "labels": []
 }

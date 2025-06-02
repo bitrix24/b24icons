@@ -1,7 +1,8 @@
 {
+  "id": "Video1Icon",
+  "fileName": "video-1.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Video"
-  ],
+  "subCategories": [],
   "labels": []
 }

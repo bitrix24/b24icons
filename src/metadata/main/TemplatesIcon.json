@@ -1,7 +1,8 @@
 {
+  "id": "TemplatesIcon",
+  "fileName": "templates.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Templates"
-  ],
+  "subCategories": [],
   "labels": []
 }

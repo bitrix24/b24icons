@@ -1,7 +1,8 @@
 {
+  "id": "TagIcon",
+  "fileName": "tag.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Tag"
-  ],
+  "subCategories": [],
   "labels": []
 }

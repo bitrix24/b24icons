@@ -1,8 +1,8 @@
 {
+  "id": "WarningCircleIcon",
+  "fileName": "warning-circle.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Warning",
-    "Circle"
-  ],
+  "subCategories": [],
   "labels": []
 }

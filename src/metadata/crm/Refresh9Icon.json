@@ -1,25 +1,8 @@
 {
+  "id": "Refresh9Icon",
+  "fileName": "refresh-9.svg",
+  "updatedAt": null,
   "category": "Crm",
-  "subCategories": [
-    "Refresh",
-    "Font"
-  ],
-  "labels": [
-    {
-      "description": "Electric blue",
-      "score": 0.7358971238136292
-    },
-    {
-      "description": "Font",
-      "score": 0.7337170839309692
-    },
-    {
-      "description": "Symbol",
-      "score": 0.6113375425338745
-    },
-    {
-      "description": "Graphics",
-      "score": 0.5397258400917053
-    }
-  ]
+  "subCategories": [],
+  "labels": []
 }

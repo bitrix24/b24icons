@@ -1,6 +1,6 @@
 {
   "name": "@bitrix24/b24icons-vue",
-  "version": "1.0.5",
+  "version": "2.0.1",
   "author": "Bitrix",
   "license": "MIT",
   "description": "Bitrix24 SVG icons for development web-applications for Vue",
@@ -58,13 +58,13 @@
     },
     "./actions/*": {
       "types": "./dist/actions/*.d.ts",
-      "import": "./dist/actions/esm/*.js",
-      "require": "./dist/actions/*.js"
+      "import": "./dist/actions/esm/*",
+      "require": "./dist/actions/*"
     },
     "./actions/*.js": {
-      "types": "./actions/*.d.ts",
-      "import": "./actions/esm/*.js",
-      "require": "./actions/*.js"
+      "types": "./dist/actions/*.d.ts",
+      "import": "./dist/actions/esm/*.js",
+      "require": "./dist/actions/*.js"
     },
     "./animated": {
       "types": "./dist/animated/index.d.ts",
@@ -73,13 +73,13 @@
     },
     "./animated/*": {
       "types": "./dist/animated/*.d.ts",
-      "import": "./dist/animated/esm/*.js",
-      "require": "./dist/animated/*.js"
+      "import": "./dist/animated/esm/*",
+      "require": "./dist/animated/*"
     },
     "./animated/*.js": {
-      "types": "./animated/*.d.ts",
-      "import": "./animated/esm/*.js",
-      "require": "./animated/*.js"
+      "types": "./dist/animated/*.d.ts",
+      "import": "./dist/animated/esm/*.js",
+      "require": "./dist/animated/*.js"
     },
     "./contact-center": {
       "types": "./dist/contact-center/index.d.ts",
@@ -88,13 +88,13 @@
     },
     "./contact-center/*": {
       "types": "./dist/contact-center/*.d.ts",
-      "import": "./dist/contact-center/esm/*.js",
-      "require": "./dist/contact-center/*.js"
+      "import": "./dist/contact-center/esm/*",
+      "require": "./dist/contact-center/*"
     },
     "./contact-center/*.js": {
-      "types": "./contact-center/*.d.ts",
-      "import": "./contact-center/esm/*.js",
-      "require": "./contact-center/*.js"
+      "types": "./dist/contact-center/*.d.ts",
+      "import": "./dist/contact-center/esm/*.js",
+      "require": "./dist/contact-center/*.js"
     },
     "./crm": {
       "types": "./dist/crm/index.d.ts",
@@ -103,13 +103,13 @@
     },
     "./crm/*": {
       "types": "./dist/crm/*.d.ts",
-      "import": "./dist/crm/esm/*.js",
-      "require": "./dist/crm/*.js"
+      "import": "./dist/crm/esm/*",
+      "require": "./dist/crm/*"
     },
     "./crm/*.js": {
-      "types": "./crm/*.d.ts",
-      "import": "./crm/esm/*.js",
-      "require": "./crm/*.js"
+      "types": "./dist/crm/*.d.ts",
+      "import": "./dist/crm/esm/*.js",
+      "require": "./dist/crm/*.js"
     },
     "./editor": {
       "types": "./dist/editor/index.d.ts",
@@ -118,13 +118,13 @@
     },
     "./editor/*": {
       "types": "./dist/editor/*.d.ts",
-      "import": "./dist/editor/esm/*.js",
-      "require": "./dist/editor/*.js"
+      "import": "./dist/editor/esm/*",
+      "require": "./dist/editor/*"
     },
     "./editor/*.js": {
-      "types": "./editor/*.d.ts",
-      "import": "./editor/esm/*.js",
-      "require": "./editor/*.js"
+      "types": "./dist/editor/*.d.ts",
+      "import": "./dist/editor/esm/*.js",
+      "require": "./dist/editor/*.js"
     },
     "./main": {
       "types": "./dist/main/index.d.ts",
@@ -133,13 +133,13 @@
     },
     "./main/*": {
       "types": "./dist/main/*.d.ts",
-      "import": "./dist/main/esm/*.js",
-      "require": "./dist/main/*.js"
+      "import": "./dist/main/esm/*",
+      "require": "./dist/main/*"
     },
     "./main/*.js": {
-      "types": "./main/*.d.ts",
-      "import": "./main/esm/*.js",
-      "require": "./main/*.js"
+      "types": "./dist/main/*.d.ts",
+      "import": "./dist/main/esm/*.js",
+      "require": "./dist/main/*.js"
     },
     "./social": {
       "types": "./dist/social/index.d.ts",
@@ -148,13 +148,13 @@
     },
     "./social/*": {
       "types": "./dist/social/*.d.ts",
-      "import": "./dist/social/esm/*.js",
-      "require": "./dist/social/*.js"
+      "import": "./dist/social/esm/*",
+      "require": "./dist/social/*"
     },
     "./social/*.js": {
-      "types": "./social/*.d.ts",
-      "import": "./social/esm/*.js",
-      "require": "./social/*.js"
+      "types": "./dist/social/*.d.ts",
+      "import": "./dist/social/esm/*.js",
+      "require": "./dist/social/*.js"
     },
     "./button-specialized": {
       "types": "./dist/button-specialized/index.d.ts",
@@ -163,13 +163,13 @@
     },
     "./button-specialized/*": {
       "types": "./dist/button-specialized/*.d.ts",
-      "import": "./dist/button-specialized/esm/*.js",
-      "require": "./dist/button-specialized/*.js"
+      "import": "./dist/button-specialized/esm/*",
+      "require": "./dist/button-specialized/*"
     },
     "./button-specialized/*.js": {
-      "types": "./button-specialized/*.d.ts",
-      "import": "./button-specialized/esm/*.js",
-      "require": "./button-specialized/*.js"
+      "types": "./dist/button-specialized/*.d.ts",
+      "import": "./dist/button-specialized/esm/*.js",
+      "require": "./dist/button-specialized/*.js"
     },
     "./button": {
       "types": "./dist/button/index.d.ts",
@@ -178,13 +178,13 @@
     },
     "./button/*": {
       "types": "./dist/button/*.d.ts",
-      "import": "./dist/button/esm/*.js",
-      "require": "./dist/button/*.js"
+      "import": "./dist/button/esm/*",
+      "require": "./dist/button/*"
     },
     "./button/*.js": {
-      "types": "./button/*.d.ts",
-      "import": "./button/esm/*.js",
-      "require": "./button/*.js"
+      "types": "./dist/button/*.d.ts",
+      "import": "./dist/button/esm/*.js",
+      "require": "./dist/button/*.js"
     },
     "./common-service": {
       "types": "./dist/common-service/index.d.ts",
@@ -193,13 +193,13 @@
     },
     "./common-service/*": {
       "types": "./dist/common-service/*.d.ts",
-      "import": "./dist/common-service/esm/*.js",
-      "require": "./dist/common-service/*.js"
+      "import": "./dist/common-service/esm/*",
+      "require": "./dist/common-service/*"
     },
     "./common-service/*.js": {
-      "types": "./common-service/*.d.ts",
-      "import": "./common-service/esm/*.js",
-      "require": "./common-service/*.js"
+      "types": "./dist/common-service/*.d.ts",
+      "import": "./dist/common-service/esm/*.js",
+      "require": "./dist/common-service/*.js"
     },
     "./common-b24": {
       "types": "./dist/common-b24/index.d.ts",
@@ -208,13 +208,13 @@
     },
     "./common-b24/*": {
       "types": "./dist/common-b24/*.d.ts",
-      "import": "./dist/common-b24/esm/*.js",
-      "require": "./dist/common-b24/*.js"
+      "import": "./dist/common-b24/esm/*",
+      "require": "./dist/common-b24/*"
     },
     "./common-b24/*.js": {
-      "types": "./common-b24/*.d.ts",
-      "import": "./common-b24/esm/*.js",
-      "require": "./common-b24/*.js"
+      "types": "./dist/common-b24/*.d.ts",
+      "import": "./dist/common-b24/esm/*.js",
+      "require": "./dist/common-b24/*.js"
     },
     "./specialized": {
       "types": "./dist/specialized/index.d.ts",
@@ -223,19 +223,76 @@
     },
     "./specialized/*": {
       "types": "./dist/specialized/*.d.ts",
+      "import": "./dist/specialized/esm/*",
+      "require": "./dist/specialized/*"
+    },
+    "./specialized/*.js": {
+      "types": "./dist/specialized/*.d.ts",
       "import": "./dist/specialized/esm/*.js",
       "require": "./dist/specialized/*.js"
     },
-    "./specialized/*.js": {
-      "types": "./specialized/*.d.ts",
-      "import": "./specialized/esm/*.js",
-      "require": "./specialized/*.js"
+    "./outline": {
+      "types": "./dist/outline/index.d.ts",
+      "import": "./dist/outline/esm/index.js",
+      "require": "./dist/outline/index.js"
+    },
+    "./outline/*": {
+      "types": "./dist/outline/*.d.ts",
+      "import": "./dist/outline/esm/*",
+      "require": "./dist/outline/*"
+    },
+    "./outline/*.js": {
+      "types": "./dist/outline/*.d.ts",
+      "import": "./dist/outline/esm/*.js",
+      "require": "./dist/outline/*.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "actions/*": [
+        "./dist/actions/esm/*.d.ts"
+      ],
+      "animated/*": [
+        "./dist/animated/esm/*.d.ts"
+      ],
+      "contact-center/*": [
+        "./dist/contact-center/esm/*.d.ts"
+      ],
+      "crm/*": [
+        "./dist/crm/esm/*.d.ts"
+      ],
+      "editor/*": [
+        "./dist/editor/esm/*.d.ts"
+      ],
+      "main/*": [
+        "./dist/main/esm/*.d.ts"
+      ],
+      "social/*": [
+        "./dist/social/esm/*.d.ts"
+      ],
+      "button-specialized/*": [
+        "./dist/button-specialized/esm/*.d.ts"
+      ],
+      "button/*": [
+        "./dist/button/esm/*.d.ts"
+      ],
+      "common-service/*": [
+        "./dist/common-service/esm/*.d.ts"
+      ],
+      "common-b24/*": [
+        "./dist/common-b24/esm/*.d.ts"
+      ],
+      "specialized/*": [
+        "./dist/specialized/esm/*.d.ts"
+      ],
+      "outline/*": [
+        "./dist/outline/esm/*.d.ts"
+      ]
     }
   },
   "scripts": {
     "prepublishOnly": "npm run build",
-    "build": "npm-run-all -s build:*",
-    "build:vue-packages": "node ../../scripts/build-packages --external:vue",
+    "build": "node ../../scripts/build-packages --external:vue",
     "playground": "npm run --workspace=@bitrix24/b24icons-vue-playground dev",
     "clean": "rimraf --glob ./dist"
   },
@@ -243,9 +300,9 @@
     "access": "public"
   },
   "peerDependencies": {
-    "vue": "^3.5.13"
+    "vue": "^3.5.16"
   },
   "devDependencies": {
-    "npm-run-all": "^4.1.5"
+    "rimraf": "^6.0.1"
   }
 }

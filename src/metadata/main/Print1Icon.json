@@ -1,7 +1,8 @@
 {
+  "id": "Print1Icon",
+  "fileName": "print-1.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Print"
-  ],
+  "subCategories": [],
   "labels": []
 }

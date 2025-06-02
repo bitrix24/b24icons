@@ -1,7 +1,8 @@
 {
+  "id": "PictureIcon",
+  "fileName": "picture.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Picture"
-  ],
+  "subCategories": [],
   "labels": []
 }

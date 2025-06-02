@@ -1,7 +1,8 @@
 {
+  "id": "Search1Icon",
+  "fileName": "search-1.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Search"
-  ],
+  "subCategories": [],
   "labels": []
 }

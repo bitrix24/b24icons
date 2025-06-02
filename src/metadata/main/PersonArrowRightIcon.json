@@ -1,9 +1,8 @@
 {
+  "id": "PersonArrowRightIcon",
+  "fileName": "person-arrow-right.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Person",
-    "Arrow",
-    "Right"
-  ],
+  "subCategories": [],
   "labels": []
 }

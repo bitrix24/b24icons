@@ -1,14 +1,8 @@
 {
+  "id": "PromptsLibraryIcon",
+  "fileName": "prompts-library.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "AI",
-    "Prompt",
-    "Book",
-    "Library",
-    "Star",
-    "Magic"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

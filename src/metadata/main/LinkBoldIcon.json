@@ -1,11 +1,8 @@
 {
+  "id": "LinkBoldIcon",
+  "fileName": "link-bold.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Link",
-    "Font",
-    "Bold"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

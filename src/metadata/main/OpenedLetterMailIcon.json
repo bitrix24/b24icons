@@ -1,9 +1,8 @@
 {
+  "id": "OpenedLetterMailIcon",
+  "fileName": "opened-letter-mail.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Opened",
-    "Letter",
-    "Mail"
-  ],
+  "subCategories": [],
   "labels": []
 }

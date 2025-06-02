@@ -1,7 +1,8 @@
 {
+  "id": "SpannerIcon",
+  "fileName": "spanner.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Spanner"
-  ],
+  "subCategories": [],
   "labels": []
 }

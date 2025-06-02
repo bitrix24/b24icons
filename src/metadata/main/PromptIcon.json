@@ -1,12 +1,8 @@
 {
+  "id": "PromptIcon",
+  "fileName": "prompt.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "AI",
-    "Prompt",
-    "Star",
-    "Magic"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

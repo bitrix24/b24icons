@@ -1,8 +1,8 @@
 {
+  "id": "SortCalendarIcon",
+  "fileName": "sort-calendar.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Sort",
-    "Calendar"
-  ],
+  "subCategories": [],
   "labels": []
 }

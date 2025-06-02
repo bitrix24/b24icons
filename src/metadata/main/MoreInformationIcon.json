@@ -1,8 +1,8 @@
 {
+  "id": "MoreInformationIcon",
+  "fileName": "more-information.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "More",
-    "Information"
-  ],
+  "subCategories": [],
   "labels": []
 }

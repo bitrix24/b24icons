@@ -1,7 +1,8 @@
 {
+  "id": "WindowIcon",
+  "fileName": "window.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Window"
-  ],
+  "subCategories": [],
   "labels": []
 }

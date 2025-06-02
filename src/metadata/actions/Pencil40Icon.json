@@ -1,21 +1,8 @@
 {
+  "id": "Pencil40Icon",
+  "fileName": "pencil-40.svg",
+  "updatedAt": null,
   "category": "Actions",
-  "subCategories": [
-    "Pencil",
-    "Font"
-  ],
-  "labels": [
-    {
-      "description": "Font",
-      "score": 0.7639159560203552
-    },
-    {
-      "description": "Electric blue",
-      "score": 0.7006109952926636
-    },
-    {
-      "description": "Pattern",
-      "score": 0.5266925096511841
-    }
-  ]
+  "subCategories": [],
+  "labels": []
 }

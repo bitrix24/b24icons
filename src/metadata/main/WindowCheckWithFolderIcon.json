@@ -1,10 +1,8 @@
 {
+  "id": "WindowCheckWithFolderIcon",
+  "fileName": "window-check-with-folder.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Window",
-    "Check",
-    "With",
-    "Folder"
-  ],
+  "subCategories": [],
   "labels": []
 }

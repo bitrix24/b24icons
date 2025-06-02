@@ -1,8 +1,8 @@
 {
+  "id": "NoteCircleIcon",
+  "fileName": "note-circle.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Note",
-    "Circle"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,7 +1,8 @@
 {
+  "id": "TableIcon",
+  "fileName": "table.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Table"
-  ],
+  "subCategories": [],
   "labels": []
 }

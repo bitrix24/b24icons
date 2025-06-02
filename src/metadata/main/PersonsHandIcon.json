@@ -1,8 +1,8 @@
 {
+  "id": "PersonsHandIcon",
+  "fileName": "persons-hand.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Persons",
-    "Hand"
-  ],
+  "subCategories": [],
   "labels": []
 }

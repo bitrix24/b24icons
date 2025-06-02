@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.0.1](https://github.com/bitrix24/b24icons/compare/v1.0.5...v2.0.1) (2025-06-02)
+
+### Features
+
+- **Icons:** add many icons for new interface
+- **Cataloging:** added script for automation of categorization. Waiting for results
+
+### Bug Fixes
+
+- **build:** fix sort
+- **build:** improve import
+
+## Docs
+
+- **vitepress:** improve
+
+### Chore
+- **deps:** improve
+- **code-style:** add .editorconfig
+
 ## 1.0.5 (2025-01-09)
 
 ## 1.0.4 (2025-01-09)

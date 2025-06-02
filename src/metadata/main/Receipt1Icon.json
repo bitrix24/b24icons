@@ -1,7 +1,8 @@
 {
+  "id": "Receipt1Icon",
+  "fileName": "receipt-1.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Receipt"
-  ],
+  "subCategories": [],
   "labels": []
 }

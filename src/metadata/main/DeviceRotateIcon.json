@@ -1,9 +1,8 @@
 {
+  "id": "DeviceRotateIcon",
+  "fileName": "device-rotate.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Device",
-    "Rotate"
-  ],
-  "labels": [
-  ]
+  "subCategories": [],
+  "labels": []
 }

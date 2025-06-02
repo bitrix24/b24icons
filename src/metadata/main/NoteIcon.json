@@ -1,9 +1,8 @@
 {
+  "id": "NoteIcon",
+  "fileName": "note.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Note",
-    "List",
-    "Document"
-  ],
+  "subCategories": [],
   "labels": []
 }

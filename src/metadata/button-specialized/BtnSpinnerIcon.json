@@ -1,16 +1,8 @@
 {
-	"dateFix": "2024-09-24",
-	"name": "Button Spinner",
-	"category": "Button Specialized",
-	"specialized": {
-		"animateSpin": true,
-		"stroke": "stroke-bold"
-	},
-	"subCategories": [
-		"UI",
-		"Button",
-		"Specialized",
-		"Animate",
-		"Spinner"
-	]
+  "id": "BtnSpinnerIcon",
+  "fileName": "btn-spinner.svg",
+  "updatedAt": null,
+  "category": "ButtonSpecialized",
+  "subCategories": [],
+  "labels": []
 }

@@ -1,9 +1,8 @@
 {
+  "id": "SadBoldEmojiIcon",
+  "fileName": "sad-bold-emoji.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Sad",
-    "Bold",
-    "Emoji"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,8 +1,8 @@
 {
+  "id": "SubPointIcon",
+  "fileName": "sub-point.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "SubPoint",
-    "List"
-  ],
+  "subCategories": [],
   "labels": []
 }

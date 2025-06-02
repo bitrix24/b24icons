@@ -1,7 +1,8 @@
 {
+  "id": "SendIcon",
+  "fileName": "send.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Send"
-  ],
+  "subCategories": [],
   "labels": []
 }

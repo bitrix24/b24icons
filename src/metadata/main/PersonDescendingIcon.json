@@ -1,8 +1,8 @@
 {
+  "id": "PersonDescendingIcon",
+  "fileName": "person-descending.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Person",
-    "Descending"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,8 +1,8 @@
 {
+  "id": "SpeakerMouthpieceIcon",
+  "fileName": "speaker-mouthpiece.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Speaker",
-    "Mouthpiece"
-  ],
+  "subCategories": [],
   "labels": []
 }

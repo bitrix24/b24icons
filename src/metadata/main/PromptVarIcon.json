@@ -1,12 +1,8 @@
 {
+  "id": "PromptVarIcon",
+  "fileName": "prompt-var.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "AI",
-    "Prompt",
-    "Letter",
-    "Var"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

@@ -1,8 +1,8 @@
 {
+  "id": "TelephonyPhonebookIcon",
+  "fileName": "telephony-phonebook.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Telephony",
-    "Phonebook"
-  ],
+  "subCategories": [],
   "labels": []
 }

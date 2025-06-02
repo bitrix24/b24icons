@@ -1,7 +1,8 @@
 {
+  "id": "OnecIcon",
+  "fileName": "onec.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Onec"
-  ],
+  "subCategories": [],
   "labels": []
 }

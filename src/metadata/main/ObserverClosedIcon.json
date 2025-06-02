@@ -1,8 +1,8 @@
 {
+  "id": "ObserverClosedIcon",
+  "fileName": "observer-closed.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Observer",
-    "Closed"
-  ],
+  "subCategories": [],
   "labels": []
 }

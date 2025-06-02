@@ -1,9 +1,8 @@
 {
+  "id": "WindowCheckLinkIcon",
+  "fileName": "window-check-link.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Window",
-    "Check",
-    "Link"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,14 +1,8 @@
 {
+  "id": "RolesLibraryIcon",
+  "fileName": "roles-library.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "AI",
-    "Role",
-    "Prompt",
-    "Book",
-    "Library",
-    "Person"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

@@ -1,8 +1,8 @@
 {
+  "id": "MicrophoneOnIcon",
+  "fileName": "microphone-on.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Microphone",
-    "On"
-  ],
+  "subCategories": [],
   "labels": []
 }

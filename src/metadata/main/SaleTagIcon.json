@@ -1,8 +1,8 @@
 {
+  "id": "SaleTagIcon",
+  "fileName": "sale-tag.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Sale",
-    "Tag"
-  ],
+  "subCategories": [],
   "labels": []
 }

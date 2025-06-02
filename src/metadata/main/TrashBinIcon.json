@@ -1,8 +1,8 @@
 {
+  "id": "TrashBinIcon",
+  "fileName": "trash-bin.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Trash",
-    "Bin"
-  ],
+  "subCategories": [],
   "labels": []
 }

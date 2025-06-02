@@ -1,9 +1,8 @@
 {
+  "id": "DevicesIcon",
+  "fileName": "devices.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Device"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

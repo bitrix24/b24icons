@@ -1,9 +1,8 @@
 {
+  "id": "AndroidIcon",
+  "fileName": "android.svg",
+  "updatedAt": null,
   "category": "Social",
-  "subCategories": [
-    "Android",
-    "OS"
-  ],
-  "labels": [
-  ]
+  "subCategories": [],
+  "labels": []
 }

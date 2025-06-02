@@ -1,8 +1,8 @@
 {
+  "id": "PersonCameraIcon",
+  "fileName": "person-camera.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Person",
-    "Camera"
-  ],
+  "subCategories": [],
   "labels": []
 }

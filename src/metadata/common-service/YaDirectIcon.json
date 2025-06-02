@@ -1,14 +1,8 @@
 {
-  "dateFix": "2024-09-24",
-  "name": "Yandex Direct",
-  "category": "Common-service",
-  "subCategories": [
-    "Service",
-    "Ya",
-    "Yandex",
-    "Direct",
-    "Brand",
-    "Logo",
-    "Trademark"
-  ]
+  "id": "YaDirectIcon",
+  "fileName": "ui-service-ya-direct.svg",
+  "updatedAt": null,
+  "category": "CommonService",
+  "subCategories": [],
+  "labels": []
 }

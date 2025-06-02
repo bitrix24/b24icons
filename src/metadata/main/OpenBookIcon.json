@@ -1,8 +1,8 @@
 {
+  "id": "OpenBookIcon",
+  "fileName": "open-book.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Open",
-    "Book"
-  ],
+  "subCategories": [],
   "labels": []
 }

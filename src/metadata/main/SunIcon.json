@@ -1,8 +1,8 @@
 {
+  "id": "SunIcon",
+  "fileName": "sun.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Sun",
-    "light"
-  ],
+  "subCategories": [],
   "labels": []
 }
