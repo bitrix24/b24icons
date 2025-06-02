@@ -348,9 +348,6 @@ async function buildIcons(pack, type, format) {
   );
 }
 
-/**
- * @param {string[]} styles
- */
 async function buildExports(styles) {
   let pkg = {}
 
@@ -386,9 +383,9 @@ async function buildExports(styles) {
     }
 
     pkg[`./${ style }/*`] = {
-      types: `./dist/${ style }/esm/*.d.ts`,
-      import: `./dist/${ style }/esm/*`,
-      require: `./dist/${ style }/*`,
+      types: `./dist/${ style }/*.d.ts`,
+      import: `./dist/${ style }/esm/*.js`,
+      require: `./dist/${ style }/*.js`,
     }
 
     pkg[`./${ style }/*.js`] = {
@@ -399,6 +396,21 @@ async function buildExports(styles) {
   }
 
   return pkg
+}
+
+async function buildTypesVersions(styles) {
+  let types = {}
+
+  // Explicit exports for each style:
+  for (let style of styles) {
+    types[`${ style }/*`] = [
+      `./dist/${ style }/esm/*.d.ts`
+    ]
+  }
+
+  return {
+    "*": types
+  }
 }
 
 /**
@@ -567,6 +579,7 @@ async function main(
   ))
 
   packageJson.exports = await buildExports(typeList)
+  packageJson.typesVersions = await buildTypesVersions(typeList)
 
   await ensureWriteJson(
     `./packages/${ pack }/package.json`,

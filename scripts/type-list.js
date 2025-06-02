@@ -1,7 +1,5 @@
 /**
  * List of icon types
- *
- * @type {string[]}
  */
 
 export const typeList = [
