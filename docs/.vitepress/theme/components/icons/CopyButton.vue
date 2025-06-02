@@ -1,45 +1,38 @@
 <script setup lang="ts">
-import {computed, ref} from 'vue'
+import { computed, ref } from 'vue'
 import ButtonMenu from '../ui/ButtonMenu.vue'
-import type {InfoIconRow} from '../../types'
+import type { InfoIconRow } from '../../types'
 import getIcon from '../../utils/getIcon'
 
 const props = defineProps<{
-  icon: InfoIconRow,
-  popoverPosition?: 'top'|'bottom'
+  icon: InfoIconRow
 }>()
 
 const isActionComplete = ref(false)
 
-const componentName = computed(() =>
-{
+const componentName = computed(() => {
   return props.icon.code
 })
 
-function toUpperFirstChar(value: string): string
-{
+function toUpperFirstChar(value: string): string {
   return value.charAt(0).toUpperCase() + value.slice(1)
 }
 
 // region Action ////
-function success()
-{
+function success() {
   isActionComplete.value = true;
-  window.setTimeout(() =>
-  {
+  window.setTimeout(() => {
     isActionComplete.value = false;
   }, 1_000)
 }
 
-function getIconFullName(): string
-{
+function getIconFullName(): string {
   return `#type#::#icon#`
     .replace('#icon#', props.icon.icon)
     .replace('#type#', toUpperFirstChar(props.icon.type))
 }
 
-function copyComponentName()
-{
+function copyComponentName() {
   const code = getIconFullName()
 
   navigator.clipboard.writeText(code)
@@ -47,71 +40,52 @@ function copyComponentName()
   success()
 }
 
-function prepareBySpecializedClassNameList(): string[]
-{
+function prepareBySpecializedClassNameList(): string[] {
   const className = []
 
-  if(props.icon?.specialized?.animateSpin)
-  {
+  if (props.icon?.specialized?.animateSpin) {
     className.push('animate-spin-slow')
   }
 
-  if(props.icon?.specialized?.animateSpinNormal)
-  {
+  if (props.icon?.specialized?.animateSpinNormal) {
     className.push('animate-spin')
   }
 
-  if(props.icon?.specialized?.stroke === 'stroke-bold')
-  {
+  if (props.icon?.specialized?.stroke === 'stroke-bold') {
     className.push('stroke-[6px]')
-  }
-  else if(props.icon?.specialized?.stroke === 'stroke-normal')
-  {
+  } else if (props.icon?.specialized?.stroke === 'stroke-normal') {
     className.push('stroke-2')
-  }
-  else if(props.icon?.specialized?.stroke === 'stroke-thin')
-  {
+  } else if (props.icon?.specialized?.stroke === 'stroke-thin') {
     className.push('stroke-1')
   }
 
-  if(props.icon?.specialized?.width === 'w-lg')
-  {
+  if (props.icon?.specialized?.width === 'w-lg') {
     className.push('w-lg')
-  }
-  else if(props.icon?.specialized?.width === 'w-[21px]')
-  {
+  } else if (props.icon?.specialized?.width === 'w-[21px]') {
     className.push('w-[21px]')
-  }
-  else
-  {
+  } else {
     className.push('w-3')
   }
 
-  if(props.icon?.specialized?.height === 'h-lg')
-  {
+  if (props.icon?.specialized?.height === 'h-lg') {
     className.push('h-lg')
-  }
-  else if(props.icon?.specialized?.height === 'h-[21px]')
-  {
+  } else if (props.icon?.specialized?.height === 'h-[21px]') {
     className.push('h-[21px]')
-  }
-  else
-  {
+  } else {
     className.push('h-3')
   }
 
   return className
 }
 
-function copyVue()
-{
+function copyVue() {
   const attrs = ['']
-  attrs.push(`class="${prepareBySpecializedClassNameList().join(' ')}"`)
+  attrs.push(`class="${ prepareBySpecializedClassNameList().join(' ') }"`)
 
   const code = [
     `import #icon# from '@bitrix24/b24icons-vue/#type#/#icon#'`,
     ``,
-    `<#icon#${attrs.join(' ')} />`
+    `<#icon#${ attrs.join(' ') } />`
   ].join("\n")
     .replace('#icon#', props.icon.icon)
     .replace('#icon#', props.icon.icon)
@@ -123,17 +97,16 @@ function copyVue()
   success()
 }
 
-function copyVueB24Icon()
-{
+function copyVueB24Icon() {
   const attrs = ['']
 
-  attrs.push(`name="${getIconFullName()}"`)
-  attrs.push(`class="${prepareBySpecializedClassNameList().join(' ')}"`)
+  attrs.push(`name="${ getIconFullName() }"`)
+  attrs.push(`class="${ prepareBySpecializedClassNameList().join(' ') }"`)
 
   const code = [
     `import { B24Icon } from '@bitrix24/b24icons-vue'`,
     ``,
-    `<B24Icon${attrs.join(' ')} />`
+    `<B24Icon${ attrs.join(' ') } />`
   ].join("\n")
 
   navigator.clipboard.writeText(code)
@@ -141,8 +114,7 @@ function copyVueB24Icon()
   success()
 }
 
-function copySVG()
-{
+function copySVG() {
   const svgString = getIcon(componentName.value)
 
   navigator.clipboard.writeText(svgString)
@@ -150,12 +122,11 @@ function copySVG()
   success()
 }
 
-function copyDataUrl()
-{
+function copyDataUrl() {
   const svgString = getIcon(componentName.value)
 
   // Create SVG data url
-  const dataUrl = `data:image/svg+xml;base64,${btoa(svgString)}`
+  const dataUrl = `data:image/svg+xml;base64,${ btoa(svgString) }`
   navigator.clipboard.writeText(dataUrl)
 
   success()
@@ -164,21 +135,20 @@ function copyDataUrl()
 // endregion ////
 
 const options = ref([
-  {text: 'Copy Name', onClick: copyComponentName},
-  {text: 'Copy via Vue Component', onClick: copyVue},
-  {text: 'Copy via Vue B24Icon', onClick: copyVueB24Icon},
-  {text: 'Copy SVG', onClick: copySVG},
-  {text: 'Copy Data URL', onClick: copyDataUrl},
+  { label: 'Copy Name', action: copyComponentName },
+  { label: 'Copy via Vue Component', action: copyVue },
+  { label: 'Copy via Vue B24Icon', action: copyVueB24Icon },
+  { label: 'Copy SVG', action: copySVG },
+  { label: 'Copy Data URL', action: copyDataUrl },
 ]);
 
 </script>
 
 <template>
   <ButtonMenu
-    :class="[ isActionComplete ? 'text-success-background-on' : '' ]"
+    :button-color="isActionComplete ? 'success' : 'link'"
     id="action-button"
     call-option-on-click
-    :popoverPosition="popoverPosition"
     :options="options"
   />
 </template>
