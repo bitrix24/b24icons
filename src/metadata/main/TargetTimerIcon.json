@@ -1,8 +1,8 @@
 {
+  "id": "TargetTimerIcon",
+  "fileName": "target-timer.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Target",
-    "Timer"
-  ],
+  "subCategories": [],
   "labels": []
 }

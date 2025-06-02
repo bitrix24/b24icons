@@ -1,8 +1,8 @@
 {
+  "id": "MenuPointIcon",
+  "fileName": "menu-point.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Menu",
-    "Point"
-  ],
+  "subCategories": [],
   "labels": []
 }

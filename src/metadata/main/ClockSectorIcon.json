@@ -1,9 +1,8 @@
 {
+  "id": "ClockSectorIcon",
+  "fileName": "clock-sector.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Clock",
-    "Sector"
-  ],
-  "labels": [
-  ]
+  "subCategories": [],
+  "labels": []
 }

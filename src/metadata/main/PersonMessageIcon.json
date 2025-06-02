@@ -1,8 +1,8 @@
 {
+  "id": "PersonMessageIcon",
+  "fileName": "person-message.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Person",
-    "Message"
-  ],
+  "subCategories": [],
   "labels": []
 }

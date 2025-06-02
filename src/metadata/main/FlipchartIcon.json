@@ -1,9 +1,8 @@
 {
+  "id": "FlipchartIcon",
+  "fileName": "flipchart.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Flipchart",
-    "Graphics",
-    "Demonstration"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,9 +1,8 @@
 {
+  "id": "WindowDoubleCheck1Icon",
+  "fileName": "window-double-check-1.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Window",
-    "Double",
-    "Check"
-  ],
+  "subCategories": [],
   "labels": []
 }

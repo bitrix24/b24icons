@@ -1,8 +1,8 @@
 {
+  "id": "PersonClockIcon",
+  "fileName": "person-clock.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Person",
-    "Clock"
-  ],
+  "subCategories": [],
   "labels": []
 }

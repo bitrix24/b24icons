@@ -1,12 +1,8 @@
 {
+  "id": "Speed07Icon",
+  "fileName": "speed-0-7.svg",
+  "updatedAt": null,
   "category": "Editor",
-  "subCategories": [
-    "Speed",
-    "70",
-    "Font",
-    "Logo",
-    "Circle"
-  ],
-  "labels": [
-  ]
+  "subCategories": [],
+  "labels": []
 }

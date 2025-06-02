@@ -1,7 +1,8 @@
 {
+  "id": "ObserverIcon",
+  "fileName": "observer.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Observer"
-  ],
+  "subCategories": [],
   "labels": []
 }

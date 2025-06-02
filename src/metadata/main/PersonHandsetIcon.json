@@ -1,8 +1,8 @@
 {
+  "id": "PersonHandsetIcon",
+  "fileName": "person-handset.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Person",
-    "Handset"
-  ],
+  "subCategories": [],
   "labels": []
 }

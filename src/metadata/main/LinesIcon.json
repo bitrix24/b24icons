@@ -1,11 +1,8 @@
 {
+  "id": "LinesIcon",
+  "fileName": "lines.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Line",
-    "Filter",
-    "Sort"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

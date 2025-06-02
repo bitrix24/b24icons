@@ -1,7 +1,8 @@
 {
+  "id": "SubscriptionIcon",
+  "fileName": "subscription.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Subscription"
-  ],
+  "subCategories": [],
   "labels": []
 }

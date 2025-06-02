@@ -1,9 +1,8 @@
 {
+  "id": "NoPictureIcon",
+  "fileName": "no-picture.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Not",
-    "Picture",
-    "Empty"
-  ],
+  "subCategories": [],
   "labels": []
 }

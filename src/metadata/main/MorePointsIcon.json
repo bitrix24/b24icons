@@ -1,8 +1,8 @@
 {
+  "id": "MorePointsIcon",
+  "fileName": "more-points.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "More",
-    "Points"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,8 +1,8 @@
 {
+  "id": "NoVideoIcon",
+  "fileName": "no-video.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "No",
-    "Video"
-  ],
+  "subCategories": [],
   "labels": []
 }

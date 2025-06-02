@@ -1,7 +1,8 @@
 {
+  "id": "ServicesIcon",
+  "fileName": "services.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Services"
-  ],
+  "subCategories": [],
   "labels": []
 }

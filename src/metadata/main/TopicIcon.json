@@ -1,7 +1,8 @@
 {
+  "id": "TopicIcon",
+  "fileName": "topic.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Topic"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,8 +1,8 @@
 {
+  "id": "ListIcon",
+  "fileName": "list.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "List"
-  ],
-  "labels": [
-  ]
+  "subCategories": [],
+  "labels": []
 }

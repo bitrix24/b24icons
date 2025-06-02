@@ -1,12 +1,8 @@
 {
-  "dateFix": "2024-09-24",
-  "name": "Azure",
-  "category": "Common-service",
-  "subCategories": [
-    "Service",
-    "Azure",
-    "Brand",
-    "Logo",
-    "Trademark"
-  ]
+  "id": "SamlAzureIcon",
+  "fileName": "ui-service-saml-azure.svg",
+  "updatedAt": null,
+  "category": "CommonService",
+  "subCategories": [],
+  "labels": []
 }

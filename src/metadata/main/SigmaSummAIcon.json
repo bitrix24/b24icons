@@ -1,9 +1,8 @@
 {
+  "id": "SigmaSummAIcon",
+  "fileName": "sigma-summ-a.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Sigma",
-    "Summ",
-    "A"
-  ],
+  "subCategories": [],
   "labels": []
 }

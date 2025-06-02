@@ -1,7 +1,8 @@
 {
+  "id": "SwitchIcon",
+  "fileName": "switch.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Switch"
-  ],
+  "subCategories": [],
   "labels": []
 }

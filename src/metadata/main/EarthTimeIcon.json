@@ -1,8 +1,8 @@
 {
+  "id": "EarthTimeIcon",
+  "fileName": "earth-time.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Earth",
-    "Time"
-  ],
+  "subCategories": [],
   "labels": []
 }

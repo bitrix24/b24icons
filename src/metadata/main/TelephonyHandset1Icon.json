@@ -1,8 +1,8 @@
 {
+  "id": "TelephonyHandset1Icon",
+  "fileName": "telephony-handset-1.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Telephony",
-    "Handset"
-  ],
+  "subCategories": [],
   "labels": []
 }

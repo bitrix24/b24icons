@@ -1,10 +1,8 @@
 {
+  "id": "ClockBlkWhtIcon",
+  "fileName": "clock-blk-wht.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Clock",
-    "Black",
-    "White"
-  ],
-  "labels": [
-  ]
+  "subCategories": [],
+  "labels": []
 }

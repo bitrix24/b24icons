@@ -1,8 +1,8 @@
 {
+  "id": "Shield2DefendedIcon",
+  "fileName": "shield-2-defended.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Shield",
-    "Defended"
-  ],
+  "subCategories": [],
   "labels": []
 }

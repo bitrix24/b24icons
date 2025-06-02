@@ -1,8 +1,8 @@
 {
+  "id": "Clock1Icon",
+  "fileName": "clock-1.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Clock"
-  ],
-  "labels": [
-  ]
+  "subCategories": [],
+  "labels": []
 }

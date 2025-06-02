@@ -1,7 +1,8 @@
 {
+  "id": "Share1Icon",
+  "fileName": "share-1.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Share"
-  ],
+  "subCategories": [],
   "labels": []
 }

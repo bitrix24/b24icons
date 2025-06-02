@@ -1,15 +1,8 @@
 {
-	"dateFix": "2024-10-13",
-	"name": "Let the cat in",
-	"category": "Specialized",
-	"specialized": {
-	},
-	"subCategories": [
-		"404",
-		"Specialized",
-		"Cat",
-		"Dor",
-		"Disk",
-		"Error"
-	]
+  "id": "LetCatInIcon",
+  "fileName": "let-cat-in.svg",
+  "updatedAt": null,
+  "category": "Specialized",
+  "subCategories": [],
+  "labels": []
 }

@@ -1,9 +1,8 @@
 {
+  "id": "NewMessageMailIcon",
+  "fileName": "new-message-mail.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "New",
-    "Message",
-    "Mail"
-  ],
+  "subCategories": [],
   "labels": []
 }

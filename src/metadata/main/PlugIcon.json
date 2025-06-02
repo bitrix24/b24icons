@@ -1,7 +1,8 @@
 {
+  "id": "PlugIcon",
+  "fileName": "plug.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Plug"
-  ],
+  "subCategories": [],
   "labels": []
 }

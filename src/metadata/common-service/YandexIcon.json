@@ -1,13 +1,8 @@
 {
-  "dateFix": "2024-09-24",
-  "name": "Yandex",
-  "category": "Common-service",
-  "subCategories": [
-    "Service",
-    "Ya",
-    "Yandex",
-    "Brand",
-    "Logo",
-    "Trademark"
-  ]
+  "id": "YandexIcon",
+  "fileName": "ui-service-yandex.svg",
+  "updatedAt": null,
+  "category": "CommonService",
+  "subCategories": [],
+  "labels": []
 }

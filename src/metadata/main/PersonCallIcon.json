@@ -1,8 +1,8 @@
 {
+  "id": "PersonCallIcon",
+  "fileName": "person-call.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Person",
-    "Call"
-  ],
+  "subCategories": [],
   "labels": []
 }

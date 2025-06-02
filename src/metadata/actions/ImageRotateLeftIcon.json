@@ -1,8 +1,8 @@
 {
+  "id": "ImageRotateLeftIcon",
+  "fileName": "image-rotate-left.svg",
+  "updatedAt": null,
   "category": "Actions",
-  "subCategories": [
-    "Image",
-    "Left"
-  ],
+  "subCategories": [],
   "labels": []
 }

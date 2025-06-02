@@ -1,9 +1,8 @@
 {
+  "id": "ClockFillIcon",
+  "fileName": "clock-fill.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Clock",
-    "Fill"
-  ],
-  "labels": [
-  ]
+  "subCategories": [],
+  "labels": []
 }

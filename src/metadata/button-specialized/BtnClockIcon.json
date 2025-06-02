@@ -1,16 +1,8 @@
 {
-  "dateFix": "2024-09-24",
-  "name": "Button Clock",
-  "category": "Button Specialized",
-  "specialized": {
-    "width": "w-lg",
-    "height": "h-lg"
-  },
-  "subCategories": [
-    "UI",
-    "Button",
-    "Specialized",
-    "Animate",
-    "Clock"
-  ]
+  "id": "BtnClockIcon",
+  "fileName": "btn-clock.svg",
+  "updatedAt": null,
+  "category": "ButtonSpecialized",
+  "subCategories": [],
+  "labels": []
 }

@@ -1,7 +1,8 @@
 {
+  "id": "SpeakerphoneIcon",
+  "fileName": "speakerphone.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Speakerphone"
-  ],
+  "subCategories": [],
   "labels": []
 }

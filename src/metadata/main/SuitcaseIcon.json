@@ -1,7 +1,8 @@
 {
+  "id": "SuitcaseIcon",
+  "fileName": "suitcase.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Suitcase"
-  ],
+  "subCategories": [],
   "labels": []
 }

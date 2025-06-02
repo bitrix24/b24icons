@@ -1,7 +1,8 @@
 {
+  "id": "StopwatchIcon",
+  "fileName": "stopwatch.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Stopwatch"
-  ],
+  "subCategories": [],
   "labels": []
 }

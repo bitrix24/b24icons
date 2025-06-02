@@ -1,8 +1,8 @@
 {
+  "id": "WindowArrowIcon",
+  "fileName": "window-arrow.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Window",
-    "Arrow"
-  ],
+  "subCategories": [],
   "labels": []
 }

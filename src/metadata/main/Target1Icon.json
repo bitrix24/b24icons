@@ -1,7 +1,8 @@
 {
+  "id": "Target1Icon",
+  "fileName": "target-1.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Target"
-  ],
+  "subCategories": [],
   "labels": []
 }

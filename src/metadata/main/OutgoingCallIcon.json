@@ -1,8 +1,8 @@
 {
+  "id": "OutgoingCallIcon",
+  "fileName": "outgoing-call.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Outgoing",
-    "Call"
-  ],
+  "subCategories": [],
   "labels": []
 }

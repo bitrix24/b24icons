@@ -1,7 +1,8 @@
 {
+  "id": "MarketingIcon",
+  "fileName": "marketing.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Marketing"
-  ],
+  "subCategories": [],
   "labels": []
 }

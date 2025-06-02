@@ -1,12 +1,8 @@
 {
+  "id": "CreatePromptIcon",
+  "fileName": "create-prompt.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "AI",
-    "Add",
-    "Create",
-    "Prompt"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

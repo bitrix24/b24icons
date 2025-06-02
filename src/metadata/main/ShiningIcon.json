@@ -1,9 +1,8 @@
 {
+  "id": "ShiningIcon",
+  "fileName": "shining.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Shining",
-    "Star",
-    "Magic"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,10 +1,8 @@
 {
+  "id": "CalendarCheckIcon",
+  "fileName": "calendar-check.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Calendar",
-    "Check"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

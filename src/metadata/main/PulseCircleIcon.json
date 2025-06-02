@@ -1,8 +1,8 @@
 {
+  "id": "PulseCircleIcon",
+  "fileName": "pulse-circle.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Pulse",
-    "Circle"
-  ],
+  "subCategories": [],
   "labels": []
 }

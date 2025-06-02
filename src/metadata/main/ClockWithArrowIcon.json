@@ -1,9 +1,8 @@
 {
+  "id": "ClockWithArrowIcon",
+  "fileName": "clock-with-arrow.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Clock",
-    "Arrow"
-  ],
-  "labels": [
-  ]
+  "subCategories": [],
+  "labels": []
 }

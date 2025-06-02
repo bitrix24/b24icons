@@ -1,13 +1,8 @@
 {
+  "id": "SavePromptIcon",
+  "fileName": "save-prompt.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "AI",
-    "Prompt",
-    "Action",
-    "Save",
-    "Bookmark"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

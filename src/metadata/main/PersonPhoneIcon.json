@@ -1,8 +1,8 @@
 {
+  "id": "PersonPhoneIcon",
+  "fileName": "person-phone.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Person",
-    "Phone"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,9 +1,8 @@
 {
-  "category": "Animation",
-  "subCategories": [
-    "Loader",
-    "Wait"
-  ],
-  "labels": [
-  ]
+  "id": "LoaderWaitIcon",
+  "fileName": "loader-wait.svg",
+  "updatedAt": null,
+  "category": "Animated",
+  "subCategories": [],
+  "labels": []
 }

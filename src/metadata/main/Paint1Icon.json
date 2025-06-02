@@ -1,7 +1,8 @@
 {
+  "id": "Paint1Icon",
+  "fileName": "paint-1.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Paint"
-  ],
+  "subCategories": [],
   "labels": []
 }

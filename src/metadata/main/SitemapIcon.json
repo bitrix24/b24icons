@@ -1,7 +1,8 @@
 {
+  "id": "SitemapIcon",
+  "fileName": "sitemap.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Sitemap"
-  ],
+  "subCategories": [],
   "labels": []
 }

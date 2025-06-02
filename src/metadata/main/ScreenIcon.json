@@ -1,9 +1,8 @@
 {
+  "id": "ScreenIcon",
+  "fileName": "screen-black-white.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Screen",
-    "Black",
-    "White"
-  ],
+  "subCategories": [],
   "labels": []
 }

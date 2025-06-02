@@ -1,13 +1,8 @@
 {
+  "id": "HalfNumbersIcon",
+  "fileName": "half-numbers.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Half",
-    "Speed",
-    "50",
-    "Number",
-    "Text"
-  ],
-  "labels": [
-
-  ]
+  "subCategories": [],
+  "labels": []
 }

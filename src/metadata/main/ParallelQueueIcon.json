@@ -1,8 +1,8 @@
 {
+  "id": "ParallelQueueIcon",
+  "fileName": "parallel-queue.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Parallel",
-    "Queue"
-  ],
+  "subCategories": [],
   "labels": []
 }

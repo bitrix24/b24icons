@@ -1,11 +1,8 @@
 {
+  "id": "ScreenShareIcon",
+  "fileName": "screen-share.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "ScreenIcon",
-    "Share",
-    "Action"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

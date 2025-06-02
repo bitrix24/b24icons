@@ -1,8 +1,8 @@
 {
+  "id": "PersonLetterIcon",
+  "fileName": "person-letter.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Person",
-    "Letter"
-  ],
+  "subCategories": [],
   "labels": []
 }

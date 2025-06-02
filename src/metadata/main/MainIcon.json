@@ -1,9 +1,8 @@
 {
+  "id": "MainIcon",
+  "fileName": "main.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Root",
-    "Main",
-    "Page"
-  ],
+  "subCategories": [],
   "labels": []
 }

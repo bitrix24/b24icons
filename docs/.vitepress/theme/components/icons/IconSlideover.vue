@@ -19,11 +19,11 @@ function toUpperFirstChar(value: string): string {
   <B24Slideover
     :close="{ onClick: () => emit('close', false) }"
     :title="`${icon.name}`"
-    description=" "
+    :description="icon.data?.category || ''"
     :b24ui="{ content: 'sm:max-w-1/2' }"
   >
     <template #body>
-      <div class="mt-6 mx-4 p-4 rounded bg-white dark:bg-base-900/20 gap-6 flex flex-col sm:flex-row items-start justify-start">
+      <div class="mt-2 mx-4 p-4 rounded bg-white dark:bg-base-900/20 gap-6 flex flex-col sm:flex-row items-start justify-start">
         <ComponentShowExample class="w-full sm:w-[200px] h-42">
           <div class="flex flex-col items-center gap-y-1">
             <div
@@ -54,9 +54,9 @@ function toUpperFirstChar(value: string): string {
           <div class="mb-4 text-h3">
             {{ toUpperFirstChar(icon.code) }}
           </div>
-          <!--div class="mb-4 text-h6">
-            {{ props.icon.data.subCategories.join(' • ') }}
-          </div-->
+          <div class="mb-4 text-h6">
+            {{ icon.data.subCategories.join(' • ') }}
+          </div>
           <CopyButton :icon="icon" />
         </div>
       </div>

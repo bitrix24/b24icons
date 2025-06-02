@@ -45,7 +45,8 @@
     "docs:build": "npm-run-all -s docs:build:*",
     "docs:build:init": "npm run build",
     "docs:build:vitepress": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "tools:catalog": "node ./scripts/catalog"
   },
   "devDependencies": {
     "@babel/core": "^7.27.4",

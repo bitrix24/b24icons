@@ -1,9 +1,8 @@
 {
-  "category": "GitHub",
-  "subCategories": [
-    "GitHub",
-    "development",
-    "version control"
-  ],
+  "id": "GitHubIcon",
+  "fileName": "git-hub.svg",
+  "updatedAt": null,
+  "category": "Social",
+  "subCategories": [],
   "labels": []
 }

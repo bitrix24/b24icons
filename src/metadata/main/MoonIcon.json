@@ -1,8 +1,8 @@
 {
+  "id": "MoonIcon",
+  "fileName": "moon.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Moon",
-    "dark"
-  ],
+  "subCategories": [],
   "labels": []
 }

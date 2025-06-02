@@ -1,9 +1,8 @@
 {
+  "id": "WarningAlarmIcon",
+  "fileName": "warning-alarm.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Warning",
-    "Alarm",
-    "Alert"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,8 +1,8 @@
 {
+  "id": "LinuxIcon",
+  "fileName": "linux.svg",
+  "updatedAt": null,
   "category": "Social",
-  "subCategories": [
-    "Linux",
-    "OS"
-  ],
+  "subCategories": [],
   "labels": []
 }

@@ -1,8 +1,8 @@
 {
+  "id": "SoundOnIcon",
+  "fileName": "sound-on.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Sound",
-    "On"
-  ],
+  "subCategories": [],
   "labels": []
 }

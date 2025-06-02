@@ -1,8 +1,8 @@
 {
+  "id": "HomeIcon",
+  "fileName": "home.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Root",
-    "Home"
-  ],
+  "subCategories": [],
   "labels": []
 }

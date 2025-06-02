@@ -1,9 +1,8 @@
 {
+  "id": "Shield2MenuIcon",
+  "fileName": "shield-2-menu.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Shield",
-    "Dots",
-    "Menu"
-  ],
+  "subCategories": [],
   "labels": []
 }

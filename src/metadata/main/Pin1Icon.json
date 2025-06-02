@@ -1,7 +1,8 @@
 {
+  "id": "Pin1Icon",
+  "fileName": "pin-1.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Pin"
-  ],
+  "subCategories": [],
   "labels": []
 }

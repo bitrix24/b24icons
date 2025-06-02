@@ -1,7 +1,8 @@
 {
+  "id": "SmsIcon",
+  "fileName": "sms.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Sms"
-  ],
+  "subCategories": [],
   "labels": []
 }

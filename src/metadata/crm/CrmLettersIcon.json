@@ -1,9 +1,8 @@
 {
+  "id": "CrmLettersIcon",
+  "fileName": "crm-letters.svg",
+  "updatedAt": null,
   "category": "Crm",
-  "subCategories": [
-    "Crm",
-    "Letters",
-    "Text"
-  ],
+  "subCategories": [],
   "labels": []
 }

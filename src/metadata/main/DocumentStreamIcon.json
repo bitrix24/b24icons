@@ -1,10 +1,8 @@
 {
+  "id": "DocumentStreamIcon",
+  "fileName": "document-stream.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Document",
-    "Stream"
-  ],
-  "labels": [
-  
-  ]
+  "subCategories": [],
+  "labels": []
 }

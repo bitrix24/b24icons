@@ -1,7 +1,8 @@
 {
+  "id": "WatchIcon",
+  "fileName": "watch.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Watch"
-  ],
+  "subCategories": [],
   "labels": []
 }

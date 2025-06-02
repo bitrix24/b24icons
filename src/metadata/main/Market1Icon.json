@@ -1,7 +1,8 @@
 {
+  "id": "Market1Icon",
+  "fileName": "market-1.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Market"
-  ],
+  "subCategories": [],
   "labels": []
 }

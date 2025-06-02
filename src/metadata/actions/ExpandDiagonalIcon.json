@@ -1,9 +1,8 @@
 {
+  "id": "ExpandDiagonalIcon",
+  "fileName": "expand-diagonal.svg",
+  "updatedAt": null,
   "category": "Actions",
-  "subCategories": [
-    "Expand",
-    "Diagonal"
-  ],
-  "labels": [
-  ]
+  "subCategories": [],
+  "labels": []
 }

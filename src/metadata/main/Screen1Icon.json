@@ -1,7 +1,8 @@
 {
+  "id": "Screen1Icon",
+  "fileName": "screen-1.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Screen"
-  ],
+  "subCategories": [],
   "labels": []
 }

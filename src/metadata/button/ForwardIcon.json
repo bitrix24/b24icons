@@ -1,23 +1,8 @@
 {
+  "id": "ForwardIcon",
+  "fileName": "ui-forward-dark.svg",
+  "updatedAt": null,
   "category": "Button",
-  "subCategories": [
-    "Ui",
-    "Forward",
-    "Dark",
-    "Font"
-  ],
-  "labels": [
-    {
-      "description": "Font",
-      "score": 0.7068725824356079
-    },
-    {
-      "description": "Electric blue",
-      "score": 0.6803718209266663
-    },
-    {
-      "description": "Tints and shades",
-      "score": 0.5245728492736816
-    }
-  ]
+  "subCategories": [],
+  "labels": []
 }

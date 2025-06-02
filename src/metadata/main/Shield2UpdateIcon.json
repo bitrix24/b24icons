@@ -1,9 +1,8 @@
 {
+  "id": "Shield2UpdateIcon",
+  "fileName": "shield-2-update.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Shield",
-    "Refresh",
-    "Update"
-  ],
+  "subCategories": [],
   "labels": []
 }

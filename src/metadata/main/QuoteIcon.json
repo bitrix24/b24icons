@@ -1,7 +1,8 @@
 {
+  "id": "QuoteIcon",
+  "fileName": "quote.svg",
+  "updatedAt": null,
   "category": "Main",
-  "subCategories": [
-    "Quote"
-  ],
+  "subCategories": [],
   "labels": []
 }

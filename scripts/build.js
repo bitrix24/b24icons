@@ -234,6 +234,7 @@ async function buildIcons(pack, type, format) {
         .replaceAll('#fff', 'currentColor')
         .replaceAll('#FFF', 'currentColor')
         .replaceAll('#CCC', 'currentColor')
+        .replaceAll('#333', 'currentColor')
         .replaceAll('#C9CCD0', 'currentColor')
         .replaceAll('#BDC1C6', 'currentColor')
         .replaceAll('#959CA4', 'currentColor')
@@ -259,6 +260,7 @@ async function buildIcons(pack, type, format) {
         .replaceAll('#FBBC05', 'currentColor')
         .replaceAll('#FF9E00', 'currentColor')
         .replaceAll('#FF6200', 'currentColor')
+        .replaceAll('#FAA72C', 'currentColor')
 
       let content = await transform[pack](
         svg,
