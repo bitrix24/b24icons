@@ -1,6 +1,6 @@
 {
   "name": "@bitrix24/b24icons",
-  "version": "1.0.5",
+  "version": "2.0.1",
   "author": "Bitrix",
   "license": "MIT",
   "description": "Bitrix24 SVG icons for development web-applications",
@@ -25,7 +25,6 @@
   "private": true,
   "workspaces": [
     "packages/*",
-    "playgrounds/*",
     "docs"
   ],
   "scripts": {
@@ -36,9 +35,6 @@
     "build:by-type": "node ./scripts/build-process",
     "build:vue": "node ./scripts/build @bitrix24-icons-vue",
     "build:vue-packages": "npm run vue build",
-    "playground-vue": "npm-run-all -s playground-vue:*",
-    "playground-vue:build": "npm run build",
-    "playground-vue:run-dev": "npm run --workspace=@bitrix24/b24icons-vue-playground dev",
     "docs:dev": "npm-run-all -s docs:dev:*",
     "docs:dev:init": "npm run build",
     "docs:dev:vitepress": "vitepress dev docs",

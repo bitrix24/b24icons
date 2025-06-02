@@ -1,16 +1,16 @@
 # Changelog
 
-## 2.0.1 (2025-06-xx)
-## [2.0.1](https://github.com/bitrix24/b24icons/compare/v1.0.5...v2.0.1) (2025-05-07)
+## [2.0.1](https://github.com/bitrix24/b24icons/compare/v1.0.5...v2.0.1) (2025-06-02)
 
 ### Features
 
 - **Icons:** add many icons for new interface
+- **Cataloging:** added script for automation of categorization. Waiting for results
 
 ### Bug Fixes
 
 - **build:** fix sort
-- fix(build): improve import
+- **build:** improve import
 
 ## Docs
 
