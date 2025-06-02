@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import IconView from "../icons/IconView.vue";
-import type {InfoIconRow} from '../../types'
+import IconView from '../icons/IconView.vue'
+import type { InfoIconRow } from '../../types'
 
 defineProps<{
   icons: InfoIconRow[]

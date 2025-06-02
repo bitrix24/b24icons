@@ -1,20 +1,20 @@
 <script setup lang="ts">
-import { B24Icon } from "@bitrix24/b24icons-vue";
-import { useSlideover } from "../../composables/useSlideover";
-import type { InfoIconRow } from "../../types";
-import SlideoverIcon from "./SlideoverIcon.vue";
+import { B24Icon } from '@bitrix24/b24icons-vue'
+import type { InfoIconRow } from '../../types'
+import IconSlideover from './IconSlideover.vue'
 
 const props = defineProps<{
   icon: InfoIconRow
 }>()
 
-const slideover = useSlideover()
+const overlay = useOverlay()
+const slideover = overlay.create(IconSlideover, {
+  props: {}
+})
 
-function openSlideover ()
-{
-  slideover.open(SlideoverIcon, {
-    icon: props.icon,
-    onClose: slideover.close
+function openSlideover() {
+  slideover.open({
+    icon: props.icon
   })
 }
 </script>

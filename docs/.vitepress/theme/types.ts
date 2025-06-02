@@ -42,18 +42,3 @@ export type ComponentEmit<T> =
   T extends new () => {$emit: infer E} ? NonNullable<E> :
     T extends (props: any, ctx: {slots: any; attrs: any; emit: infer E}, ...args: any) => any ? NonNullable<E> :
       {}
-
-export interface Slideover {
-  ui?: any
-  side?: 'right'|'left'
-  transition?: boolean
-  appear?: boolean
-  overlay?: boolean
-  preventClose?: boolean
-  modelValue?: boolean
-}
-
-export interface SlideoverState {
-  component: Component|string
-  props: Slideover
-}

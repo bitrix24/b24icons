@@ -8,8 +8,6 @@ import bitrix24UIPlugin from '@bitrix24/b24ui-nuxt/vue-plugin'
 import Layout from './components/ui/Layout.vue'
 import ComponentShowExample from './components/ui/ComponentShowExample.vue'
 import VPBadge from 'vitepress/dist/client/theme-default/components/VPBadge.vue'
-import { slidOverInjectionKey } from './composables/useSlideover'
-import type { SlideoverState } from './types'
 import 'vitepress/dist/client/theme-default/styles/fonts.css'
 import './tailwind.css'
 // region ory theme ////
@@ -28,13 +26,6 @@ export default {
     app.component('Badge', VPBadge)
       .component('ComponentShowExample', ComponentShowExample)
     // endregion ////
-
-    const slideoverState = shallowRef<SlideoverState>({
-      component: 'div',
-      props: {}
-    })
-
-    app.provide(slidOverInjectionKey, slideoverState)
 
     app.use(bitrix24UIPlugin)
   }

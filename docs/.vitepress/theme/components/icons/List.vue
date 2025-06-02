@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import {computed, ref, onMounted, watch} from 'vue'
+import { computed, ref, onMounted, watch } from 'vue'
 import StickyContainer from '../ui/StickyContainer.vue';
 import SearchInput from '../ui/SearchInput.vue';
 import Grid from '../ui/Grid.vue';
 import EmptyList from './EmptyList.vue';
-import type {GroupRow, InfoIconRow} from '../../types'
-import {useElementSize, useEventListener, useVirtualList} from '@vueuse/core'
+import type { GroupRow, InfoIconRow } from '../../types'
+import { useElementSize, useEventListener, useVirtualList } from '@vueuse/core'
 import useDynamicFilter from '../../composables/useDynamicFilter'
 import splitIntoChunks from "../../utils/splitIntoChunks"
 import useSearchInput from "../../composables/useSearchInput";
@@ -17,8 +17,8 @@ const props = defineProps<{
   groups: GroupRow[]
 }>()
 
-const containerRef = ref<HTMLElement|null>(null)
-const {width: containerWidth} = useElementSize(containerRef)
+const containerRef = ref<HTMLElement | null>(null)
+const { width: containerWidth } = useElementSize(containerRef)
 
 const columnSize = computed(() => {
   return Math.floor(
@@ -28,11 +28,9 @@ const columnSize = computed(() => {
 
 const iconList = computed(() => {
   let result: InfoIconRow[] = [];
-  for(const group of props.groups)
-  {
+  for (const group of props.groups) {
     result = result.concat(
-      group.list.map((item: InfoIconRow) =>
-      {
+      group.list.map((item: InfoIconRow) => {
         return Object.assign(
           {},
           item,
@@ -56,20 +54,19 @@ const filteredIcons = useDynamicFilter(
   searchQuery,
   iconList,
   [
-    {name: 'code'},
-    {name: 'name'},
-    {name: 'subCategories'}
+    { name: 'code' },
+    { name: 'name' },
+    { name: 'subCategories' }
   ]
 )
 
-const chunkedItems = computed(() =>
-{
+const chunkedItems = computed(() => {
   return splitIntoChunks(
     filteredIcons.value, columnSize.value
   )
 })
 
-const {list, containerProps, wrapperProps, scrollTo} = useVirtualList(
+const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
   chunkedItems,
   {
     itemHeight: ICON_SIZE + ICON_GRID_GAP,
