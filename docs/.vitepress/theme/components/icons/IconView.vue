@@ -24,7 +24,7 @@ function openSlideover() {
     class="group/block outline-none"
     @click="openSlideover"
   >
-    <div class="relative h-[115px] w-full rounded-lg border border-base-100 ring-none ring-offset-2 ring-info-background-on ring-offset-white group-hover/block:border-info group-focus-within/block:ring dark:group-focus/block:ring-offset-[#0f172a] group-focus/block:border-0">
+    <div class="relative h-[115px] w-full rounded border border-base-100 ring-none ring-offset-2 ring-info-background-on ring-offset-white group-hover/block:border-info group-focus-within/block:ring dark:group-focus/block:ring-offset-[#0f172a] group-focus/block:border-0">
       <div class="absolute z-10 inset-0 flex h-full w-full items-center justify-center icon-wrapper text-base-900 dark:text-base-300">
         <KeepAlive>
           <B24Icon
