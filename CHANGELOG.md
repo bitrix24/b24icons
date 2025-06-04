@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.2](https://github.com/bitrix24/b24icons/compare/v2.0.1...v2.0.2) (2025-06-04)
+
+### Bug Fixes
+
+- **specialized:** meta info restore
+
+### Chore
+
+- **deps:** improve
+- **cjs:** removed from support
+
 ## [2.0.1](https://github.com/bitrix24/b24icons/compare/v1.0.5...v2.0.1) (2025-06-02)
 
 ### Features
