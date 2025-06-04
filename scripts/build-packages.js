@@ -76,13 +76,13 @@ function build() {
   execSync(`npx cross-env NODE_ENV=production npx esbuild ${ inputFiles } --format=esm --outdir=${ DST } --outbase=${ SRC } --minify --define:__DEV__="false" ${ sharedOptions.join(' ') }`);
   execSync(`npx cross-env NODE_ENV=production npx esbuild ${ input } --format=esm --outfile=${ DST }/${ name }.esm.js --outbase=${ SRC } --minify --define:__DEV__="false" ${ sharedOptions.join(' ') }`);
 // CommonJS Build
-  execSync(`npx cross-env NODE_ENV=development npx esbuild ${ input } --format=cjs --outfile=${ DST }/${ name }.js --minify --bundle --define:__DEV__="true" ${ sharedOptions.join(' ') }  ${ additionalArgs }`);
+//  execSync(`npx cross-env NODE_ENV=development npx esbuild ${ input } --format=cjs --outfile=${ DST }/${ name }.js --minify --bundle --define:__DEV__="true" ${ sharedOptions.join(' ') }  ${ additionalArgs }`);
 
 // Generate ESM types
   execSync(`tsc --emitDeclarationOnly --outDir ${ DST }`);
 
 // Generate CJS types
-  fs.copyFileSync(`${ DST }/index.d.ts`, `${ DST }/index.d.cts`);
+//  fs.copyFileSync(`${ DST }/index.d.ts`, `${ DST }/index.d.cts`);
 
 // Rewrite ESM imports
   rewriteImports(DST, '/**/*.js');

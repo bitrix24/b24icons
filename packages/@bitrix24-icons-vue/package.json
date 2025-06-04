@@ -31,8 +31,7 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/bitrix24icons.esm.js",
-      "require": "./dist/bitrix24icons.js"
+      "import": "./dist/bitrix24icons.esm.js"
     },
     "./package.json": {
       "default": "./package.json"
@@ -52,200 +51,70 @@
       "default": "./components/*.js"
     },
     "./actions": {
-      "types": "./dist/actions/index.d.ts",
-      "import": "./dist/actions/esm/index.js",
-      "require": "./dist/actions/index.js"
+      "types": "./dist/actions/esm/index.d.ts",
+      "import": "./dist/actions/esm/index.js"
     },
-    "./actions/*": {
-      "types": "./dist/actions/*.d.ts",
-      "import": "./dist/actions/esm/*",
-      "require": "./dist/actions/*"
-    },
-    "./actions/*.js": {
-      "types": "./dist/actions/*.d.ts",
-      "import": "./dist/actions/esm/*.js",
-      "require": "./dist/actions/*.js"
-    },
+    "./actions/*": "./dist/actions/esm/*.js",
     "./animated": {
-      "types": "./dist/animated/index.d.ts",
-      "import": "./dist/animated/esm/index.js",
-      "require": "./dist/animated/index.js"
+      "types": "./dist/animated/esm/index.d.ts",
+      "import": "./dist/animated/esm/index.js"
     },
-    "./animated/*": {
-      "types": "./dist/animated/*.d.ts",
-      "import": "./dist/animated/esm/*",
-      "require": "./dist/animated/*"
-    },
-    "./animated/*.js": {
-      "types": "./dist/animated/*.d.ts",
-      "import": "./dist/animated/esm/*.js",
-      "require": "./dist/animated/*.js"
-    },
+    "./animated/*": "./dist/animated/esm/*.js",
     "./contact-center": {
-      "types": "./dist/contact-center/index.d.ts",
-      "import": "./dist/contact-center/esm/index.js",
-      "require": "./dist/contact-center/index.js"
+      "types": "./dist/contact-center/esm/index.d.ts",
+      "import": "./dist/contact-center/esm/index.js"
     },
-    "./contact-center/*": {
-      "types": "./dist/contact-center/*.d.ts",
-      "import": "./dist/contact-center/esm/*",
-      "require": "./dist/contact-center/*"
-    },
-    "./contact-center/*.js": {
-      "types": "./dist/contact-center/*.d.ts",
-      "import": "./dist/contact-center/esm/*.js",
-      "require": "./dist/contact-center/*.js"
-    },
+    "./contact-center/*": "./dist/contact-center/esm/*.js",
     "./crm": {
-      "types": "./dist/crm/index.d.ts",
-      "import": "./dist/crm/esm/index.js",
-      "require": "./dist/crm/index.js"
+      "types": "./dist/crm/esm/index.d.ts",
+      "import": "./dist/crm/esm/index.js"
     },
-    "./crm/*": {
-      "types": "./dist/crm/*.d.ts",
-      "import": "./dist/crm/esm/*",
-      "require": "./dist/crm/*"
-    },
-    "./crm/*.js": {
-      "types": "./dist/crm/*.d.ts",
-      "import": "./dist/crm/esm/*.js",
-      "require": "./dist/crm/*.js"
-    },
+    "./crm/*": "./dist/crm/esm/*.js",
     "./editor": {
-      "types": "./dist/editor/index.d.ts",
-      "import": "./dist/editor/esm/index.js",
-      "require": "./dist/editor/index.js"
+      "types": "./dist/editor/esm/index.d.ts",
+      "import": "./dist/editor/esm/index.js"
     },
-    "./editor/*": {
-      "types": "./dist/editor/*.d.ts",
-      "import": "./dist/editor/esm/*",
-      "require": "./dist/editor/*"
-    },
-    "./editor/*.js": {
-      "types": "./dist/editor/*.d.ts",
-      "import": "./dist/editor/esm/*.js",
-      "require": "./dist/editor/*.js"
-    },
+    "./editor/*": "./dist/editor/esm/*.js",
     "./main": {
-      "types": "./dist/main/index.d.ts",
-      "import": "./dist/main/esm/index.js",
-      "require": "./dist/main/index.js"
+      "types": "./dist/main/esm/index.d.ts",
+      "import": "./dist/main/esm/index.js"
     },
-    "./main/*": {
-      "types": "./dist/main/*.d.ts",
-      "import": "./dist/main/esm/*",
-      "require": "./dist/main/*"
-    },
-    "./main/*.js": {
-      "types": "./dist/main/*.d.ts",
-      "import": "./dist/main/esm/*.js",
-      "require": "./dist/main/*.js"
-    },
+    "./main/*": "./dist/main/esm/*.js",
     "./social": {
-      "types": "./dist/social/index.d.ts",
-      "import": "./dist/social/esm/index.js",
-      "require": "./dist/social/index.js"
+      "types": "./dist/social/esm/index.d.ts",
+      "import": "./dist/social/esm/index.js"
     },
-    "./social/*": {
-      "types": "./dist/social/*.d.ts",
-      "import": "./dist/social/esm/*",
-      "require": "./dist/social/*"
-    },
-    "./social/*.js": {
-      "types": "./dist/social/*.d.ts",
-      "import": "./dist/social/esm/*.js",
-      "require": "./dist/social/*.js"
-    },
+    "./social/*": "./dist/social/esm/*.js",
     "./button-specialized": {
-      "types": "./dist/button-specialized/index.d.ts",
-      "import": "./dist/button-specialized/esm/index.js",
-      "require": "./dist/button-specialized/index.js"
+      "types": "./dist/button-specialized/esm/index.d.ts",
+      "import": "./dist/button-specialized/esm/index.js"
     },
-    "./button-specialized/*": {
-      "types": "./dist/button-specialized/*.d.ts",
-      "import": "./dist/button-specialized/esm/*",
-      "require": "./dist/button-specialized/*"
-    },
-    "./button-specialized/*.js": {
-      "types": "./dist/button-specialized/*.d.ts",
-      "import": "./dist/button-specialized/esm/*.js",
-      "require": "./dist/button-specialized/*.js"
-    },
+    "./button-specialized/*": "./dist/button-specialized/esm/*.js",
     "./button": {
-      "types": "./dist/button/index.d.ts",
-      "import": "./dist/button/esm/index.js",
-      "require": "./dist/button/index.js"
+      "types": "./dist/button/esm/index.d.ts",
+      "import": "./dist/button/esm/index.js"
     },
-    "./button/*": {
-      "types": "./dist/button/*.d.ts",
-      "import": "./dist/button/esm/*",
-      "require": "./dist/button/*"
-    },
-    "./button/*.js": {
-      "types": "./dist/button/*.d.ts",
-      "import": "./dist/button/esm/*.js",
-      "require": "./dist/button/*.js"
-    },
+    "./button/*": "./dist/button/esm/*.js",
     "./common-service": {
-      "types": "./dist/common-service/index.d.ts",
-      "import": "./dist/common-service/esm/index.js",
-      "require": "./dist/common-service/index.js"
+      "types": "./dist/common-service/esm/index.d.ts",
+      "import": "./dist/common-service/esm/index.js"
     },
-    "./common-service/*": {
-      "types": "./dist/common-service/*.d.ts",
-      "import": "./dist/common-service/esm/*",
-      "require": "./dist/common-service/*"
-    },
-    "./common-service/*.js": {
-      "types": "./dist/common-service/*.d.ts",
-      "import": "./dist/common-service/esm/*.js",
-      "require": "./dist/common-service/*.js"
-    },
+    "./common-service/*": "./dist/common-service/esm/*.js",
     "./common-b24": {
-      "types": "./dist/common-b24/index.d.ts",
-      "import": "./dist/common-b24/esm/index.js",
-      "require": "./dist/common-b24/index.js"
+      "types": "./dist/common-b24/esm/index.d.ts",
+      "import": "./dist/common-b24/esm/index.js"
     },
-    "./common-b24/*": {
-      "types": "./dist/common-b24/*.d.ts",
-      "import": "./dist/common-b24/esm/*",
-      "require": "./dist/common-b24/*"
-    },
-    "./common-b24/*.js": {
-      "types": "./dist/common-b24/*.d.ts",
-      "import": "./dist/common-b24/esm/*.js",
-      "require": "./dist/common-b24/*.js"
-    },
+    "./common-b24/*": "./dist/common-b24/esm/*.js",
     "./specialized": {
-      "types": "./dist/specialized/index.d.ts",
-      "import": "./dist/specialized/esm/index.js",
-      "require": "./dist/specialized/index.js"
+      "types": "./dist/specialized/esm/index.d.ts",
+      "import": "./dist/specialized/esm/index.js"
     },
-    "./specialized/*": {
-      "types": "./dist/specialized/*.d.ts",
-      "import": "./dist/specialized/esm/*",
-      "require": "./dist/specialized/*"
-    },
-    "./specialized/*.js": {
-      "types": "./dist/specialized/*.d.ts",
-      "import": "./dist/specialized/esm/*.js",
-      "require": "./dist/specialized/*.js"
-    },
+    "./specialized/*": "./dist/specialized/esm/*.js",
     "./outline": {
-      "types": "./dist/outline/index.d.ts",
-      "import": "./dist/outline/esm/index.js",
-      "require": "./dist/outline/index.js"
+      "types": "./dist/outline/esm/index.d.ts",
+      "import": "./dist/outline/esm/index.js"
     },
-    "./outline/*": {
-      "types": "./dist/outline/*.d.ts",
-      "import": "./dist/outline/esm/*",
-      "require": "./dist/outline/*"
-    },
-    "./outline/*.js": {
-      "types": "./dist/outline/*.d.ts",
-      "import": "./dist/outline/esm/*.js",
-      "require": "./dist/outline/*.js"
-    }
+    "./outline/*": "./dist/outline/esm/*.js"
   },
   "typesVersions": {
     "*": {

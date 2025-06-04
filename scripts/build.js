@@ -356,8 +356,7 @@ async function buildExports(styles) {
   // To appease Vite's optimizeDeps feature which requires a root-level import
   pkg[`.`] = {
     types: `./dist/index.d.ts`,
-    import: `./dist/bitrix24icons.esm.js`,
-    require: `./dist/bitrix24icons.js`,
+    import: `./dist/bitrix24icons.esm.js`
   }
 
   // For those that want to read the version from package.json
@@ -379,22 +378,11 @@ async function buildExports(styles) {
   // Explicit exports for each style:
   for (let style of styles) {
     pkg[`./${ style }`] = {
-      types: `./dist/${ style }/index.d.ts`,
-      import: `./dist/${ style }/esm/index.js`,
-      require: `./dist/${ style }/index.js`,
+      types: `./dist/${ style }/esm/index.d.ts`,
+      import: `./dist/${ style }/esm/index.js`
     }
 
-    pkg[`./${ style }/*`] = {
-      types: `./dist/${ style }/*.d.ts`,
-      import: `./dist/${ style }/esm/*`,
-      require: `./dist/${ style }/*`,
-    }
-
-    pkg[`./${ style }/*.js`] = {
-      types: `./dist/${ style }/*.d.ts`,
-      import: `./dist/${ style }/esm/*.js`,
-      require: `./dist/${ style }/*.js`,
-    }
+    pkg[`./${ style }/*`] = `./dist/${ style }/esm/*.js`
   }
 
   return pkg
@@ -431,17 +419,17 @@ async function main(
   // endregion ////
 
   // region build icons ////
-  const cjsPackageJson = { module: './esm/index.js', sideEffects: false }
+  // const cjsPackageJson = { module: './esm/index.js', sideEffects: false }
   const esmPackageJson = { type: 'module', sideEffects: false }
 
   await Promise.all([
     ...(typeList.map(async (type) => {
       return [
-        await buildIcons(
-          pack,
-          type,
-          'cjs'
-        ),
+        // await buildIcons(
+        //   pack,
+        //   type,
+        //   'cjs'
+        // ),
         await buildIcons(
           pack,
           type,
@@ -452,7 +440,7 @@ async function main(
     ...(typeList.map((type) => {
       return [
         ensureWriteJson(`./packages/${ pack }/dist/${ type }/esm/package.json`, esmPackageJson),
-        ensureWriteJson(`./packages/${ pack }/dist/${ type }/package.json`, cjsPackageJson),
+        // ensureWriteJson(`./packages/${ pack }/dist/${ type }/package.json`, cjsPackageJson),
       ];
     }))
   ])
@@ -480,7 +468,7 @@ async function main(
     }
 
     const iconMetaDataFileEsm = `./packages/${ pack }/dist/${ type }/esm/metadata.json`;
-    const iconMetaDataFile = `./packages/${ pack }/dist/${ type }/metadata.json`;
+    // const iconMetaDataFile = `./packages/${ pack }/dist/${ type }/metadata.json`;
 
     const metaDataPackageJson = JSON.parse(await fs.readFile(
       iconMetaDataFileEsm,
@@ -519,7 +507,7 @@ async function main(
 
     metaDataInfoJson.list.push(typeRow)
 
-    await rimraf(iconMetaDataFile, { glob: true })
+    // await rimraf(iconMetaDataFile, { glob: true })
     await rimraf(iconMetaDataFileEsm, { glob: true })
   }
 
