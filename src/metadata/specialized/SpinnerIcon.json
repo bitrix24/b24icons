@@ -4,5 +4,9 @@
   "updatedAt": null,
   "category": "Specialized",
   "subCategories": [],
-  "labels": []
+  "labels": [],
+  "specialized": {
+    "animateSpinNormal": true,
+    "stroke": "stroke-normal"
+  }
 }

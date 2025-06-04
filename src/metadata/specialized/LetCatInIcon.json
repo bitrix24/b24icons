@@ -4,5 +4,6 @@
   "updatedAt": null,
   "category": "Specialized",
   "subCategories": [],
-  "labels": []
+  "labels": [],
+  "specialized": {}
 }

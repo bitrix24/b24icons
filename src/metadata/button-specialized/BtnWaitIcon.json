@@ -4,5 +4,9 @@
   "updatedAt": null,
   "category": "ButtonSpecialized",
   "subCategories": [],
-  "labels": []
+  "labels": [],
+  "specialized": {
+    "width": "w-[21px]",
+    "height": "h-[21px]"
+  }
 }

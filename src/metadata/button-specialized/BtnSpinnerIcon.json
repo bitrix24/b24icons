@@ -4,5 +4,8 @@
   "updatedAt": null,
   "category": "ButtonSpecialized",
   "subCategories": [],
-  "labels": []
+  "labels": [],
+  "specialized": {
+    "animateSpin": true
+  }
 }
