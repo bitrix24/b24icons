@@ -21,7 +21,7 @@ const slots = defineSlots<ExampleSlots>()
     >
       <slot name="actions" />
     </div>
-    <div class="w-full relative rounded-lg overflow-hidden bg-tertiary/10 dark:bg-tertiary/5">
+    <div class="w-full relative rounded overflow-hidden bg-tertiary/10 dark:bg-tertiary/5">
       <div
         style="background-position: 10px 10px"
         class="
@@ -44,14 +44,7 @@ const slots = defineSlots<ExampleSlots>()
       <div class="isolate relative p-4 min-h-40 w-full h-full flex flex-col flex-nowrap justify-center items-center gap-4">
         <slot />
       </div>
-      <div
-        class="
-          pointer-events-none
-          absolute rounded-lg inset-0
-          border
-          border-black/5 dark:border-white/5
-        "
-      />
+      <div class="pointer-events-none absolute rounded inset-0 border  border-black/5 dark:border-white/5" />
     </div>
   </div>
 </template>
