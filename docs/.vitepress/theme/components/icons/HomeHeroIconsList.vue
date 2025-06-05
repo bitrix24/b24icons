@@ -44,6 +44,11 @@ function startInterval() {
   }, time)
 }
 
+function stopInterval() {
+  clearInterval(intervalTime.value)
+  intervalTime.value = 0
+}
+
 onMounted(() => {
   window.addEventListener('mousemove', startInterval, { once: true })
   if( document.visibilityState !== "hidden" ) {
@@ -52,7 +57,7 @@ onMounted(() => {
 
   document.addEventListener("visibilitychange", () => {
     if (document.hidden) {
-      clearInterval(intervalTime.value)
+      stopInterval()
       console.log('>> stop randomize icons: visibilitychange')
     } else {
       startInterval()
@@ -61,7 +66,7 @@ onMounted(() => {
 })
 
 onBeforeUnmount(() => {
-  clearInterval(intervalTime.value)
+  stopInterval()
   console.log('>> stop randomize icons: onBeforeUnmount')
 })
 </script>
