@@ -15,6 +15,7 @@
   "dependencies": {
     "@vueuse/core": "^13.3.0",
     "vue": "^3.5.16",
-    "fuse.js": "^7.1.0"
+    "fuse.js": "^7.1.0",
+    "lodash-es": "^4.17.21"
   }
 }

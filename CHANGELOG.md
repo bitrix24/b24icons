@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.0.3](https://github.com/bitrix24/b24icons/compare/v2.0.2...v2.0.3) (2025-06-xx)
+
+### Docs
+
+- **hero:** improve demo
+
 ## [2.0.2](https://github.com/bitrix24/b24icons/compare/v2.0.1...v2.0.2) (2025-06-04)
 
 ### Bug Fixes
