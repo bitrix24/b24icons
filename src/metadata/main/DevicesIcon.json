@@ -1,8 +1,10 @@
 {
   "id": "DevicesIcon",
   "fileName": "devices.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.346Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Phone"
+  ],
   "labels": []
 }

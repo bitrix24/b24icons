@@ -1,8 +1,10 @@
 {
   "id": "WindowDoubleCheck1Icon",
   "fileName": "window-double-check-1.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.170Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Window"
+  ],
   "labels": []
 }

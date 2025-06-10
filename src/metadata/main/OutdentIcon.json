@@ -1,8 +1,12 @@
 {
   "id": "OutdentIcon",
   "fileName": "outdent.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.534Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Arrow",
+    "Menu",
+    "Settings"
+  ],
   "labels": []
 }

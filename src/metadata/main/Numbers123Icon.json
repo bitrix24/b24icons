@@ -1,8 +1,10 @@
 {
   "id": "Numbers123Icon",
   "fileName": "numbers-123.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.072Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Math"
+  ],
   "labels": []
 }

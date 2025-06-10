@@ -1,8 +1,11 @@
 {
   "id": "FunnelIcon",
   "fileName": "funnel.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.896Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Filter",
+    "Todo"
+  ],
   "labels": []
 }

@@ -1,8 +1,11 @@
 {
   "id": "CloudLetterPostIcon",
   "fileName": "cloud-letter-post.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.396Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Cloud",
+    "Post"
+  ],
   "labels": []
 }

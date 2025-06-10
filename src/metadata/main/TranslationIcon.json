@@ -1,8 +1,10 @@
 {
   "id": "TranslationIcon",
   "fileName": "translation.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.952Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Logo"
+  ],
   "labels": []
 }

@@ -1,8 +1,10 @@
 {
   "id": "SignalWifiOffIcon",
   "fileName": "signal-wifi-off.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.122Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Wifi"
+  ],
   "labels": []
 }

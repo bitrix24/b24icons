@@ -1,8 +1,10 @@
 {
   "id": "PaymentTerminalIcon",
   "fileName": "payment-terminal.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.018Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Marketing"
+  ],
   "labels": []
 }

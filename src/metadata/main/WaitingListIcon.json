@@ -1,8 +1,10 @@
 {
   "id": "WaitingListIcon",
   "fileName": "waiting-list.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.109Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Waiting"
+  ],
   "labels": []
 }

@@ -1,8 +1,10 @@
 {
   "id": "CreditDebitCardIcon",
   "fileName": "credit-debit-card.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.987Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Marketing"
+  ],
   "labels": []
 }

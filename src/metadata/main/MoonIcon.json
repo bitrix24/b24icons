@@ -1,8 +1,10 @@
 {
   "id": "MoonIcon",
   "fileName": "moon.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.516Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Settings"
+  ],
   "labels": []
 }

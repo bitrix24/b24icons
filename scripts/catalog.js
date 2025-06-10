@@ -7,6 +7,7 @@ import camelcase from "camelcase";
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
 const CONFIG = {
+  MATRIX_TRUNCATE: true,
   ICONS_ROOT: path.join(__dirname, '../src/icons'),
   META_ROOT: path.join(__dirname, '../src/metadata'),
   MATRIX_DIR: path.join(__dirname, '../src/matrix'),
@@ -18,6 +19,10 @@ async function catalogIcons() {
     await setupEnvironment();
     await processMainCategories();
     await processMatrixCategories();
+    if (CONFIG.MATRIX_TRUNCATE) {
+      await truncateMatrixFiles();
+    }
+
     console.log('✅ Cataloging completed successfully!');
   } catch (error) {
     console.error(`❌ Critical errorа: ${error.message}`);
@@ -77,6 +82,24 @@ async function processMatrixCategories() {
       } else {
         console.warn(`⚠️ Meta file not found for ${iconName} in the matrix category ${matrixCat}`);
       }
+    }
+  }
+}
+
+async function truncateMatrixFiles() {
+  console.log('⏳ Truncating matrix files...');
+  const matrixCategories = await getDirectoryList(CONFIG.MATRIX_DIR);
+
+  for (const matrixCat of matrixCategories) {
+    const matrixCatPath = path.join(CONFIG.MATRIX_DIR, matrixCat);
+    const files = await fs.readdir(matrixCatPath);
+
+    for (const file of files) {
+      if (file.startsWith('.') || !/\.(svg)$/i.test(file)) continue;
+
+      const filePath = path.join(matrixCatPath, file);
+      await fs.writeFile(filePath, '');
+      console.log(`♻️ Truncated: ${path.relative(CONFIG.MATRIX_DIR, filePath)}`);
     }
   }
 }

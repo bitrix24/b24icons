@@ -1,8 +1,12 @@
 {
   "id": "WatchIcon",
   "fileName": "watch.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.115Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Circle",
+    "Time",
+    "Waiting"
+  ],
   "labels": []
 }

@@ -1,8 +1,10 @@
 {
   "id": "SignIcon",
   "fileName": "sign.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.003Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Todo"
+  ],
   "labels": []
 }

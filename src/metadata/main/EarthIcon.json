@@ -1,8 +1,10 @@
 {
   "id": "EarthIcon",
   "fileName": "earth.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.708Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Earth"
+  ],
   "labels": []
 }

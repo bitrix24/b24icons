@@ -1,8 +1,11 @@
 {
   "id": "PersonDescendingIcon",
   "fileName": "person-descending.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.953Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Person",
+    "Todo"
+  ],
   "labels": []
 }

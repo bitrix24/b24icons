@@ -1,8 +1,10 @@
 {
   "id": "Shield2ContourIcon",
   "fileName": "shield-2-contour.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.479Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Security"
+  ],
   "labels": []
 }

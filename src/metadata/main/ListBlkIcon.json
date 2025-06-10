@@ -1,8 +1,10 @@
 {
   "id": "ListBlkIcon",
   "fileName": "list-blk.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.856Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "File"
+  ],
   "labels": []
 }

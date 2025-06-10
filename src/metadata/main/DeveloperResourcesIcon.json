@@ -1,8 +1,10 @@
 {
   "id": "DeveloperResourcesIcon",
   "fileName": "developer-resources.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.596Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Code"
+  ],
   "labels": []
 }

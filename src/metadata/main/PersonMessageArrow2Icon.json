@@ -1,8 +1,11 @@
 {
   "id": "PersonMessageArrow2Icon",
   "fileName": "person-message-arrow-2.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.295Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Chat",
+    "Person"
+  ],
   "labels": []
 }

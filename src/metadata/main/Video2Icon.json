@@ -1,8 +1,10 @@
 {
   "id": "Video2Icon",
   "fileName": "video-2.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.077Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Video"
+  ],
   "labels": []
 }

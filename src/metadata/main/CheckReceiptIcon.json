@@ -1,8 +1,10 @@
 {
   "id": "CheckReceiptIcon",
   "fileName": "check-receipt.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.984Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Marketing"
+  ],
   "labels": []
 }

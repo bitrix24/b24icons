@@ -1,8 +1,11 @@
 {
   "id": "EditMenuIcon",
   "fileName": "edit-menu.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.098Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Draw",
+    "Menu"
+  ],
   "labels": []
 }

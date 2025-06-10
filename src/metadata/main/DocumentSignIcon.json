@@ -1,8 +1,11 @@
 {
   "id": "DocumentSignIcon",
   "fileName": "document-sign.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.774Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Draw",
+    "File"
+  ],
   "labels": []
 }

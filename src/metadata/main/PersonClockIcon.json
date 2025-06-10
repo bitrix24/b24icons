@@ -1,8 +1,10 @@
 {
   "id": "PersonClockIcon",
   "fileName": "person-clock.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.269Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Person"
+  ],
   "labels": []
 }

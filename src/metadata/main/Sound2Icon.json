@@ -1,8 +1,10 @@
 {
   "id": "Sound2Icon",
   "fileName": "sound-2.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.600Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Sound"
+  ],
   "labels": []
 }

@@ -1,8 +1,10 @@
 {
   "id": "LowWiFiIcon",
   "fileName": "low-wi-fi.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.118Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Wifi"
+  ],
   "labels": []
 }

@@ -1,8 +1,12 @@
 {
   "id": "BoldSparkleIcon",
   "fileName": "light-bold-sparkle.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.928Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Energy",
+    "Objects",
+    "Todo"
+  ],
   "labels": []
 }

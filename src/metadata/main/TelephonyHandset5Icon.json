@@ -1,8 +1,10 @@
 {
   "id": "TelephonyHandset5Icon",
   "fileName": "telephony-handset-5.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.387Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Phone"
+  ],
   "labels": []
 }

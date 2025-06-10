@@ -1,8 +1,10 @@
 {
   "id": "DemonstrationGraphicsIcon",
   "fileName": "demonstration-graphics.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.797Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Todo"
+  ],
   "labels": []
 }

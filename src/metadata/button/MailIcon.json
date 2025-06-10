@@ -1,8 +1,10 @@
 {
   "id": "MailIcon",
   "fileName": "ui-mail-black.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.406Z",
   "category": "Button",
-  "subCategories": [],
+  "subCategories": [
+    "Post"
+  ],
   "labels": []
 }

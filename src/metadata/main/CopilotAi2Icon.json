@@ -1,8 +1,10 @@
 {
   "id": "CopilotAi2Icon",
   "fileName": "copilot-ai-2.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.118Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Ai"
+  ],
   "labels": []
 }

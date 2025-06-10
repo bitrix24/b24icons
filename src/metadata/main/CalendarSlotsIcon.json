@@ -1,8 +1,10 @@
 {
   "id": "CalendarSlotsIcon",
   "fileName": "calendar-slots.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.775Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Todo"
+  ],
   "labels": []
 }

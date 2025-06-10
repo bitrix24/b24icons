@@ -1,8 +1,10 @@
 {
   "id": "SpeakerphoneIcon",
   "fileName": "speakerphone.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.616Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Sound"
+  ],
   "labels": []
 }

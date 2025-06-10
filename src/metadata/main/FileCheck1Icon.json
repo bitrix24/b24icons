@@ -1,8 +1,11 @@
 {
   "id": "FileCheck1Icon",
   "fileName": "file-check-1.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.800Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Complete",
+    "File"
+  ],
   "labels": []
 }

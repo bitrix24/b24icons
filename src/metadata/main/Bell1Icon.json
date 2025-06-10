@@ -1,8 +1,10 @@
 {
   "id": "Bell1Icon",
   "fileName": "bell-1.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.558Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Sound"
+  ],
   "labels": []
 }

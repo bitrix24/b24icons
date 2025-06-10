@@ -1,8 +1,11 @@
 {
   "id": "LinkBoldIcon",
   "fileName": "link-bold.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.942Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Text",
+    "Todo"
+  ],
   "labels": []
 }

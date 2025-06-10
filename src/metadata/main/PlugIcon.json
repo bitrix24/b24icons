@@ -1,8 +1,10 @@
 {
   "id": "PlugIcon",
   "fileName": "plug.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.218Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Objects"
+  ],
   "labels": []
 }

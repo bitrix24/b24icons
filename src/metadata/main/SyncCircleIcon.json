@@ -1,8 +1,10 @@
 {
   "id": "SyncCircleIcon",
   "fileName": "sync-circle.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.503Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Circle"
+  ],
   "labels": []
 }

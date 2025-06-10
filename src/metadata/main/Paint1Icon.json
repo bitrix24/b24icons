@@ -1,8 +1,10 @@
 {
   "id": "Paint1Icon",
   "fileName": "paint-1.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.685Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Draw"
+  ],
   "labels": []
 }

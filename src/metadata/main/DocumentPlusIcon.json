@@ -1,8 +1,11 @@
 {
   "id": "DocumentPlusIcon",
   "fileName": "document-plus.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.771Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Add",
+    "File"
+  ],
   "labels": []
 }

@@ -1,8 +1,10 @@
 {
   "id": "PasteIcon",
   "fileName": "paste.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.642Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Text"
+  ],
   "labels": []
 }

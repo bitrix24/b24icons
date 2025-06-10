@@ -1,8 +1,12 @@
 {
   "id": "IndentIcon",
   "fileName": "indent.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.110Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Arrow",
+    "Left",
+    "Menu"
+  ],
   "labels": []
 }

@@ -1,8 +1,11 @@
 {
   "id": "Shield2TimeIcon",
   "fileName": "shield-2-time.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.696Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Security",
+    "Time"
+  ],
   "labels": []
 }

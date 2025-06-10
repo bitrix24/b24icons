@@ -1,8 +1,11 @@
 {
   "id": "WindowWithPointIcon",
   "fileName": "window-with-point.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.182Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Attention",
+    "Window"
+  ],
   "labels": []
 }

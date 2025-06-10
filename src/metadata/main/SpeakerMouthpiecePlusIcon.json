@@ -1,8 +1,11 @@
 {
   "id": "SpeakerMouthpiecePlusIcon",
   "fileName": "speaker-mouthpiece-plus.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.610Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Add",
+    "Sound"
+  ],
   "labels": []
 }

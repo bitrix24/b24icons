@@ -1,8 +1,10 @@
 {
   "id": "WindowCheckPencilIcon",
   "fileName": "window-check-pencil.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.164Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Window"
+  ],
   "labels": []
 }

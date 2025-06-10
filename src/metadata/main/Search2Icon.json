@@ -1,8 +1,10 @@
 {
   "id": "Search2Icon",
   "fileName": "search-2.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.649Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Text"
+  ],
   "labels": []
 }

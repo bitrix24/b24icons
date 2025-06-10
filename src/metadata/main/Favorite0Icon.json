@@ -1,8 +1,10 @@
 {
   "id": "Favorite0Icon",
   "fileName": "favorite-0.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.822Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Todo"
+  ],
   "labels": []
 }

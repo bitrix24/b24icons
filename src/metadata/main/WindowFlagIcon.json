@@ -1,8 +1,10 @@
 {
   "id": "WindowFlagIcon",
   "fileName": "window-flag.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.175Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Window"
+  ],
   "labels": []
 }

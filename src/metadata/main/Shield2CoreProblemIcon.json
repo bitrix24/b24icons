@@ -1,8 +1,10 @@
 {
   "id": "Shield2CoreProblemIcon",
   "fileName": "shield-2-core-problem.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.482Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Security"
+  ],
   "labels": []
 }

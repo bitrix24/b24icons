@@ -1,8 +1,10 @@
 {
   "id": "InfoIcon",
   "fileName": "ui-info-black.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.917Z",
   "category": "Button",
-  "subCategories": [],
+  "subCategories": [
+    "Information"
+  ],
   "labels": []
 }

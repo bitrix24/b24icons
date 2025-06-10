@@ -1,8 +1,10 @@
 {
   "id": "Battery1StickIcon",
   "fileName": "battery-1-stick.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.712Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Energy"
+  ],
   "labels": []
 }

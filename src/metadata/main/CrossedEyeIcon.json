@@ -1,8 +1,10 @@
 {
   "id": "CrossedEyeIcon",
   "fileName": "crossed-eye.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.059Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Video"
+  ],
   "labels": []
 }

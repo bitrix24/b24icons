@@ -1,8 +1,12 @@
 {
   "id": "BoldIcon",
   "fileName": "bold.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.931Z",
   "category": "Editor",
-  "subCategories": [],
+  "subCategories": [
+    "Energy",
+    "Objects",
+    "Todo"
+  ],
   "labels": []
 }

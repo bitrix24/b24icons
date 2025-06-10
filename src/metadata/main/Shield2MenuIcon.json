@@ -1,8 +1,11 @@
 {
   "id": "Shield2MenuIcon",
   "fileName": "shield-2-menu.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.488Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Add",
+    "Security"
+  ],
   "labels": []
 }

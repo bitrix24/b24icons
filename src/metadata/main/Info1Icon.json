@@ -1,8 +1,11 @@
 {
   "id": "Info1Icon",
   "fileName": "info-1.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.907Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Circle",
+    "Information"
+  ],
   "labels": []
 }

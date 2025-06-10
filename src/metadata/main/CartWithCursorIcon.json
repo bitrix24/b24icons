@@ -1,8 +1,10 @@
 {
   "id": "CartWithCursorIcon",
   "fileName": "cart-with-cursor.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.977Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Marketing"
+  ],
   "labels": []
 }

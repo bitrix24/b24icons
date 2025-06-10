@@ -1,8 +1,11 @@
 {
   "id": "HrAutomationIcon",
   "fileName": "hr-automation.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.916Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Person",
+    "Todo"
+  ],
   "labels": []
 }

@@ -1,8 +1,10 @@
 {
   "id": "EraserIcon",
   "fileName": "eraser.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.681Z",
   "category": "Editor",
-  "subCategories": [],
+  "subCategories": [
+    "Draw"
+  ],
   "labels": []
 }

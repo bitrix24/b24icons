@@ -1,8 +1,10 @@
 {
   "id": "DrawerIcon",
   "fileName": "drawer.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.008Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Marketing"
+  ],
   "labels": []
 }

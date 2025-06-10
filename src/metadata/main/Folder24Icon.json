@@ -1,8 +1,11 @@
 {
   "id": "Folder24Icon",
   "fileName": "folder-24.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.867Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "File",
+    "Todo"
+  ],
   "labels": []
 }

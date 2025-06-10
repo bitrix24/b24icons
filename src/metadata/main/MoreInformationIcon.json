@@ -1,8 +1,12 @@
 {
   "id": "MoreInformationIcon",
   "fileName": "more-information.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.520Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Information",
+    "Menu",
+    "Settings"
+  ],
   "labels": []
 }

@@ -1,8 +1,11 @@
 {
   "id": "ClockBlkWhtIcon",
   "fileName": "clock-blk-wht.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.661Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Circle",
+    "Time"
+  ],
   "labels": []
 }

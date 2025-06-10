@@ -1,8 +1,11 @@
 {
   "id": "TelephonyPhonebook2Icon",
   "fileName": "telephony-phonebook-2.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.030Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Person",
+    "Todo"
+  ],
   "labels": []
 }

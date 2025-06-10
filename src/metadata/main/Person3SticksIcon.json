@@ -1,8 +1,10 @@
 {
   "id": "Person3SticksIcon",
   "fileName": "person-3-sticks.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.239Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Person"
+  ],
   "labels": []
 }

@@ -1,8 +1,11 @@
 {
   "id": "PulseCircleIcon",
   "fileName": "pulse-circle.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.593Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Circle",
+    "Sound"
+  ],
   "labels": []
 }

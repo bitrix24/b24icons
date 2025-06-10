@@ -1,8 +1,10 @@
 {
   "id": "SettingsIcon",
   "fileName": "ui-service-settings.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.545Z",
   "category": "CommonService",
-  "subCategories": [],
+  "subCategories": [
+    "Settings"
+  ],
   "labels": []
 }

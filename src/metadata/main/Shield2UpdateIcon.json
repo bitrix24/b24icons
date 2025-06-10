@@ -1,8 +1,11 @@
 {
   "id": "Shield2UpdateIcon",
   "fileName": "shield-2-update.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.498Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Arrow",
+    "Security"
+  ],
   "labels": []
 }

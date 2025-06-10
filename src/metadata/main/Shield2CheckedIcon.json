@@ -1,8 +1,10 @@
 {
   "id": "Shield2CheckedIcon",
   "fileName": "shield-2-checked.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.476Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Security"
+  ],
   "labels": []
 }

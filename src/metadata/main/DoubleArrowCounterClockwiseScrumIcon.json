@@ -1,8 +1,10 @@
 {
   "id": "DoubleArrowCounterClockwiseScrumIcon",
   "fileName": "double-arrow-counter-clockwise-scrum.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.168Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Arrow"
+  ],
   "labels": []
 }

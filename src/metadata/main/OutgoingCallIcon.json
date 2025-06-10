@@ -1,8 +1,10 @@
 {
   "id": "OutgoingCallIcon",
   "fileName": "outgoing-call.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.359Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Phone"
+  ],
   "labels": []
 }

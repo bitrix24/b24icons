@@ -1,9 +1,12 @@
 {
   "id": "BtnClockIcon",
   "fileName": "btn-clock.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.101Z",
   "category": "ButtonSpecialized",
-  "subCategories": [],
+  "subCategories": [
+    "WaitAnimated",
+    "Waiting"
+  ],
   "labels": [],
   "specialized": {
     "width": "w-lg",

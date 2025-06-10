@@ -1,8 +1,11 @@
 {
   "id": "FlagWithCrossIcon",
   "fileName": "flag-with-cross.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.861Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Close",
+    "Todo"
+  ],
   "labels": []
 }

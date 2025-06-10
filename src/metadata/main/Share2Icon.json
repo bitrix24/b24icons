@@ -1,8 +1,10 @@
 {
   "id": "Share2Icon",
   "fileName": "share-2.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.238Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Arrow"
+  ],
   "labels": []
 }

@@ -1,8 +1,10 @@
 {
   "id": "Person2ChecksIcon",
   "fileName": "person-2-checks.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.235Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Person"
+  ],
   "labels": []
 }

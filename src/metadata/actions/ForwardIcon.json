@@ -1,8 +1,10 @@
 {
   "id": "ForwardIcon",
   "fileName": "forward.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.436Z",
   "category": "Actions",
-  "subCategories": [],
+  "subCategories": [
+    "Right"
+  ],
   "labels": []
 }

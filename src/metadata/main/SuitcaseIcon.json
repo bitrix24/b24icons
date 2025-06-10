@@ -1,8 +1,10 @@
 {
   "id": "SuitcaseIcon",
   "fileName": "suitcase.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.225Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Objects"
+  ],
   "labels": []
 }

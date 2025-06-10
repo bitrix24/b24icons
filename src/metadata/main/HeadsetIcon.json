@@ -1,8 +1,10 @@
 {
   "id": "HeadsetIcon",
   "fileName": "headset.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.567Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Sound"
+  ],
   "labels": []
 }

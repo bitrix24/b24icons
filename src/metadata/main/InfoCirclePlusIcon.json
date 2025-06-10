@@ -1,8 +1,12 @@
 {
   "id": "InfoCirclePlusIcon",
   "fileName": "info-circle-plus.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.911Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Add",
+    "Circle",
+    "Information"
+  ],
   "labels": []
 }

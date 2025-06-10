@@ -1,8 +1,10 @@
 {
   "id": "MagicWandIcon",
   "fileName": "magic-wand.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.894Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Filter"
+  ],
   "labels": []
 }

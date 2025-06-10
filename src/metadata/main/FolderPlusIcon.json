@@ -1,8 +1,12 @@
 {
   "id": "FolderPlusIcon",
   "fileName": "folder-plus.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.886Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Add",
+    "File",
+    "Todo"
+  ],
   "labels": []
 }

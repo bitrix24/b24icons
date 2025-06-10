@@ -1,8 +1,11 @@
 {
   "id": "ScreenIcon",
   "fileName": "screen-black-white.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.141Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Screenshot",
+    "Window"
+  ],
   "labels": []
 }

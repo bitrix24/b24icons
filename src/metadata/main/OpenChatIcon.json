@@ -1,8 +1,11 @@
 {
   "id": "OpenChatIcon",
   "fileName": "open-chat.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.137Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Chat",
+    "Window"
+  ],
   "labels": []
 }

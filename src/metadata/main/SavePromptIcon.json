@@ -1,8 +1,10 @@
 {
   "id": "SavePromptIcon",
   "fileName": "save-prompt.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.616Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Code"
+  ],
   "labels": []
 }

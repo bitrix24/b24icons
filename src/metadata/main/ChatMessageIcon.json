@@ -1,8 +1,10 @@
 {
   "id": "ChatMessageIcon",
   "fileName": "chat-message.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.311Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Chat"
+  ],
   "labels": []
 }

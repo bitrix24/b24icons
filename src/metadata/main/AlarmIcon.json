@@ -1,8 +1,11 @@
 {
   "id": "AlarmIcon",
   "fileName": "alarm.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.719Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Time",
+    "Todo"
+  ],
   "labels": []
 }

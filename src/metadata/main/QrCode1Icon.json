@@ -1,8 +1,10 @@
 {
   "id": "QrCode1Icon",
   "fileName": "qr-code-1.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.022Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Marketing"
+  ],
   "labels": []
 }

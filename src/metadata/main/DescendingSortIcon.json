@@ -1,8 +1,11 @@
 {
   "id": "DescendingSortIcon",
   "fileName": "descending-sort.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.094Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Down",
+    "Menu"
+  ],
   "labels": []
 }

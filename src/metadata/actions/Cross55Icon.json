@@ -1,8 +1,11 @@
 {
   "id": "Cross55Icon",
   "fileName": "cross-55.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.054Z",
   "category": "Actions",
-  "subCategories": [],
+  "subCategories": [
+    "Close",
+    "Math"
+  ],
   "labels": []
 }

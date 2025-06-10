@@ -1,8 +1,10 @@
 {
   "id": "EditPencilIcon",
   "fileName": "edit-pencil.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.678Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Draw"
+  ],
   "labels": []
 }

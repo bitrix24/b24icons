@@ -1,8 +1,10 @@
 {
   "id": "Barcode1Icon",
   "fileName": "barcode-1.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.970Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Marketing"
+  ],
   "labels": []
 }

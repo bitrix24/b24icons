@@ -1,8 +1,12 @@
 {
   "id": "FileDownloadIcon",
   "fileName": "file-download.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.810Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Arrow",
+    "Down",
+    "File"
+  ],
   "labels": []
 }

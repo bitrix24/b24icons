@@ -1,8 +1,11 @@
 {
   "id": "CircleCheckIcon",
   "fileName": "circle-check.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.626Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Circle",
+    "Complete"
+  ],
   "labels": []
 }

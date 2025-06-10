@@ -1,8 +1,10 @@
 {
   "id": "SigmaSummIcon",
   "fileName": "sigma-summ.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.085Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Math"
+  ],
   "labels": []
 }

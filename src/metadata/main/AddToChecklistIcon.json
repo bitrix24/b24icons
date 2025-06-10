@@ -1,8 +1,10 @@
 {
   "id": "AddToChecklistIcon",
   "fileName": "add-to-checklist.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.083Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Add"
+  ],
   "labels": []
 }

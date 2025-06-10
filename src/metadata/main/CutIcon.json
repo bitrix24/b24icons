@@ -1,8 +1,10 @@
 {
   "id": "CutIcon",
   "fileName": "cut.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.440Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Screenshot"
+  ],
   "labels": []
 }

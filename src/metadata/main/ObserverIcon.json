@@ -1,8 +1,10 @@
 {
   "id": "ObserverIcon",
   "fileName": "observer.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.086Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Vision"
+  ],
   "labels": []
 }

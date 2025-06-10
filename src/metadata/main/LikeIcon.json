@@ -1,8 +1,10 @@
 {
   "id": "LikeIcon",
   "fileName": "like.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.351Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Chat"
+  ],
   "labels": []
 }

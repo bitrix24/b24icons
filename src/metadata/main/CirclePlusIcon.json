@@ -1,8 +1,10 @@
 {
   "id": "CirclePlusIcon",
   "fileName": "circle-plus.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.422Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Circle"
+  ],
   "labels": []
 }

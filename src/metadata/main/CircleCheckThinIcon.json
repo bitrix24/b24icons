@@ -1,8 +1,10 @@
 {
   "id": "CircleCheckThinIcon",
   "fileName": "circle-check-thin.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.412Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Circle"
+  ],
   "labels": []
 }

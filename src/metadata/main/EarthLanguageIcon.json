@@ -1,8 +1,10 @@
 {
   "id": "EarthLanguageIcon",
   "fileName": "earth-language.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.701Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Earth"
+  ],
   "labels": []
 }

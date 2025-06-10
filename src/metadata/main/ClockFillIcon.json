@@ -1,8 +1,11 @@
 {
   "id": "ClockFillIcon",
   "fileName": "clock-fill.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.668Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Circle",
+    "Time"
+  ],
   "labels": []
 }

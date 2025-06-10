@@ -1,8 +1,10 @@
 {
   "id": "Crown2Icon",
   "fileName": "crown-2.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.164Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Objects"
+  ],
   "labels": []
 }

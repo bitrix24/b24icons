@@ -1,8 +1,10 @@
 {
   "id": "SmsIcon",
   "fileName": "ui-service-sms.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.386Z",
   "category": "CommonService",
-  "subCategories": [],
+  "subCategories": [
+    "Chat"
+  ],
   "labels": []
 }

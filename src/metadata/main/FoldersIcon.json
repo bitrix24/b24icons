@@ -1,8 +1,11 @@
 {
   "id": "FoldersIcon",
   "fileName": "folders.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.893Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "File",
+    "Todo"
+  ],
   "labels": []
 }

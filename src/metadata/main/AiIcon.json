@@ -1,8 +1,10 @@
 {
   "id": "AiIcon",
   "fileName": "ai.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.110Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Ai"
+  ],
   "labels": []
 }

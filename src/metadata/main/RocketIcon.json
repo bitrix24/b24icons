@@ -1,8 +1,10 @@
 {
   "id": "RocketIcon",
   "fileName": "rocket.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.221Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Objects"
+  ],
   "labels": []
 }

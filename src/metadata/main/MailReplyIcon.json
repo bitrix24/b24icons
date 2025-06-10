@@ -1,8 +1,10 @@
 {
   "id": "MailReplyIcon",
   "fileName": "mail-reply.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.404Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Post"
+  ],
   "labels": []
 }

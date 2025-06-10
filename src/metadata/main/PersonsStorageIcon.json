@@ -1,8 +1,11 @@
 {
   "id": "PersonsStorageIcon",
   "fileName": "persons-storage.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.955Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Person",
+    "Todo"
+  ],
   "labels": []
 }

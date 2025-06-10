@@ -1,9 +1,12 @@
 {
   "id": "BtnSpinnerIcon",
   "fileName": "btn-spinner.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.103Z",
   "category": "ButtonSpecialized",
-  "subCategories": [],
+  "subCategories": [
+    "WaitAnimated",
+    "Waiting"
+  ],
   "labels": [],
   "specialized": {
     "animateSpin": true

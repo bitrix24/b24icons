@@ -1,8 +1,12 @@
 {
   "id": "OpenLinesIcon",
   "fileName": "open-lines.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.531Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Arrow",
+    "Chat",
+    "Settings"
+  ],
   "labels": []
 }

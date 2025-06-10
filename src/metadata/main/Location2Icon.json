@@ -1,8 +1,11 @@
 {
   "id": "Location2Icon",
   "fileName": "location-2.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.201Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Map",
+    "Objects"
+  ],
   "labels": []
 }

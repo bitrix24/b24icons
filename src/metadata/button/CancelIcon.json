@@ -1,8 +1,11 @@
 {
   "id": "CancelIcon",
   "fileName": "ui-cancel-dark.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.087Z",
   "category": "Button",
-  "subCategories": [],
+  "subCategories": [
+    "Close",
+    "Math"
+  ],
   "labels": []
 }

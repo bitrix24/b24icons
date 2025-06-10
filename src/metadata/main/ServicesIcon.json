@@ -1,8 +1,10 @@
 {
   "id": "ServicesIcon",
   "fileName": "services.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.541Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Settings"
+  ],
   "labels": []
 }

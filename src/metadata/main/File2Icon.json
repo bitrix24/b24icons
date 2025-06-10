@@ -1,8 +1,10 @@
 {
   "id": "File2Icon",
   "fileName": "file-2.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.786Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "File"
+  ],
   "labels": []
 }

@@ -1,8 +1,10 @@
 {
   "id": "BookOpen1Icon",
   "fileName": "book-open-1.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.752Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "File"
+  ],
   "labels": []
 }

@@ -1,9 +1,12 @@
 {
   "id": "BtnWaitIcon",
   "fileName": "btn-wait.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.106Z",
   "category": "ButtonSpecialized",
-  "subCategories": [],
+  "subCategories": [
+    "WaitAnimated",
+    "Waiting"
+  ],
   "labels": [],
   "specialized": {
     "width": "w-[21px]",

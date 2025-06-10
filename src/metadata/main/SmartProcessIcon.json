@@ -1,8 +1,12 @@
 {
   "id": "SmartProcessIcon",
   "fileName": "smart-process.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.642Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Arrow",
+    "Circle",
+    "Complete"
+  ],
   "labels": []
 }

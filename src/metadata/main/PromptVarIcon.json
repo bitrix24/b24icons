@@ -1,8 +1,10 @@
 {
   "id": "PromptVarIcon",
   "fileName": "prompt-var.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.608Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Code"
+  ],
   "labels": []
 }

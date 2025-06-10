@@ -1,8 +1,11 @@
 {
   "id": "Link3Icon",
   "fileName": "link-3.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.939Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Text",
+    "Todo"
+  ],
   "labels": []
 }

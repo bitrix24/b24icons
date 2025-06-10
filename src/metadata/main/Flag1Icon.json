@@ -1,8 +1,11 @@
 {
   "id": "Flag1Icon",
   "fileName": "flag-1.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.854Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Attention",
+    "Todo"
+  ],
   "labels": []
 }

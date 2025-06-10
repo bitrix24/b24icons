@@ -1,8 +1,10 @@
 {
   "id": "Chats3Icon",
   "fileName": "chats-3.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.322Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Chat"
+  ],
   "labels": []
 }

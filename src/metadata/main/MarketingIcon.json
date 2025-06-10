@@ -1,8 +1,10 @@
 {
   "id": "MarketingIcon",
   "fileName": "marketing.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.015Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Marketing"
+  ],
   "labels": []
 }

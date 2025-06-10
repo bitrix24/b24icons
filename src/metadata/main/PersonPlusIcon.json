@@ -1,8 +1,11 @@
 {
   "id": "PersonPlusIcon",
   "fileName": "person-plus.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.308Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Math",
+    "Person"
+  ],
   "labels": []
 }

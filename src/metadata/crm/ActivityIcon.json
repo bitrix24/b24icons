@@ -1,8 +1,10 @@
 {
   "id": "ActivityIcon",
   "fileName": "activity.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.619Z",
   "category": "Crm",
-  "subCategories": [],
+  "subCategories": [
+    "Complete"
+  ],
   "labels": []
 }

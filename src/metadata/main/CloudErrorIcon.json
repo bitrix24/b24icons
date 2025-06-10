@@ -1,8 +1,12 @@
 {
   "id": "CloudErrorIcon",
   "fileName": "cloud-error.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.740Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Attention",
+    "Cloud",
+    "Error"
+  ],
   "labels": []
 }

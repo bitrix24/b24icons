@@ -1,8 +1,10 @@
 {
   "id": "CloudCloudIcon",
   "fileName": "cloud-cloud.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.557Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Cloud"
+  ],
   "labels": []
 }

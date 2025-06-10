@@ -1,8 +1,11 @@
 {
   "id": "Clock2Icon",
   "fileName": "clock-2.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.658Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Circle",
+    "Time"
+  ],
   "labels": []
 }

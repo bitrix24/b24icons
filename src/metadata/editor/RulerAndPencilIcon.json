@@ -1,8 +1,11 @@
 {
   "id": "RulerAndPencilIcon",
   "fileName": "ruler-and-pencil.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.078Z",
   "category": "Editor",
-  "subCategories": [],
+  "subCategories": [
+    "Draw",
+    "Math"
+  ],
   "labels": []
 }

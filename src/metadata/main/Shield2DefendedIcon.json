@@ -1,8 +1,10 @@
 {
   "id": "Shield2DefendedIcon",
   "fileName": "shield-2-defended.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.485Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Security"
+  ],
   "labels": []
 }

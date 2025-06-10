@@ -1,8 +1,10 @@
 {
   "id": "BrightnessBoldEmojiIcon",
   "fileName": "brightness-bold-emoji.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.504Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Settings"
+  ],
   "labels": []
 }

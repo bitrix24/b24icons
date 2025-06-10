@@ -1,8 +1,11 @@
 {
   "id": "HelpIcon",
   "fileName": "ui-help-black.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.903Z",
   "category": "Button",
-  "subCategories": [],
+  "subCategories": [
+    "Circle",
+    "Help"
+  ],
   "labels": []
 }

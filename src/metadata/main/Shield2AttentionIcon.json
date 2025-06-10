@@ -1,8 +1,11 @@
 {
   "id": "Shield2AttentionIcon",
   "fileName": "shield-2-attention.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.472Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Attention",
+    "Security"
+  ],
   "labels": []
 }

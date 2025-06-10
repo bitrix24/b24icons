@@ -1,8 +1,10 @@
 {
   "id": "TableIcon",
   "fileName": "table.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:54.146Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Window"
+  ],
   "labels": []
 }

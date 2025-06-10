@@ -1,8 +1,10 @@
 {
   "id": "NotificationsOnIcon",
   "fileName": "notifications-on.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.589Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Sound"
+  ],
   "labels": []
 }

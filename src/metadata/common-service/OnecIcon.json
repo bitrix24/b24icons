@@ -1,8 +1,10 @@
 {
   "id": "OnecIcon",
   "fileName": "ui-service-onec.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:52.946Z",
   "category": "CommonService",
-  "subCategories": [],
+  "subCategories": [
+    "Logo"
+  ],
   "labels": []
 }

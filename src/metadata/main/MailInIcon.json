@@ -1,8 +1,10 @@
 {
   "id": "MailInIcon",
   "fileName": "mail-in.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.401Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Post"
+  ],
   "labels": []
 }

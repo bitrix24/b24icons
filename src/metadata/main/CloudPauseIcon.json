@@ -1,8 +1,12 @@
 {
   "id": "CloudPauseIcon",
   "fileName": "cloud-pause.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.680Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Circle",
+    "Cloud",
+    "Time"
+  ],
   "labels": []
 }

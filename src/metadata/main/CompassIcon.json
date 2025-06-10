@@ -1,8 +1,11 @@
 {
   "id": "CompassIcon",
   "fileName": "compass.svg",
-  "updatedAt": null,
+  "updatedAt": "2025-06-10T13:17:53.156Z",
   "category": "Main",
-  "subCategories": [],
+  "subCategories": [
+    "Map",
+    "Objects"
+  ],
   "labels": []
 }
