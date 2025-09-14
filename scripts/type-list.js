@@ -16,4 +16,5 @@ export const typeList = [
   'common-b24',
   'specialized',
   'outline',
+  'file-type'
 ];
