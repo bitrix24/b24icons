@@ -1,6 +1,15 @@
 # Changelog
 
-## [2.0.3](https://github.com/bitrix24/b24icons/compare/v2.0.2...v2.0.3) (2025-06-xx)
+## [2.0.4](https://github.com/bitrix24/b24icons/compare/v2.0.3...v2.0.4) (2025-09-15)
+
+### Features
+* **FileType:** add new icons
+
+### Chore
+
+- **deps:** improve
+
+## [2.0.3](https://github.com/bitrix24/b24icons/compare/v2.0.2...v2.0.3) (2025-06-05)
 
 ### Docs
 
