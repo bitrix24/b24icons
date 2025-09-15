@@ -59,11 +59,8 @@ function toUpperFirstChar(value: string): string {
     <template #footer>
       <div class="flex gap-2">
         <B24Button
-          rounded
           label="Close"
-          color="link"
-          depth="dark"
-          size="md"
+          color="air-tertiary"
           @click="emit('close', false)"
         />
       </div>

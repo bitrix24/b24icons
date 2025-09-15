@@ -146,7 +146,7 @@ const options = ref([
 
 <template>
   <ButtonMenu
-    :button-color="isActionComplete ? 'success' : 'link'"
+    :button-color="isActionComplete ? 'air-primary-success' : 'air-secondary-accent-2'"
     id="action-button"
     call-option-on-click
     :options="options"

@@ -42,11 +42,11 @@ function onClick(event) {
 
 <template>
   <B24ButtonGroup>
-    <B24Button :color="buttonColor" depth="dark" :label="selectedOption" normal-case @click="onClick" />
+    <B24Button :color="buttonColor" :label="selectedOption" normal-case @click="onClick" />
     <B24DropdownMenu
       :items="optionsAction"
     >
-      <B24Button color="link" depth="dark" :icon="ChevronDownIcon" />
+      <B24Button color="air-secondary-accent-2" :icon="ChevronDownIcon" />
     </B24DropdownMenu>
   </B24ButtonGroup>
 </template>
