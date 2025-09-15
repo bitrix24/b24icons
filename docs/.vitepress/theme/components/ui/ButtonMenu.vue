@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed } from 'vue'
 import { useStorage } from '@vueuse/core'
 import ChevronDownIcon from '@bitrix24/b24icons-vue/actions/ChevronDownIcon'
 
