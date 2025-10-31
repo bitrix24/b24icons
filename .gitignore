@@ -3,6 +3,14 @@
 /packages/**/node_modules
 /playgrounds/**/node_modules
 
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
 # testing
 /coverage
 /packages/**/coverage
@@ -22,7 +30,6 @@ yarn-error.log*
 .idea
 .DS_Store
 *.pem
-.cache
 Thumbs.db
 /@tmp
 
@@ -34,12 +41,12 @@ Thumbs.db
 /packages/@bitrix24-icons-vue/src/metadata.json
 /packages/@bitrix24-icons-vue/src/info-metadata.json
 
-docs/.vitepress/dist
-docs/.vitepress/cache
 docs/auto-imports.d.ts
 docs/components.d.ts
 
 /playgrounds/**/dist
+
+/src/backup
 
 # TypeScript
 *.tsbuildinfo

@@ -115,6 +115,11 @@
       "import": "./dist/outline/esm/index.js"
     },
     "./outline/*": "./dist/outline/esm/*.js",
+    "./solid": {
+      "types": "./dist/solid/esm/index.d.ts",
+      "import": "./dist/solid/esm/index.js"
+    },
+    "./solid/*": "./dist/solid/esm/*.js",
     "./file-type": {
       "types": "./dist/file-type/esm/index.d.ts",
       "import": "./dist/file-type/esm/index.js"
@@ -162,6 +167,9 @@
       "outline/*": [
         "./dist/outline/esm/*.d.ts"
       ],
+      "solid/*": [
+        "./dist/solid/esm/*.d.ts"
+      ],
       "file-type/*": [
         "./dist/file-type/esm/*.d.ts"
       ]
@@ -177,9 +185,9 @@
     "access": "public"
   },
   "peerDependencies": {
-    "vue": "^3.5.21"
+    "vue": "^3.5.22"
   },
   "devDependencies": {
-    "rimraf": "^6.0.1"
+    "rimraf": "^6.1.0"
   }
 }

@@ -1,1 +1,1 @@
-export const deprecated = [];
+export const deprecated = []

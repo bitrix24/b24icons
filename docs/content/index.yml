@@ -1,0 +1,21 @@
+title: '@bitrix24/b24icons'
+description: Bitrix24 Icons for Web Applications Design your applications in the Bitrix24 style
+hero:
+  title: '@bitrix24/b24icons'
+  description: Design your applications in the Bitrix24 style
+  links:
+    - label: Get started
+      to: /docs/getting-started/installation/
+      color: 'air-secondary-accent-2'
+      iconName: 'PlayLIcon'
+    - label: Explore icons
+      to: /icons/
+      color: 'air-primary'
+      iconName: 'EncloseTextInCodeTagIcon'
+  features:
+    - title: All Icons in One Place
+      description: The library provides a full set of Bitrix24 SVG icons for easy and convenient use.
+    - title: Smart Icon Loading
+      description: The B24Icon component optimizes icon loading by utilizing dynamic imports while preserving tree-shaking.
+    - title: Tree-shaking support
+      description: The icons are optimized for tree-shaking, enabling you to import only what you need.
