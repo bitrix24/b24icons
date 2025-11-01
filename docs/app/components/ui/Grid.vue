@@ -1,6 +1,6 @@
 <script setup lang="ts">
+import type { InfoIconRow } from '#shared/types/base'
 import IconView from '../icons/IconView.vue'
-import type { InfoIconRow } from '../../types'
 
 defineProps<{
   icons: InfoIconRow[]
@@ -8,14 +8,11 @@ defineProps<{
 </script>
 
 <template>
-  <div class="grid grid-cols-[repeat(auto-fill,minmax(110px,1fr))] gap-6">
-    <template
-      v-for="icon in icons"
-      :key="icon.code"
-    >
-      <IconView
-        :icon="icon"
-      />
+  <B24PageGrid
+    class="grid-cols-[repeat(auto-fill,minmax(220px,1fr))] sm:grid-cols-[repeat(auto-fill,minmax(220px,1fr))] lg:grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-6"
+  >
+    <template v-for="icon in icons" :key="icon.code">
+      <IconView :icon="icon" />
     </template>
-  </div>
+  </B24PageGrid>
 </template>

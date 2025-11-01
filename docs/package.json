@@ -13,7 +13,7 @@
   "dependencies": {
     "@nuxt/content": "^3.7.1",
     "@bitrix24/b24icons-vue": "*",
-    "@bitrix24/b24ui-nuxt": "^2.0.6",
+    "@bitrix24/b24ui-nuxt": "^2.0.8",
     "@nuxtjs/plausible": "^2.0.1",
     "@octokit/rest": "^22.0.0",
     "@regle/core": "^1.9.8",

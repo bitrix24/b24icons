@@ -15,18 +15,26 @@ const emit = defineEmits(['update:modelValue'])
 
 const value = computed({
   get: () => props.modelValue,
-  set: (val) => emit('update:modelValue', val)
+  set: (val: string) => emit('update:modelValue', val)
 })
 </script>
 
 <template>
   <B24Input
+    v-model="value"
+    class="w-full"
     v-bind="$attrs"
     :icon="Search2Icon"
-    placeholder="Search icons ..."
-    v-model="value"
-    type="search"
+    placeholder="Search icons..."
     name="searchInput"
     size="lg"
-  />
+    highlight
+    @keyup.esc="value = ''"
+  >
+    <template #trailing>
+      <div class="flex flex-row items-center justify-between gap-[2px] pe-[5px]">
+        <B24Kbd v-if="value.length > 0" value="esc" />
+      </div>
+    </template>
+  </B24Input>
 </template>

@@ -38,7 +38,7 @@ export default defineNuxtConfig({
     buildAssetsDir: '/_nuxt/',
     head: {
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/b24ui/favicon.ico' }
+        { rel: 'icon', type: 'image/x-icon', href: '/b24icons/favicon.ico' }
       ],
       htmlAttrs: {
         class: 'edge-dark'

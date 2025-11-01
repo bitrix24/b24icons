@@ -1,47 +1,16 @@
 <script setup lang="ts">
+import type { GroupRow, InfoIconRow } from '#shared/types/base'
 import { computed, ref, onMounted, watch } from 'vue'
 import StickyContainer from '../ui/StickyContainer.vue'
 import SearchInput from '../ui/SearchInput.vue'
 import Grid from '../ui/Grid.vue'
 import EmptyList from './EmptyList.vue'
-// import type { GroupRow, InfoIconRow } from '../../types'
 import { useElementSize, useEventListener, useVirtualList } from '@vueuse/core'
 import useDynamicFilter from '../../composables/useDynamicFilter'
 import splitIntoChunks from '../../utils/splitIntoChunks'
 import useSearchInput from '../../composables/useSearchInput'
 
-/**
- * @todo move to types
- */
-export type InfoIconData = {
-  name?: null | string
-  category: string
-  subCategories: string[]
-  dateFix?: null | string
-}
-
-export type InfoIconRow = {
-  code: string
-  name: string
-  type: string
-  icon: string
-  specialized?: {
-    animateSpin?: boolean
-    animateSpinNormal?: boolean
-    stroke?: 'stroke-bold' | 'stroke-normal' | 'stroke-thin'
-    width?: 'auto' | 'w-lg' | 'w-[21px]'
-    height?: 'auto' | 'h-lg' | 'h-[21px]'
-  }
-  data: InfoIconData
-}
-
-export type GroupRow = {
-  code: string
-  name: string
-  list: InfoIconRow[]
-}
-
-const ICON_SIZE = 110
+const ICON_SIZE = 220
 const ICON_GRID_GAP = 24
 
 const props = defineProps<{
@@ -115,14 +84,15 @@ onMounted(() => {
   <div ref="containerRef" class="pb-[400px]">
     <StickyContainer>
       <SearchInput
-        placeholder="Search icons ..."
-        v-model="searchQuery"
         ref="searchInput"
+        v-model="searchQuery"
+        placeholder="Search icons ..."
+        class="w-full"
       />
     </StickyContainer>
     <EmptyList
       v-if="iconList.length > 0 && filteredIcons.length === 0"
-      :searchQuery="searchQuery"
+      :search-query="searchQuery"
       @clear="searchQuery = ''"
     />
     <div v-bind="wrapperProps" class="aspect-square isolate">

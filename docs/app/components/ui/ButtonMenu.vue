@@ -1,29 +1,39 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import type { DropdownMenuItem, ButtonProps } from '@bitrix24/b24ui-nuxt'
+import { computed, useId } from 'vue'
 import { useStorage } from '@vueuse/core'
 import ChevronDownIcon from '@bitrix24/b24icons-vue/actions/ChevronDownIcon'
 
-interface Props {
-  options: {
-    label: string
-    action?: () => void
-  }[]
+interface MenuButtonProps {
+  options?: DropdownMenuItem[]
   callOptionOnClick?: boolean
-  buttonColor?: string
-  id: string
+  buttonColor?: ButtonProps['color']
+  id?: string
 }
 
-const props = withDefaults(defineProps<Props>(), {
+const props = withDefaults(defineProps<MenuButtonProps>(), {
   callOptionOnClick: false,
   popoverPosition: 'bottom'
 })
 
 const emit = defineEmits(['click', 'optionClick'])
 
-const selectedOption = useStorage(props.id, props.options[0]?.label)
-const selectionOptionAction = computed(() => props.options.find(option => option.label === selectedOption.value).action)
+const id = `${props.id || useId()}`
 
-const optionsAction = computed(() => props.options.map((option) => {
+const options = computed<DropdownMenuItem[]>(() => {
+  if (props.options) {
+    return props.options
+  }
+
+  return []
+})
+
+const selectedOption = useStorage(id, options.value.length > 0 ? options.value[0]!.label : '')
+const selectionOptionAction = computed(() => {
+  return options.value.find(option => option.label === selectedOption.value)?.action
+})
+
+const optionsAction = computed<DropdownMenuItem[]>(() => options.value.map((option) => {
   return {
     label: option.label,
     onSelect: () => {
@@ -33,7 +43,7 @@ const optionsAction = computed(() => props.options.map((option) => {
   }
 }))
 
-function onClick(event) {
+function onClick(event: Event) {
   selectionOptionAction.value()
   emit('click', event)
 }
@@ -41,11 +51,9 @@ function onClick(event) {
 
 <template>
   <B24FieldGroup>
-    <B24Button :color="buttonColor" :label="selectedOption" normal-case @click="onClick" />
-    <B24DropdownMenu
-      :items="optionsAction"
-    >
-      <B24Button color="air-secondary-accent-2" :icon="ChevronDownIcon" />
+    <B24Button :color="buttonColor" :label="selectedOption" @click.stop="onClick" />
+    <B24DropdownMenu :items="optionsAction">
+      <B24Button :color="buttonColor" :icon="ChevronDownIcon" />
     </B24DropdownMenu>
   </B24FieldGroup>
 </template>

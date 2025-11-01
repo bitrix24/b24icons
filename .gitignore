@@ -1,7 +1,6 @@
 # dependencies
 /node_modules
 /packages/**/node_modules
-/playgrounds/**/node_modules
 
 # Nuxt dev/build outputs
 .output
@@ -14,13 +13,11 @@ dist
 # testing
 /coverage
 /packages/**/coverage
-/playgrounds/**/coverage
 
 # logs
 logs
 *.log
 /packages/**/*.log
-/playgrounds/**/*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -43,8 +40,10 @@ Thumbs.db
 
 docs/auto-imports.d.ts
 docs/components.d.ts
-
-/playgrounds/**/dist
+docs/.output
+docs/.nuxt
+docs/.data
+docs/dist
 
 /src/backup
 

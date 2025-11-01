@@ -1,33 +1,8 @@
 <script setup lang="ts">
+import type { InfoIconRow } from '#shared/types/base'
 import { computed, ref } from 'vue'
 import ButtonMenu from '../ui/ButtonMenu.vue'
-// import type { InfoIconRow } from '../../types'
 import getIcon from '../../utils/getIcon'
-
-/**
- * @todo move to types
- */
-export type InfoIconData = {
-  name?: null | string
-  category: string
-  subCategories: string[]
-  dateFix?: null | string
-}
-
-export type InfoIconRow = {
-  code: string
-  name: string
-  type: string
-  icon: string
-  specialized?: {
-    animateSpin?: boolean
-    animateSpinNormal?: boolean
-    stroke?: 'stroke-bold' | 'stroke-normal' | 'stroke-thin'
-    width?: 'auto' | 'w-lg' | 'w-[21px]'
-    height?: 'auto' | 'h-lg' | 'h-[21px]'
-  }
-  data: InfoIconData
-}
 
 const props = defineProps<{
   icon: InfoIconRow

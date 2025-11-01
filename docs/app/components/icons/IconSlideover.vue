@@ -1,8 +1,8 @@
 <script setup lang="ts">
+import type { InfoIconRow } from '#shared/types/base'
 import ComponentShowExample from '../ui/ComponentShowExample.vue'
 import CopyButton from './CopyButton.vue'
 import { B24Icon } from '@bitrix24/b24icons-vue'
-import type { InfoIconRow } from '../../types'
 
 defineProps<{
   icon: InfoIconRow
@@ -19,20 +19,25 @@ function toUpperFirstChar(value: string): string {
   <B24Slideover
     :close="{ onClick: () => emit('close', false) }"
     :title="toUpperFirstChar(icon.code)"
-    :description="[ icon.data.category, ...(icon.data?.subCategories || [  ])].join(' • ')"
-    :b24ui="{ content: 'sm:max-w-3/4 lg:max-w-1/2' }"
+    :description="[icon.data.category, ...(icon.data?.subCategories || [])].join(' • ')"
+    dd-b24ui="{ content: 'sm:max-w-3/4 lg:max-w-1/2' }"
+    :use-light-content="true"
+    :b24ui="{
+      content: 'sm:max-w-[970px] sm:top-[275px] sm:max-h-[calc(100%-275px)]',
+    }"
   >
     <template #body>
-      <div class="mt-2 mx-4 p-4 rounded bg-white dark:bg-base-900/20 gap-6 flex flex-col sm:flex-row items-start justify-start">
-        <ComponentShowExample class="w-full sm:w-[200px] h-42">
-          <div class="flex flex-col items-center gap-y-1">
-            <div
-              :id="icon.code.replace('::', '_')"
-              class="icon-wrapper"
-            >
+      <B24Card
+        :b24ui="{
+          body: 'mt-2 mx-4 p-4 gap-6 flex flex-col sm:flex-row items-start justify-start'
+        }"
+      >
+        <B24Card variant="tinted-no-accent" class="w-full sm:w-[200px] h-42">
+          <div class="flex flex-col items-center justify-center gap-y-1">
+            <div :id="icon.code.replace('::', '_')">
               <B24Icon
                 :name="icon.code"
-                class="size-24 text-base-master dark:text-base-200"
+                class="size-24"
                 :class="[
                   icon.specialized?.animateSpin ? 'animate-spin-slow' : '',
                   icon.specialized?.animateSpinNormal ? 'animate-spin' : '',
@@ -44,16 +49,16 @@ function toUpperFirstChar(value: string): string {
                   icon.specialized?.height === 'h-lg' ? 'h-lg' : '',
 
                   icon.specialized?.width === 'w-[21px]' ? 'w-[21px]' : '',
-                  icon.specialized?.height === 'h-[21px]' ? 'h-[21px]' : '',
+                  icon.specialized?.height === 'h-[21px]' ? 'h-[21px]' : ''
                 ]"
               />
             </div>
           </div>
-        </ComponentShowExample>
+        </B24Card>
         <div>
           <CopyButton :icon="icon" />
         </div>
-      </div>
+      </B24Card>
     </template>
 
     <template #footer>
