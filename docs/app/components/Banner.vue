@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import NewMessageIcon from '@bitrix24/b24icons-vue/outline/NewMessageIcon'
+import EnterpriseIcon from '@bitrix24/b24icons-vue/solid/EnterpriseIcon'
 </script>
 
 <template>
@@ -7,7 +7,7 @@ import NewMessageIcon from '@bitrix24/b24icons-vue/outline/NewMessageIcon'
     id="new-icons-banner"
     title="New solid icons!"
     to="/icons/?search=solid"
-    :icon="NewMessageIcon"
+    :icon="EnterpriseIcon"
     close
     color="air-primary-copilot"
     class="light"

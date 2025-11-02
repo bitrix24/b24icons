@@ -3,19 +3,19 @@
  */
 
 export const typeList = [
+  'outline',
+  'crm',
+  'main',
   'actions',
   'animated',
   'contact-center',
-  'crm',
+  'file-type',
   'editor',
-  'main',
   'social',
   'button-specialized',
   'button',
   'common-service',
   'common-b24',
   'specialized',
-  'outline',
-  'solid',
-  'file-type'
+  'solid'
 ]

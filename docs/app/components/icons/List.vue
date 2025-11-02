@@ -95,7 +95,11 @@ onMounted(() => {
       :search-query="searchQuery"
       @clear="searchQuery = ''"
     />
-    <div v-bind="wrapperProps" class="aspect-square isolate">
+    <div
+      v-else
+      v-bind="wrapperProps"
+      class="aspect-square isolate"
+    >
       <Grid
         v-for="{ index, data: icons } in list"
         :key="index"

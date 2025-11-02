@@ -33,7 +33,12 @@ const value = computed({
   >
     <template #trailing>
       <div class="flex flex-row items-center justify-between gap-[2px] pe-[5px]">
-        <B24Kbd v-if="value.length > 0" value="esc" />
+        <B24Kbd
+          v-if="value.length > 0"
+          value="esc"
+          class="cursor-pointer"
+          @click.stop="value = ''"
+        />
       </div>
     </template>
   </B24Input>

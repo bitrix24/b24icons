@@ -8,11 +8,11 @@ defineProps<{
 </script>
 
 <template>
-  <B24PageGrid
-    class="grid-cols-[repeat(auto-fill,minmax(220px,1fr))] sm:grid-cols-[repeat(auto-fill,minmax(220px,1fr))] lg:grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-6"
+  <div
+    class="flex flex-row flex-wrap items-start justify-center gap-6 mb-6"
   >
     <template v-for="icon in icons" :key="icon.code">
       <IconView :icon="icon" />
     </template>
-  </B24PageGrid>
+  </div>
 </template>
