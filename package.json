@@ -36,6 +36,7 @@
     "build:by-type": "node ./scripts/build-process",
     "build:vue": "node ./scripts/build @bitrix24-icons-vue",
     "build:vue-packages": "pnpm run vue build",
+    "build:nuxt-packages": "nuxt prepare --filter ./packages/@bitrix24-icons-nuxt",
     "build-nuxt": "npm-run-all -s build-nuxt:*",
     "build-nuxt:build": "pnpm --filter ./packages/@bitrix24-icons-nuxt build",
     "docs:dev": "npm-run-all -s docs:dev:*",
