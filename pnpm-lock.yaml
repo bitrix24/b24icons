@@ -147,8 +147,8 @@ importers:
   packages/@bitrix24-icons-nuxt:
     dependencies:
       '@bitrix24/b24icons-vue':
-        specifier: ^2.0.4
-        version: 2.0.4(vue@3.5.22(typescript@5.9.3))
+        specifier: ^2.0.5
+        version: 2.0.5(vue@3.5.22(typescript@5.9.3))
       '@nuxt/kit':
         specifier: ^4.2.0
         version: 4.2.0(magicast@0.3.5)
@@ -334,6 +334,11 @@ packages:
     resolution: {integrity: sha512-g8MCiPXkbg6pV01EQoIwXQWeGF5xGER4Tn4yixpPLPJBBIcG5+/M4DNeUy+thSpfNVA0QwZKZg6UfVsjgePsqA==}
     peerDependencies:
       vue: ^3.5.21
+
+  '@bitrix24/b24icons-vue@2.0.5':
+    resolution: {integrity: sha512-FNT6CflIukha9TehpHIbpnBWDWLejPBqKjPu3JvLwJ3z4++q6DGCCHFrbohhLmOtVJwtFN5uziDt1kCDjo+HJg==}
+    peerDependencies:
+      vue: ^3.5.22
 
   '@bitrix24/b24ui-nuxt@2.0.8':
     resolution: {integrity: sha512-dsSRRJtN7MemT8vTrur2jn2dM4aK700kNS33A8ENM120z5yLDcqGhpnHHJ5ZNV149N5Qu3zh1EBMn45FMB/qRg==}
@@ -6290,6 +6295,10 @@ snapshots:
   '@barbapapazes/plausible-tracker@0.5.6': {}
 
   '@bitrix24/b24icons-vue@2.0.4(vue@3.5.22(typescript@5.9.3))':
+    dependencies:
+      vue: 3.5.22(typescript@5.9.3)
+
+  '@bitrix24/b24icons-vue@2.0.5(vue@3.5.22(typescript@5.9.3))':
     dependencies:
       vue: 3.5.22(typescript@5.9.3)
 
