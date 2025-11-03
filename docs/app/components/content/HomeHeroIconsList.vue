@@ -13,8 +13,9 @@ const { data } = await useAsyncData(
       return items[Math.floor(Math.random() * items.length)]
     }
 
-    const list = await import('@bitrix24/b24icons-vue/metadata.json', { with: { type: 'json' } })
-    const icons = (list?.default?.list || [])
+    const { data: list } = await useFetch<string[]>('/api/icons.json')
+
+    const icons = (list.value || [])
       .filter(item => item.includes('::'))
       /** @memo exclude icon.specialized */
       .filter(item => !item.includes('specialized'))
@@ -24,6 +25,7 @@ const { data } = await useAsyncData(
         || item.includes('outline::')
         || item.includes('file-type::Icon')
       ))
+
     const randomIcons = Array.from({ length: 100 }, () => getRandomItem(icons))
 
     return {

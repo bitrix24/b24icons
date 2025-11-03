@@ -22,7 +22,7 @@ const { width: containerWidth } = useElementSize(containerRef)
 
 const columnSize = computed(() => {
   return Math.floor(
-    containerWidth.value / (ICON_SIZE + ICON_GRID_GAP)
+    (containerWidth.value) / (ICON_SIZE + ICON_GRID_GAP)
   )
 })
 
@@ -81,7 +81,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div ref="containerRef" class="pb-[400px]">
+  <B24Container ref="containerRef" class="max-w-[1465px] pb-[300px] px-0 mx-0 mr-auto">
     <StickyContainer>
       <SearchInput
         ref="searchInput"
@@ -106,5 +106,5 @@ onMounted(() => {
         :icons="icons"
       />
     </div>
-  </div>
+  </B24Container>
 </template>

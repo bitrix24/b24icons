@@ -21,8 +21,10 @@ const isDark = computed(() => {
 const isMounted = ref(false)
 const cardColorContext = computed(() => {
   const b24ui = {
+    wrapper: 'overflow-hidden max-w-[250px] sm:max-w-[400px] md:max-w-[100%]',
+    title: 'text-pretty  line-clamp-2 wrap-break-word', // truncate line-clamp-2
     sidebarLayoutRoot: '',
-    content: 'sm:max-w-[970px] sm:top-[368px] sm:max-h-[calc(100%-368px)]',
+    content: 'sm:max-w-[970px] lg:top-[368px] lg:max-h-[calc(100%-368px)]',
     body: ''
   }
   if (import.meta.server || !isMounted.value) {

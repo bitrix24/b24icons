@@ -73,8 +73,8 @@ function build() {
   const inputFiles = resolveFiles(components).join('\n')
 
   // ESM Build
-  execSync(`npx cross-env NODE_ENV=production npx esbuild ${inputFiles} --format=esm --outdir=${DST} --outbase=${SRC} --minify --define:__DEV__="false" ${sharedOptions.join(' ')}`)
-  execSync(`npx cross-env NODE_ENV=production npx esbuild ${input} --format=esm --outfile=${DST}/${name}.esm.js --outbase=${SRC} --minify --define:__DEV__="false" ${sharedOptions.join(' ')}`)
+  execSync(`pnpm cross-env NODE_ENV=production pnpm esbuild ${inputFiles} --format=esm --outdir=${DST} --outbase=${SRC} --minify --define:__DEV__="false" ${sharedOptions.join(' ')}`)
+  execSync(`pnpm cross-env NODE_ENV=production pnpm esbuild ${input} --format=esm --outfile=${DST}/${name}.esm.js --outbase=${SRC} --minify --define:__DEV__="false" ${sharedOptions.join(' ')}`)
   // CommonJS Build
   //  execSync(`npx cross-env NODE_ENV=development npx esbuild ${ input } --format=cjs --outfile=${ DST }/${ name }.js --minify --bundle --define:__DEV__="true" ${ sharedOptions.join(' ') }  ${ additionalArgs }`);
 

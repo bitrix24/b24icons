@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.0.5](https://github.com/bitrix24/b24icons/compare/v2.0.4...v2.0.5) (2025-11-03)
+
+### Features
+
+* **FileType:** add new icons
+* **solid:** add new icons
+* **@bitrix24/b24icons-nuxt:** module for nuxt
+
+### Chore
+
+* **deps:** improve
+* **packageManager:** now we use pnpm
+
+### Docs
+
+* **style:** improve
+
 ## [2.0.4](https://github.com/bitrix24/b24icons/compare/v2.0.3...v2.0.4) (2025-09-15)
 
 ### Features

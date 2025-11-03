@@ -1,6 +1,6 @@
 import type { NavigationMenuItem } from '@bitrix24/b24ui-nuxt'
 import PlayLIcon from '@bitrix24/b24icons-vue/outline/PlayLIcon'
-import DeveloperResourcesIcon from '@bitrix24/b24icons-vue/outline/DeveloperResourcesIcon'
+import DemonstrationOnIcon from '@bitrix24/b24icons-vue/outline/DemonstrationOnIcon'
 import GitHubIcon from '@bitrix24/b24icons-vue/social/GitHubIcon'
 
 export function useHeader() {
@@ -15,7 +15,7 @@ export function useHeader() {
     {
       label: 'Icons',
       to: '/icons/',
-      active: route.path.startsWith('/docs/components')
+      active: route.path.startsWith('/icons')
     }
   ])
 
@@ -29,7 +29,8 @@ export function useHeader() {
     {
       label: 'Icons',
       to: '/icons/',
-      icon: DeveloperResourcesIcon
+      icon: DemonstrationOnIcon,
+      active: route.path.startsWith('/icons')
     },
     {
       label: 'GitHub',

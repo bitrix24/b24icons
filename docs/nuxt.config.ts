@@ -1,8 +1,8 @@
-// import { createResolver } from '@nuxt/kit'
+import { createResolver } from '@nuxt/kit'
 import pkg from '../package.json'
 // import { withoutTrailingSlash } from 'ufo'
 
-// const { resolve } = createResolver(import.meta.url)
+const { resolve } = createResolver(import.meta.url)
 
 /**
  * @memo need add pages for raw/***.md
@@ -10,12 +10,14 @@ import pkg from '../package.json'
 const pages = [
   // region getting-started ////
   '/docs/getting-started/',
-  '/docs/getting-started/installation/',
+  '/docs/getting-started/installation/vue/',
+  '/docs/getting-started/installation/nuxt/',
   '/icons/'
   // endregion ////
 ]
 
 const pagesService = [
+  '/api/icons.json',
   '/404.html'
 ]
 
@@ -24,7 +26,17 @@ export default defineNuxtConfig({
     '@bitrix24/b24ui-nuxt',
     '@nuxt/content',
     '@nuxtjs/plausible',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
+    (_, nuxt) => {
+      nuxt.hook('components:dirs', (dirs) => {
+        dirs.unshift({
+          path: resolve('./app/components/content/examples'),
+          pathPrefix: false,
+          prefix: '',
+          global: true
+        })
+      })
+    }
   ],
 
   ssr: true,
@@ -91,7 +103,14 @@ export default defineNuxtConfig({
   vite: {
     optimizeDeps: {
       // prevents reloading page when navigating between components
-      include: ['@ai-sdk/vue', '@internationalized/date', '@nuxt/content/utils', '@tanstack/vue-table', '@vercel/analytics/nuxt', '@vercel/speed-insights/nuxt', '@vue/devtools-core', '@vue/devtools-kit', '@vueuse/integrations/useFuse', '@vueuse/shared', 'ai', 'colortranslator', 'embla-carousel-auto-height', 'embla-carousel-auto-scroll', 'embla-carousel-autoplay', 'embla-carousel-class-names', 'embla-carousel-fade', 'embla-carousel-vue', 'embla-carousel-wheel-gestures', 'json5', 'motion-v', 'ohash', 'ohash/utils', 'prettier', 'reka-ui', 'reka-ui/namespaced', 'scule', 'shiki', 'shiki-stream/vue', 'shiki-transformer-color-highlight', 'shiki/engine-javascript.mjs', 'tailwind-variants', 'tailwindcss/colors', 'ufo', 'vaul-vue', 'zod']
+      include: ['@internationalized/date', '@nuxt/content/utils', '@tanstack/vue-table', '@vue/devtools-core', '@vue/devtools-kit', '@vueuse/integrations/useFuse', '@vueuse/shared', 'ai', 'colortranslator', 'embla-carousel-auto-height', 'embla-carousel-auto-scroll', 'embla-carousel-autoplay', 'embla-carousel-class-names', 'embla-carousel-fade', 'embla-carousel-vue', 'embla-carousel-wheel-gestures', 'json5', 'motion-v', 'ohash', 'ohash/utils', 'prettier', 'reka-ui', 'reka-ui/namespaced', 'scule', 'shiki', 'shiki-stream/vue', 'shiki-transformer-color-highlight', 'shiki/engine-javascript.mjs', 'tailwind-variants', 'tailwindcss/colors', 'ufo', 'vaul-vue', 'zod']
     }
+    // server: {
+    //   allowedHosts: [
+    //     '******.ngrok-free.app',
+    //     'perversely-welcomed-peacock.cloudpub.ru'
+    //   ],
+    //   cors: true
+    // }
   }
 })

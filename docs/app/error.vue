@@ -8,7 +8,7 @@ const props = defineProps<{
 
 const route = useRoute()
 
-const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('docs', []))
+const { data: navigation } = await useAsyncData('navigation-error', () => queryCollectionNavigation('docs', []))
 
 useHead({
   meta: [
@@ -19,12 +19,12 @@ useHead({
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Bitrix24 UI',
+  titleTemplate: '%s - Bitrix24 Icons',
   title: String(props.error.statusCode)
 })
 
 useServerSeoMeta({
-  ogSiteName: 'Bitrix24 UI',
+  ogSiteName: 'Bitrix24 Icons',
   twitterCard: 'summary_large_image'
 })
 

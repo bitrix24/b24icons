@@ -2,7 +2,7 @@
 import { useColorMode } from '#imports'
 import EncloseTextInCodeTagIcon from '@bitrix24/b24icons-vue/editor/EncloseTextInCodeTagIcon'
 import InfoCircleIcon from '@bitrix24/b24icons-vue/outline/InfoCircleIcon'
-import PlayLIcon from '@bitrix24/b24icons-vue/outline/PlayLIcon'
+import DemonstrationOnIcon from '@bitrix24/b24icons-vue/outline/DemonstrationOnIcon'
 
 const { data: page } = await useAsyncData('index', () => queryCollection('index').first())
 if (!page.value) {
@@ -10,10 +10,10 @@ if (!page.value) {
 }
 
 useSeoMeta({
-  titleTemplate: '%s - Bitrix24 UI',
+  titleTemplate: '%s',
   title: page.value.title,
   description: page.value.description,
-  ogTitle: `${page.value.title} - Bitrix24 UI`,
+  ogTitle: `${page.value.title}`,
   ogDescription: page.value.description
 })
 
@@ -25,7 +25,7 @@ const iconFromIconName = (iconName?: string) => {
   switch (iconName) {
     case 'EncloseTextInCodeTagIcon': return EncloseTextInCodeTagIcon
     case 'InfoCircleIcon': return InfoCircleIcon
-    case 'PlayLIcon': return PlayLIcon
+    case 'DemonstrationOnIcon': return DemonstrationOnIcon
   }
 
   return undefined
@@ -46,14 +46,32 @@ const cardColorContext = computed(() => {
 onMounted(() => {
   isMounted.value = true
 })
+
+const { mobileLinks } = useHeader()
 </script>
 
 <template>
   <B24SidebarLayout
     :use-light-content="false"
   >
+    <template #sidebar>
+      <B24SidebarHeader>
+        <LogoWithVersion />
+      </B24SidebarHeader>
+      <B24SidebarBody>
+        <B24NavigationMenu
+          :items="mobileLinks"
+          orientation="vertical"
+        />
+      </B24SidebarBody>
+      <B24SidebarFooter>
+        <B24SidebarSection>
+          <ExtLinks />
+        </B24SidebarSection>
+      </B24SidebarFooter>
+    </template>
     <template #navbar>
-      <Header show-logo-all-time />
+      <Header />
     </template>
 
     <B24Card

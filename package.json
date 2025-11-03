@@ -1,6 +1,7 @@
 {
   "name": "@bitrix24/b24icons",
-  "version": "2.0.4",
+  "version": "2.0.5",
+  "packageManager": "pnpm@10.20.0",
   "author": "Bitrix",
   "license": "MIT",
   "description": "Bitrix24 SVG icons for development web-applications",
@@ -28,22 +29,24 @@
     "docs"
   ],
   "scripts": {
-    "vue": "npm run --workspace=@bitrix24/b24icons-vue",
-    "prepublishOnly": "npm run build",
+    "vue": "pnpm --filter ./packages/@bitrix24-icons-vue build",
+    "prepublishOnly": "pnpm run build",
     "prebuild": "rimraf --glob ./optimized/* ./export/* ./packages/{@bitrix24-icons-vue,@bitrix24-icons-react}/dist/* ./packages/@bitrix24-icons-vue/src/*.json",
     "build": "npm-run-all -s build:*",
     "build:by-type": "node ./scripts/build-process",
     "build:vue": "node ./scripts/build @bitrix24-icons-vue",
-    "build:vue-packages": "npm run vue build",
+    "build:vue-packages": "pnpm run vue build",
+    "build-nuxt": "npm-run-all -s build-nuxt:*",
+    "build-nuxt:build": "pnpm --filter ./packages/@bitrix24-icons-nuxt build",
     "docs:dev": "npm-run-all -s docs:dev:*",
-    "docs:dev:init": "npm run build",
+    "docs:dev:init": "pnpm run build",
     "docs:dev:prepare": "nuxt prepare docs",
-    "docs:dev:nuxt": "nuxt dev docs --uiDev",
+    "docs:dev:nuxt": "nuxt dev docs",
     "docs:build": "npm-run-all -s docs:build:*",
-    "docs:build:init": "npm run build",
+    "docs:build:init": "pnpm run build",
     "docs:build:nuxt": "nuxt build docs",
     "docs:generate": "npm-run-all -s docs:generate:*",
-    "docs:generate:init": "npm run build",
+    "docs:generate:init": "pnpm run build",
     "docs:generate:nuxt": "nuxt generate docs",
     "docs:preview": "nuxt preview docs",
     "tools:catalog": "node ./scripts/catalog",
@@ -71,5 +74,8 @@
     "eslint": "^9.38.0"
   },
   "dependencies": {
+  },
+  "resolutions": {
+    "@bitrix24/b24ui-icons": "workspace:*"
   }
 }

@@ -9,7 +9,7 @@ defineProps<{
 
 <template>
   <div
-    class="flex flex-row flex-wrap items-start justify-center gap-6 mb-6"
+    class="flex flex-row flex-wrap items-center justify-center gap-[24px] mb-[24px]"
   >
     <template v-for="icon in icons" :key="icon.code">
       <IconView :icon="icon" />

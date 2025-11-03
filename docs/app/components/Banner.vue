@@ -4,7 +4,7 @@ import EnterpriseIcon from '@bitrix24/b24icons-vue/solid/EnterpriseIcon'
 
 <template>
   <B24Banner
-    id="new-icons-banner"
+    id="new-icons-banner-v2"
     title="New solid icons!"
     to="/icons/?search=solid"
     :icon="EnterpriseIcon"

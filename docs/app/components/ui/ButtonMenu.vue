@@ -52,7 +52,7 @@ function onClick(event: Event) {
 <template>
   <B24FieldGroup>
     <B24Button :color="buttonColor" :label="selectedOption" @click.stop="onClick" />
-    <B24DropdownMenu :items="optionsAction">
+    <B24DropdownMenu :items="optionsAction" :content="{ align: 'end', side: 'bottom', sideOffset: 8 }">
       <B24Button :color="buttonColor" :icon="ChevronDownIcon" />
     </B24DropdownMenu>
   </B24FieldGroup>

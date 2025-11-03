@@ -18,10 +18,10 @@ import Bitrix24Icon from '@bitrix24/b24icons-vue/common-service/Bitrix24Icon'
 </script>
 
 <template>
-	<div class="rounded ...">
-		<Bitrix24Icon class="size-15 text-blue-500 ..." />
+	<div class="rounded">
+		<Bitrix24Icon class="size-15 text-blue-500" />
 	</div>
 </template>
 ```
 
-Find more details in the [documentation](https://bitrix24.github.io/b24icons/guide/vue.html).
+Find more details in the [documentation](https://bitrix24.github.io/b24icons/docs/getting-started/installation/vue/).

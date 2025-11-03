@@ -11,8 +11,9 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@nuxt/content": "^3.7.1",
-    "@bitrix24/b24icons-vue": "*",
+    "@nuxt/content": "^3.8.0",
+    "@nuxt/kit": "^4.2.0",
+    "@bitrix24/b24icons-vue": "workspace:*",
     "@bitrix24/b24ui-nuxt": "^2.0.8",
     "@nuxtjs/plausible": "^2.0.1",
     "@octokit/rest": "^22.0.0",
@@ -22,7 +23,6 @@
     "@vueuse/nuxt": "^13.9.0",
     "better-sqlite3": "^12.4.1",
     "joi": "^18.0.1",
-    "maska": "^3.2.0",
     "motion-v": "^1.7.3",
     "nuxt": "^4.2.0",
     "prettier": "^3.6.2",
@@ -31,10 +31,9 @@
     "sortablejs": "^1.15.6",
     "superstruct": "^2.0.2",
     "ufo": "^1.6.1",
-    "@vueuse/core": "^14.0.0",
-    "fuse.js": "^7.1.0",
     "lodash-es": "^4.17.21",
-    "zod": "^4.1.12"
+    "zod": "^4.1.12",
+    "fuse.js": "^7.1.0"
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.12"

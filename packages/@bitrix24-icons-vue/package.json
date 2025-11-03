@@ -1,6 +1,6 @@
 {
   "name": "@bitrix24/b24icons-vue",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "author": "Bitrix",
   "license": "MIT",
   "description": "Bitrix24 SVG icons for development web-applications for Vue",
@@ -50,6 +50,21 @@
       "types": "./components/*.d.ts",
       "default": "./components/*.js"
     },
+    "./outline": {
+      "types": "./dist/outline/esm/index.d.ts",
+      "import": "./dist/outline/esm/index.js"
+    },
+    "./outline/*": "./dist/outline/esm/*.js",
+    "./crm": {
+      "types": "./dist/crm/esm/index.d.ts",
+      "import": "./dist/crm/esm/index.js"
+    },
+    "./crm/*": "./dist/crm/esm/*.js",
+    "./main": {
+      "types": "./dist/main/esm/index.d.ts",
+      "import": "./dist/main/esm/index.js"
+    },
+    "./main/*": "./dist/main/esm/*.js",
     "./actions": {
       "types": "./dist/actions/esm/index.d.ts",
       "import": "./dist/actions/esm/index.js"
@@ -65,21 +80,16 @@
       "import": "./dist/contact-center/esm/index.js"
     },
     "./contact-center/*": "./dist/contact-center/esm/*.js",
-    "./crm": {
-      "types": "./dist/crm/esm/index.d.ts",
-      "import": "./dist/crm/esm/index.js"
+    "./file-type": {
+      "types": "./dist/file-type/esm/index.d.ts",
+      "import": "./dist/file-type/esm/index.js"
     },
-    "./crm/*": "./dist/crm/esm/*.js",
+    "./file-type/*": "./dist/file-type/esm/*.js",
     "./editor": {
       "types": "./dist/editor/esm/index.d.ts",
       "import": "./dist/editor/esm/index.js"
     },
     "./editor/*": "./dist/editor/esm/*.js",
-    "./main": {
-      "types": "./dist/main/esm/index.d.ts",
-      "import": "./dist/main/esm/index.js"
-    },
-    "./main/*": "./dist/main/esm/*.js",
     "./social": {
       "types": "./dist/social/esm/index.d.ts",
       "import": "./dist/social/esm/index.js"
@@ -110,24 +120,23 @@
       "import": "./dist/specialized/esm/index.js"
     },
     "./specialized/*": "./dist/specialized/esm/*.js",
-    "./outline": {
-      "types": "./dist/outline/esm/index.d.ts",
-      "import": "./dist/outline/esm/index.js"
-    },
-    "./outline/*": "./dist/outline/esm/*.js",
     "./solid": {
       "types": "./dist/solid/esm/index.d.ts",
       "import": "./dist/solid/esm/index.js"
     },
-    "./solid/*": "./dist/solid/esm/*.js",
-    "./file-type": {
-      "types": "./dist/file-type/esm/index.d.ts",
-      "import": "./dist/file-type/esm/index.js"
-    },
-    "./file-type/*": "./dist/file-type/esm/*.js"
+    "./solid/*": "./dist/solid/esm/*.js"
   },
   "typesVersions": {
     "*": {
+      "outline/*": [
+        "./dist/outline/esm/*.d.ts"
+      ],
+      "crm/*": [
+        "./dist/crm/esm/*.d.ts"
+      ],
+      "main/*": [
+        "./dist/main/esm/*.d.ts"
+      ],
       "actions/*": [
         "./dist/actions/esm/*.d.ts"
       ],
@@ -137,14 +146,11 @@
       "contact-center/*": [
         "./dist/contact-center/esm/*.d.ts"
       ],
-      "crm/*": [
-        "./dist/crm/esm/*.d.ts"
+      "file-type/*": [
+        "./dist/file-type/esm/*.d.ts"
       ],
       "editor/*": [
         "./dist/editor/esm/*.d.ts"
-      ],
-      "main/*": [
-        "./dist/main/esm/*.d.ts"
       ],
       "social/*": [
         "./dist/social/esm/*.d.ts"
@@ -164,21 +170,14 @@
       "specialized/*": [
         "./dist/specialized/esm/*.d.ts"
       ],
-      "outline/*": [
-        "./dist/outline/esm/*.d.ts"
-      ],
       "solid/*": [
         "./dist/solid/esm/*.d.ts"
-      ],
-      "file-type/*": [
-        "./dist/file-type/esm/*.d.ts"
       ]
     }
   },
   "scripts": {
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "pnpm run build",
     "build": "node ../../scripts/build-packages --external:vue",
-    "playground": "npm run --workspace=@bitrix24/b24icons-vue-playground dev",
     "clean": "rimraf --glob ./dist"
   },
   "publishConfig": {

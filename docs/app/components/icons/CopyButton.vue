@@ -135,9 +135,9 @@ function copyDataUrl() {
 // endregion ////
 
 const options = ref([
-  { label: 'Copy Name', action: copyComponentName },
   { label: 'Copy via Vue Component', action: copyVue },
   { label: 'Copy via Vue B24Icon', action: copyVueB24Icon },
+  { label: 'Copy Name', action: copyComponentName },
   { label: 'Copy SVG', action: copySVG },
   { label: 'Copy Data URL', action: copyDataUrl }
 ])

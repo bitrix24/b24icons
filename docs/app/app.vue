@@ -18,7 +18,7 @@ useHead({
 })
 
 useServerSeoMeta({
-  ogSiteName: 'Bitrix24 UI',
+  ogSiteName: 'Bitrix24 Icons',
   twitterCard: 'summary_large_image'
 })
 
