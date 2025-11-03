@@ -1,8 +1,6 @@
-name: NPM publish for vue 🚀
+name: NPM publish for nuxt 🚀
 
 on:
-  release:
-    types: [ published ]
   workflow_dispatch:
 
 jobs:
@@ -34,8 +32,8 @@ jobs:
       - name: Typecheck
         run: pnpm run typecheck
 
-      - name: 'Publish Vue 🚀'
+      - name: 'Publish Nuxt 🚀'
         shell: bash
-        run: pnpm --filter ./packages/@bitrix24-icons-vue publish --access public --no-git-checks
+        run: pnpm --filter ./packages/@bitrix24-icons-nuxt publish --access public --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
