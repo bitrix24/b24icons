@@ -41,7 +41,7 @@
     "access": "public"
   },
   "scripts": {
-    "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare",
+    "prepare": "nuxt-module-build build --stub && nuxt-module-build prepare",
     "prepack": "pnpm build",
     "build": "nuxt-module-build build"
   },
