@@ -1,6 +1,6 @@
 # @bitrix24/b24icons-nuxt
 
-`@bitrix24/b24icons-nuxt` library for Vue 3.
+`@bitrix24/b24icons-nuxt` library for Nuxt 4.
 
 ## Installation
 
