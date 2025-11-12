@@ -1,6 +1,6 @@
 {
   "name": "@bitrix24/b24icons",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "packageManager": "pnpm@10.21.0",
   "author": "Bitrix",
   "license": "MIT",
@@ -38,7 +38,7 @@
     "build:package-vue": "pnpm --filter ./packages/@bitrix24-icons-vue build",
     "build:package-nuxt": "pnpm --filter ./packages/@bitrix24-icons-nuxt build",
     "prepare:package-vue": "pnpm --filter ./packages/@bitrix24-icons-vue prepare",
-    "prepare:package-nuxt": "pnpm --filter ./packages/@bitrix24-icons-nuxt prepare",
+    "prepare:package-nuxt": "pnpm --filter ./packages/@bitrix24-icons-nuxt dev:prepare",
     "docs:dev": "npm-run-all -s docs:dev:*",
     "docs:dev:init": "pnpm run build",
     "docs:dev:prepare": "nuxt prepare docs",

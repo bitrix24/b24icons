@@ -1,6 +1,6 @@
 {
   "name": "@bitrix24/b24icons-nuxt",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "author": "Bitrix",
   "license": "MIT",
   "description": "Bitrix24 SVG icons for development web-applications for Nuxt",
@@ -41,7 +41,7 @@
     "access": "public"
   },
   "scripts": {
-    "prepare": "nuxt-module-build build --stub && nuxt-module-build prepare",
+    "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare",
     "prepack": "pnpm build",
     "build": "nuxt-module-build build"
   },
