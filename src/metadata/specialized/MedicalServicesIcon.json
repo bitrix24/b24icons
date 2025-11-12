@@ -1,0 +1,10 @@
+{
+  "id": "MedicalServicesIcon",
+  "fileName": "medicalServices.svg",
+  "updatedAt": null,
+  "category": "Specialized",
+  "subCategories": [
+    "booking"
+  ],
+  "labels": []
+}

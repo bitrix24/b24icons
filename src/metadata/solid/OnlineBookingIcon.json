@@ -3,6 +3,8 @@
   "fileName": "online-booking.svg",
   "updatedAt": null,
   "category": "Solid",
-  "subCategories": [],
+  "subCategories": [
+    "booking"
+  ],
   "labels": []
 }

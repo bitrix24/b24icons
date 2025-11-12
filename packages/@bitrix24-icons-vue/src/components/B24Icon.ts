@@ -4648,6 +4648,9 @@ export const B24Icon = defineComponent({
         case 'social::LinuxIcon': return defineAsyncComponent(() => {
           return import('../../dist/social/esm/LinuxIcon.js')
         })
+        case 'social::MdnwebdocsIcon': return defineAsyncComponent(() => {
+          return import('../../dist/social/esm/MdnwebdocsIcon.js')
+        })
         case 'social::MessengerIcon': return defineAsyncComponent(() => {
           return import('../../dist/social/esm/MessengerIcon.js')
         })
@@ -5047,11 +5050,38 @@ export const B24Icon = defineComponent({
         case 'solid::WindowFlagIcon': return defineAsyncComponent(() => {
           return import('../../dist/solid/esm/WindowFlagIcon.js')
         })
+        case 'specialized::CarRentIcon': return defineAsyncComponent(() => {
+          return import('../../dist/specialized/esm/CarRentIcon.js')
+        })
+        case 'specialized::EquipmentRentIcon': return defineAsyncComponent(() => {
+          return import('../../dist/specialized/esm/EquipmentRentIcon.js')
+        })
+        case 'specialized::ExpertServicesIcon': return defineAsyncComponent(() => {
+          return import('../../dist/specialized/esm/ExpertServicesIcon.js')
+        })
+        case 'specialized::InviteMailIcon': return defineAsyncComponent(() => {
+          return import('../../dist/specialized/esm/InviteMailIcon.js')
+        })
         case 'specialized::LetCatInIcon': return defineAsyncComponent(() => {
           return import('../../dist/specialized/esm/LetCatInIcon.js')
         })
+        case 'specialized::MedicalServicesIcon': return defineAsyncComponent(() => {
+          return import('../../dist/specialized/esm/MedicalServicesIcon.js')
+        })
+        case 'specialized::MessageTemplateIcon': return defineAsyncComponent(() => {
+          return import('../../dist/specialized/esm/MessageTemplateIcon.js')
+        })
+        case 'specialized::NoneIcon': return defineAsyncComponent(() => {
+          return import('../../dist/specialized/esm/NoneIcon.js')
+        })
+        case 'specialized::RoomRentIcon': return defineAsyncComponent(() => {
+          return import('../../dist/specialized/esm/RoomRentIcon.js')
+        })
         case 'specialized::SpinnerIcon': return defineAsyncComponent(() => {
           return import('../../dist/specialized/esm/SpinnerIcon.js')
+        })
+        case 'specialized::WaitListIcon': return defineAsyncComponent(() => {
+          return import('../../dist/specialized/esm/WaitListIcon.js')
         })
 // #CASE_RENDER_STOP# ////
       }

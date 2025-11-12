@@ -1,0 +1,11 @@
+{
+  "id": "ExpertServicesIcon",
+  "fileName": "expertServices.svg",
+  "updatedAt": null,
+  "category": "Specialized",
+  "subCategories": [
+    "booking",
+    "person"
+  ],
+  "labels": []
+}
