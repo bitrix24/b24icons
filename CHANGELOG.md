@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.0.6](https://github.com/bitrix24/b24icons/compare/v2.0.5...v2.0.6) (2025-11-12)
+
+### Features
+
+* **booking/Mdnwebdocs:** add new icons
+* **@bitrix24/b24icons-nuxt:** module for nuxt
+
+### Chore
+
+* **deps:** improve
+
+### Docs
+
+* **style:** improve
+
 ## [2.0.5](https://github.com/bitrix24/b24icons/compare/v2.0.4...v2.0.5) (2025-11-03)
 
 ### Features
