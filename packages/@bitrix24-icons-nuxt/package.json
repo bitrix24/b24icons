@@ -11,10 +11,10 @@
     "svg",
     "nuxt"
   ],
-  "homepage": "https://bitrix24.github.io/b24icons/",
+  "homepage": "https://bitrix24.github.io/b24icons/docs/getting-started/installation/nuxt/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitrix24/b24icons-nuxt.git",
+    "url": "git+https://github.com/bitrix24/b24icons.git",
     "directory": "packages/@bitrix24-icons-nuxt"
   },
   "type": "module",
