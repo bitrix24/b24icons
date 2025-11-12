@@ -43,7 +43,7 @@ const communityLinks = computed(() => [
   {
     icon: DesignIcon,
     label: 'Edit this page',
-    to: `https://github.com/bitrix24/b24ui/edit/main/docs/content/${page?.value?.stem}.md`,
+    to: `https://github.com/bitrix24/b24icons/edit/main/docs/content/${page?.value?.stem}.md`,
     target: '_blank'
   },
   {
@@ -117,7 +117,7 @@ const iconFromIconName = (iconName?: string) => {
         </PageHeader>
       </template>
     </template>
-    <template #right>
+    <template v-if="page?.body?.toc?.links?.length" #right>
       <B24Card
         variant="outline-alt"
         class="lg:mt-[22px] lg:sticky lg:top-[8px] rounded-none lg:rounded-(--ui-border-radius-md) backdrop-blur-md border-0"

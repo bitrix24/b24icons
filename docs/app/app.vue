@@ -43,7 +43,7 @@ defineShortcuts({
   <B24App :toaster="appConfig.toaster">
     <NuxtLoadingIndicator color="var(--ui-color-design-filled-warning-bg)" :height="3" />
     <div :class="[route.path.startsWith('/docs/') && 'root']">
-      <template v-if="!route.path.startsWith('/examples')">
+      <template v-if="!route.path.startsWith('/examples') && !route.path.startsWith('/icons')">
         <Banner />
       </template>
 
