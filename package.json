@@ -32,12 +32,15 @@
     "prepublishOnly": "pnpm run build",
     "version:sync": "node ./scripts/sync-versions.js",
     "prebuild": "pnpm run version:sync && rimraf --glob ./optimized/* ./export/* ./packages/{@bitrix24-icons-vue,@bitrix24-icons-react}/dist/* ./packages/@bitrix24-icons-vue/src/*.json",
-    "build": "npm-run-all -s build:by-type build:for-vue prepare:package-vue build:package-vue prepare:package-nuxt build:package-nuxt",
+    "build": "npm-run-all -s build:by-type build:for-vue prepare:package-vue build:package-vue build:for-react prepare:package-react build:package-react prepare:package-nuxt build:package-nuxt",
     "build:by-type": "node ./scripts/build-process",
     "build:for-vue": "node ./scripts/build @bitrix24-icons-vue",
+    "build:for-react": "node ./scripts/build @bitrix24-icons-react",
     "build:package-vue": "pnpm --filter ./packages/@bitrix24-icons-vue build",
+    "build:package-react": "pnpm --filter ./packages/@bitrix24-icons-react build",
     "build:package-nuxt": "pnpm --filter ./packages/@bitrix24-icons-nuxt build",
     "prepare:package-vue": "pnpm --filter ./packages/@bitrix24-icons-vue prepare",
+    "prepare:package-react": "pnpm --filter ./packages/@bitrix24-icons-react prepare",
     "prepare:package-nuxt": "pnpm --filter ./packages/@bitrix24-icons-nuxt dev:prepare",
     "docs:dev": "npm-run-all -s docs:dev:*",
     "docs:dev:init": "pnpm run build",
@@ -59,7 +62,7 @@
     "@nuxt/eslint-config": "^1.10.0",
     "@babel/core": "^7.28.5",
     "@babel/plugin-transform-react-jsx": "^7.27.1",
-    "@svgr/core": "^8.1.0",
+    "@svgr/core": "^5.5.0",
     "@vue/compiler-dom": "^3.5.24",
     "camelcase": "^9.0.0",
     "cross-env": "^10.1.0",
@@ -78,6 +81,7 @@
   },
   "resolutions": {
     "@bitrix24/b24icons-vue": "workspace:*",
+    "@bitrix24/b24icons-react": "workspace:*",
     "@bitrix24/b24icons-nuxt": "workspace:*"
   }
 }

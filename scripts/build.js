@@ -10,7 +10,7 @@ import { typeList } from './type-list.js'
 
 let transform = {
   '@bitrix24-icons-react': async (svg, componentName, format, isDeprecated) => {
-    let component = await svgr(
+    let component = await svgr.default(
       svg,
       {
         ref: true,
@@ -24,7 +24,7 @@ let transform = {
       {
         plugins: [
           [
-            require('@babel/plugin-transform-react-jsx'),
+            (await import('@babel/plugin-transform-react-jsx')).default,
             { useBuiltIns: true }
           ]
         ]
@@ -576,6 +576,34 @@ async function main(
     })
 
     componentData = componentData.replace(regex, `$1\n${caseRender.join('\n')}\n$3`)
+
+    await ensureWrite(
+      componentPath,
+      componentData
+    )
+  }
+  // endregion ////
+
+  // region REACT.component ////
+  if (pack === '@bitrix24-icons-react') {
+    console.log(``)
+    console.log(`Init component ...`)
+
+    const regex = /(\/\/ #CASE_RENDER_START# \/\/\/)([\s\S]*?)(\/\/ #CASE_RENDER_STOP# \/\/\/)/
+    const componentPath = `./packages/${pack}/src/components/B24Icon.tsx`
+
+    let componentData = await fs.readFile(
+      componentPath,
+      'utf8'
+    )
+
+    const caseRender = metaDataJson.list.sort().map((code) => {
+      const tmp = code.split('::')
+
+      return `      case '${code}': return lazy(() => import('../../dist/${tmp[0]}/esm/${tmp[1]}.js'))`
+    })
+
+    componentData = componentData.replace(regex, `$1\n${caseRender.join('\n')}\n      $3`)
 
     await ensureWrite(
       componentPath,

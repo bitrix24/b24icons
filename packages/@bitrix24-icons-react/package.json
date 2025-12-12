@@ -1,0 +1,195 @@
+{
+  "name": "@bitrix24/b24icons-react",
+  "version": "2.0.7",
+  "author": "Bitrix",
+  "license": "MIT",
+  "description": "Bitrix24 SVG icons for development web-applications for React",
+  "keywords": [
+    "bitrix24",
+    "ui",
+    "icons",
+    "svg",
+    "react"
+  ],
+  "homepage": "https://bitrix24.github.io/b24icons/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitrix24/b24icons.git",
+    "directory": "packages/@bitrix24-icons-react"
+  },
+  "type": "module",
+  "typings": "dist/index.d.ts",
+  "main": "dist/bitrix24icons.esm.js",
+  "module": "dist/bitrix24icons.esm.js",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "private": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/bitrix24icons.esm.js"
+    },
+    "./package.json": {
+      "default": "./package.json"
+    },
+    "./metadata.json": {
+      "default": "./dist/metadata.json"
+    },
+    "./info-metadata.json": {
+      "default": "./dist/info-metadata.json"
+    },
+    "./components/*": {
+      "types": "./dist/components/*.d.ts",
+      "default": "./dist/components/*.js"
+    },
+    "./components/*.js": {
+      "types": "./components/*.d.ts",
+      "default": "./components/*.js"
+    },
+    "./outline": {
+      "types": "./dist/outline/esm/index.d.ts",
+      "import": "./dist/outline/esm/index.js"
+    },
+    "./outline/*": "./dist/outline/esm/*.js",
+    "./crm": {
+      "types": "./dist/crm/esm/index.d.ts",
+      "import": "./dist/crm/esm/index.js"
+    },
+    "./crm/*": "./dist/crm/esm/*.js",
+    "./main": {
+      "types": "./dist/main/esm/index.d.ts",
+      "import": "./dist/main/esm/index.js"
+    },
+    "./main/*": "./dist/main/esm/*.js",
+    "./actions": {
+      "types": "./dist/actions/esm/index.d.ts",
+      "import": "./dist/actions/esm/index.js"
+    },
+    "./actions/*": "./dist/actions/esm/*.js",
+    "./animated": {
+      "types": "./dist/animated/esm/index.d.ts",
+      "import": "./dist/animated/esm/index.js"
+    },
+    "./animated/*": "./dist/animated/esm/*.js",
+    "./contact-center": {
+      "types": "./dist/contact-center/esm/index.d.ts",
+      "import": "./dist/contact-center/esm/index.js"
+    },
+    "./contact-center/*": "./dist/contact-center/esm/*.js",
+    "./file-type": {
+      "types": "./dist/file-type/esm/index.d.ts",
+      "import": "./dist/file-type/esm/index.js"
+    },
+    "./file-type/*": "./dist/file-type/esm/*.js",
+    "./editor": {
+      "types": "./dist/editor/esm/index.d.ts",
+      "import": "./dist/editor/esm/index.js"
+    },
+    "./editor/*": "./dist/editor/esm/*.js",
+    "./social": {
+      "types": "./dist/social/esm/index.d.ts",
+      "import": "./dist/social/esm/index.js"
+    },
+    "./social/*": "./dist/social/esm/*.js",
+    "./button-specialized": {
+      "types": "./dist/button-specialized/esm/index.d.ts",
+      "import": "./dist/button-specialized/esm/index.js"
+    },
+    "./button-specialized/*": "./dist/button-specialized/esm/*.js",
+    "./button": {
+      "types": "./dist/button/esm/index.d.ts",
+      "import": "./dist/button/esm/index.js"
+    },
+    "./button/*": "./dist/button/esm/*.js",
+    "./common-service": {
+      "types": "./dist/common-service/esm/index.d.ts",
+      "import": "./dist/common-service/esm/index.js"
+    },
+    "./common-service/*": "./dist/common-service/esm/*.js",
+    "./common-b24": {
+      "types": "./dist/common-b24/esm/index.d.ts",
+      "import": "./dist/common-b24/esm/index.js"
+    },
+    "./common-b24/*": "./dist/common-b24/esm/*.js",
+    "./specialized": {
+      "types": "./dist/specialized/esm/index.d.ts",
+      "import": "./dist/specialized/esm/index.js"
+    },
+    "./specialized/*": "./dist/specialized/esm/*.js",
+    "./solid": {
+      "types": "./dist/solid/esm/index.d.ts",
+      "import": "./dist/solid/esm/index.js"
+    },
+    "./solid/*": "./dist/solid/esm/*.js"
+  },
+  "typesVersions": {
+    "*": {
+      "outline/*": [
+        "./dist/outline/esm/*.d.ts"
+      ],
+      "crm/*": [
+        "./dist/crm/esm/*.d.ts"
+      ],
+      "main/*": [
+        "./dist/main/esm/*.d.ts"
+      ],
+      "actions/*": [
+        "./dist/actions/esm/*.d.ts"
+      ],
+      "animated/*": [
+        "./dist/animated/esm/*.d.ts"
+      ],
+      "contact-center/*": [
+        "./dist/contact-center/esm/*.d.ts"
+      ],
+      "file-type/*": [
+        "./dist/file-type/esm/*.d.ts"
+      ],
+      "editor/*": [
+        "./dist/editor/esm/*.d.ts"
+      ],
+      "social/*": [
+        "./dist/social/esm/*.d.ts"
+      ],
+      "button-specialized/*": [
+        "./dist/button-specialized/esm/*.d.ts"
+      ],
+      "button/*": [
+        "./dist/button/esm/*.d.ts"
+      ],
+      "common-service/*": [
+        "./dist/common-service/esm/*.d.ts"
+      ],
+      "common-b24/*": [
+        "./dist/common-b24/esm/*.d.ts"
+      ],
+      "specialized/*": [
+        "./dist/specialized/esm/*.d.ts"
+      ],
+      "solid/*": [
+        "./dist/solid/esm/*.d.ts"
+      ]
+    }
+  },
+  "scripts": {
+    "prepublishOnly": "pnpm run build",
+    "build": "node ../../scripts/build-packages --external:react --external:react-dom",
+    "clean": "rimraf --glob ./dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "rimraf": "^6.1.0"
+  }
+}

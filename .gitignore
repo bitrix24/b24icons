@@ -38,6 +38,8 @@ Thumbs.db
 /packages/**/dist
 /packages/@bitrix24-icons-vue/src/metadata.json
 /packages/@bitrix24-icons-vue/src/info-metadata.json
+/packages/@bitrix24-icons-react/src/info-metadata.json
+/packages/@bitrix24-icons-react/src/metadata.json
 
 docs/auto-imports.d.ts
 docs/components.d.ts
