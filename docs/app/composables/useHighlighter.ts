@@ -8,7 +8,7 @@ let promise: Promise<HighlighterGeneric<any, any>> | null = null
 export const useHighlighter = async () => {
   if (!promise) {
     promise = createHighlighter({
-      langs: ['bash', 'html', 'ts', 'typescript', 'diff', 'vue', 'json', 'yml', 'css', 'mdc', 'blade', 'edge'],
+      langs: ['bash', 'html', 'ts', 'typescript', 'tsx', 'jsx', 'diff', 'vue', 'json', 'yml', 'css', 'mdc', 'blade', 'edge'],
       themes: ['material-theme-palenight', 'material-theme-lighter'],
       engine: createJavaScriptRegexEngine()
     })

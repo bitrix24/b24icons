@@ -114,6 +114,52 @@ function copyVueB24Icon() {
   success()
 }
 
+function copyReact() {
+  const attrs = ['']
+  attrs.push(`className="${prepareBySpecializedClassNameList().join(' ')}"`)
+
+  const code = [
+    `import { #icon# } from '@bitrix24/b24icons-react/#type#/#icon#'`,
+    ``,
+    `function App() {`,
+    `  return (`,
+    `    <div className="rounded">`,
+    `      <#icon#${attrs.join(' ')} />`,
+    `    </div>`,
+    `  )`,
+    `}`
+  ].join('\n')
+    .replace(/#icon#/g, props.icon.icon)
+    .replace(/#type#/g, props.icon.type)
+
+  navigator.clipboard.writeText(code)
+
+  success()
+}
+
+function copyReactB24Icon() {
+  const attrs = ['']
+
+  attrs.push(`name="${getIconFullName()}"`)
+  attrs.push(`className="${prepareBySpecializedClassNameList().join(' ')}"`)
+
+  const code = [
+    `import { B24Icon } from '@bitrix24/b24icons-react'`,
+    ``,
+    `function App() {`,
+    `  return (`,
+    `    <div className="rounded">`,
+    `      <B24Icon${attrs.join(' ')} />`,
+    `    </div>`,
+    `  )`,
+    `}`
+  ].join('\n')
+
+  navigator.clipboard.writeText(code)
+
+  success()
+}
+
 function copySVG() {
   const svgString = getIcon(componentName.value)
 
@@ -137,6 +183,8 @@ function copyDataUrl() {
 const options = ref([
   { label: 'Copy via Vue Component', action: copyVue },
   { label: 'Copy via Vue B24Icon', action: copyVueB24Icon },
+  { label: 'Copy via React Component', action: copyReact },
+  { label: 'Copy via React B24Icon', action: copyReactB24Icon },
   { label: 'Copy Name', action: copyComponentName },
   { label: 'Copy SVG', action: copySVG },
   { label: 'Copy Data URL', action: copyDataUrl }

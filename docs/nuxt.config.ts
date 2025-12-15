@@ -12,6 +12,7 @@ const pages = [
   '/docs/getting-started/',
   '/docs/getting-started/installation/vue/',
   '/docs/getting-started/installation/nuxt/',
+  '/docs/getting-started/installation/react/',
   '/icons/'
   // endregion ////
 ]
@@ -66,7 +67,7 @@ export default defineNuxtConfig({
     build: {
       markdown: {
         highlight: {
-          langs: ['bash', 'ts', 'typescript', 'diff', 'vue', 'json', 'yml', 'css', 'mdc', 'blade', 'edge']
+          langs: ['bash', 'ts', 'typescript', 'tsx', 'jsx', 'diff', 'vue', 'json', 'yml', 'css', 'mdc', 'blade', 'edge']
         }
       }
     }

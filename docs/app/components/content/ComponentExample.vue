@@ -45,6 +45,11 @@ const props = withDefaults(defineProps<{
    */
   border?: boolean
   /**
+   * Code language for syntax highlighting
+   * @defaultValue 'vue'
+   */
+  language?: string
+  /**
    * A list of variable props to link to the component.
    */
   options?: Array<{
@@ -66,7 +71,8 @@ const props = withDefaults(defineProps<{
 }>(), {
   preview: true,
   source: true,
-  border: true
+  border: true,
+  language: 'vue'
 })
 
 const slots = defineSlots<{
@@ -85,6 +91,17 @@ const data = await fetchComponentExample(camelName)
 
 const componentProps = reactive({ ...(props.props || {}) })
 
+const codeContent = computed(() => {
+  let content = data?.code ?? ''
+  if (props.language === 'jsx' || props.language === 'tsx') {
+    const reactCodeMatch = content.match(/const reactCode = `([\s\S]*?)`/)
+    if (reactCodeMatch) {
+      content = reactCodeMatch[1]
+    }
+  }
+  return content
+})
+
 const code = computed(() => {
   let code = ''
 
@@ -93,8 +110,10 @@ const code = computed(() => {
 `
   }
 
-  code += `\`\`\`vue ${props.preview ? '' : ` [${data.pascalName}.vue]`}${props.highlights?.length ? `{${props.highlights.join('-')}}` : ''}
-${data?.code ?? ''}
+  const fileExtension = props.language
+
+  code += `\`\`\`${props.language} ${props.preview ? '' : ` [${data.pascalName}.${fileExtension}]`}${props.highlights?.length ? `{${props.highlights.join('-')}}` : ''}
+${codeContent.value}
 \`\`\``
 
   if (props.collapse) {
