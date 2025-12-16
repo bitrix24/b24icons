@@ -31,7 +31,7 @@
   "scripts": {
     "prepublishOnly": "pnpm run build",
     "version:sync": "node ./scripts/sync-versions.js",
-    "prebuild": "pnpm run version:sync && rimraf --glob ./optimized/* ./export/* ./packages/{@bitrix24-icons-vue,@bitrix24-icons-react}/dist/* ./packages/@bitrix24-icons-vue/src/*.json",
+    "prebuild": "pnpm run version:sync && rimraf --glob ./optimized/* ./export/* ./packages/{@bitrix24-icons-vue,@bitrix24-icons-react}/dist/* ./packages/{@bitrix24-icons-vue,@bitrix24-icons-react}/src/*.json",
     "build": "npm-run-all -s build:by-type build:for-vue prepare:package-vue build:package-vue build:for-react prepare:package-react build:package-react prepare:package-nuxt build:package-nuxt",
     "build:by-type": "node ./scripts/build-process",
     "build:for-vue": "node ./scripts/build @bitrix24-icons-vue",
