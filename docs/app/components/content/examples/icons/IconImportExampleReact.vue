@@ -8,29 +8,31 @@ const reactCode = `import Bitrix24Icon from '@bitrix24/b24icons-react/common-ser
 
 function App() {
   return (
-    <div className="rounded">
-      <Bitrix24Icon className="size-25 text-blue-500" />
+    <div class="rounded-md border flex gap-4 p-4 shadow-md bg-inherit">
+      <div class="flex flex-col flex-nowrap items-center justify-center">
+        <span class="text-md text-base-500">
+          Common-service::Bitrix24Icon
+        </span>
+
+        <Bitrix24Icon className="size-25 text-blue-500 dark:text-blue-900" />
+      </div>
     </div>
   )
 }`
 
 function App() {
-  return React.createElement('div', { className: 'rounded' },
-    React.createElement(Bitrix24Icon, { className: 'size-25 text-blue-500 dark:text-blue-900' })
-  )
+  return React.createElement(Bitrix24Icon, { className: 'size-25 text-blue-500 dark:text-blue-900' })
 }
 </script>
 
 <template>
-  <B24Card
-    class="shadow-md"
-    :b24ui="{ body: 'flex flex-row flex-nowrap items-center justify-center' }"
-  >
-    <template #header>
-      <ProseP small class="mb-0">
+  <div class="rounded-md border flex gap-4 p-4 shadow-md bg-inherit">
+    <div class="flex flex-col flex-nowrap items-center justify-center">
+      <span class="text-md text-base-500">
         Common-service::Bitrix24Icon
-      </ProseP>
-    </template>
-    <ReactWrapper :component="App" />
-  </B24Card>
+      </span>
+
+      <ReactWrapper :component="App" />
+    </div>
+  </div>
 </template>
