@@ -1,6 +1,6 @@
 {
   "name": "@bitrix24/b24icons-react",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "author": "Bitrix",
   "license": "MIT",
   "description": "Bitrix24 SVG icons for development web-applications for React",
@@ -177,7 +177,8 @@
   },
   "scripts": {
     "prepublishOnly": "pnpm run build",
-    "build": "node ../../scripts/build-packages --external:react --external:react-dom",
+    "build": "node ../../scripts/build-packages",
+    "build-dd": "node ../../scripts/build-packages --external:react --external:react-dom",
     "clean": "rimraf --glob ./dist"
   },
   "publishConfig": {

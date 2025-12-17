@@ -55,4 +55,3 @@ function App() {
 ```
 
 Find more details in the [documentation](https://bitrix24.github.io/b24icons/).
-

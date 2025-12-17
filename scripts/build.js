@@ -10,7 +10,7 @@ import { typeList } from './type-list.js'
 
 let transform = {
   '@bitrix24-icons-react': async (svg, componentName, format, isDeprecated) => {
-    let component = await svgr.default(
+    let component = await svgr(
       svg,
       {
         ref: true,
@@ -24,7 +24,7 @@ let transform = {
       {
         plugins: [
           [
-            (await import('@babel/plugin-transform-react-jsx')).default,
+            (await import('@babel/plugin-transform-react-jsx')),
             { useBuiltIns: true }
           ]
         ]
