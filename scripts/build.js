@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises'
 import camelcase from 'camelcase'
 import { rimraf } from 'rimraf'
-import svgr from '@svgr/core'
+import { transform as transformSvgr } from '@svgr/core'
 import * as babel from '@babel/core'
 import { compile as compileVue } from '@vue/compiler-dom'
 import { dirname } from 'node:path'
@@ -10,8 +10,18 @@ import { typeList } from './type-list.js'
 
 let transform = {
   '@bitrix24-icons-react': async (svg, componentName, format, isDeprecated) => {
-    let component = await svgr(
-      svg,
+    const codeBlocks = []
+    let blockIndex = 0
+
+    let svgWithoutStyle = svg.replace(/<style>[\s\S]*<\/style>/g, (match) => {
+      codeBlocks.push(match)
+      return `<path data-info="__CODE_BLOCK_${blockIndex++}__"></path>`
+    })
+
+    svgWithoutStyle = svgWithoutStyle.replaceAll('xml:space', 'xmlSpace')
+
+    let component = await transformSvgr(
+      svgWithoutStyle,
       {
         ref: true,
         titleProp: true
@@ -24,8 +34,11 @@ let transform = {
       {
         plugins: [
           [
-            (await import('@babel/plugin-transform-react-jsx')),
-            { useBuiltIns: true }
+            (await import('@babel/plugin-transform-react-jsx')).default,
+            {
+              useBuiltIns: true,
+              NumberIdentifier: false
+            }
           ]
         ]
       }
@@ -38,6 +51,14 @@ let transform = {
       lines.splice(1, 0, `/** @deprecated */`)
       code = lines.join('\n')
     }
+
+    /**
+     * @memo let's bring back the tag <style>
+     */
+    code = code.replaceAll('xmlSpace', 'xml:space')
+    code.replace(/<path data-info="__CODE_BLOCK_(\d+)__"><\/path>/g, (_, index) => {
+      return codeBlocks[Number.parseInt(index)] || ''
+    })
 
     if (format === 'esm') {
       return code
