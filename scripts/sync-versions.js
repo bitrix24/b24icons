@@ -6,10 +6,13 @@ const rootVersion = rootPackage.version
 
 const packages = [
   'packages/@bitrix24-icons-vue/package.json',
-  'packages/@bitrix24-icons-nuxt/package.json'
+  'packages/@bitrix24-icons-nuxt/package.json',
+  'packages/@bitrix24-icons-react/package.json'
 ]
 
 const isGitHub = process.env.GITHUB_ACTIONS === 'true'
+
+console.log(isGitHub ? '> GitHub Actions environment detected' : '> Local environment detected')
 
 packages.forEach((packagePath) => {
   const fullPath = join(process.cwd(), packagePath)
@@ -25,5 +28,3 @@ packages.forEach((packagePath) => {
   writeFileSync(fullPath, JSON.stringify(packageJson, null, 2) + '\n')
   console.log(`✓ Updated ${packagePath} to version ${rootVersion}`)
 })
-
-console.log(isGitHub ? '> GitHub Actions environment detected' : '> Local environment detected')
