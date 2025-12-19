@@ -1,5 +1,7 @@
 name: Deploy to Pages 📰
 on:
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -14,9 +16,15 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      NUXT_PUBLIC_USE_AI: false
+      NUXT_PUBLIC_SITE_URL: https://bitrix24.github.io
+      NUXT_PUBLIC_BASE_URL: /b24icons
+      NUXT_PUBLIC_CANONICAL_URL: https://bitrix24.github.io
+      NUXT_PUBLIC_GIT_URL: https://github.com/bitrix24/b24icons
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
