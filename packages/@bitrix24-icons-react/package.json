@@ -177,8 +177,8 @@
   },
   "scripts": {
     "prepublishOnly": "pnpm run build",
-    "build": "node ../../scripts/build-packages",
-    "build-dd": "node ../../scripts/build-packages --external:react --external:react-dom",
+    "prepare": "echo 'Simulated prepare'",
+    "build": "node ../../scripts/build-packages --external:react",
     "clean": "rimraf --glob ./dist"
   },
   "publishConfig": {

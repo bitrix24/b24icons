@@ -177,6 +177,7 @@
   },
   "scripts": {
     "prepublishOnly": "pnpm run build",
+    "prepare": "echo 'Simulated prepare'",
     "build": "node ../../scripts/build-packages --external:vue",
     "clean": "rimraf --glob ./dist"
   },
