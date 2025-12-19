@@ -63,6 +63,8 @@
     "@babel/core": "^7.28.5",
     "@babel/plugin-transform-react-jsx": "^7.27.1",
     "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-prettier": "^8.1.0",
     "@vue/compiler-dom": "^3.5.24",
     "camelcase": "^9.0.0",
     "cross-env": "^10.1.0",

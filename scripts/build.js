@@ -10,25 +10,17 @@ import { typeList } from './type-list.js'
 
 let transform = {
   '@bitrix24-icons-react': async (svg, componentName, format, isDeprecated) => {
-    const codeBlocks = []
-    let blockIndex = 0
-
-    let svgWithoutStyle = svg.replace(/<style>[\s\S]*<\/style>/g, (match) => {
-      codeBlocks.push(match)
-      return `<path data-info="__CODE_BLOCK_${blockIndex++}__"></path>`
-    })
-
-    svgWithoutStyle = svgWithoutStyle.replaceAll('xml:space', 'xmlSpace')
-
     let component = await transformSvgr(
-      svgWithoutStyle,
+      svg,
       {
+        plugins: ['@svgr/plugin-jsx', '@svgr/plugin-prettier'],
         ref: true,
-        titleProp: true
+        titleProp: true,
+        jsxRuntime: 'classic'
       },
       { componentName }
     )
-
+    // let code = component
     let { code } = await babel.transformAsync(
       component,
       {
@@ -36,8 +28,7 @@ let transform = {
           [
             (await import('@babel/plugin-transform-react-jsx')).default,
             {
-              useBuiltIns: true,
-              NumberIdentifier: false
+              useBuiltIns: true
             }
           ]
         ]
@@ -52,27 +43,8 @@ let transform = {
       code = lines.join('\n')
     }
 
-    /**
-     * @memo let's bring back the tag <style>
-     */
-    code = code.replaceAll('xmlSpace', 'xml:space')
-    code.replace(/<path data-info="__CODE_BLOCK_(\d+)__"><\/path>/g, (_, index) => {
-      return codeBlocks[Number.parseInt(index)] || ''
-    })
-
-    if (format === 'esm') {
-      return code
-    }
-
+    // @memo only esm
     return code
-      .replace(
-        'import * as React from "react"',
-        'const React = require("react")'
-      )
-      .replace(
-        'export default',
-        'module.exports ='
-      )
   },
   '@bitrix24-icons-vue': (svg, componentName, format, isDeprecated) => {
     let isHasTagStyle = false
@@ -109,29 +81,11 @@ let transform = {
       code = code.replace('main', 'style')
     }
 
-    if (format === 'esm') {
-      return code.replace(
-        'export function',
-        'export default function'
-      )
-    }
-
-    return code
-      .replace(
-        /import\s+\{([^}]+)\}\s+from\s+(['"])(.*?)\2/,
-        (_match, imports, _quote, mod) => {
-          let newImports = imports
-            .split(',')
-            .map(i => i.trim().replace(/\s+as\s+/, ': '))
-            .join(', ')
-
-          return `const { ${newImports} } = require("${mod}")`
-        }
-      )
-      .replace(
-        'export function render',
-        'module.exports = function render'
-      )
+    // @memo only esm
+    return code.replace(
+      'export function',
+      'export default function'
+    )
   }
 }
 
@@ -466,11 +420,6 @@ async function main(
   await Promise.all([
     ...(typeList.map(async (type) => {
       return [
-        // await buildIcons(
-        //   pack,
-        //   type,
-        //   'cjs'
-        // ),
         await buildIcons(
           pack,
           type,
