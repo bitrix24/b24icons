@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import EnterpriseIcon from '@bitrix24/b24icons-vue/solid/EnterpriseIcon'
+import EditPencilIcon from '@bitrix24/b24icons-vue/main/EditPencilIcon'
 </script>
 
 <template>
   <B24Banner
-    id="new-icons-banner-v2"
-    title="New solid icons!"
+    id="component-editor-date-banner"
+    title="The Editor component is now implemented! Check it out."
     to="/icons/?search=solid"
-    :icon="EnterpriseIcon"
+    :icon="EditPencilIcon"
     close
     color="air-primary-copilot"
     class="light"

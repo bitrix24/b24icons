@@ -2,6 +2,7 @@ packages:
   - docs
   - packages/@bitrix24-icons-vue
   - packages/@bitrix24-icons-nuxt
+  - packages/@bitrix24-icons-react
 
 ignoredBuiltDependencies:
   - '@parcel/watcher'

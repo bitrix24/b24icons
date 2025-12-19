@@ -30,5 +30,8 @@
     // @memo need for src/runtime/components/Toast.vue ////
     "noImplicitAny": false
   },
-  "exclude": ["@tmp", "cli", "docs", "dist", "playgrounds", "node_modules"]
+  "exclude": [
+    "packages/@bitrix24-icons-react",
+    "@tmp", "cli", "docs", "dist", "playgrounds", "node_modules"
+  ]
 }

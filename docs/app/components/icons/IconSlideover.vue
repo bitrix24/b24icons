@@ -50,6 +50,7 @@ onMounted(() => {
     :description="[icon.data.category, ...(icon.data?.subCategories || [])].join(' • ')"
     :use-light-content="false"
     :b24ui="cardColorContext"
+    inset
   >
     <template #body>
       <B24Card

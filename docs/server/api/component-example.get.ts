@@ -9,6 +9,7 @@ export default defineEventHandler((event) => {
   const componentName = (event.context.params?.['component?'] || '').replace(/\.json$/, '')
 
   if (componentName) {
+    // console.log(componentName)
     const component = components[pascalCase(componentName)]
     if (!component) {
       throw createError({

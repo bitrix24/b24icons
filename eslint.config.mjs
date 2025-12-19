@@ -29,5 +29,7 @@ export default createConfigForNuxt({
     }
   ]
 }).prepend({
-  ignores: []
+  ignores: [
+    'docs/**/*.*sx'
+  ]
 })

@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises'
 import camelcase from 'camelcase'
 import { rimraf } from 'rimraf'
-import svgr from '@svgr/core'
+import { transform as transformSvgr } from '@svgr/core'
 import * as babel from '@babel/core'
 import { compile as compileVue } from '@vue/compiler-dom'
 import { dirname } from 'node:path'
@@ -10,22 +10,26 @@ import { typeList } from './type-list.js'
 
 let transform = {
   '@bitrix24-icons-react': async (svg, componentName, format, isDeprecated) => {
-    let component = await svgr(
+    let component = await transformSvgr(
       svg,
       {
+        plugins: ['@svgr/plugin-jsx', '@svgr/plugin-prettier'],
         ref: true,
-        titleProp: true
+        titleProp: true,
+        jsxRuntime: 'classic'
       },
       { componentName }
     )
-
+    // let code = component
     let { code } = await babel.transformAsync(
       component,
       {
         plugins: [
           [
-            require('@babel/plugin-transform-react-jsx'),
-            { useBuiltIns: true }
+            (await import('@babel/plugin-transform-react-jsx')).default,
+            {
+              useBuiltIns: true
+            }
           ]
         ]
       }
@@ -39,19 +43,8 @@ let transform = {
       code = lines.join('\n')
     }
 
-    if (format === 'esm') {
-      return code
-    }
-
+    // @memo only esm
     return code
-      .replace(
-        'import * as React from "react"',
-        'const React = require("react")'
-      )
-      .replace(
-        'export default',
-        'module.exports ='
-      )
   },
   '@bitrix24-icons-vue': (svg, componentName, format, isDeprecated) => {
     let isHasTagStyle = false
@@ -88,29 +81,11 @@ let transform = {
       code = code.replace('main', 'style')
     }
 
-    if (format === 'esm') {
-      return code.replace(
-        'export function',
-        'export default function'
-      )
-    }
-
-    return code
-      .replace(
-        /import\s+\{([^}]+)\}\s+from\s+(['"])(.*?)\2/,
-        (_match, imports, _quote, mod) => {
-          let newImports = imports
-            .split(',')
-            .map(i => i.trim().replace(/\s+as\s+/, ': '))
-            .join(', ')
-
-          return `const { ${newImports} } = require("${mod}")`
-        }
-      )
-      .replace(
-        'export function render',
-        'module.exports = function render'
-      )
+    // @memo only esm
+    return code.replace(
+      'export function',
+      'export default function'
+    )
   }
 }
 
@@ -445,11 +420,6 @@ async function main(
   await Promise.all([
     ...(typeList.map(async (type) => {
       return [
-        // await buildIcons(
-        //   pack,
-        //   type,
-        //   'cjs'
-        // ),
         await buildIcons(
           pack,
           type,
@@ -576,6 +546,34 @@ async function main(
     })
 
     componentData = componentData.replace(regex, `$1\n${caseRender.join('\n')}\n$3`)
+
+    await ensureWrite(
+      componentPath,
+      componentData
+    )
+  }
+  // endregion ////
+
+  // region REACT.component ////
+  if (pack === '@bitrix24-icons-react') {
+    console.log(``)
+    console.log(`Init component ...`)
+
+    const regex = /(\/\/ #CASE_RENDER_START# \/\/\/)([\s\S]*?)(\/\/ #CASE_RENDER_STOP# \/\/\/)/
+    const componentPath = `./packages/${pack}/src/components/B24Icon.tsx`
+
+    let componentData = await fs.readFile(
+      componentPath,
+      'utf8'
+    )
+
+    const caseRender = metaDataJson.list.sort().map((code) => {
+      const tmp = code.split('::')
+
+      return `      case '${code}': return lazy(() => import('../../dist/${tmp[0]}/esm/${tmp[1]}.js'))`
+    })
+
+    componentData = componentData.replace(regex, `$1\n${caseRender.join('\n')}\n      $3`)
 
     await ensureWrite(
       componentPath,

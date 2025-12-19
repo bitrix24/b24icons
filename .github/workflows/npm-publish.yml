@@ -1,14 +1,20 @@
-name: Publish Vue and Nuxt packages 🚀
+name: Publish Vue, Nuxt and React packages 🚀
 
 on:
+  release:
+    types: [ published ]
   workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
 
 jobs:
   process:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
@@ -34,11 +40,10 @@ jobs:
 
       - name: 'Publish Vue package 🚀'
         shell: bash
-        run: pnpm --filter ./packages/@bitrix24-icons-vue publish --access public --no-git-checks
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+        run: pnpm --filter ./packages/@bitrix24-icons-vue publish --no-git-checks
 
       - name: 'Publish Nuxt package 🚀'
-        run: pnpm --filter ./packages/@bitrix24-icons-nuxt publish --access public --no-git-checks
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+        run: pnpm --filter ./packages/@bitrix24-icons-nuxt publish --no-git-checks
+
+      - name: 'Publish React package 🚀'
+        run: pnpm --filter ./packages/@bitrix24-icons-react publish --no-git-checks
