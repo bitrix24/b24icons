@@ -7,6 +7,7 @@ const props = defineProps<{
 }>()
 
 const route = useRoute()
+// const config = useRuntimeConfig()
 
 const { data: navigation } = await useAsyncData('navigation-error', () => queryCollectionNavigation('docs', []))
 

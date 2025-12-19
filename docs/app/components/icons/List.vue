@@ -1,30 +1,15 @@
 <script setup lang="ts">
 import type { GroupRow, InfoIconRow } from '#shared/types/base'
-import { computed, ref, onMounted, watch } from 'vue'
-import StickyContainer from '../ui/StickyContainer.vue'
-import SearchInput from '../ui/SearchInput.vue'
-import Grid from '../ui/Grid.vue'
+import { computed, watch } from 'vue'
+import IconView from './IconView.vue'
 import EmptyList from './EmptyList.vue'
-import { useElementSize, useEventListener, useVirtualList } from '@vueuse/core'
+import { useElementSize } from '@vueuse/core'
 import useDynamicFilter from '../../composables/useDynamicFilter'
-import splitIntoChunks from '../../utils/splitIntoChunks'
 import useSearchInput from '../../composables/useSearchInput'
-
-const ICON_SIZE = 220
-const ICON_GRID_GAP = 24
 
 const props = defineProps<{
   groups: GroupRow[]
 }>()
-
-const containerRef = ref<HTMLElement | null>(null)
-const { width: containerWidth } = useElementSize(containerRef)
-
-const columnSize = computed(() => {
-  return Math.floor(
-    (containerWidth.value) / (ICON_SIZE + ICON_GRID_GAP)
-  )
-})
 
 const iconList = computed(() => {
   let result: InfoIconRow[] = []
@@ -45,12 +30,12 @@ const iconList = computed(() => {
   return result
 })
 
-const { searchInput, searchQuery, searchQueryDebounced } = useSearchInput()
+const { searchQuery, searchQueryDebounced } = useSearchInput()
 watch(searchQueryDebounced, () => {
-  scrollTo(0)
+  scrollArea.value?.virtualizer?.scrollToIndex(0, { align: 'start', behavior: 'smooth' })
 })
 
-const filteredIcons = useDynamicFilter(
+const filteredIcons = useDynamicFilter<InfoIconRow>(
   searchQuery,
   iconList,
   [
@@ -60,51 +45,29 @@ const filteredIcons = useDynamicFilter(
   ]
 )
 
-const chunkedItems = computed(() => {
-  return splitIntoChunks(
-    filteredIcons.value, columnSize.value
-  )
-})
-
-const { list, containerProps, wrapperProps, scrollTo } = useVirtualList(
-  chunkedItems,
-  {
-    itemHeight: ICON_SIZE + ICON_GRID_GAP,
-    overscan: 10
-  }
-)
-
-onMounted(() => {
-  containerProps.ref.value = document.documentElement
-  useEventListener(window, 'scroll', containerProps.onScroll)
-})
+const scrollArea = useTemplateRef('scrollArea')
+const { width } = useElementSize(() => scrollArea.value?.$el)
+const lanes = computed(() => Math.max(1, Math.min(5, Math.floor(width.value / 240))))
 </script>
 
 <template>
-  <B24Container ref="containerRef" class="max-w-[1465px] pb-[300px] px-0 mx-0 mr-auto">
-    <StickyContainer>
-      <SearchInput
-        ref="searchInput"
-        v-model="searchQuery"
-        placeholder="Search icons ..."
-        class="w-full"
-      />
-    </StickyContainer>
-    <EmptyList
-      v-if="iconList.length > 0 && filteredIcons.length === 0"
-      :search-query="searchQuery"
-      @clear="searchQuery = ''"
-    />
-    <div
-      v-else
-      v-bind="wrapperProps"
-      class="aspect-square isolate"
-    >
-      <Grid
-        v-for="{ index, data: icons } in list"
-        :key="index"
-        :icons="icons"
-      />
-    </div>
-  </B24Container>
+  <EmptyList
+    v-if="iconList.length > 0 && filteredIcons.length === 0"
+    :search-query="searchQuery"
+    @clear="searchQuery = ''"
+  />
+  <B24ScrollArea
+    v-else
+    ref="scrollArea"
+    v-slot="{ item }"
+    :items="filteredIcons"
+    :virtualize="{
+      lanes,
+      estimateSize: 148,
+      gap: 16
+    }"
+    class="w-full h-[calc(100vh-var(--topbar-height)-40px)] dd-scrollbar-thin scrollbar-transparent"
+  >
+    <IconView :icon="item as InfoIconRow" />
+  </B24ScrollArea>
 </template>

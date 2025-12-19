@@ -1,6 +1,6 @@
-import { B24Icon } from '@bitrix24/b24icons-react'
+import { B24Icon } from '@bitrix24/b24icons-react';
 
-function App() {
+const App = () => {
   return (
     <div class="rounded-md border flex gap-4 p-4 shadow-md bg-inherit">
       <div class="flex flex-col flex-nowrap items-center justify-center">
@@ -25,5 +25,7 @@ function App() {
         <B24Icon name="Main::AiIcon" className="size-8 text-green-500 dark:text-green-900" />
       </div>
     </div>
-  )
-}
+  );
+};
+
+export default App;

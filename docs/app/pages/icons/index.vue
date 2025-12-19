@@ -43,6 +43,9 @@ const { mobileLinks } = useHeader()
       <Header />
     </template>
 
-    <IconsList :groups="groups" />
+    <IconsList
+      class="mt-5"
+      :groups="groups"
+    />
   </B24SidebarLayout>
 </template>

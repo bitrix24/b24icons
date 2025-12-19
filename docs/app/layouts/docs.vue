@@ -35,8 +35,13 @@ const { mobileLinks } = useHeader()
       <B24SidebarHeader>
         <LogoWithVersion />
       </B24SidebarHeader>
-      <B24SidebarBody>
+      <B24SidebarBody
+        :b24ui="{
+          root: '[&>[data-component=section]+[data-component=section]]:mt-0'
+        }"
+      >
         <B24NavigationMenu
+          class="lg:hidden"
           :items="mobileLinks"
           orientation="vertical"
         />

@@ -22,6 +22,13 @@ const pagesService = [
   '/404.html'
 ]
 
+const extraAllowedHosts = (process?.env.NUXT_ALLOWED_HOSTS?.split(',').map((s: string) => s.trim()).filter(Boolean)) ?? []
+
+const prodUrl = process?.env.NUXT_PUBLIC_SITE_URL ?? ''
+const baseUrl = process?.env.NUXT_PUBLIC_BASE_URL ?? ''
+const canonicalUrl = process?.env.NUXT_PUBLIC_CANONICAL_URL ?? ''
+const gitUrl = process?.env.NUXT_PUBLIC_GIT_URL ?? ''
+
 export default defineNuxtConfig({
   modules: [
     '@bitrix24/b24ui-nuxt',
@@ -46,19 +53,15 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/b24icons/',
+    baseURL: `${baseUrl}/`,
     buildAssetsDir: '/_nuxt/',
     head: {
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/b24icons/favicon.ico' }
+        { rel: 'icon', type: 'image/x-icon', href: `${baseUrl}/favicon.ico` }
       ],
-      htmlAttrs: {
-        class: 'edge-dark'
-      }
+      htmlAttrs: { class: 'edge-dark' }
     },
-    rootAttrs: {
-      'data-vaul-drawer-wrapper': ''
-    }
+    rootAttrs: { 'data-vaul-drawer-wrapper': '' }
   },
 
   css: ['~/assets/css/main.css'],
@@ -79,13 +82,31 @@ export default defineNuxtConfig({
     }
   },
 
+  /**
+   * @memo this will be overwritten from .env or Docker_*
+   * @see https://nuxt.com/docs/guide/going-further/runtime-config#example
+   */
   runtimeConfig: {
     public: {
-      version: pkg.version
+      useAI: false,
+      version: pkg.version,
+      siteUrl: prodUrl,
+      baseUrl,
+      canonicalUrl,
+      gitUrl
     }
   },
 
   routeRules: {},
+
+  experimental: {
+    asyncContext: true,
+    defaults: {
+      nuxtLink: {
+        externalRelAttribute: 'noopener'
+      }
+    }
+  },
 
   compatibilityDate: '2024-07-09',
 
@@ -104,13 +125,10 @@ export default defineNuxtConfig({
     optimizeDeps: {
       // prevents reloading page when navigating between components
       include: ['@internationalized/date', '@nuxt/content/utils', '@tanstack/vue-table', '@vue/devtools-core', '@vue/devtools-kit', '@vueuse/integrations/useFuse', '@vueuse/shared', 'colortranslator', 'embla-carousel-auto-height', 'embla-carousel-auto-scroll', 'embla-carousel-autoplay', 'embla-carousel-class-names', 'embla-carousel-fade', 'embla-carousel-vue', 'embla-carousel-wheel-gestures', 'json5', 'motion-v', 'ohash', 'ohash/utils', 'prettier', 'reka-ui', 'reka-ui/namespaced', 'scule', 'shiki', 'shiki-stream/vue', 'shiki-transformer-color-highlight', 'shiki/engine-javascript.mjs', 'tailwind-variants', 'tailwindcss/colors', 'ufo', 'vaul-vue', 'zod']
+    },
+    server: {
+      // Fix: "Blocked request. This host is not allowed" when using tunnels like ngrok
+      allowedHosts: [...extraAllowedHosts]
     }
-    // server: {
-    //   allowedHosts: [
-    //     '******.ngrok-free.app',
-    //     'perversely-welcomed-peacock.cloudpub.ru'
-    //   ],
-    //   cors: true
-    // }
   }
 })

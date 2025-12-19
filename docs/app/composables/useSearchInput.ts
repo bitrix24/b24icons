@@ -1,11 +1,11 @@
-import { useDebounce } from '@vueuse/core'
+import { refDebounced } from '@vueuse/core'
 import { nextTick, onMounted, ref, watch } from 'vue'
 
-const useSearchInput = () => {
-  const searchInput = ref<HTMLElement | null>(null)
-  const searchQuery = ref<string>('')
-  const searchQueryDebounced = useDebounce<string>(searchQuery, 200)
+const searchInput = ref<HTMLElement | null>(null)
+const searchQuery = ref<string>('')
+const searchQueryDebounced = refDebounced<string>(searchQuery, 200)
 
+const useSearchInput = () => {
   watch(searchQueryDebounced, (searchString) => {
     const newUrl = new URL(window.location.href)
 

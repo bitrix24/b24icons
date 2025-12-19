@@ -21,6 +21,7 @@ const Button = z.object({
   target: z.enum(['_blank', '_self']).optional(),
   color: z.enum(['air-primary', 'air-primary-success', 'air-primary-alert', 'air-primary-copilot', 'air-secondary', 'air-secondary-alert', 'air-secondary-accent', 'air-secondary-accent-1', 'air-secondary-accent-2', 'air-secondary-no-accent', 'air-tertiary', 'air-tertiary-accent', 'air-tertiary-no-accent', 'air-selection', 'air-boost']).optional(),
   size: z.enum(['xss', 'xs', 'sm', 'md', 'lg', 'xl']).optional(),
+  // variant: z.enum(['solid', 'outline', 'subtle', 'soft', 'ghost', 'link']).optional(),
   id: z.string().optional(),
   class: z.string().optional()
 })

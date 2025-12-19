@@ -3,6 +3,7 @@ import { withTrailingSlash } from 'ufo'
 
 const route = useRoute()
 const appConfig = useAppConfig()
+const config = useRuntimeConfig()
 
 const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('docs', ['description', 'badge']))
 
@@ -11,7 +12,7 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],
   link: [
-    { rel: 'canonical', href: `https://bitrix24.github.io/b24ui${withTrailingSlash(route.path)}` }
+    { rel: 'canonical', href: `${config.public.canonicalUrl}${config.public.baseUrl}${withTrailingSlash(route.path)}` }
   ],
   style: [],
   htmlAttrs: { lang: 'en', class: '' }
@@ -23,7 +24,6 @@ useServerSeoMeta({
 })
 
 const { rootNavigation } = useNavigation(navigation)
-
 provide('navigation', rootNavigation)
 
 const colorMode = useColorMode()
@@ -44,7 +44,7 @@ defineShortcuts({
     <NuxtLoadingIndicator color="var(--ui-color-design-filled-warning-bg)" :height="3" />
     <div :class="[route.path.startsWith('/docs/') && 'root']">
       <template v-if="!route.path.startsWith('/examples') && !route.path.startsWith('/icons')">
-        <Banner />
+        <!-- Banner / -->
       </template>
 
       <NuxtLayout>

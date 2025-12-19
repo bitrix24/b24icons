@@ -118,17 +118,16 @@ function copyReact() {
   const attrs = ['']
   attrs.push(`className="${prepareBySpecializedClassNameList().join(' ')}"`)
 
-  const code = [
-    `import { #icon# } from '@bitrix24/b24icons-react/#type#/#icon#'`,
-    ``,
-    `function App() {`,
-    `  return (`,
-    `    <div className="rounded">`,
-    `      <#icon#${attrs.join(' ')} />`,
-    `    </div>`,
-    `  )`,
-    `}`
-  ].join('\n')
+  const code = `import { #icon# } from '@bitrix24/b24icons-react/#type#/#icon#'
+
+const App = () => {
+  return (
+    <#icon#${attrs.join(' ')} />
+  )
+}
+
+export default App
+`
     .replace(/#icon#/g, props.icon.icon)
     .replace(/#type#/g, props.icon.type)
 
@@ -143,17 +142,16 @@ function copyReactB24Icon() {
   attrs.push(`name="${getIconFullName()}"`)
   attrs.push(`className="${prepareBySpecializedClassNameList().join(' ')}"`)
 
-  const code = [
-    `import { B24Icon } from '@bitrix24/b24icons-react'`,
-    ``,
-    `function App() {`,
-    `  return (`,
-    `    <div className="rounded">`,
-    `      <B24Icon${attrs.join(' ')} />`,
-    `    </div>`,
-    `  )`,
-    `}`
-  ].join('\n')
+  const code = `import { B24Icon } from '@bitrix24/b24icons-react'
+
+const App = () => {
+  return (
+    <B24Icon${attrs.join(' ')} />
+  )
+}
+
+export default App
+`
 
   navigator.clipboard.writeText(code)
 
