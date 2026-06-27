@@ -46,18 +46,18 @@
     "build": "nuxt-module-build build"
   },
   "dependencies": {
-    "@nuxt/kit": "^4.2.1",
+    "@nuxt/kit": "^4.4.8",
     "@bitrix24/b24icons-vue": "workspace:*"
   },
   "devDependencies": {
     "@nuxt/devtools": "^3.1.0",
     "@nuxt/eslint-config": "^1.10.0",
     "@nuxt/module-builder": "^1.0.2",
-    "@nuxt/schema": "^4.2.1",
+    "@nuxt/schema": "^4.4.8",
     "@types/node": "^24.10.1",
     "eslint": "^9.39.1",
-    "nuxt": "^4.2.1",
+    "nuxt": "^4.4.8",
     "typescript": "^5.9.3",
-    "vue-tsc": "^3.1.3"
+    "vue-tsc": "^3.3.5"
   }
 }
