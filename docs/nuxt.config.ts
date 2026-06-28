@@ -33,6 +33,8 @@ export default defineNuxtConfig({
     '@bitrix24/b24ui-nuxt',
     '@nuxt/content',
     '@nuxtjs/plausible',
+    'nuxt-og-image',
+    'nuxt-schema-org',
     (_, nuxt) => {
       nuxt.hook('components:dirs', (dirs) => {
         dirs.unshift({
@@ -93,6 +95,29 @@ export default defineNuxtConfig({
       baseUrl,
       canonicalUrl,
       gitUrl
+    }
+  },
+
+  site: {
+    name: 'Bitrix24 Icons',
+    url: prodUrl
+  },
+
+  ogImage: {
+    zeroRuntime: true,
+    defaults: {
+      component: 'Default'
+    }
+  },
+
+  schemaOrg: {
+    identity: {
+      type: 'Organization',
+      name: 'Bitrix24',
+      logo: '/b24-logo.svg',
+      sameAs: [
+        'https://github.com/bitrix24'
+      ]
     }
   },
 
