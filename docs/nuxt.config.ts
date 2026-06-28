@@ -12,7 +12,6 @@ const pages = [
   '/docs/getting-started/',
   '/docs/getting-started/installation/vue/',
   '/docs/getting-started/installation/nuxt/',
-  '/docs/getting-started/installation/react/',
   '/icons/'
   // endregion ////
 ]
