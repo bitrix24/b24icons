@@ -1,51 +1,12 @@
 import fs from 'node:fs/promises'
 import camelcase from 'camelcase'
 import { rimraf } from 'rimraf'
-import { transform as transformSvgr } from '@svgr/core'
-import * as babel from '@babel/core'
 import { compile as compileVue } from '@vue/compiler-dom'
 import { dirname } from 'node:path'
 import { deprecated } from './deprecated.js'
 import { typeList } from './type-list.js'
 
 let transform = {
-  '@bitrix24-icons-react': async (svg, componentName, format, isDeprecated) => {
-    let component = await transformSvgr(
-      svg,
-      {
-        plugins: ['@svgr/plugin-jsx', '@svgr/plugin-prettier'],
-        ref: true,
-        titleProp: true,
-        jsxRuntime: 'classic'
-      },
-      { componentName }
-    )
-    // let code = component
-    let { code } = await babel.transformAsync(
-      component,
-      {
-        plugins: [
-          [
-            (await import('@babel/plugin-transform-react-jsx')).default,
-            {
-              useBuiltIns: true
-            }
-          ]
-        ]
-      }
-    )
-
-    // Add a deprecation warning to the component
-    if (isDeprecated) {
-      /** @type {string[]} */
-      let lines = code.split('\n')
-      lines.splice(1, 0, `/** @deprecated */`)
-      code = lines.join('\n')
-    }
-
-    // @memo only esm
-    return code
-  },
   '@bitrix24-icons-vue': (svg, componentName, format, isDeprecated) => {
     let isHasTagStyle = false
     if (svg.search('<style>') !== -1) {
@@ -268,23 +229,13 @@ async function buildIcons(pack, type, format) {
       /** @type {string[]} */
       let types = []
 
-      if (pack === '@bitrix24-icons-react') {
-        types.push(`import * as React from 'react';`)
-        if (isDeprecated) {
-          types.push(`/** @deprecated */`)
-        }
-
-        types.push(`declare const ${componentName}: React.ForwardRefExoticComponent<React.PropsWithoutRef<React.SVGProps<SVGSVGElement>> & { title?: string, titleId?: string } & React.RefAttributes<SVGSVGElement>>;`)
-        types.push(`export default ${componentName};`)
-      } else {
-        types.push(`import type { FunctionalComponent, HTMLAttributes, VNodeProps } from 'vue';`)
-        if (isDeprecated) {
-          types.push(`/** @deprecated */`)
-        }
-
-        types.push(`declare const ${componentName}: FunctionalComponent<HTMLAttributes & VNodeProps>;`)
-        types.push(`export default ${componentName};`)
+      types.push(`import type { FunctionalComponent, HTMLAttributes, VNodeProps } from 'vue';`)
+      if (isDeprecated) {
+        types.push(`/** @deprecated */`)
       }
+
+      types.push(`declare const ${componentName}: FunctionalComponent<HTMLAttributes & VNodeProps>;`)
+      types.push(`export default ${componentName};`)
 
       let metaDataJson
       try {
@@ -546,34 +497,6 @@ async function main(
     })
 
     componentData = componentData.replace(regex, `$1\n${caseRender.join('\n')}\n$3`)
-
-    await ensureWrite(
-      componentPath,
-      componentData
-    )
-  }
-  // endregion ////
-
-  // region REACT.component ////
-  if (pack === '@bitrix24-icons-react') {
-    console.log(``)
-    console.log(`Init component ...`)
-
-    const regex = /(\/\/ #CASE_RENDER_START# \/\/\/)([\s\S]*?)(\/\/ #CASE_RENDER_STOP# \/\/\/)/
-    const componentPath = `./packages/${pack}/src/components/B24Icon.tsx`
-
-    let componentData = await fs.readFile(
-      componentPath,
-      'utf8'
-    )
-
-    const caseRender = metaDataJson.list.sort().map((code) => {
-      const tmp = code.split('::')
-
-      return `      case '${code}': return lazy(() => import('../../dist/${tmp[0]}/esm/${tmp[1]}.js'))`
-    })
-
-    componentData = componentData.replace(regex, `$1\n${caseRender.join('\n')}\n      $3`)
 
     await ensureWrite(
       componentPath,

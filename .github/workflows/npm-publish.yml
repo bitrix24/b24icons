@@ -1,4 +1,4 @@
-name: Publish Vue, Nuxt and React packages 🚀
+name: Publish Vue and Nuxt packages 🚀
 
 on:
   release:
@@ -44,6 +44,3 @@ jobs:
 
       - name: 'Publish Nuxt package 🚀'
         run: pnpm --filter ./packages/@bitrix24-icons-nuxt publish --no-git-checks
-
-      - name: 'Publish React package 🚀'
-        run: pnpm --filter ./packages/@bitrix24-icons-react publish --no-git-checks

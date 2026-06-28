@@ -31,7 +31,6 @@
     "noImplicitAny": false
   },
   "exclude": [
-    "packages/@bitrix24-icons-react",
     "@tmp", "cli", "docs", "dist", "playgrounds", "node_modules"
   ]
 }
