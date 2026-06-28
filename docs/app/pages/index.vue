@@ -4,11 +4,6 @@ import EncloseTextInCodeTagIcon from '@bitrix24/b24icons-vue/editor/EncloseTextI
 import InfoCircleIcon from '@bitrix24/b24icons-vue/outline/InfoCircleIcon'
 import DemonstrationOnIcon from '@bitrix24/b24icons-vue/outline/DemonstrationOnIcon'
 import PlayLIcon from '@bitrix24/b24icons-vue/outline/PlayLIcon'
-import Bitrix24Icon from '@bitrix24/b24icons-vue/common-service/Bitrix24Icon'
-import RocketIcon from '@bitrix24/b24icons-vue/outline/RocketIcon'
-import DesignIcon from '@bitrix24/b24icons-vue/outline/DesignIcon'
-import FavoriteIcon from '@bitrix24/b24icons-vue/outline/FavoriteIcon'
-import PackageIcon from '@bitrix24/b24icons-vue/outline/PackageIcon'
 
 const { data: page } = await useAsyncData('index', () => queryCollection('index').first())
 if (!page.value) {
@@ -37,52 +32,6 @@ const iconFromIconName = (iconName?: string) => {
 
   return undefined
 }
-
-const features = [
-  {
-    icon: Bitrix24Icon,
-    title: 'Full Bitrix24 icon set',
-    description: 'The complete library of Bitrix24 SVG icons — one source for every product surface.'
-  },
-  {
-    icon: RocketIcon,
-    title: 'Tree-shakable by design',
-    description: 'The B24Icon component loads icons via dynamic imports, so bundles only ship what you use.'
-  },
-  {
-    icon: PackageIcon,
-    title: 'Vue & Nuxt ready',
-    description: 'First-class packages for Vue and Nuxt projects, with typed component imports.'
-  },
-  {
-    icon: DesignIcon,
-    title: 'Outline & solid styles',
-    description: 'Multiple visual styles and categories to match any interface state and density.'
-  },
-  {
-    icon: EncloseTextInCodeTagIcon,
-    title: 'Fully typed',
-    description: 'Every icon is a typed component — autocompletion and safety out of the box.'
-  },
-  {
-    icon: FavoriteIcon,
-    title: 'MIT licensed',
-    description: 'Free and open source. Use the icons in personal and commercial projects.'
-  }
-]
-
-const frameworks = [
-  {
-    title: 'Vue',
-    description: 'Install @bitrix24/b24icons-vue and import icons as components.',
-    to: '/docs/getting-started/installation/vue/'
-  },
-  {
-    title: 'Nuxt',
-    description: 'Add the @bitrix24/b24icons-nuxt module and use icons anywhere.',
-    to: '/docs/getting-started/installation/nuxt/'
-  }
-]
 
 const colorMode = useColorMode()
 const isDark = computed(() => {
@@ -156,78 +105,6 @@ const { mobileLinks } = useHeader()
         </div>
       </div>
     </B24Card>
-
-    <B24PageSection
-      v-if="page"
-      title="Why b24icons"
-      description="Everything you need to design applications in the Bitrix24 style."
-      :b24ui="{ container: 'py-10 sm:py-14 lg:py-16 gap-0 sm:gap-0' }"
-    >
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        <B24Card
-          v-for="feature in features"
-          :key="feature.title"
-          :b24ui="{ root: 'h-full', body: 'p-5' }"
-        >
-          <component :is="feature.icon" class="size-7 text-(--ui-color-accent-main-primary) mb-3" />
-          <p class="font-semibold text-label mb-1">
-            {{ feature.title }}
-          </p>
-          <p class="text-sm text-muted">
-            {{ feature.description }}
-          </p>
-        </B24Card>
-      </div>
-    </B24PageSection>
-
-    <B24PageSection
-      v-if="page"
-      title="Start in your stack"
-      description="Pick your framework and add Bitrix24 icons in a couple of steps."
-      :b24ui="{ container: 'pt-0 pb-10 sm:pb-14 lg:pb-16 gap-0 sm:gap-0' }"
-    >
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <NuxtLink
-          v-for="framework in frameworks"
-          :key="framework.to"
-          :to="framework.to"
-          class="group block"
-        >
-          <B24Card
-            :b24ui="{
-              root: 'h-full transition-[transform,box-shadow] duration-200 hover:shadow-xl hover:-translate-y-0.5 cursor-pointer',
-              body: 'p-5'
-            }"
-          >
-            <div class="flex items-center gap-2 mb-1">
-              <component :is="PackageIcon" class="size-5 text-(--ui-color-accent-main-primary)" />
-              <p class="font-semibold text-label">
-                {{ framework.title }}
-              </p>
-            </div>
-            <p class="text-sm text-muted">
-              {{ framework.description }}
-            </p>
-          </B24Card>
-        </NuxtLink>
-      </div>
-      <div class="mt-6 flex flex-wrap items-center gap-3">
-        <B24Button
-          label="Explore all icons"
-          :icon="DemonstrationOnIcon"
-          to="/icons/"
-          color="air-primary"
-          size="md"
-        />
-        <B24Button
-          label="Get started"
-          :icon="PlayLIcon"
-          to="/docs/getting-started/"
-          color="air-secondary-accent-2"
-          size="md"
-        />
-      </div>
-    </B24PageSection>
 
     <template #content-bottom>
       <Footer />
