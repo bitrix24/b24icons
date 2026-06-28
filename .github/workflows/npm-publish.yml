@@ -38,9 +38,12 @@ jobs:
       - name: Typecheck
         run: pnpm run typecheck
 
+      # Publishing uses npm Trusted Publishing (OIDC) — no token needed.
+      # Requires `id-token: write` (set above) and each package to be
+      # registered as a trusted publisher for this repo/workflow on npmjs.com.
       - name: 'Publish Vue package 🚀'
         shell: bash
-        run: pnpm --filter ./packages/@bitrix24-icons-vue publish --no-git-checks
+        run: pnpm --filter ./packages/@bitrix24-icons-vue publish --access public --no-git-checks
 
       - name: 'Publish Nuxt package 🚀'
-        run: pnpm --filter ./packages/@bitrix24-icons-nuxt publish --no-git-checks
+        run: pnpm --filter ./packages/@bitrix24-icons-nuxt publish --access public --no-git-checks
