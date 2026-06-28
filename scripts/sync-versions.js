@@ -6,8 +6,7 @@ const rootVersion = rootPackage.version
 
 const packages = [
   'packages/@bitrix24-icons-vue/package.json',
-  'packages/@bitrix24-icons-nuxt/package.json',
-  'packages/@bitrix24-icons-react/package.json'
+  'packages/@bitrix24-icons-nuxt/package.json'
 ]
 
 const isGitHub = process.env.GITHUB_ACTIONS === 'true'
