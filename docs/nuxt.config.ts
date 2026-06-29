@@ -67,6 +67,11 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  site: {
+    name: 'Bitrix24 Icons',
+    url: prodUrl
+  },
+
   content: {
     build: {
       markdown: {
@@ -95,29 +100,6 @@ export default defineNuxtConfig({
       baseUrl,
       canonicalUrl,
       gitUrl
-    }
-  },
-
-  site: {
-    name: 'Bitrix24 Icons',
-    url: prodUrl
-  },
-
-  ogImage: {
-    zeroRuntime: true,
-    defaults: {
-      component: 'Default'
-    }
-  },
-
-  schemaOrg: {
-    identity: {
-      type: 'Organization',
-      name: 'Bitrix24',
-      logo: '/b24-logo.svg',
-      sameAs: [
-        'https://github.com/bitrix24'
-      ]
     }
   },
 
@@ -153,6 +135,24 @@ export default defineNuxtConfig({
     server: {
       // Fix: "Blocked request. This host is not allowed" when using tunnels like ngrok
       allowedHosts: [...extraAllowedHosts]
+    }
+  },
+
+  ogImage: {
+    zeroRuntime: true,
+    defaults: {
+      component: 'Default'
+    }
+  },
+
+  schemaOrg: {
+    identity: {
+      type: 'Organization',
+      name: 'Bitrix24',
+      logo: '/b24-logo.svg',
+      sameAs: [
+        'https://github.com/bitrix24'
+      ]
     }
   }
 })
