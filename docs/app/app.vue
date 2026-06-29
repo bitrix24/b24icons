@@ -23,6 +23,9 @@ useServerSeoMeta({
   twitterCard: 'summary_large_image'
 })
 
+// Site-wide default OG image (rendered by ~/components/OgImage/Default.takumi.vue)
+defineOgImageComponent('Default')
+
 const { rootNavigation } = useNavigation(navigation)
 provide('navigation', rootNavigation)
 

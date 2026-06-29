@@ -139,10 +139,7 @@ export default defineNuxtConfig({
   },
 
   ogImage: {
-    zeroRuntime: true,
-    defaults: {
-      component: 'Default'
-    }
+    zeroRuntime: true
   },
 
   schemaOrg: {
